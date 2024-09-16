@@ -1,48 +1,101 @@
-from preprocessing import read_pdf, encode_text, load_tokenizer
-from model import load_indobert_model, summarize_text
-from rouge_score import rouge_scorer
+import torch
+import torch_directml
+from torch.utils.data import DataLoader, Dataset
+from transformers import BertTokenizer
+from model import load_summarization_model, load_tokenizer, create_loss_function, forward_pass
+from sklearn.model_selection import train_test_split
 
-# Fungsi evaluasi menggunakan ROUGE
-def evaluate_summary(summary, reference):
-    scorer = rouge_scorer.RougeScorer(['rouge1', 'rouge2', 'rougeL'], use_stemmer=True)
-    scores = scorer.score(reference, summary)
-    return scores
-
-# Fungsi utama pipeline
-def summarization_pipeline(file_path):
-    # Langkah 1: Membaca dokumen PDF
-    text = read_pdf(file_path)
+# Custom Dataset
+class SummarizationDataset(Dataset):
+    def __init__(self, texts, summaries, tokenizer, max_length=512):
+        self.texts = texts
+        self.summaries = summaries
+        self.tokenizer = tokenizer
+        self.max_length = max_length
     
-    # Langkah 2: Memuat tokenizer dan model
+    def __len__(self):
+        return len(self.texts)
+    
+    def __getitem__(self, idx):
+        text = self.texts[idx]
+        summary = self.summaries[idx]
+        
+        inputs = self.tokenizer(text, return_tensors="pt", max_length=self.max_length, truncation=True, padding="max_length")
+        labels = self.tokenizer(summary, return_tensors="pt", max_length=self.max_length, truncation=True, padding="max_length")
+
+        input_ids = inputs['input_ids'].squeeze()
+        attention_mask = inputs['attention_mask'].squeeze()
+        labels = labels['input_ids'].squeeze()
+        
+        return {
+            'input_ids': input_ids,
+            'attention_mask': attention_mask,
+            'labels': labels
+        }
+
+# Fungsi pelatihan
+def train_model(model, dataset, tokenizer, epochs=3, batch_size=4, learning_rate=1e-5):
+    # DataLoader
+    dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
+
+    # Optimizer
+    optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+
+    # Loss function
+    loss_function = create_loss_function()
+
+    # Training loop
+    model.train()
+    for epoch in range(epochs):
+        total_loss = 0
+        for batch in dataloader:
+            optimizer.zero_grad()
+
+            input_ids = batch['input_ids'].to(model.device)
+            attention_mask = batch['attention_mask'].to(model.device)
+            labels = batch['labels'].to(model.device)
+
+            loss = forward_pass(model, input_ids, attention_mask, labels)
+            loss.backward()
+            optimizer.step()
+
+            total_loss += loss.item()
+
+        print(f"Epoch {epoch + 1}/{epochs}, Loss: {total_loss/len(dataloader)}")
+
+# Fungsi untuk memuat data
+def load_data():
+    # Contoh data
+    texts = [
+        "Teks artikel panjang pertama.",
+        "Teks artikel panjang kedua.",
+    ]
+    summaries = [
+        "Ringkasan pertama.",
+        "Ringkasan kedua.",
+    ]
+    return texts, summaries
+
+# Main function
+def main():
+    # Inisialisasi device DirectML
+    device = torch_directml.device()
+
+    # Load model and tokenizer
+    model = load_summarization_model().to(device)
     tokenizer = load_tokenizer()
-    model = load_indobert_model()
 
-    # Langkah 3: Melakukan embedding
-    input_ids, token_type_ids, attention_mask = encode_text(text, tokenizer)
-    inputs = {
-        'input_ids': input_ids,
-        'token_type_ids': token_type_ids,
-        'attention_mask': attention_mask
-    }
-    
-    # Langkah 4: Menghasilkan ringkasan
-    summarization_output = summarize_text(inputs, model)
+    # Load data
+    texts, summaries = load_data()
 
-    # Konversi tensor ke list token IDs
-    summarization_output = summarization_output.tolist()
+    # Split data into train and validation sets
+    train_texts, val_texts, train_summaries, val_summaries = train_test_split(texts, summaries, test_size=0.1)
 
-    # Konversi tensor output model menjadi string
-    summary_text = tokenizer.decode(summarization_output[0], skip_special_tokens=True)
-    
-    # Langkah 5: Evaluasi hasil ringkasan (misal: dengan ringkasan referensi)
-    reference_summary = "..."  # Ringkasan yang benar
-    rouge_scores = evaluate_summary(summary_text, text)
+    # Create datasets
+    train_dataset = SummarizationDataset(train_texts, train_summaries, tokenizer)
 
-    return summarization_output, rouge_scores
+    # Train the model
+    train_model(model, train_dataset, tokenizer)
 
-file_path = 'clean-data/Ike Putri Kusumawijaya (99216004).pdf'  # Sesuaikan dengan file yang diunggah
-
-summary, rouge = summarization_pipeline(file_path)
-
-print("Ringkasan:", summary)
-print("ROUGE Scores:", rouge)
+if __name__ == "__main__":
+    main()

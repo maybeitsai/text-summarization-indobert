@@ -1,12 +1,7 @@
 import re
-import torch
-import torch_directml
-from transformers import AutoTokenizer, AutoModel
+from transformers import *
 import pdfplumber
-import nltk
-
-# Inisialisasi device untuk DirectML
-device = torch_directml.device()
+from modules.variabel import *
 
 # Fungsi untuk membersihkan teks
 def clean_text(text):
@@ -36,26 +31,29 @@ def read_pdf(pdf_path):
 def encode_text(text, tokenizer, max_length=512):
     inputs = tokenizer(text, return_tensors="pt", max_length=max_length, truncation=True, padding="max_length")
     
-    input_ids = inputs['input_ids'].to(device)            # Token Embedding
-    token_type_ids = inputs['token_type_ids'].to(device)  # Segment Embedding
-    attention_mask = inputs['attention_mask'].to(device)  # Attention Mask
+    input_ids = inputs['input_ids'].to(DEVICE)            # Token Embedding
+    token_type_ids = inputs['token_type_ids'].to(DEVICE)  # Segment Embedding
+    attention_mask = inputs['attention_mask'].to(DEVICE)  # Attention Mask
     
     return input_ids, token_type_ids, attention_mask
 
 # Fungsi untuk memuat tokenizer dan menambahkan token baru jika perlu
-def load_tokenizer(new_tokens=None, model=None):
-    tokenizer = AutoTokenizer.from_pretrained("indolem/indobert-base-uncased")
+def load_tokenizer():
+    tokenizer = BertTokenizer.from_pretrained(MODEL)
+    # tokenizer.bos_token = tokenizer.cls_token
+    # tokenizer.eos_token = tokenizer.sep_token
     
-    # Jika ada token baru yang ingin ditambahkan
+    return tokenizer
+
+# Fungsi untuk memperbarui tokenizer jika ada token baru yang ingin ditambahkan
+def update_tokenizer(tokenizer, new_tokens=None, model=None):
     if new_tokens is not None:
         tokens_to_add = []
         
-        # Cek token mana yang belum ada di tokenizer
         for token in new_tokens:
             if tokenizer.convert_tokens_to_ids(token) == tokenizer.unk_token_id:
                 tokens_to_add.append(token)
         
-        # Jika ada token yang perlu ditambahkan
         if tokens_to_add:
             tokenizer.add_tokens(tokens_to_add)
             if model is not None:
@@ -65,3 +63,15 @@ def load_tokenizer(new_tokens=None, model=None):
             print("No new tokens were added.")
     
     return tokenizer
+
+# Fungsi untuk menemukan kata-kata yang tidak ada di tokenizer
+def find_oov_words(tokenizer, text):
+    # Tokenisasi menggunakan metode tokenizer default
+    words = text.split()
+    oov_words = []
+
+    for word in words:
+        if tokenizer.convert_tokens_to_ids(word) == tokenizer.unk_token_id:
+            oov_words.append(word)
+    
+    return list(set(oov_words))
