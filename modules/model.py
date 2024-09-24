@@ -56,8 +56,8 @@ def generate_full_summary(chunks, model, tokenizer) :
     # Meringkas setiap chunk
     for chunk in chunks:
         summary_ids = model.generate(chunk,
-                    min_length=20,
-                    max_length=80, 
+                    min_length=60,
+                    max_length=512, 
                     num_beams=10,
                     repetition_penalty=2.5, 
                     length_penalty=1.0, 
