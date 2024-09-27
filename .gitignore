@@ -3,8 +3,9 @@
 /references
 *.rar
 test.ipynb
-summary.ipynb
 /dataset
 /src
 /text-data
 /text-data-clean
+/data
+/results

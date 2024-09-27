@@ -1,77 +1,45 @@
+"""
+Module untuk ekstraksi fitur.
+"""
+import os
 import re
-from transformers import *
-import pdfplumber
-from modules.variabel import *
 
-# Fungsi untuk membersihkan teks
+def save_cleaned_texts(cleaned_texts, output_clean_folder):
+    # Create the output directory if it doesn't exist
+    if not os.path.exists(output_clean_folder):
+        os.makedirs(output_clean_folder)
+    
+    for filename, cleaned_text in cleaned_texts.items():
+        # Create a new .txt filename in the cleaned folder
+        clean_txt_path = os.path.join(output_clean_folder, filename)
+        
+        # Save the cleaned text into the .txt file
+        with open(clean_txt_path, 'w', encoding='utf-8') as text_file:
+            text_file.write(cleaned_text)
+        print(f"Saved cleaned text to {clean_txt_path}")
+
 def clean_text(text):
-    # Hapus karakter non-alfabet dan simbol khusus
-    text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
-    # Hapus spasi ganda atau lebih
-    text = re.sub(r'\s+', ' ', text)
+    # Remove unwanted characters, keeping only periods
+    cleaned_text = re.sub(r'[^\w\s.]', '', text)
+    # Remove newline and tab characters
+    cleaned_text = cleaned_text.replace('\n', ' ').replace('\t', ' ')
+    # Convert to lowercase
+    cleaned_text = cleaned_text.lower()
+    # Remove extra whitespace
+    cleaned_text = re.sub(r'\s+', ' ', cleaned_text)
 
-    # Lowercase
-    text = text.lower()
+    return cleaned_text
 
-    return text.strip()
-
-# Fungsi untuk mengekstrak teks dari PDF
-def read_pdf(pdf_path):
-    extracted_text = ""
-    with pdfplumber.open(pdf_path) as pdf:
-        for page in pdf.pages:
-            page_text = page.extract_text()
-            if page_text:
-                # Bersihkan teks dari halaman
-                cleaned_text = clean_text(page_text)
-                extracted_text += cleaned_text + "\n"
-    return extracted_text
-
-# Fungsi untuk token embedding, segment embedding, dan position embedding
-def encode_text(text, tokenizer, max_length=512):
-    inputs = tokenizer(text, return_tensors="pt", max_length=max_length, truncation=True, padding="max_length")
+def preprocess_text_files(txt_folder):
+    txt_files = [f for f in os.listdir(txt_folder) if f.endswith('.txt')]
+    cleaned_texts = {}
     
-    input_ids = inputs['input_ids'].to(DEVICE)            # Token Embedding
-    token_type_ids = inputs['token_type_ids'].to(DEVICE)  # Segment Embedding
-    attention_mask = inputs['attention_mask'].to(DEVICE)  # Attention Mask
+    for txt_file in txt_files:
+        txt_path = os.path.join(txt_folder, txt_file)
+        with open(txt_path, 'r', encoding='utf-8') as file:
+            text = file.read()
+        cleaned_text = clean_text(text)
+        cleaned_texts[txt_file] = cleaned_text
+        print(f"Preprocessed {txt_file}")
     
-    return input_ids, token_type_ids, attention_mask
-
-# Fungsi untuk memuat tokenizer dan menambahkan token baru jika perlu
-def load_tokenizer():
-    tokenizer = BertTokenizer.from_pretrained(MODEL)
-    # tokenizer.bos_token = tokenizer.cls_token
-    # tokenizer.eos_token = tokenizer.sep_token
-    
-    return tokenizer
-
-# Fungsi untuk memperbarui tokenizer jika ada token baru yang ingin ditambahkan
-def update_tokenizer(tokenizer, new_tokens=None, model=None):
-    if new_tokens is not None:
-        tokens_to_add = []
-        
-        for token in new_tokens:
-            if tokenizer.convert_tokens_to_ids(token) == tokenizer.unk_token_id:
-                tokens_to_add.append(token)
-        
-        if tokens_to_add:
-            tokenizer.add_tokens(tokens_to_add)
-            if model is not None:
-                model.resize_token_embeddings(len(tokenizer))
-            print(f"Added tokens: {tokens_to_add}")
-        else:
-            print("No new tokens were added.")
-    
-    return tokenizer
-
-# Fungsi untuk menemukan kata-kata yang tidak ada di tokenizer
-def find_oov_words(tokenizer, text):
-    # Tokenisasi menggunakan metode tokenizer default
-    words = text.split()
-    oov_words = []
-
-    for word in words:
-        if tokenizer.convert_tokens_to_ids(word) == tokenizer.unk_token_id:
-            oov_words.append(word)
-    
-    return list(set(oov_words))
+    return cleaned_texts
