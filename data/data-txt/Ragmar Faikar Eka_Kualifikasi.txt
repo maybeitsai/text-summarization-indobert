@@ -1,0 +1,276 @@
+ 
+Metode Klasifikasi Kematangan Buah  Kelapa  Sawit Dengan 
+Menggunakan MobileNetV3 dan Teknik Attention Module  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 
+ BAB 1  
+PENDAHULUAN  
+1.1  Latar Belakang Masalah  
+Kelapa sawit (Elaeis guineensis) merupakan tanaman pertanian yang penting secara 
+global  karena dapat digunakan untuk menghasilkan minyak nabati. Tanaman ini harus  ditanam 
+pada lahan yang sesuai agar tumbuh dengan baik dan tidak merugikan lingkungan sekitar . 
+Kelapa sawit juga  menjadi bahan dasar  yang digunakan untuk menghasilkan beberapa jenis 
+produk, termasuk produk makanan, seperti  seperti mie instan, mentega, selai, roti, dan kue, 
+serta produk bukan makanan,  seperti deterjen, sampo, sabun, dan biodiesel . Kelapa sawit 
+merupakan salah satu perkebunan terbesar di Indonesia dan menjadikan Indonesia sebagai 
+negara penghasil kelapa sawit terbesar  di dunia, luas perkebunan kelapa sawit di Indonesia 
+mempengaruhi vo lume produksi kelapa sawit  produksi. Hal ini didukung oleh letak geografis 
+Indonesia yang sesuai dengan  kebutuhan tanaman kelapa sawit, dibandingkan dengan tanaman 
+perkebunan lainnya kelapa sawit mempunyai keunggulan sebagai  bahan baku biodiesel dan 
+pangan. Dengan kemampuannya tersebut, minyak sawit dibutuhkan oleh berbagai jenis  industri 
+di berbagai negara . Sebagai komoditas unggulan kelapa sawit mempunyai peranan penting bagi 
+perekonomian Indonesia . Dari tahun ke tahun ekspor minyak sawit Indonesia semaki n 
+meningkat meski sempat mengalami penurunan  pada tahun 2016, selain itu hasil produksi 
+perkebunan kelapa sawit juga mengalami peningkatan.  Kelapa sawit Indonesia memiliki daya 
+saing,  menurut Ditjen Perkebunan, negara tujuan  ekspor untuk  kelapa sawit Indonesia adalah 
+India, China, Pakistan, dan Eropa, bisa dikatakan Indonesia adalah negara tersebut  kompetitif 
+di pasar Asia  (Daeng Ahmad Fakhrian Zuhdi  et al, 2021 ). 
+Permintaan akan minyak kelapa sawit berkualitas tinggi  terus meningkat. Kualitas kelapa 
+sawit ditentukan oleh  tingkat kematangan buah saat dipanen. Tingkat kematangan kelapa sawit 
+ditentukan secara visual berdasarkan warna kulit buah. Minyak mentah  buah kelapa sawit  
+mempunyai warna gelap (ungu tua) dan berubah warna menjadi jingga  ketika sudah matang  
+(Septiarini, 2021) . Negara -negara seperti Indonesia, Malaysia, dan  Guatemala telah 
+mengekspor buah kelapa sawit dalam jumlah besar ke seluruh wilayah  dunia. Ti ngkat produksi 
+yang sangat besar ini,  serta berbagai macam produk turunan dari tanaman kelapa sawit  
+menunjukkan bahwa kelapa sawit merupakan komoditas internasional yang sangat menonjol.  
+Dengan p ermintaan  yang  akan terus meningkat , petani kelapa sawit akan membutuhkan sebuah 
+metode tersebut  untuk memfasilitasi produksi Tandan Buah Segar kelapa sawit yang lebih 2 
+ efisien  (TBS), karena salah satu permasalahan yang ada saat ini adalah penggunaan cara 
+manual  untuk penyortiran kematangan buah kelapa sawit yang dianggap memakan waktu dan 
+tidak efisien  (Suharjito  et al, 2021) .  
+Klasifikasi buah secara otomatis merupakan solusi  menarik dalam budidaya dan 
+penjualan karena dapat membantu petani buah dan supermarket untuk mengidentifikasi 
+perbedaan  buah -buahan dan statusnya dari stok atau wadah sehingga meningkatkan efisiensi 
+produksi untuk mendapatkan  keuntungan dalam bisnis.  Klasifikasi berbagai macam buah atau 
+sayur -sayuran bukan tugas yang sederhana karena terdapat beberapa kesamaan dalam bentuk, 
+ukuran, dan warna. Biasanya, buah sayur, dan tanaman, sebelum dipanen dan dilepas ke pasar 
+diperiksa oleh tenaga ahli atau terlatih terlebih dahulu. Beberapa faktor yang dipertimbangkan 
+oleh para ahli dalam penilaian kualitas adalah warna dan tekstur produk. Namun, pemeriksaan 
+dan klasifikasi secara manual dapat menimbulkan beberapa kemung kinan kesalahan yang 
+dilakukan manusia. Untuk menghasilkan kesuksesan dalam proses klasifikasi, orang -orang 
+yang dilatih untuk memeriksa produk diharuskan memiliki pengenalan dan analisis secara 
+konsisten dan mungkin sulit atau membosankan ketika dilakukan  secara berulang -ulang (Aaron  
+et al, 2020 ). Oleh karena itu, sistem cerdas menggunakan  metode  computer vision  dan machine 
+learning  telah dieksplorasi  dalam dekade terakhir  untuk  dapat meng identifikasi kecacat an pada  
+buah, menilai  kematangan, dan mengkategorisasi  buah. Salah satu contoh penelitian  yang 
+dilakukan oleh Mehenag Katun et al (Mahenag Katun et al, 2020 ) mengajukan metode untuk 
+mengklasifikasi jenis buah menggunakan Convolutional Neureal Network (CNN) . Dataset 
+yang digunakan memiliki 1400 gambar buah dengan 7 kelas yaitu apel, pisang, jeruk, pir, 
+mangga, nanas dan strawberry. Metode ini menghasilkan akurasi sebesar 98%.  
+Convolutional Neural Network  (CNN) adalah salah satu  metode deep learning  yang 
+paling umum . Dalam klasifikasi gambar tidak mudah untuk mempertahankan fitur asli gambar 
+dalam digitalisasi  karena banyaknya data  untuk diolah. CNN  memiliki kemampuan 
+pembelajaran representasi yang secara otomatis dapat mengekstraksi fitur -fitur gambar dengan 
+skala berbeda. CNN mempunyai kemampuan mengekstraksi fitur gambar yang kuat dan akurat  
+(Chunguang Bi et al, 2023 ). Penggunaan CNN untuk image recognition  dan klasifikasi tidak 
+hanya menjadi tren di bidang pertanian, namun  juga di bidang lain sepe rti scene image 
+recognition , remote sensing image analysis , dan masih banyak lagi . Oleh karena itu, operasi 
+konvolusi adalah kontributor utama bagi tugas computer vision , tetapi ketika struktur jaringan 
+lebih dalam dan lebih besar seperti VGG -16, VGG -19, Alexnet, dan Xception, proses  
+komputasi dari operasi konvolusi  akan semakin  tinggi. MobileNetV2  adalah  lightweight  CNN 3 
+ yang berfokus pada mobile device  yang diusulkan oleh tim Google pada tahun 2018 . 
+Dibandingkan dengan CNN biasa , MobileNetV2  dapat mengurangi parameter model dan 
+proses  perhitungan dengan sedikit penurunan akurasi . (Shiqing Dou et al, 2023 ). Terdapat 
+penelitian yang dilakukan oleh Suharjito et al 2021, mereka membuat aplikasi android untuk 
+mengklasifikasi kematangan buah Kelapa Sawit dengan MobileNet V1, aplikasi tersebut 
+mampu membedakan kematangan Buah Kelapa Sawit dengan Tingkat kematangan kurang 
+matang, m atang, terlalu matang dan tandan  kosong.  
+Mekanisme Attention Module  memungkinkan Neural Network  untuk  memperhatikan  
+informasi  yang penting  dalam gambar dan dapat menyembunyikan informasi yang tidak 
+berguna,  hal ini  dapat  meningkatkannya  efisiensi untuk proses klasifikasi gambar. 
+Convolutional Block Attention Module  (CBAM) adalah  Lightweight Attention Module  yang 
+terdiri dari Channel Attention Module  (CAM) dan  Spatial Attention Module  (SAM)  (Shiqing 
+Dou et al, 2023), dimana  Channel Attention Module  mencoba menangkap ‘apa’ yang penting 
+dalam hal  yang diberikan  oleh gambar, sedangkan Spatial Module Attention  berfokus pada 'di 
+mana' atau bagian mana dari gambar tersebut  penting  (Tej Bahdur et al, 2022). Penelitian yang 
+dilakukan oleh oleh Huixuan Fu, Guoqing Song dan Yuchao Wang  mengusulkan meodel 
+YOLOv4 dan menggabungkannya dengan CBAM untuk mendeteksi target laut. CBAM 
+ditambahkan untuk membuat Neural Network  lebih memperhatikan area sasaran yang berisi 
+informasi penting, menekan informasi yang tidak relevan, dan meningkatkan akurasi. Hasil 
+peneli tian tersebut  menunjukkan bahwa  dengan menambahkan CBAM pada Model YOLOv4  
+dapat meningkatkan akurasi dibandingkan dengan model YOLOv4 biasa. Hasil penelitian 
+tersebut meningkatkan nilai mAP50 sebesar 2,02%  dan mAP75 meningkat sebesar 1,85% . 
+Berdasarkan pemaparan diatas, penelitian ini bertujuan untuk membuat aplikasi berbasis 
+android untuk mengklasifikasi kematangan buah Kelapa Sawit menggunakan MobileNetV3 
+dan menggabungkannya dengan teknik Attention Module yaitu Convolutional Block Attentio n 
+Module (CBAM). Penggabungan model Konvolusi dan Attention Module  diharapkan dapat 
+membantu  proses  dengan  saling melengkapi untuk mencapai kinerja yang lebih baik dalam 
+klasifikasi buah  dengan judul penelitian “ Metode  Klasifikasi Kematangan Buah Sawit 
+Dengan Menggunakan MobileNetV3 dan Teknik Attention Module ”. 
+ 
+1.2   Identifikasi Masalah  
+1. Bagaimana cara merancang model untuk klasifikasi k ematangan  buah kelapa sawit?  4 
+ 2. Bagaimana mengetahui nilai akurasi dari klasifikasi kualitas buah kelapa sawit?  
+3. Bagaimana cara menggabung kan model  MobileNetV3 dengan  Attention Module 
+CBAM?  
+4. Bagaimana cara untuk mengimplementasi model klasifikasi k ematangan  buah  kelapa 
+sawit ke dalam aplikasi mobile ? 
+ 
+ 
+1.4   Tujuan Penelitian  
+1. Untuk merancang lightweight  model klasifikasi kematangan  buah kelapa sawit  
+2. Untuk menggabungkan model konvolusi dan teknik attention module  
+3. Untuk membuat aplikasi berbasis android untuk klasifikasi kematangan buah kelapa 
+sawit  
+ 28 
+  
+digunakan sesuai dengan tujuan penelitian tersebut. Pada penelitian ini penulis mengambil 
+beberapa referensi metode dan teknik yang digunakan pada penelitian terdahulu, rangkuman 
+penelitian tersebut disajikan dalam bentuk Fishbone Diagram pada Gambar 2.15. 
+ Dalam melakukan penelitian, sangat penting untuk menentukan metode yang akan 29 
+  
+Gambar  2.15 FishBone  Penelitian  
+Berdasarkan metode dan teknik yang telah dilakukan pada penelitian terdahulu, untuk 
+menjawab tujuan dari penelitian ini maka akan digunakan metode deep learning  CNN dengan 
+arsitektur MobileNetV3 dan menggabungkannya dengan attention module  CBAM  serta 
+menggunakan pendekatan contour dalam tahap segmentasi data.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30 
+ BAB 3  
+METODE PENELITIAN  
+Bab Metode Penelitian menjelaskan mengenai tahapan yang dilakukan dalam penelitian 
+beserta menjelaskan mengenai jadwal dan estimasi waktu tahapan  yang dilakukan pada 
+penelitian ini  serta menjelaskan mengenai kegiatan yang dilakukan selama penelitian . Tahapan 
+penelitian dijelaskan dalam bentuk  flowchart sehingga dapat menjelaskan proses yang 
+dilakukan mulai dari Studi Literatur sampai dengan Kesimpulan, Jadwal dan Estimasi 
+Penelitian digambarkan dalam bentuk Time Table untuk menjadwalkan dan melakukan 
+estimasi waktu dari tiap tahap yang dilakuk an. 
+ 
+3.1  Tahapan Penelitian  
+Terdapat beberapa tahapan yang dilakukan untuk melakukan penelitian ini, beberapa 
+tahapan yang dilakukan dapat dilihat pada Gambar 3.1 . 
+ 
+ 
+Gambar  3.1 Tahapan Penelitian  
+31 
+ 3.1.1   Studi Literatur  
+Tahap pertama yang dilakukan yaitu Studi Literature  yang bertujuan untuk mencari 
+informasi atau pengetahuan dari paper atau buku sebagai teori pendukung untuk melakukan 
+penelitian dan mencari novelty atau gap peneltian yang sudah dilakukan. Paper dan buku yang 
+digunakan dalam penelitian ini merupakan paper atau buku 5 tah un terakhir.  
+ 
+3.1.2   Pengumpulan Data  
+Tahap kedua yaitu pengumpulan data, data yang digunakan pada penelitian ini adalah 
+data citra digital Kelapa Sawit dengan Tingkat kematangan Belum matang, Setengah matang, 
+Matang, Terlalu matang dan  Tandan Buah yang kosong . Data diambil dari beberapa sumber 
+melalui website Kaggle dan Roboflow, lalu dilakukan pemilihan gambar yang sesuai untuk 
+dijadikan sebagai dataset.  
+ 
+Gambar 3.2 Contoh data kelapa sawit dari masing -masing kelas  
+ 
+3.1.3   Preprocessing Data  
+Sebelum data digunakan pada model Machine Learning  yang dibuat, data tersebut akan 
+dilakukan preprocessing data agar data yang akan dilatih sesuai dengan keperluan yang 
+dibutuhkan. Preprocessing yang dilakukan adalah augmentasi data, resize , dan Segmentasi 
+Data . Gambar asli akan dilakukan resize menjadi ukuran 224x224 piksel lalu data tersebut akan 
+di augmentasi untuk memperbanyak dan m emvariasi  data agar dan hasil augmentasi akan 
+dijadikan sebagai data latih untuk model yang dibuat. Augmentasi yang dilakuk an adalah 
+rotation_range, width_shift_range, height_shift_range, brightness_range, shear_range, 
+zoom_range, horizontal_flip, vertical_flip . Segmentasi dilakukan untuk memisahkan objek 
+gambar dengan latar belakang sehingga proses klasifikasi akan lebih terfokus pada objek yang 
+akan diproses.  
+32 
+ 3.1.4   Pembuatan Model  
+Tahap keempat yaitu pembuatan model machine learning menggunakan MobileNetV3 
+(Small/Large) dan menggabungkannya dengan attention module CBAM (Convolutional Block 
+Attention Module).  
+3.1.5   Melatih Model  
+Tahap Kelima yaitu melatih model yang sudah dibuat menggunakan Dataset yang sudah 
+dikumpulkan pada tahap pengumpulan data . 
+3.1.6   Evaluasi Model  
+Tahap Keenam yaitu evaluasi model, dari hasil pelatihan model akan dievaluasi atay 
+dinilai apakah model tersebut sudah baik atau belum . Jika hasil dari evaluasi atau penilaian 
+kinerja model kurang memuaskan maka tahap kelima akan dilakukan kembali.  
+3.1.7   Deploy Model  
+Tahap Ketujuh yaitu deploy model , model yang sudah dievaluasi dan dikatakan baik 
+akan di deploy  menjadi tflite sehingga dapat diintegrasikan ke dalam mobile device . 
+3.1.8   Pembuatan Aplikasi  
+Tahap kedelapan yaitu pembuatan aplikasi android, tahap ini dilakukan menggunakan 
+Android Studio untuk membuat aplikasi  android . Proses pembuatannya meliputi pembuatan 
+tampilan user, memasukan tflite ke dalam aplikasi sehingga aplikasi dapat menggunakan 
+Model Machine Learning untuk mengklasifikasi kematangan kelapa sawit menggunakan 
+Kamera smartphone.  
+3.1.9   Pengujian Aplikasi  
+Tahap kesembilan yaitu pengujian aplikasi yang sudah dibuat, aplikasi akan diuji fungsi 
+utamanya yaitu klasifikasi kematangan kelapa sawit.  
+3.1.10   Kesimpulan Penelitian  
+Tahap Kesepuluh yaitu menulis kesimpulan mengenai penelitian yang sudah dilakukan, 
+kesimpulan ini mencakup kinerja model dan aplikasi yang sudah dibuat, kelebihan dan 
+kekurangan penelitian dan penelitian selanjutnya yang akan dilakukan.  
+ 
+ 33 
+ 3.2  Jadwal Estimasi Penelitian  
+Jadwal Estimasi Penelitian menjelaskan mengenai rancangan kegiatan yang dilakukan 
+selama penelitian beserta estimasi waktu tiap kegiatan yang dilakukan. Gambar Jadwal 
+Estimasi Penelitian dapat dilihat pada Gambar 3.3. 
+ 
+Gambar  3.3 Jadwal Estimasi Penelitian  
+Gambar diatas merupakan jadwal atau estimasi penelitian, kegiatan Studi Literatur 
+dilakukan mulai dari bulan pertama pada tahun pertama, studi literatur dilakukan untuk mencari 
+pengetahuan dan informasi untuk mendapatkan novelty dan gap dari penelitian yan g akan 
+dilakukan, pengumpulan data dilakukan mulai dari bulan kedua tahun pertama beriringan 
+dengan studi literature.  
+Pada bulan keenam ditahun pertama dilakukan kegiatan preprocessing data, 
+preprocessing data yang dilakukan adalah pemilihan data yang akan digunakan pada penelitian 
+dari proses pengumpulan data, melakukan resize, augmentasi, dan segmentasi data. Pembuatan 
+model model dilakukan pada bulan keenam beriringan dengan kegiatan pelatihan model serta 
+melakukan evaluasi kinerja model yang sudah dilatih.  
+Bulan kesebelas melakukan kegiatan pembuatan aplikasi android, kegiatan yang 
+dilakukan yaitu membuat aplikasi android menggunakan Android Studio, mendeploy model 
+yang sudah dievaluasi menjadi format tflite lalu mengimplementasikannya ke dalam aplikasi 
+android yang sudah dibuat. Pada bulan ketiga ditahun kedua akan dilakukan pengujian kinerja 
+aplikasi dengan data baru lalu dilakukan evaluasi atau penilaian terhadap fungsi -fungsi aplikasi 
+tersebut. Bulan keempat tahun kedua merupakan kegiatan terakhir yaitu m enulis Kesimpulan 
+penelitian.  
+ 
+34 
+ 3.3  Kegiatan Penelitian  
+Kegiatan  yang dilakukan untuk melakukan  penelitian dari tahun pertama sampai tahun 
+ketiga  dapat dilihat pada  Tabel 2 berikut.  
+TAHUN PERTAMA  TAHUN KEDUA  TAHUN KETIGA  
+Studi Literatur  Evaluasi Model  Submit Jurnal Pertama  
+Pembuatan Proposal  (BAB 1 
+sampai BAB 3 ) Deploy  dImplementasi  
+Model  Pembuatan Jurnal Kedua  
+Pengumpulan Dataset  Pembua tan Aplikasi  Submit Jurnal  Kedua  
+Preprocessing Data  Menulis hasil penelitian 
+(BAB 4)   
+Pembuatan Model  Pengujian dan Evaluasi  
+Aplikasi   
+Melatih Model  Menulis hasil penelitian 
+(BAB 4 dan BAB 5)   
+ Pembuatan Jurnal Pertama   
+Tabel 2. Kegiatan Penelitian  
+Kegiatan yang dilakukan pada tahun pertama yaitu melakukan studi literaur untuk 
+pembuatan proposal  penelitian  (BAB 1 sam pai BAB 3)  lalu dilanjutkan dengan pengumpulan 
+dan preprocessing data, setelah mendapatkan data kegiatan pembuatan dan pelatihan m odel 
+dapat dilakukan.  
+Pada tahun kedua , dilakukan evaluasi model dan saat hasil evaluasi model sudah cukup 
+baik, model akan di deploy untuk dapat diimp lementasi ke dalam aplikasi  yang sudah dibuat. 
+Aplikasi akan dievaluasi dan diuji kinerjanya sehingga mendapatkan Kesimpulan  dari 
+peneli tian untuk ditulis da lam B AB 4 sampai BAB 5 . Pada Akhir tahun kedu a, setelah 
+mendapatkan Kesimpulan  penelitian, dilakukan pembuatan jurnal pertama  dan dilanjutkan 
+pada tahun ketiga untuk pembuatan jurnal kedua.  
+ 
+ 
+ 
+ 
+ 

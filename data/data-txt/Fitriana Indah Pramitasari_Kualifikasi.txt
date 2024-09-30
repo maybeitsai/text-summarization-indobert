@@ -1,0 +1,601 @@
+  
+ 
+PENGEMBANGAN MODEL PLATFORM KOPERASI PETANI 
+BERBASIS KECERDASAN BUATAN UNTUK OPTIMASI 
+RANTAI PASOK KENTANG  1 
+ Bab 1 
+Pendahuluan  
+1.1     Latar Belakang  
+Teknologi Informasi (TI) merupakan ilmu bidang teknologi yang 
+dikembangkan untuk membantu berbagai pekerjaan manusia. Perkembangan 
+Teknologi Informasi (TI) dalam kecerdasan buatan atau artificial intelligence  (AI), 
+telah membawa perubahan di berbagai sektor. AI merupakan teknologi yang paling 
+trending dan hits di era digital saat ini (Chollet, 2021). Salah satu sektor yang 
+mengalami perubahan dengan adanya TI dalam ranah AI adalah sektor pertanian. 
+Dimana, par a petani dapat memanfaatkan teknologi untuk meni ngkatkan dan 
+mengefisienkan produktivitas mereka.   
+Menurut data yang bersumber dari BPS tahun 2023, Jumlah Usaha 
+Pertanian Perorangan (UTP) sebanyak 29.342.202 unit atau turun 7,45 persen dari 
+tahun 2013 yang sebanyak 31.705.295 unit. Menurut Kepala Badan Pusat Statistik 
+(BPS) Amalia Adininggar Widyasanti,  masalah pendidikan dalam dunia pertanian 
+menjadi salah satu penyebab rendahnya produktivitas petani di tanah air. Dimana 
+75% petani hanya berpendidikan tamatan Sekolah Dasar (SD). Selain itu, usia 
+petani menjadi salah satu faktor menurunnya produktivitas petani. Sebanyak 58% 
+dari total petani di Indonesia berusia >45 tahun. Mantan Wakil Menteri Pertanian, 
+Bayu Khrisnamurti menjelaskan bahwa pendapatan petani per bulan hanya 
+mencapai Rp 1 juta rupiah dan hal tersebut menyebabkan tenaga petani turun 
+sebanyak  5 juta dalam 10 tahun terakhir. Berdasarkan indeks ketahanan pangan 
+(GFSI) 2022, dapat diukur dengan empat indikator yaitu keterjangkauan harga 
+pangan ( affordability ), ketersediaan pasokan ( availability ), kualitas nutrisi ( quality 
+and safety ), serta keber lanjutan dan adaptasi ( sustainability and adaptation ). 
+Konsumsi pangan global cenderung meningkat lebih cepat dibandingkan 
+pasokannya. Hal ini berkaitan dengan isu -isu global yang penting seperti 
+pertumbuhan populasi (Rozi., et al, 2023). Dengan pesatnya pertumbuhan populasi 
+dan meningkatnya permintaan pang an di seluruh dunia, peningkatan produktivitas 2 
+ dalam prosedur pertanian sangatlah penting (Zarandi., et al, 2022).  Kentang 
+merupakan salah satu tanaman komersial penting yang berkontribusi terhadap 
+ketahanan pangan dan mengurangi kemiskinan di kalangan petani kecil di negara 
+berkembang (Mijena., et al,  2022). Tanaman kentang dianggap sebagai tanaman 
+yang berpotensi tinggi untuk ketahanan pangan karena menghasilkan kuantitas 
+yang besar, dan memberikan produk berkualitas tinggi dalam waktu tanam yang 
+singkat. Kentang memiliki sejarah panjang dalam membant u mengatasi masalah 
+ketahanan pangan dan berkontribusi terhadap peningkatan pendapatan masyarakat, 
+terutama di masa -masa sulit dan juga di tengah ekspansi populasi saat ini 
+(Devaux.,et al, 2021).  
+Transformasi digital di bidang pertanian merupakan tren penting dalam 
+praktik dan tata kelola yang berkelanjutan. Dalam beberapa tahun terakhir, berbagai 
+sensor telah digunakan di bidang pertanian untuk mengumpulkan data dalam 
+jumlah besar yang memungkinka n analisis lebih cepat dan kompleks. Pergeseran 
+paradigma ini telah mengarah pada pengelolaan pertanian berbasis data, yang 
+membantu petani dalam proses pengambilan keputusan (Romani., et al, 2023). 
+Platform digital juga menjadi tempat untuk industri berko laborasi, membagikan 
+data, menciptakan bersama, dan menyediakan layanan digital yang mendukung 
+keberlanjutan (Chavez., et al, 2023). Banyak platform berbasis kecerdasan buatan 
+yang telah dimanfaatkan untuk membantu kegiatan bisnis, manufaktur, perkantoran 
+dan sebagainya (Gladysz., et al, 2023). Transformasi digital memainkan peran 
+penting dalam meningkatkan pembagian informasi dan pemrosesan informasi  
+dalam rantai pasokan (Balci., et al, 2024). Platform digital menawarkan peluang 
+untuk meningkatkan ketahanan rantai pasokan manufaktur dalam menghadapi 
+kompleksitas, tantangan berbagi data, pemicu tekanan eksternal (misalnya 
+kelangkaan sumber daya, faktor  geopolitik), risiko yang muncul, dan kelestarian 
+lingkungan (Chari., et al, 2023). Sehingga adanya platform koperasi diharapkan 
+dapat membantu mensejahterakan petani. Petani dapat menjual hasil panen dari 
+platform koperasi secara langsung kepada konsumen.  Kecerdasan buatan 
+digunakan pada platform koperasi petani untuk memproses dan menganalisis data 3 
+ besar dan cepat pada rantai pasok. Sehingga, dapat meningkatkan efisiensi dan 
+produktifitas pertanian.  
+Platform koperasi pada penelitian ini juga berdasarkan konsep economic 
+sharing . Platform economic sharing  memanfaatkan teknologi sebagai model bisnis 
+di berbagai sektor dalam pertukaran  ekonomi (Dabija , et al,  2022 ; Sari , et al, 2022 ). 
+Economic sharing  mampu memecah proses bisnis dan sektor  industri dan 
+menjadikannya pasar yang tembus pandang dalam skala internasional karena 
+ekspansi yang pesat  termasuk Gojek, Grab, dan Maxim untuk layanan ride -hailing 
+dan Airbnb untuk akomodasi (Kauffman & Naldi,  2020 ; Sari, et al, 2022 ). 
+Transparansi rantai pasokan sering kali dipandang sebagai elemen penting 
+untuk memecahkan banyak tantangan. Terutama yang berkaitan dengan sektor 
+bahan baku, transparansi yang lebih besar sering kali diharapkan dapat 
+memecahkan masalah utama dengan memasti kan asal usul produk dan 
+memungkinkan keterlacakan di sepanjang rantai pasokan. Secara khusus, teknologi 
+blockchain yang terdesentralisasi dapat menjamin keamanan data yang lebih besar 
+dan menawarkan peluang untuk menciptakan aset dan informasi digital den gan 
+tingkat kekekalan dan transparansi yang tinggi (Rosi, et al, 2019 ; Angela, et al, 
+2021). Blockchain dapat membuat catatan yang tidak dapat diubah, kuat terhadap 
+perubahan data atau anti -rusak, sehingga memberikan konsistensi di seluruh 
+jaringan. Block chain juga terdesentralisasi, dikombinasikan dengan karakter 
+catatan yang tidak dapat diubah, yang menghasilkan transparansi antara anggota 
+jaringan (Shuaib et al. 2020; Alamsyah, et al, 2022).  
+Selain teknologi blockchain, kecerdasan buatan juga memiliki peran 
+penting dalam mengoptimalkan rantai pasokan melalui berbagai metode analisis 
+dan prediksi. Dalam konteks manajemen rantai pasok, ANN dapat digunakan untuk 
+peramalan permintaan, optimalisasi , inventaris, perencanaan logistik, dan deteksi 
+anomali (Sooria, et al, 2023). Peramalan permintaan digunakan dalam penelitian ini 
+untuk memprediksi permintaan di masa depan selama periode tertentu. Tujuannya 
+untuk meminimalisir risiko stok over dan stok y ang kosong. Permasalahan tersebut 
+dapat diatasi dengan kombinasi inventory management . Sistem inventory 
+management  memiliki peran penting untuk memantau kondisi barang pada tahap 4 
+ rantai pasokan distribusi barang dari gudang pusat ke ritel sesuai dengan permintaan 
+konsumen. Beberapa metode telah dikembangkan untuk memecahkan masalah 
+proses inventory management  di gudang pusat. Safety Stock  adalah salah satu 
+metode yang menggunakan analisis kontrol stok. Dimana metode safety stock 
+digunakan untuk menentukan stok minimum dan maksimum (Devi, et al, 2018). 
+Safety stock  dianggap sebagai salah satu cara yang dapat mengurangi resiko 
+kehabisan stok. Sehingga dalam rantai pasok, inventory man agement  yang efektif 
+dapat memastikan layanan yang terbaik kepada pelanggan dan mempertahankan 
+reputasi perusahaan (Chamani, et al, 2022). Kombinasi antara teknologi blockchain 
+dengan ai membuka peluang baru untuk mengoptimalkan efesiensi dan transparansi 
+dan tra nsparansi dalam manajemen rantai pasok. Bersama dengan kecerdasan 
+buatan, blockchain menjadi bagian dari teknologi terdepan dalam ekonomi digital 
+(Alamsyah, et al, 2022). Dalam penerapan ini, algoritma ANN dapat diintegrasikan 
+ke dalam blockchain un tuk memprediksi permintaan dan mengelola inventaris, 
+termasuk penentuan safety stock secara otomatis. Dengan mencatat semua transaksi 
+dan data permintaan dalam blockchain, keamanan dan transparansi informasi tetap 
+terjaga, memungkinkan sistem manajemen inv entaris yang lebih efisien dan handal.  
+Penelitian yang telah dilakukan sebelumnya terkait platform untuk petani 
+adalah pendekatan platform untuk pemrosesan informasi pertanian cerdas, dimana 
+sebuah pendekatan desain yang dimaksud untuk memandu pembanguanan sistem 
+pertanian cerdas yang efektif, andal dan kuat. Platform pertanian cerdas akan 
+menghasilkan peningkatan produktivitas, profitabilitas, dan kinerja pertanian pintar 
+yang terhubung (Zarandi., et al, 2022). Kedua, terdapat penelitian yang menyajikan 
+platform AgroAPI yang menyediakan akses d ata dan model untuk sektor pertanian 
+melalui Application Programming Interface  (API). API pada AgroAPI berfokus 
+pada produktivitas petani, indikasi tanggal tanam, klasifikasi tanah, cuaca, katalog 
+bio-input, dan indeks vegetasi yang diperoleh dari citra satelit (Romani., et al, 
+2023).  
+Beberapa penelitian baru -baru ini yang berkaitan dengan metode ANN 
+untuk teknik peramalan permintaan telah dilakukan. Dalam kinerja ANN memiliki 
+keuntungan pada lingkungan bisnis yang terus berubah dan prediksi permintaan 5 
+ untuk membuat keputusan yang tepat mengenai manufaktur dan inventory 
+management . Algoritma pembelajaran prediksi digunakan untuk prediksi deret 
+waktu yang lebih baik di masa depan. Menggunakan pendekatan ANN memberikan 
+akurasi yang lebih tinggi dalam proses prediksi permintaan (Ashvin dan Suman, 
+2015).  
+Penelitian sebelumnya membahas tentang cara mengatur safety stock. 
+Topiknya adalah bagaimana memperbaiki sistem penyimpanan barang di rantai 
+pasok ke toko retail melalui gudang pusat, dengan tujuan mengurangi biaya 
+sepanjang rantai pasokan tersebut. Penelitian ini membuat sistem yang digunakan 
+untuk mengendalikan persedia an dan pembaruan barang di gudang pusat dengan 
+menghitung minimalisasi biaya supply chain  berdasarkan permintaan konsumen. 
+Melalui sistem pengendalian persediaan tersebut, dapat meminimalka n biaya rantai 
+pasok, dan tingkat persediaan produk dapat   dipertahankan tepat waktu dan jumlah 
+persediaan yang harus dipenuhi (Efrilianda., et al, 2018).  
+Berdasarkan analisis di atas, penelitian ini mengusulkan sebuah 
+perancangan model platform koperasi petani. Metode yang digunakan terdiri dari 
+UML untuk menggambarkan alur sistem platform koperasi pertanian yang terdiri 
+dari use case diagram,  activity diagram dan sequence  diagram. Metode ANN 
+digunakan untuk memprediksi permintaan kentang di masa depan selama periode 
+tertentu. Metode safety stock  digunakan pada penelitian ini untuk mengetahui stok 
+minimal dan maksimum. Penelitian ini dapat membantu mensejahterakan petani 
+dan manajemen inventory  koperasi melalui platform koperasi petani.  
+  
+1.2    Rumusan Masalah  
+Berdasarkan topik pembahasan pada penelitian ini mengenai perancangan 
+model platform koperasi bagi para petani, maka didapatkan beberapa rumusan 
+masalah untuk mengetahui masalah yang akan dicari solusinya. Rumusan masalah 
+pada penelitian ini adalah sebagai  berikut.  
+1. Bagaimana proses perancangan model koperasi petani?  6 
+ 2. Bagaimana metode prediksi permintaan dengan ANN di dalam blockchain yang 
+digunakan untuk mengoptimalkan permintaan pelanggan di masa depan selama 
+periode tertentu?  
+3. Bagaimana metode  safety stock  di dalam blockchain yang digunakan agar dapat 
+mengoptimalkan stok dan permintaan?  
+Tujuan penelitian untuk mengetahui target yang akan dicapai dalam 
+penelitian ini. Berikut tujuan penelitian ini adalah sebagai berikut.  
+1. Menghasilkan platform koperasi petani kentang.  
+2. Menghasilkan data prediksi permintaan di masa depan selama periode tertentu    
+1.4   Tujuan Penelitian  
+dan dicatat dalam blockchain. 
+3. Menghasilkan data inventory  secara realtime dan dicatat dalam blockchain. 
+  24 
+ Berdasarkan hasil kajian Tabel 2.2, dapat dilakukan pengembangan model 
+koperasi petani untuk produk kentang dengan tujuan ketahanan pangan dan 
+mengoptimalkan rantai pasok. Model Platform koperasi petani berdasarkan 
+economic sharing  dan prinsip perkoperasian. Peluang terbesar dalam penelitian ini 
+seperti yang dijelaskan pada BAB I adalah sebagai berikut.  
+1. Transportasi digital di bidang pertanian merupakan tren penting dalam 
+praktik dan tata kelola yang berkelanjutan. Teknologi blockchain yang 
+terdesentralisasi dapat menjamin keamanan data yang lebih besar dan 
+menawarkan peluang untuk menciptakan aset dan in formasi digital dengan 
+tingkat kekekalan dan transparansi yang tinggi  
+2. Artificial Neural Network  adalah jenis algoritma pembelajaran mesin yang 
+terinspirasi oleh struktur dan fungsi otak manusia. Dalam konteks 
+manajemen rantai pasok, ANN dapat digunakan untuk peramalan 25 
+ permintaan, optimalisasi, inventaris, perencanaan logistik, dan deteksi 
+anomali.  
+3. Safety stock  merupakan salah satu metode yang digunakan untuk 
+menghindari resiko kehabisan stok. Sehingga dalam rantai pasok, inventory 
+management  yang efektif dapat memastikan layanan yang terbaik kepada 
+pelanggan dan mempertahankan reputasi perusahaan.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 26 
+ Bab 3 
+Metodologi Penelitian  
+3.1 Alur Penelitian  
+Alur penelitian menggambarkan alur dari awal hingga akhir penelitian 
+dilaksanakan. Alur penelitian ini diuraikan pada Gambar 3.1 di bawah ini.  
+ 
+Gambar 3.1 Alur Penelitian  
+27 
+ 3.2 Identifikasi Masalah  
+Identifikasi masalah adalah salah satu langkah pertama yang dilakukan 
+sebelum melakukan penelitian. Identifikasi masalah merupakan suatu proses 
+mencari dan mengetahui masalah yang ingin diselesaikan. Identifikasi masalah ini 
+membantu penelitian untuk memah ami tantangan yang dihadapi oleh petani 
+kentang skala nasional dan merancang solusi yang tepat sesuai dengan kebutuhan 
+mereka. Identifikasi masalah pada penelitian ini berfokus pada mengidentifikasi 
+proses perancangan model koperasi petani, mengidentifikas i metode prediksi 
+permintaan dengan ANN di dalam blockchain yang digunakan untuk 
+mengoptimalkan permintaan pelanggan di masa depan selama periode tertentu, dan 
+mengidentifikasi metode safety stock  di dalam blockchain yang digunakan agar 
+dapat mengoptimalkan stok dan permintaan.  
+Identifikasi masalah pada penelitian ini, peneliti dapat lebih memahami 
+kendala dan kebutuhan petani kentang skala nasional. Perancangan model platform 
+koperasi untuk meningkatkan efisiensi dan kerjasama antarpetani dengan koperasi 
+sebagai mitranya. Sement ara itu, metode prediksi permintaan dengan menggunakan 
+Artificial Neural Network (ANN) diharapkan dapat membantu petani mengelola 
+produksi secara lebih tepat sesuai dengan kebutuhan pasar dan koperasi dapat 
+menyesuaikan persediaan stok dan permintaan secar a dinamis dari hasil prediksi 
+permintaan. Selain itu, identifikasi masalah juga mencakup penerapan metode 
+safety stock  untuk mengoptimalkan manajemen stok, memastikan ketersediaan 
+barang, dan meningkatkan responsibilitas terhadap fluktuasi permintaan pasar. 
+Dengan penerapan ANN dan metode safety stock di dalam blockchain, semua 
+prediksi dan manajemen stok dapat dicatat di  dlaam buku besar yang tidak dapat 
+diubah, sehingga meningkatkan transparansi dan keamanan data dalam rantai 
+pasok. Sehingga koperasi ini dapat melakukan perencanaan yang lebih akurat, 
+meminimalkan pemborosan, dan meningkatkan ketersediaan kentang sesuai dengan 
+kebutuhan pelanggan. Dengan demikian, platform koperasi menjadi responsif 
+terhadap perubahan permintaan pasar, mendukung pertumbuhan  ekonomi para 
+petani, memperkuat kolaborasi antar anggota koperasi serta memiliki transparansi 
+dan keamanan pada rantai pasok.  28 
+ 3.3 Studi Literatur  
+Studi literatur yang dilakukan pada penelitian engembangan platform 
+koperasi petani ini dimulai dari pencarian dan review  literatur -literatur terbaru dan 
+relevan yang telah diterbitkan. Studi literatur juga dapat dari teori -teori buku yang 
+relevan dengan metode yang digunakan. Analisis literatur membantu untuk 
+mengidentifikasi kerangka kerja, metode, dan teknologi yang telah  digunakan pada 
+penelitian sebelumnya. Studi literatur dapat digunakan sebagai mencari solusi dan 
+menganalisa penelitian yang dilakukan . 
+Studi literatur juga membantu dalam mengetahui tantangan dan peluang 
+yang mungkin dihadapi dalam pengembangan platform koperasi petani kentang. 
+Sehingga informasi tersebut dapat memberikan sebuah wawasan terkait dengan 
+penelitian yang dilakukan.   
+ 
+3.4 Pengumpulan Data  
+Pengumpulan data yang digunakan sebagai bahan dalam mengolah data. 
+Sehingga penelitian ini akan menghasilkan data yang sesuai dengan tujuan 
+penelitian. Penelitian ini mengumpulkan data sekunder dan data primer. 
+Pengumpulan data pada penelitian ini terdiri dari beberapa proses sebagai berikut.  
+ Pengumpulan data sekunder memanfaatkan sumber informasi yang sudah 
+ada, seperti literatur ilmiah, dokumen resmi, dan data statistik yang relevan. Proses 
+ini memungkinkan peneliti untuk memahami konteks yang telah ada sebelumnya 
+dan memanfaatkan pengetahua n serta data yang telah dihasilkan sebelumnya.  
+ Berdasarkan data yang diperoleh dari Badan Pusat Statistik (BPS) tahun 
+2022, menjelaskan data produksi kentang di berbagai wilayah Indonesia. Beberapa 
+wilayah Indonesia berhasil dalam produksi kentang dan beberapa wilayah 
+Indonesia yang tidak dapat mempro duksi kentang. Data tersebut memberikan 
+gambaran lengkap mengenai kegiatan pertanian kentang di berbagai wilayah 
+Indonesia pada tahun 2022. Berikut data BPS tahun 2022 produksi kentang di 
+berbagai wilayah Indonesia.  
+ 
+ 29 
+ Tabel 3.1 Data Lokasi Produksi Kentang 2022  
+ 
+(Sumber : Badan Pusat Statistik, 2023)  
+ Pengumpulan data primer yaitu melakukan pencarian secara langsung untuk 
+mengumpulkan data serta informasi baru sesuai dengan tujuan penelitian. Metode 
+ini seperti pengambilan data survei, wawancara, observasi, atau eksperimen, 
+dengan tujuan untuk kebutuha n penelitian. Data primer yang akan digunakan pada 
+penelitian ini adalah kebutuhan pengguna, aliran data dari petani dengan koperasi 
+sebagai mitranya, data musim, data historis penjualan, data produksi kentang dan 
+data harga kentang.   
+Pengambilan data primer dilakukan di Wonosobo, Jawa Tengah. Berdasarkan 
+informasi yang didapatkan dari salah satu petani di Wonosobo, Jawa Tengah disana 
+terdapat banyak petani kentang dan sayuran lainnya. Menurut BPS, Kabupaten 
+Wonosobo, Jawa Tengah adalah  wilayah yang terbanyak memproduksi kentang di 
+provinsi Jawa Tengah. Pola distribusi kentang di Wonosobo, Jawa Tengah terdiri 
+dari 3 pola sebagai berikut (Zaenuri, et al, 2023).  
+30 
+  
+Gambar 3.2 Pola Distribusi Kentang  
+ 
+3.5 Blockchain  
+ Pada penelitian ini, untuk meningkatkan keamanan dan transparansi maka 
+menggunakan teknologi blockchain untuk rantai pasok kentang. Berikut flowchart 
+kecerdasan buatan, safety stock yang dikombinasikan di dalam blockchain.  
+ 
+Gambar 3.3 Flowchart Blockchain  
+ Berdasarkan gambar di atas menggambarkan kombinasi ANN dan safety 
+stock di dalam blockchain. Data rantai pasok yang telah dikumpulkan, kemudian 
+31 
+ dimasukkan ke dalam database. Data tersebut diverifikasi dalam blockchain dengan 
+proses pembuatan blok baru yang melibatkan perhitungan hash blok sebelumnya, 
+menyusun blok baru, menghitung hash blok baru, dan mencapai konsensus untuk 
+menambahkan blok ke ra ntai. Data yang diverifikasi kemudian diproses 
+menggunakan model Artificial Neural Network (ANN). Tahapan dalam ANN 
+meliputi praproses data, inisialisasi model, pelatihan model, validasi model, dan 
+evaluasi kinerja. Hasil prediksi permintaan disimpan dalam  blockchain dengan 
+proses pembuatan blok baru yang sama seperti langkah sebelumnya. Selanjutnya 
+permintaan data diverifikasi, dan jika valid, safety stock dihitung menggunakan 
+rumus safety stock yang sudah ada. Hasil perhitungan safety stock disimpan dalam  
+database dan dicatat dalam blockchain dengan pembuatan blok baru. Semua data 
+dari proses tersebut dicatat dalam blockchain untuk memastikan transparansi dan 
+keamanan. Proses validasi memastikan bahwa data permintaan dan pengelolaan 
+stok selalu diperbarui dan valid sebelum digunakan untuk pengambilan keputusan.  
+ 
+3.6 Design Sistem dengan UML  
+ Pengembangan platform koperasi petani kentang menggunakan metode 
+Unified Modeling Language  (UML) untuk menggambarkan struktur, fungsi dan 
+interaksi komponen sistem secara visual. Dimana proses metode UML ini diawali 
+dengan identifikasi kebutuhan sistem dan pemahaman terhadap fungsionalitas yang 
+terkait dengan economic sharing  dan prinsip -prinsip perkoperasian.  
+ 
+3.6.1  Analisis Kebutuhan Sistem  
+Analisis kebutuhan sistem bertujuan untuk mengidentifikasi kebutuhan dari 
+pengguna dan stakeholder sistem. Pengumpulan informasi pada proses ini 
+mengenai detail cara kerja sistem dan batasan -batasan yang ada. Pengumpulan data 
+dilakukan melalui wawancara, a tau survei. Analisis kebutuhan sistem dapat 
+menentukan arah dan ruang lingkup proyek pengembang sistem, serta memastikan 
+bahwa produk akhir akan memenuhi harapan dan memecahkan masalah yang 
+dihadapi oleh pengguna.  32 
+  
+Gambar 3. 4 Multi Stakeholder Cooperative  
+ Gambar 3. 4 menjelaskan proses Multi -Stakeholder Cooperative , dimana 
+anggota koperasi termasuk dari workers, community, producers , dan consumers . 
+Mereka memilih Board of Director  dari para anggotanya. Board of Director  
+merupakan struktur organisasi yang bertanggung jawab dalam mengawasi 
+manajemen yang dijalankan oleh koperasi, dengan setiap anggotanya memiliki 
+tugas khusus sesuai dengan tujuan koperasi. Dewan Direksi berperan penting dalam 
+menjaga keberlanjutan dan kese imbangan antara berbagai kepentingan dalam 
+konteks Multi -Stakeholder Cooperative . 
+ 
+Gambar 3. 5 Pengguna Platform  
+ Gambar 3. 5 mendeskripsikan pengguna platform koperasi petani yang 
+melibatkan sejumlah pihak. Pengguna platform ini terdiri dari consumers  yang 
+dapat mengakses produk pertanian secara langsung, farmers  yang memanfaatkan 
+platform untuk memasarkan hasil panen,  companies  yang terlibat dalam dukungan 
+pengembangan teknologi, dan partner cooperatives  yang menjadi bagian dari 
+33 
+ kolaborasi kerjasama antar koperasi untuk meningkatkan kesejahteraan bersama. 
+Keterlibatan seluruh pihak ini, diharapkan platform koperasi petani menciptakan 
+lingkungan yang saling mendukung dan berkelanjutan, memperkuat konektivitas 
+antar anggota untuk me ncapai tujuan bersama dalam dunia pertanian.  
+ 
+3.6.2  Use Case Diagram  
+ Model pertama UML adalah pemodelan use case  diagram, dimana 
+menggambarkan skenario -skenario utama pengguna platform koperasi. Use case 
+diagram digunakan untuk menunjukkan hubungan dan struktur kelas -kelas yang 
+terlibat dalam sistem, termasuk entitas -entitas seperti data permintaan, stok 
+kentang, dan pengguna.  
+ 
+Gambar 3. 6 Use Case Diagram  
+Gambar 3. 6 adalah diagram use case untuk Platform Koperasi Petani yang 
+menunjukkan berbagai interaksi antara pengguna dan sistem. Pada diagram use 
+34 
+ case, terdapat aktor yang terdiri dari petani, konsumen, anggota koperasi dan admin. 
+Registrasi dilakukan oleh petani, anggota koperasi dan konsumen. Proses login 
+untuk mengakses fitur yang terdapat pada website koperasi dapat dilakukan oleh 
+petani, anggot a koperasi, konsumen dan admin. Proses mencatat produksi hanya 
+dilakukan oleh petani, dimana petani mencatat data produksi kentang mereka yang 
+kemudian akan dicatat di blockchain. Proses melacak produksi dan distribusi 
+menggunakan blockchain. Proses verifi kasi produk kentang yang dihasilkan oleh 
+petani. Proses verifikasi dilakukan oleh admin dan anggota koperasi. Proses 
+melakukan pembelian melalui website dilakukan oleh konsumen. Proses mengelola 
+transaksi yang terjadi di dalam sistem, memastikan semua tran saksi tercatat di 
+blockchain dilakukan oleh admin. Proses melihat laporan dan statistik dari data 
+produksi, distribusi, dan transaksi yang terjadi di dalam sistem dilakukan oleh 
+admin, anggota koperasi dan petani.  
+ 
+3.6.3  Activity  Diagram  
+Model kedua adalah activity  diagram untuk menggambarkan alur kerja atau 
+proses -proses yang terjadi dalam platform koperasi. Activity  diagram dapat 
+membantu dalam menguraikan langkah -langkah yang diperlukan dari pemesanan 
+kentang hingga manajemen stok.  
+ 
+Gambar 3. 7 Activity Diagram Mencatat Produksi  
+35 
+ Diagram pada Gambar 3. 7 adalah proses mencatat produksi yang diawali 
+dengan login seorang petani ke dalam platform koperasi petani. Petani memulai 
+dengan membuka platform dan memilih opsi untuk login. Setelah login berhasil, 
+petani memasukkan data produksi kentang. Sistem akan m emverifikasi data. 
+Selanjutnya sistem mencatat data di blockchain dan sistem memberikan notifikasi 
+ke petani.  
+ 
+ 
+Gambar 3. 8 Activity Diagram Melacak Produksi dan Distribusi  
+Diagram pada Gambar 3. 8 merupakan alur proses melacak produksi dan 
+distribusi. Proses ini dilakukan dari anggota melakukan login ke sistem. 
+Selanjutnya anggota koperasi memilih menu pelacak produksi dan distribusi. 
+Sistem akan menampilkan tampilan menu pelacak produksi dan distr ibusi dan 
+anggota koperasi memasukkan ID produk. Sistem akan mengambil data dari 
+blockchain dan jika data telah dikirim oleh blockchain, selanjutnya sistem akan 
+menampilkan informasi pelacak.  
+36 
+  
+Gambar 3. 9 Activity  Diagram Pembelian  
+Diagram pada Gambar 3. 9 menggambarkan proses pembelian yang 
+dilakukan oleh konsumen. Konsumen melakukan login di sistem koperasi petani. 
+Selanjutnya, konsumen mencari produk yang ingin dibeli dan memilih produk serta 
+memasukkan jumlah pembelian. Sistem akan memverifikasi stok pr oduk. 
+Konsumen selanjutnya memasukkan informasi pembayaran. Sistem akan mencatat 
+transaksi di blockchain dan sistem akan mengirimkan notifikasi pembelian.  
+ 
+Gambar 3. 10 Activity Diagram Kelola Transaksi  
+Diagram pada Gambar 3. 10 menggambarkan alur proses mengelola 
+transaksi. Pertama, admin melakukan login pada sistem website koperasi. Admin 
+37 
+ memilih menu manajemen transaksi dan sistem menampilkan daftar transaksi yang 
+terjadi. Admin memverifikasi transaksi yang belum diverifikasi lalu mengubah 
+status transaksi sesuai hasil verifikasi. Sistem memperbarui data di blockchain. 
+Sistem akan menampil kan laporan transaksi yang berhasil diperbarui di blockchain.  
+ 
+3.6.4  Sequence  Diagram  
+Model ketiga adalah sequence  diagram, dimana diagram ini dapat 
+membantu dalam menggambarkan urutan peristiwa atau interaksi antar komponen 
+dalam sistem, seperti bagaimana data pemesanan diteruskan dan diproses.  
+ 
+Gambar 3. 11 Sequence  Diagram Mencatat Produksi  
+Diagram pada Gambar 3. 11 menggambarkan proses mencatat produksi 
+kentang petani di website koperasi yang terintegrasi dengan blockchain. Pertama, 
+petani memilih menu login dan mengisi form login ke website koperasi. Website 
+memverifikasi dan mengirimkan notifikasi login sukses. Pe tani selanjutnya 
+memilih menu data produksi dan melakukan input data produksi seperti nama 
+produk, kuantitas, tanggal produksi, dan sebagainya. Website akan memverifikasi 
+data yang di masukkan oleh petani. Setelah data diverifikasi, website koperasi 
+mengir imkan data produksi ke blockchain. Blockchain akan memverifikasi data 
+tersebut melalui node -node yang ada. Data produksi yang telah diverifikasi oleh 
+node blockchain selanjutnya dicatat di dalam blockchain. Kemudian website 
+38 
+ koperasi mengirimkan notifikasi ke petani bahwa data produksi telah berhasil 
+tercatat  
+ 
+Gambar 3.1 2 Sequence Diagram Melacak Produksi dan Distribusi  
+Diagram pada Gambar 3.1 2 menunjukkan tahapan yang dilalui oleh seorang 
+petani untuk  melacak produksi dan distribusi kentang melalui website koperasi 
+yang terintegrasi dengan blockchain. Pertama, anggota koperasi. Mengirimkan 
+permintaan login ke website koperasi. Website akan mem verifikasi dan 
+mengirimkan notifikasi login sukses. Anggota koperasi memilih menu pelacak 
+produksi dan distribusi pada website. Anggota koperasi memasukkan ID produk 
+yang ingin dilacak. Website koperasi mengirimkan permintaan untuk mengambil 
+data pelacakan  dari blockchain. Blockchain mengirimkan data pelacakan yang 
+diminta. Selanjutnya, website koperasi akan menampilkan informasi pelacakan 
+yang diperoleh dari blockchain kepada anggota koperasi. 
+ 
+Gambar 3.1 3 Sequence  Diagram Pembelian  
+39 
+ Diagram pada Gambar 3.1 3 menunjukkan alur proses pembelian yang 
+dilakukan oleh konsumen untuk membeli produk kentang melalui website koperasi 
+yang terintegrasi dengan blockchain. Konsumen mengirimkan permintaan login ke 
+website koperasi. Website koperasi akan memverifikasi data l ogin yang diinput 
+oleh konsumen dan mengirimkan notifikasi login sukses. Konsumen memilih menu 
+produk dan input nama produk yang akan dicari di sistem website. Website koperasi 
+akan menampilkan daftar produk yang diinginkan. Konsumen memilih produk dan 
+mem asukkan jumlah pembelian. Website akan memverifikasi stok produk yang 
+tersedia. Setelah stok produk diverifikasi, website akan mengirimkan informasi stok 
+tersedia dan konsumen memasukkan informasi pembayaran. Website koperasi akan 
+mengirimkan data transaks i ke blockchain untuk dicatat. Blockchain memverifikasi 
+dan mencatat transaksi. Website koperasi akan mengirimkan informasi kepada 
+konsumen bahwa transaksi telah berhasil dicatat.  
+ 
+Gambar 3.1 4 Sequence  Diagram Mengelola Transaksi  
+Diagram yang ditampilkan pada Gambar 3.1 4 menggambarkan langkah -
+langkah dalam mengelola transaksi di website koperasi. Admin mengirimkan 
+permintaan login ke website koperasi. Website koperasi akan memverifikasi dan 
+mengirimkan notifikasi login sukses. Setelah berhasil login, admin memilih menu 
+40 
+ manajemen transaksi. Admin melihat daftar transaksi yang terjadi. Selanjutnya 
+admin memilih transaksi yang belum diverifikasi dan melakukan verifikasi. 
+Website koperasi mengubah status transaksi berdasarkan hasil verifikasi. Website 
+mengirimkan permintaan untuk memperbarui status transaksi di blockchain. 
+Blockchain memverifikasi dan memperbarui status transaksi. Admin melihat 
+laporan transaksi yang telah diperbarui. Website mengambil data laporan dari 
+blockchain dan menampilkan kepada admin.  
+ 
+3.7 Prediksi Permintaan dengan ANN  
+Metode prediksi permintaan dalam penelitian ini bertujuan untuk 
+memprediksi jumlah kentang yang diminta oleh pasar atau konsumen pada periode 
+waktu tertentu. Metode yang digunakan pada prediksi permintaan adalah metode 
+ANN. Input data yang akan digunakan a dalah data kuantitatif dan kualitatif yang 
+dapat mempengaruhi permintaan di masa depan, sehingga agar hasil prediksi 
+permintaan dapat lebih akurat.  
+Dengan menerapkan metode ANN pada prediksi permintaan ini, penelitian 
+dapat memberikan prediksi yang lebih tepat terkait kebutuhan pasar di masa 
+mendatang sehingga dapat meningkatnya efektivitas rantai pasok. Prediksi ini juga 
+dapat memberikan petani wawas an yang berharga terkait potensi pasar dan 
+membantu mereka mengoptimalkan produksi serta mitra koperasi dapat 
+merencanakan strategi pemasaran yang lebih efektif. Dengan menerapkan metode 
+prediksi permintaan kentang menggunakan metode ANN, penelitian ini da pat 
+memberikan kontribusi signifikan dalam mendukung keberlanjutan dan efisiensi 
+dalam pertanian kentang.  
+Langkah pra -pemrosesan data melibatkan pengumpulan data historis 
+relevan seperti data penjualan sebelumnya, data harga, data produksi kentang serta 
+data musim sebagai faktor eksternal yang dapat memengaruhi permintaan. 
+Kemudian, dilakukan data cleaning, di normalisasi, dan di -transformasi untuk 
+memastikan bahwa ANN yang akan dibangun dapat bekerja dengan efektif dan 
+menghasilkan prediksi yang akurat.  41 
+ Langkah selanjutnya adalah desain dan pelatihan model ANN. Tahapan ini 
+melibatkan proses pemilihan arsitektur jaringan yang tepat, termasuk jumlah 
+lapisan tersembunyi, jumlah neuron per lapisan, fungsi aktivasi, dan algoritma 
+pembelajaran. Pelatihan model merupakan proses ANN menyesuaikan bobotnya 
+berdasarkan kesalahan prediksi melalui metode seperti backpropagation. Pada 
+tahapan ini, penyesuaian parameter seperti kecepatan belajar dan momentum 
+dilakukan untuk memperbaiki proses pembelajaran model. Setelah dilatih dengan 
+baik, model akan mampu mengenali pola kompleks dan hubungan non -linear dalam 
+data.  
+Tahapan evaluasi model ANN adalah tahapan dimana model yang telah 
+dilatih dan diuji menggunakan dataset yang belum pernah dilihat sebelumnya untuk 
+menilai kemampuannya dalam memprediksi permintaan dengan akurat. Matrik 
+evaluasi seperti Mean Square Error  (MSE) atau Mean Absolute Percentage Error  
+(MAPE) merupakan matrik yang sering digunakan untuk mengukur kinerja model. 
+Berdasarkan hasil evaluasi, model prediksi yang akurat dari model ANN ini 
+berguna untuk perusahan dalam membuat keputusan strategis seperti inventory 
+management . 
+Proses prediksi permintaan dengan ANN akan menghasilkan data 
+permintaan yang diharapkan, informasi tersebut digunakan untuk proses inventory 
+management . Data prediksi permintaan tersebut akan digunakan sebagai dasar 
+perhitungan safety stock . Sehingga perusahaan dapat merencanakan dan 
+menyesuaikan kuantitas inventory yang cukup untuk memenuhi permintaan, 
+dimana akan meminimalisir biaya penyimpanan dan mengurangi risiko kekurangan 
+stok. Tujuannya agar operasi bisnis dapat berjalan dengan lanca r dan efisien, s erta 
+mengoptimalkan ketersediaan produk.  
+ 
+3.8 Inventory Management  
+ Proses inventory management  menggunakan metode  safety stock  
+merupakan proses untuk menjaga ketersediaan persediaan dalam platform secara 
+efektif. Tahapan pertama, penelitian ini memerlukan analisis data historis 42 
+ permintaan kentang, fluktuasi pasokan, dan waktu panen, sehingga dapat 
+mengidentifikasi kebutuhan pasokan dan resiko keterlambatan.   
+ Penerapan metode  safety stock pada penelitian ini akan menentukan tingkat 
+persediaan tambahan yang diperlukan untuk mengatasi ketidakpastian dalam 
+permintaan atau keterlambatan pasokan. Hal ini bertujuan untuk memberikan 
+keandalan dan menghindari kekurangan persediaan yang dapat mengha mbat 
+operasional koperasi. Metode safety stock dalam pengembangan platform koperasi 
+petani kentang pada penelitian ini untuk meningkatkan efisiensi manajemen 
+persediaan.  
+ 
+3.9 Integrasi  
+ Tahapan integrasi merupakan proses menggabungkan sistem, aplikasi, atau 
+teknologi yang berbeda menjadi satu kesatuan yang berfungsi secara harmonis. 
+Pada proses ini, berbagai komponen yang sebelumnya beroperasi secara terpisah 
+agar dapat berinteraksi satu  sama lain dalam mencapai tujuan bersama. Integrasi 
+bertugas menyatukan aspek desain sistem dengan UML, prediksi permintaan dan 
+inventory management . Proses integrasi menjamin bahwa data yang diolah 
+sebelumnya dapat digunakan dengan baik untuk mendukung pe ngambilan 
+keputusan. Selain itu, integrasi ini melibatkan penggunaan Artificial Neural 
+Network (ANN) dan metode safety stock yang terintegrasi dalam blockchain untuk 
+rantai pasok. Data dari prediksi permintaan dan pengelolaan stok dicatat secara 
+transparan  dan aman dalam blockchain. Website koperasi akan terintegrasi dengan 
+blockchain, untuk memastikan efisiensi dan transparansi dalam seluruh proses 
+manajemen rantai pasok.  
+ 
+3.10 Pengujian Sistem  
+ Tahapan pengujian sistem dalam penelitian merupakan langkah untuk 
+mengevaluasi kinerja atau fungsionalitas sistem yang dikembangkan atau diuji pada 
+penelitian. Proses pengujian sistem mencakup implementasi prototipe atau model 
+sistem, hingga serangkaian u ji coba. Tujuan dari tahapan pengujian sistem adalah 
+mengidentifikasi adanya kegagalan, mengukur efektivitas sebuah sistem serta 43 
+ memastikan sistem berjalan sesuai dengan tujuan dan persyaratan yang telah 
+ditetapkan sebelumnya.  
+ Pada penelitian ini, sistem platform koperasi petani diharapkan dapat 
+berjalan sesuai dengan tujuan dan persyaratan perkoperasian serta sesuai dengan 
+model platform economic sharing . Platform koperasi petani kentang pada 
+penelitian ini akan berbasis website dan dilengkapi dengan kecerdasan buatan yang 
+dikombinasikan dengan blockchain.  
+ 
+3.11 Evaluasi  
+ Tahapan selanjutnya adalah evaluasi. Evaluasi dilakukan untuk memastikan 
+bahwa semua komponen sistem berfungsi sesuai rencana. Evaluasi melibatkan 
+penilaian kinerja pada sistem secara keseluruhan, dan memeriksa apakah integrasi 
+berjalan tanpa hambatan. Ta hapan evaluasi juga dapat mengidentifikasi apakah 
+hasil pengujian sistem sesuai dengan tujuan awal dan menentukan area yang 
+mungkin memerlukan peningkatan. Hasil dari tahap evaluasi menjadi petunjuk 
+penting untuk membuat perubahan dan peningkatan, sehingga  sistem dapat bekerja 
+lebih baik lagi.  
+ 
+3.12 Analisis Hasil  
+ Analisis merupakan tahapan penelitian, dimana menyimpulkan serta 
+menguraikan informasi dari hasil data yang telah diolah dan diuji sebelumnya. 
+Tahapan analisis dapat memberikan makna dari temuan -temuan tersebut. Tahapan 
+ini memberikan identifikasi faktor -faktor yang dapat mempengaruhi kinerja sistem 
+dan memberikan rekomendasi untuk peningkatan di masa yang akan datang.  

@@ -1,0 +1,331 @@
+ 
+ 
+ 
+ 
+PENGEMBANGAN ALGORITMA KUANTUM DBSCAN  UNTUK 
+KLASTERISASI  SUPPLIER  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 BAB I  
+PENDAHULUAN  
+ 
+ 
+1.1 Latar Belakang  
+Dalam era digital yang ter us berkemban g, pengolahan dan analisis data 
+memiliki peran krusial dalam mengambil keputusan yang efektif di berbagai 
+bidang, termasuk ilmu pengetahuan, bisnis, dan teknologi.  Terlihat dalam  
+beberapa de kade terakhir  di Indonesia , Teknologi Informasi dan Tekn ologi ( TIK) 
+telah memban tu pesatnya pertumbuhan indu stri, mendorong efisiensi  dalam 
+pemerintahan, dan operasional bisnis, serta mengembangkan landasan  penting 
+menuju perekonomian berbasis tekn ologi. Sehingga  dapat mempermudah 
+perusahaan dalam mencari i nformasi menge nai supplier  dalam  jumlah yang 
+banyak.  
+Mengacu pada data Badan Pusat Statistik pembangunan teknologi informasi 
+dan teknologi di Indonesia , menunjukkan perkembangan positif dal am lima tahun 
+terakhir. Pada tahun 2018, nilai Indeks Pembangunan TIK tercatat  sebesar 5,07 
+dan terus meningka t hingga tahun 2022 dengan nilai mencapai  5,85. Secara 
+keseluruhan, peningkatan indeks yang terjadi dalam lima tahun  sebesar 0,78 poin  
+BPS ( 2023). Terlihat pada Gamb ar 1.1 m enunjukkan perkem bangan teknologi dan 
+informasi  dalam lima tahun terakhir.  
+ 
+Gambar  1.1 Index Pembangunan TIK di Indonesia  (BPS 2023 ) Berdasarkan Gambar 1.1 d iatas d engan  meningk atnya pembang unan 
+teknologi dan komunikasi , hal ini dapat memudahkan dalam pe ncarian data . Data 
+yang dikumpulk an dapat berjumlah ban yak dan beragam , hal ters ebut kemudian 
+dikenal dengan istil ah big data . Big data  bukan hanya  tentang bany ak data, tetapi 
+sebenarnya merupakan konsep baru yang memberi kesem patan untuk menemukan 
+wawasan baru tentang data yang ada  Kurasova et al. (2014) . Jenis big data  yang 
+tidak terstruktur menuntut analisis secara langsung  yang lebih mendalam 
+dibandingkan dengan dataset standar . Pemahaman yang lebih dalam mengenai  
+nilai-nilai yang ada , seperti kebutuhan untuk mengatur d an memanipulasi 
+kumpulan data yang begitu besar secara unik. Semakin banyaknya data yang 
+tersedia dari berbagai sumber, hal ini juga membawa isu -isu ru mit yang menuntut 
+perbaikan yang cepa t (Jawad & Al -Bakry, 2023) . 
+Salah satu yang dapat digunakan dalam menganalisis big data  adalah 
+klasterisasi. Klasterisasi merupakan sebuah  metode dari data mining  yang 
+membagi da ta ke dalam klaster ber dasarkan nilai similaritas antara d ata. 
+Klasteri sasi bertujuan untuk mengelompokkan data yang tidak berlabel sehingga 
+objek -objek data yang memiliki karakteristik dan atribut  serupa akan ber kumpul 
+dalam satu kluster , sehingga kemiripan objek da ta dalam klaster  yang sama akan 
+lebih tinggi j ika dibandingkan dengan objek data klaster  yang lain  Ikotun et al. 
+(2023) . Klasterisasi  terdapat metode yang dapat digunakan seperti, K-Means 
+Clustering (Ikotun et al., 2023) , KNN -Block DBSCAN  (Chen et al., 2019) , 
+DBSCAN  (Huang et al., 2021) , Affinity Propagati on (Duan et al., 2023) .  
+Pengelompokan berbasis kepadatan data adalah  metode untuk 
+mengidentifikasi kelompok atau klaster dalam data  berdasarkan kepadatan titik 
+data. Metode ini mengasumsikan bahwa klaster  terbentuk di area di mana titik -
+titik data terkumpul secara padat, sementar a area dengan kepadatan data yang 
+rendah dia nggap sebagai pemisah antar klaster . Tujuan dari pengelompokan  data 
+berbas is kepadatan adalah untuk mengidentifikasi daerah deng an bentuk y ang 
+berubah -ubah, yang dapat diukur  dengan kepadatan titik tertentu. Kluster yang 
+teridentifikasi biasanya adalah wil ayah dengan kepadatan tinggi, sedangkan 
+outlier  adalah wilayah dengan kepadatan rendah. Oleh karena itu, pengelompokan berbasis kepadatan a dalah salah satu yang paling paradi gma yang paling populer.  
+Salah satu algoritma kl astering yang digunakan untuk meng klasterisasi data 
+berdasarkan kepada tan data adalah algoritma DBSCAN  (Chen et al., 2019) . 
+DBSCAN  (Dens ity-based S patial Clustering of Application with Noise ) 
+adalah sebuah metode pembelajaran tanpa pengawasan, diu sulkan  pertama ka li 
+oleh Ester pada tahun 1996  yang menangani masalah pengelompo kan secara 
+efisien berdasa rkan kepada tan de Moura Ventorim et al. (2021) . DBSCAN  
+memiliki kapasitas untuk mengidentifikasi titik -titik noise secara efisien dan tepat. 
+Selain itu, DBSCAN  juga dapat membedakan klaster  dengan be ntuk yang 
+berubah -ubah.  DBSCAN  dapat diaplikasikan dalam berbagai bidang seper ti pada 
+bidang deteksi  penipuan , khususnya  dalam menganalisis  transaksi keuangan untuk 
+mengidentifikasi  perilaku mencurigakan  seperti yang dila kukan oleh Sivarajah et 
+al. (2017) , dalam bidang transpo rtasi dapat digunakan untuk menganalisis 
+karakteristik perjalanan dan ho tspot berdasarkan data trajektori  taksi yang 
+dilakukan oleh Du et al. (2024) , DBSCAN  juga dapa t diaplikasikan untuk 
+mengelompokkan  dan mengklasi fikasikan cacat jalur kereta  seperti yang 
+dilakukan oleh Vishwakarma et al. (2024) , dan p ada b idang in dustri penerapan  
+DBSCAN  digunakan untuk meng analisis data pemeliharaan untuk prediksi 
+kegagalan per alatan, meningkatkan keandala n dan efisiensi operasional  (Wang et 
+al., 2017) . 
+Pada penel itian yang dilakukan oleh Zhang et al. (2022)  mengembangkan 
+algoritma DBSCAN  dengan memanfaatkan DRL untuk secara otomatis mencari 
+parameter optimal DBSCAN  tanpa bantuan manual, seh ingga menghasilkan 
+peningkatan signifikan dalam akurasi dan efisiensi pengelompokan DBSCAN , 
+mencapai peningkatan akurasi pengelompokan hingga 26% dan 25%  serta mampu 
+menemukan parameter  dominan dengan efisiensi komputasi  tinggi . Selain itu 
+penelitian yang dilakukan ole h de Moura Ve ntorim et al. (2021)  dengan 
+mengg abungkan algoritma BIRCH dan DBSCAN  menunjukkan bahwa metode 
+yang diusulkan mencapai hasil terbaik dalam sebagian besar kasus sambil 
+menunjukkan variasi yan g rendah. Ini juga menunjukka n kompromi yang 
+memuaskan antara kualitas dan efisiensi ko mputasi, terb ukti sangat efisien dibandingkan dengan pesaing, terutama dalam skenario di mana DBSCAN  tidak 
+layak karena kendala waktu atau memori.  Meskipun DBSCAN  memili ki solusi 
+yang lebih  baik dalam klasterisasi , tetapi DBSCAN  masih memiliki k elemahan 
+seperti DBSCAN  memerlukan waktu yang relatif lama untuk data yang sangat 
+besar karena perlu menghitung jarak antara s emua pasangan titik dalam dataset  
+Luchi et a l. (2019) .  
+Mening katkan  kinerja DBSCAN  perlu mempelajari dan melakukan survei 
+dari pengemban gan DBSCAN  yang telah dikembangkan oleh beberapa peneli ti. 
+Dengan mempelajari dan memban dingkan beberapa algoritma, memungkinkan 
+untuk men dapatkan in forma si terkait kelebihan dan kekurangan mereka. Salah 
+satu komputasi yang dapat digunakan untuk mengembang kan DBSCAN  adalah 
+komputasi  kuantum. Algoritma kuantum  menawarkan solusi poten sial untuk 
+mengatasi kelemahan DBSCAN , terutama dalam hal ef isiensi kom putas i dan 
+kemampuan mengelola dataset yang sangat besar. Dalam era kuantum  computing, 
+kecepatan dan kapasitas  pemrosesan yang signifikan dapat dimanfaatkan  untuk 
+meningkatkan algoritma  pengelompokan tradisional seperti DBSCAN . Pada tahun 
+1982, Feynman men unjuk kan bahwa komputer kuantum dapat mencapai 
+peningkatan kecepatan yang signifikan dibandingkan komputer kla sik pada 
+masalah spesifik tertentu  (Feynman, 2018) . 
+Penelitian di bidang ini masih berkembang. Penelitian yang dilakukan  oleh 
+Lloyd et al. (2013)  tentang algoritma kuantum  untuk pemrosesan data 
+menunjukkan potensi signifikatif dari komputasi kuantum  dalam peng elompokan 
+dan analisis data. Meskipun belum s pesifik mengenai DBSCAN , prin sip yang 
+sama dapat diterapkan untuk mengembangkan versi kuantum  dari a lgori tma 
+pengelompokan ini.  
+Pada penelitian ini u ntuk mendukung transisi ke penggunaan komputasi 
+kuantum  dalam pengelompokan data,  perlu dilakukan lebih banyak penelitian 
+dalam  pengemba ngan algoritma yang spesifik dirancang untuk arsitektur 
+kuantum . Termasuk pe ngem bangan library dan framework  yang mendukung 
+pemrograman kuantum . Meskipun tantangan masih ada, termasuk keterbatasan 
+saat ini dalam teknologi komputer kuantum  dan kebu tuhan unt uk lebih memahami bagaimana terbaik mengintegrasikan prinsip kuantum  denga n kebu tuhan 
+penge lompokan data, arah penelitian ini bertujuan  untuk  mengatasi batasan 
+algoritma DBSCAN  dalam mengolah  dataset besar .  
+Dalam upaya meningkatkan efisiensi dan akurasi p engelompokan supplie r di 
+era digital yang terus berkembang, penelitian ini b ertujuan untuk mengembangkan 
+algoritma DBSCAN  dengan memanfaatkan kemampuan komputasi kuantum . 
+Fokus utama dari penelitian ini adalah  untuk mengatasi kelemahan utama 
+DBSCAN , khusus nya dalam hal pena nganan dataset besar dan kompleks, dengan 
+menerapkan prins ip-prinsip komputasi kuantum  yang dapat  meningkatkan  
+signifikan dalam kecepatan dan efisiensi pemrosesan data. Melalui pengemban gan 
+DBSCAN  kuantum , penelitian ini diharapkan dapat memberikan wawasan  baru 
+dalam klasterisasi supplier , memungkinkan analisis y ang lebih mendalam dan 
+pengambil an keputusa n yang lebih tepat dalam pengelolaan rantai pasok, serta 
+memberikan kontribusi pada k emajuan teknologi informasi dan komunikasi (TIK) 
+dalam mendukung pertu mbuhan industri dan perekonomian berbasis 
+teknologi  di Indonesia.  
+ 
+1.3 Rumusan Masalah  
+Berdasarkan latar belakang dan batasan masalah , diperoleh rumusan masalah 
+untuk mengembang kan algoritma DBSCAN . Berikut merupakan rumusan 
+masalah pada pe nelitian ini.  1. Bagaimana cara mengatasi keterbatasan algoritma DBSCAN  klasik dalam 
+mengelola dataset bes ar pada klasterisasi supplier  dengan mengguna kan 
+komputasi kuantum?  
+2. Bagaim ana pening katan efisiensi dan akurasi yang dapat dicapai oleh 
+DBSCAN  kuantum dalam pengelompokan  supplier  dibandingkan dengan 
+implementasi k lasik  nya?  
+ 
+1.4 Tujuan  Penelitian  
+Berdasarka n rumusan masalah yang telah dipaparkan , tujuan penelitian d apat 
+dijelaskan sebagai berikut.   
+1. Mengembangkan versi kuantum dari algorit ma DBSCAN  untuk mengatas i 
+keterbatasan dalam penanganan dataset besar pada klasterisasi supplier . 
+2. Mengevaluasi  peningkatan  efisiensi dan akurasi yang dic apai oleh DBSCAN  
+kuantum dala m pengelompokan supplier  dibandingkan dengan pendekatan 
+klasi k. DBSCAN  dilakuka n untuk meningkatkan kemampuan DBSCAN  dalam  
+pengelompokan  yang besar , seperti yang dilakukan oleh  (Chen et a l., 2021; Chen 
+et al., 2019; de Mou ra Ventorim et al., 202 1; Huang et al., 2023)  karena salah satu 
+kelemahan dari algoritma DBSCAN  yaitu kurang efektif dalam mengelompokkan  
+dataset besa r. Oleh karena itu  dilakuk an pengembangan untuk dapat 
+mengelompokkan  dataset besar. Selain itu, perkemban gan DBSCAN  juga 
+dilakuk an untuk dapat mengelompokkan  data stream, yang dimana data stream 
+selalu berubah ubah  karena data stream bersifat real -time, seperti yang dilakukan 
+oleh Bechini et al. (2020) . 
+Hasil peneli tian yang dilakukan oleh Chen et al. (2019)  menunjukkan ba hwa 
+KNN -BLOCK DBSCAN  memilik i akura si yang tinggi dan perf orma  yang lebih  
+Berdasarkan Tab el 2.1 Penelitian Terdahu lu dapat diketahui perkembangan baik dibandingkan varian DBSCAN  lainnya, termasuk ρ -approximate DBSCAN  
+dan AnyDBC, terutama dalam kecepatan proses klastering  tanpa mengor bankan 
+akurasi . Selain itu, penelitian yang dilakukan oleh de Moura Ventorim et al. 
+(2021)  dengan mengembangkan algoritma BIRCHSCAN h asil pe nelitian 
+menunjukkan bahwa BIRCHSCAN efektif dalam memproses dataset besar 
+dengan hasil yang serupa dengan DBSCAN , tetapi dengan pemrosesan waktu 
+yang lebih cepat.  Selain itu, p enelitian yang dilakukan oleh Chen et al. (2021)  
+dengan mengembangkan algoritma  BLOCK -DBSCAN  menunjukkan bahwa 
+BLOC K-DBSCAN  mengungguli varian DBSCAN  lainnya seperti NQ DBSCAN  
+dan ρ -approximate DBSCAN  dalam hal kecepatan d an akurasi, menjadikannya 
+pendekatan yang menjanjikan untuk analisis dataset  besar.  Selain itu, penelitian 
+yang dilakukan oleh Huang et al. (2021)  dengan mengembangkan algoritma GriT -
+DBSCAN  menunjukkan bahwa GriT -DBSCAN  memi liki kompleksitas waktu 
+linier terhadap ukuran dataset dan men awarkan kinerja y ang lebih baik 
+dibandingkan  algoritma DBSCAN  klasik .  
+Berdasarkan pada tujuan pengembangan algoritma  DBSCAN  yang telah 
+dilakukan pad a penelitian terdahulu, yaitu untuk menjaw ab kelemahan dari 
+algoritma DBSCAN  yang kurang efektif da lam mengelompokkan data set besar, 
+peneliti tertarik untuk mengembang kan algoritma DBSCAN  dengan 
+memanfaatkan  komputasi kuantum  untuk m engelo mpokkan data supplier . 15  
+ 
+BAB III  
+METODOLOGI PENELITIAN  
+ 
+ 
+3.1 Tahapan Penel itian  
+Dalam penelitian mengenai pengembangan algoritma DBSCAN  dengan 
+kuantum terdapat langkah-langkah yang dilakukan, seperti pada gambar 3.1. 
+Langkah -langkah  yang dilaukan d iantaranya yaitu, pengumpulan data, definisi 
+qubits kriteria, inisialis asi sistem kuantum , hingga evaluasi klaster.  
+DATA
+Definisi Qubits Kriteria
+Inisialisasi Sistem Kuantum
+Penentuan Eps dan MinPts 
+Kuantum
+Identifikasi Core Supplier 
+dengan Kuantum SirkuitIdentifikasi Noise Supplier 
+dengan Kuantum Sirkuit
+Penanganan Noise dengan 
+Kuantum StateFormasi Klaster Supplier 
+dengan Kuantum 
+MeasurementImplementasi Quantum 
+Distance Measure
+Identifikasi Core Supplier 
+dengan Kuantum sirkuit
+Evaluasi Klaster1
+2
+3
+4
+5
+6
+9
+10
+117
+8
+ 
+Gamb ar 3.1 Tahapan Penel itian 
+1. Data  
+Tahap awal dalam penelitian di awali dengan pembuatan  data, dimana data 
+yang digunakan pada penel itian ini adalah data s intetik. Data sintetik 
+digunakan untuk mendapatkan jumlah data yang besar , sela in itu  data sintetik 
+juga b ersifat fleksibel kar ena ju mlah data yang digunakan dapat ditentukan  
+sesuai dengan kebutuhan pengujian algo ritma yang dikembang kan. Data sintetik yang  dibuat berisikan nama supplier , harga, kualitas, dan waktu 
+pengiriman.  
+2. Definis i Qubits Kriteria  
+Pada taha p ini kriteria yang digunak an untuk pengelompokan supplier  diubah 
+menjadi representasi kuantum menggunakan qubits. Setia p kriteria mungkin 
+diwakili ol eh satu atau lebih qubits tergantung pada kompleksitas yang 
+diperlukan.  Kriteri a yang digunakan dalam peng elompokan supplier  yaitu, 
+Harga, Kualitas, dan Waktu Pengiri man.  
+3. Inisialisasi Sistem Kuantum  
+Pada tahapan ini melakukan p ersiapan awal dari komputer k uantum  yaitu  
+mengatur  qubits ke state awal dan memas tikan semua qubits berada dalam 
+keadaan awal sebelum operasi kuantum dijalankan. Pada tahapan ini juga 
+menentuk kan jumlah qubits yan g digunakan.  
+4. Implementasi  Quantum Distance Measure  
+Pada tahapan ini melakukan p enerapan metode untuk mengukur jarak antar 
+supplier  dalam ruang kuantum  dengan menggunakan prins ip-prinsip 
+mekanika kuantum . Tahapan ini digunakan dalam proses pengelom pokkan 
+data menggunakan Quantum DBSCAN  karena jarak antar supplier  akan 
+digunakan untuk menentukan klaster  
+5. Penentuan  Eps dan MinPts Kuan tum 
+Pada tahap ini men entukan nilai  nilai Epsilo n atau Eps dan minimum poi nts 
+(MinPts) dalam konteks kuantum untuk menentukan batas -batas klaster . 
+Epsilon atau Eps digunakan u ntuk menen tukan radius yang menentukan 
+lingkungan di sekitar setiap titik data. Dua titik dianggap ber tetangga jika 
+jarak antara mereka kurang dari nilai E ps. Minimum Points  atau Min Pts untuk 
+menentukan jumlah minimum titik yang diperlukan  untuk membentuk sebuah 
+klaster . 
+6. Identi fikasi Core  Supplier  dengan Kuantum Sirkuit 
+Pada tahapan ini m enggunakan rangka ian kuantum untuk mengident ifikasi 
+supplier ini ( core suppl ier). Supplier inti adalah supplier  yang memiliki cukup banyak tetangga  yang s esuai dengan minpts  dalam radius epsilon yang 
+telah ditentukan.  
+7. Identifikasi Noise Supplier  dengan Kuantum  Sirkuit  
+Pada tahapan ini mengi dentifikasi supplier  noise atau outlier  yang mem iliki 
+jarak tidak cukup dek at atau memiliki jarak  yang jauh  dengan supplier  lain 
+untuk dianggap bagian dari klaster . 
+8. Penanganan Noise dengan Quantum State  
+Pada tahapan ini Menge lola supplier  noise yang telah diidentifikasi  
+menggunakan teknik kuantu m untuk memisahkan atau mengelompok kan 
+noise secara terpisah.  Dalam DBSCAN  klasik, noise adalah titik data yang 
+tidak termasuk dalam klaster  apa pun. Titik -titik ini tidak memiliki cuku p 
+tetangga dalam radius Epsilon (Eps) atau tidak terhubung ke core poin t.  
+9. Identifikasi Core  Supplier  dengan Quantum Circuit  
+Pada tahapan ini mengidentifikasi titik -titik data yang berada dalam jarak 
+Epsilon  atau E ps dari titik inti tetapi tidak memiliki  cukup tetanga untuk 
+masuk ke dalam klaster  dengan menggunakan kuantum sirkuit . 
+10. Formasi Kluster Supplier  dengan Quantum Measurement  
+Pada tahapan ini m embentukan  klaster  supplier  dengan mengukur state  
+kuantum yang telah diubah melalui interaksi antar qubits  yang mewakili 
+supplier . 
+11. Evaluasi Kluster  
+Tahap terakhir di mana kualit as dan k eefektifan kluster yang ter bentuk 
+dievaluasi.  Tahapan  ini bertujuan untuk menilai seberapa baik kluster yang 
+terbentuk  mengguna kan. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+3.2 Rangkuman Langkah -Langk ah Penelitian  
+Setelah  mengembangkan algoritma kuantum DBSCAN  selanjutnya 
+membandingk annya dengan algo ritma DBSCAN  untuk mengetahui seberapa baik 
+algoritma DBSCAN  jika dibandingkan dengan algorit ma klasiknya . Langkah -
+langka h tersebut dapat dilihat pada Gambar 3.2 Rangkuman Langkah -Langka h 
+Prosedur Peneli tian. 
+DATA
+Definisi Qubits Kriteria
+Inisialisasi Sistem 
+Kuantum
+Penentuan Eps dan 
+MinPts Kuantum
+Identifikasi Core Supplier 
+dengan Kuantum SirkuitIdentifikasi Noise 
+Supplier dengan Kuantum 
+Sirkuit
+Penanganan Noise dengan 
+Kuantum StateFormasi Klaster Supplier 
+dengan Kuantum 
+MeasurementImplementasi Quantum 
+Distance Measure
+Identifikasi Core Supplier 
+dengan Kuantum sirkuitNormalisasi Data
+Penentuan Epsilon dan 
+Minpts
+Hitung Jarak Antar 
+Supplier
+Identifikasi Core Supplier
+Identifikasi Core SupplierIdentifikasi Noise 
+Supplier
+Supplier Tidak Termasuk 
+Dalam KlasterFormasi Klaster Supplier
+Evaluasi KlasterUSULAN 
+ALGORITMA
+ 
+Gambar 3.2 Rangkuman Langkah -Langka h Prosedur Peneli tian 
+ 

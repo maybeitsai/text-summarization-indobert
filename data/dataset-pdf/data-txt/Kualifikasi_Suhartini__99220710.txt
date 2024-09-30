@@ -1,0 +1,134 @@
+ 
+ 
+ 
+ 
+PENGENALAN BIJI KOPI ARABIKA MENGGUNAKAN 
+COMPUTER VISION  BERDASARKAN KLASIFIKASI 
+VARIETAS KOPI ARABIKA DI INDONESIA  
+ 
+ 
+  
+BAB I PENDAHULUAN  
+ 
+ 
+1.1.Latar Belakang  
+Pandemi COVID -19 masih berdampak nyata pada seluruh aspek kehidupan 
+perekonomian nasional bahkan  dunia. Sektor ekonomi mengalami penurunan yang 
+signifikan  akibat pandemic ini,  namun tidak demikian dengan se ktor pertanian. 
+Sektor pertanian tidak terkena imbas dari pandemic COVID -19. Peningkatan sektor 
+pertanian terjadi pada kwartal 2 dan 3 tahun 2020.  Pada triwulan II , Produk 
+Domestic Bruto (PDB)  sektor pertanian tumbuh 16,24% dan pada triwulan III 
+tumbuh 2,15%. Pertumbuhan sektor pertanian sekaligus membuat kontribusinya 
+terhadap ekonomi nasional terus menguat. Hal ini terlihat dari peningkatan 
+kontribusi pada PDB triwulan III yang makin meningkat menjadi sebesar 571,87 
+triliun rupiah atau 14,68%.  Berdasarkan data Badan Pusat Statistik (BPS) tercatat 
+ekspor perkebunan pada periode Januari -Oktober 2020 sebesar 359,5 Triliun 
+Rupiah atau  naik 11,6% dibandingkan periode yang sama tahun 2019 sebesar 322,1 
+triliun. Dengan nilai sebesar tersebut, sub sektor perkebunan menjadi penyumbang 
+terbesar ekspor di sektor pertanian dengan kontribusi sebesar 90,92 persen.  Kopi 
+merupakan salah satu penyu mbang terbesar ekspor komoditas perkebunan yang 
+melonjak pada Januari -Oktober . Ekspor perkebunan tertinggi terjadi di bulan 
+Oktober yaitu sebesar 38,46 Triliun Rupiah dengan kenaikan sebesar 8,76 persen 
+dari bulan sebelumnya  (Ditjenbun, 2020b) . 
+Kopi merupakan salah satu komoditas di dunia yang dibud idaya  di berbagai 
+negara, termasuk Indonesia. Pemrosesan kopi dimulai dari tahap panen biji kopi 
+yang telah matang, kemudian tahap  pengeringan dilanjutkan dengan tahap proses 
+sangrai menggunakan suhu yang bervariasi , tahap ter akhir adalah penggilingan biji 
+kopi yang telah disangrai menjadi bubuk kopi (Sebatubun and Nugroho, 2017) . 
+Kualitas kopi ditentukan oleh 60% budidaya, 30 % pasca panen dan pengolahan 
+dan 10 % barista/penyeduh. Salah satu faktor yang dapat mempengaruhi mutu fisik 
+dan citarasa yang baik ad alah v arietas (Ditjenbun, 2020a) . Hampir 75% produksi kopi di dunia ialah kopi jenis Arabika sedangkan untuk kopi Robusta kurang dari 
+25% dari jenis yang diperdagangkan. Jenis kopi yang banyak dibudidayakan di 
+Indonesia yaitu Arabika ( Coffea  Arabica ) dan Robusta ( Coffea Canephora ) 
+(Lathifa Abirrania S, Salsabila Aurelia W, 2021) . Terdapat 5 macam kopi  Indones ia 
+yang diakui di kancah internasional antara lain Aceh Gayo, Mandailing, Sidikalang, 
+Toraja  dan B ajawa. Arabika menjadi kopi terbaik dari lima wilayah pegunungan 
+dan datar an tinggi Indonesia, yakni Arabika Wamena (Papua), Arabika Toraja 
+(Sulawesi Selatan), Arabika Malabar (Jawa Barat), Arabika Gayo (Aceh), Arabik a 
+Flores (NTT)  (Coffeland, 2021) . 
+Indonesia merupakan negara pengekspor kopi nomor empat terbesar dan 
+produsen kopi ketiga setelah negara Brazil dan Vietnam. Proses distribusi kopi 
+dimulai dari petani, kemudian petani menjual ke pengepul, pengepul menjual kopi 
+ke eksportir dan eksportir ke  dalam negeri maupun luar negeri (Saputra, Kusrini 
+and Kurniawan, 2020) . Kopi yang diperdagangkan memiliki nilai berdasarkan jenis 
+dan mutu dari biji kopi tersebut. Namun tidak terlepas proses pengolahan kopi juga 
+menentukan harga jual akhir dari produk kopi. Semua faktor tersebut memiliki 
+keterhubungan  langsung pada rasa dari produ k akhir kopi sehingga memiliki 
+pengaruh pada harga produk akhir dari komoditas kopi. Salah satu permasalahan 
+adalah untuk menentukan jenis kopi, mutu kopi dan juga tingkat kematangan dalam 
+proses pengolahan biji kopi secara kasat mata, mengingat banyaknya jenis kopi 
+yang diperdagangkan berdasarkan dari daerah tanam dan juga varietas tanaman 
+penghasil biji kopi tersebut. (Nugraha and Wiguna, 2018) . 
+Setiap varietas kopi Arabika yang ditanam di tempat berbeda akan memiliki 
+perbedaan bentuk dan cita rasa yang signifikan k arena kopi Arabika sendiri 
+memiliki jangkauan rasa yang luas. Setiap varietas memiliki  harga  yang  berbeda 
+tergantung grade dan rasa yang dihasilkan (Asmara and Heryanto, 2019) . Masalah 
+yang sering muncul adalah tidak semua petani atau pemilik coffee shop  mampu 
+mengenali varietas kopi  Arabika  hanya dengan melihat langsung, hal ini dapat 
+menimbulkan kesalahan dalam mengenali varietas kopi tersebut jika pemilik coffee  
+tidak memiliki pengetahuan tentang kopi (Nugroho and Sebatubun, 2020) . Sementara pengetahuan tersebut sangat dibutuhkan agar dapat  menentukan  harga  
+yang  tepat  dan  dapat menentukan   cita   rasa   yang   diinginkan . 
+Tujuan dan keterbaruan dari penelitian ini adalah mengembangkan sebuah 
+algoritma baru yang dapat mengklasifikasikan varietas kopi Arabika yang ada di 
+Indonesia dengan mengimplemetasikan computer vision . Data sampel 
+menggunakan tiga varietas kopi Arabika yang memiliki mutu  biji kopi  kelas 
+tertinggi berdasarkan standar nilai citarasa oleh SCAA ( Specia lty Coffee 
+Association of America)  
+ 
+1.3.Tujuan Penelitian  
+Berdasarkan batasan masalah yang sudah disebutkan sebelumnya, maka 
+didapat tujuan sebagai berikut :  
+1. Menghasilkan suatu metode yang dapat melakukan ekstraksi dan seleksi 
+fitur melakukan training set,  validation set  dan testing set . 
+2. Menghasilkan algoritma yang dapat melakukan klasifikasi terhadap  
+varietas kopi Arabika di Indonesia.  BAB III METODE PENELITIAN  
+ 
+ 
+3.1. Objek Penelitian  
+ Objek Penelitian ini menggunakan tiga buah varietas dari kopi arabika  yang 
+mempunyai mutu biji kopi kelas tertinggi yait u varietas Bourbon, varietas Catimor, 
+Varietas Typica.  
+3.2. Tahapan Penelitian  
+Pada penelitian ini  kegiatan akan difokuskan pada permasalahan : (i) 
+Bagaimana mengembangkan suatu metode dan algoritma yang dapat melakukan 
+ekstraksi data sehingga dapat digunakan sebagai dataset. (ii) Bagaimana 
+mengembangkan suatu metode dan algoritma yang dapat melakukan seleksi fitur 
+untuk proses training set, validation set  dan testing set . (iii) Bagaimana 
+mengembangkan suatu metode dan algoritma yang dapat melakukan proses 
+komparasi performance model. (iv) Bagaimana mengembangkan suatu algoritma 
+yang dapat digunakan untuk klasifikasi varietas kopi Ar abika.  
+ 
+ 
+ 
+Gambar 3. 1. Tahapan Image Processing  
+ Pada tahap pertama akan dilakukan pengumpulan data . Data yang  rencana  
+digunakan merupakan citra biji rosting kopi yang di foto secara manual  dari tiga 
+varietas kopi Arabik yang kemudian akan digunakan sebagai citra imput dalam 
+tahap pre -processing.  Citra diambil dari dua sisi dalam bentuk RGB, sehingga tiap 
+biji kopi mempunyai 2 citra yang berbeda. Biji Dataset pada penelitian ini 
+merupakan open dataset.  
+Segmentasi  
+Pengumpulan  
+Data  
+Pre - Processing  
+ Ekstraksi Fitur  
+ Klasifikasi  Proses yang dilakukan pada tahap Pre -Processing ini hanya akan 
+mengambil biji kopi dan mengabaikan background citra serta dilakukan secara 
+manual karena mengikuti bent uk dan ukuran dari masing -masing biji kopi.  
+Selanjutnya untuk mengambil bentuk biji kopi sebelum diesktraksi 
+dilakukan pada tahap Segmentasi . Segmentasi dilakuan dengan cara memisahkan 
+antara objek foreground dan background dari citra. Keluaran dari hasil segmentasi 
+citra adalah citra biner dimana foreground yang diinginkan berwarna putih yang 
+direpresentasikan dengan nilai 1 dan background yang dihilangkan berwarna hitam 
+yang direpresentasikan dengan nilai 0.  
+Teknik yang digunakan  akan digunakan untuk ekstraksi ciri tekstur adalah 
+Gray Level CoOccurrence Matrix. Akan dilakukan pemindaian untuk mencari jejak 
+derajat keabuan setiap dua  buah piksel yang dipisahkan dengan jarak d dan sudut ° 
+yang tetap. Sudut yang akan digunakan adalah 0 °,45°, 90°, dan 135°. Sedangkan 
+fitur yang akan digunakan  sebagai parameter untuk ekstraksi ciri tekstur yaitu  
+Entrophy, Contrast, Energy, Correlation, dan Homogenity . 
+Pada proses K lasifikasi akan digunakan algoritma Support Vector Machine  
+(SVM)  dengan tiga jenis kernel  yaitu kernel RBF, polynomial, dan sigmoid  yang 
+menampilkan masing -masing model  kernel pada setiap skema pembagian dataset.  
+Skema pembagian dataset  yang  akan  digunakan yaitu  90%:10%, 80%:20%, 
+70%:30%, 60%:40%,  50%:50%, 40%:60%, 30%:70%, 20%:80%, dan  10%:90% .  

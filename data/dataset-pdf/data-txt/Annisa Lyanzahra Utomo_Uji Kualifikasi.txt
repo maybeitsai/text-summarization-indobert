@@ -1,0 +1,205 @@
+ 
+  
+Optimisasi Ekstraksi Informasi dalam Model RAG 
+untuk Analisis Dialog Konseling  
+ 
+ 
+ BAB 1  
+PENDAHULUAN  
+1.1 Latar Belakang  
+Perkembangan teknologi kecerdasan artifisal (AI) telah membawa perubahan 
+signifikan dalam berbagai bidang, termasuk bidang psikologi. Dalam beberapa 
+dekade terakhir, bidang psikologi telah berkembang pesat dengan munculnya 
+pendekatan dan metode baru untuk memahami perilaku dan kondisi mental manusia 
+(Kazdin, 2017) . Konseling merupakan sebuah hubungan kolaboratif antara 
+konselor profesional dengan individu, keluarga, atau kelompok. Tujuan utama 
+konseling adalah memberdayakan klien untuk mencapai kesehatan mental, 
+kesejahteraan, serta keberhasilan dalam pendidikan dan karir. Bagi mereka yang 
+mengalami kesulitan psikologis atau interpersonal, konseling kesehatan mental 
+menjadi intervensi utama yang membantu. Sesi konseling menerapkan pendekatan 
+berpusat pada klien, menciptakan lingkungan yang aman dan suportif untuk 
+memb angun kepercayaan dan eksplorasi diri. Dalam sesi ini, klien didorong untuk 
+menyelami pengalaman pribadinya, berbagi cerita intim, dan dibantu oleh terapis 
+dalam menavigasi dialog untuk mencapai kesembuhan. Diskusi dalam sesi 
+konseling mencakup berbagai to pik, mulai dari peristiwa kehidupan terkini hingga 
+introspeksi mendalam, yang semuanya berkontribusi pada perjalanan terapeutik 
+(Kumar Adhikary et al., 2024).  
+Dokumentasi catatan konseling, yang merupakan ringkasan dari keseluruhan 
+sesi, menjadi aspek penting dalam proses konseling. Catatan ini berfungsi 
+merangkum pemicu stres klien dan prinsip -prinsip terapi yang diterapkan. 
+Dokumentasi ini bermanfaat untuk ber bagai keperluan, seperti membantu klien 
+mengingat poin -poin penting dan kemajuan yang dicapai dalam sesi konseling, 
+memfasilitasi komunikasi dan kolaborasi antar terapis, terutama dalam kasus 
+transfer klien, memberikan bukti tertulis tentang proses konseli ng, yang dapat 
+membantu melindungi konselor dan klien dalam situasi hukum, mempermudah 
+pelacakan kemajuan klien dan membantu terapis dalam mengevaluasi efektivitas 
+intervensi (Seligman, 2004).    
+ Evaluasi sesi konsel ing melibatkan manusia sebagai penilai yang meringkas 
+sesi dengan memberikan kode  (pelabelan atau anotasi ) untuk mengukur informasi 
+yang diperoleh selama pertemuan  konseling . Proses pemberian kode ini, disebut 
+observational co ding, menyediakan sistem organisasi berbasis teori yang 
+memungkinkan data linguistik kompleks terstruktur untuk analisis lebih lanjut. 
+Kode tersebut dapat mewakili topik pembicaraan (misalnya, obat -obatan ), gejala 
+yang diekspresikan  (misalnya, depresi, kecemasan, kemarahan), dan perilaku 
+verbal spesifik dalam pernyataan  pasien (misalnya, memberi sinyal niat untuk 
+mengubah atau mempertahankan perilaku)  (Gaut et al., 2017) . Namun, salah satu 
+tantangan utama yang masih dihadapi oleh para konsel or dan peneliti psikologi 
+adalah menganalisis dan mengekstraksi informasi penting dari percakapan dengan 
+klien. Percakapan ini seringkali panjang, kompleks, dan mengandung banyak 
+informasi tersembunyi yang sulit untuk diidentifikasi secara manual  dan proses 
+analisis secara manual seringkali memakan waktu dan rentan terhadap bias 
+subjektif.  (Imel, Steyvers and Atkins, 2015).  
+Teknologi AI telah muncul sebagai alat yang berpotensi untuk membantu 
+menganalisis teks dengan lebih baik. Salah satu pendekatan yang menjanjikan 
+adalah penggunaan Large Language Model (LLM) yang dilatih pada korpus data 
+yang besar untuk melakukan tugas -tugas seperti natural language understanding , 
+text generation , dan text summarization  (Brown et al., 2020).  Penelitian 
+sebelumnya oleh (Mullenbach et al., 201 9) telah mengeksplorasi penggunaan LLM 
+untuk menganalisis transkrip wawancara pasien, namun terbatas pada identifikasi 
+gejala dan diagnosis. LLM telah menunjukkan kemampuan yang luar biasa dalam 
+memahami dan mengolah teks, serta menghasilkan output yang aku rat dan 
+bermakna. Namun, sebagian besar penelitian sebelumnya berfokus pada domain 
+yang lebih umum, seperti question -aswering (QA), translation , dan text 
+summarization  (Radford et al., 2019) , (Rae et al., 2021) . 
+(Cao et al., 2019)  menggunakan GRU untuk menganalisis percakapan terapis 
+dan klien secara real -time guna mengkategorikan kode perilaku dan memprediksi 
+kode perilaku selanjutnya dalam sesi terapi Motivational Interviewing (MI) .  (Tran 
+et al., 2023)  menggunakan pre-trained model seperti BERT sebagai pengekstrak  
+ fitur data dan pengklasifikasi jaringan saraf  untuk memprediksi kode MI  secara 
+otomatis pada level ucapan dan ses i. Meskipun penelitian mengenai  behavioral 
+coding  otomatis menunjukkan kinerja yang menjanjikan, kurangnya penggabungan 
+pengetahuan domain spesifik secara eksplisit  menyebabkan model tidak dapat 
+menangkap semua aspek penting dari interaksi konseling, sehingga dapat 
+menghasilkan prediksi behavioral coding  yang tidak akurat (Han et al., 2024) .  
+Penggunaan Large Language Model  (LLM) dan khususnya teknik  Retrieval -
+Augmented Generation  (RAG) menawarkan potensi besar untuk mengatasi 
+tantangan dalam menganalisis percakapan klien -konselor secara lebih efisien dan 
+objektif. Model RAG menggabungkan kemampuan text generation  dengan 
+information retrieval  dari sumber data eksternal, sehingga dapat memberikan 
+analisis yang lebih relevan dan informatif (Lewis et al., 2020).  Oleh karena itu, 
+penelitian ini berfokus pada eksplorasi dan pengembangan aplikasi analisis berbasis 
+RAG untuk mendukung para psikolog dan peneliti dalam bid ang psikologi  yang 
+berbasis teknologi. Melalui penelitian ini, diharapkan dapat dihasilkan alat analisis 
+yang mampu meningkatkan kualitas dan efektivitas koneling , serta memberikan 
+kontribusi berarti bagi literatur ilmiah dan praktik profesional di bidang psikologi.   
+1.4 Tujuan Penelitian
+1. Mengidentifikasi kemampuan RAG dalam menganalisis tema -tema utama 
+dalam transkrip sesi konseling . 
+2. Mengevaluasi kegunaan dan efektivitas RAG dalam menghasilkan insight 
+yang berguna dalam konteks Psikologi Klinis.  
+3. Menganalisis tantangan dan potensi penggunaan RAG untuk analisis data 
+kualitatif dalam Psikologi Klinis,  
+4. Mengintegrasikan pendekatan RAG dengan metode analisis data kualitatif 
+yang ada untuk meningkatkan pemahaman tentang dinamika psikologis 
+dalam sesi konseling . BAB 3  
+METODE PENELITIAN  
+ 
+3.1 Gambaran Umum Penelitian   
+Penelitian ini bertujuan untuk mengembangkan sebuah aplikasi berbasis  
+Large Language Model (LLM)  dengan arsitektur Retrieval -Augmented Generation 
+(RAG) yang mampu melakukan pengodean kualitatif secara otomatis dan 
+visualisasi pada transkrip percakapan psikoterapi. Data utama yang digunakan 
+adalah transkrip percakapan bahasa Indonesia antara klien dan konselor (client -
+counselor dialogue  (CCD) ) dari tugas akhir mahasiswa Psikologi Universitas 
+Gunadarma. Sebelum digunakan, data akan diperiksa untuk menghilangk an 
+informasi pribadi yang dapat mengidentifikasi individu. Aplikasi ini diharapkan 
+dapat membantu para peneliti dan praktisi di bidang Psikologis Klinis dalam 
+menganalisis dan memperoleh wawasan dari data percakapa konseling yang 
+seringkali bersifat kualitatif dan tidak terstruktur.  
+Penelitian dimulai dengan pengumpulan dan pra -pemrosesan data dari 
+transkrip percakapan bahasa Indonesia antara klien dan konselor . Selanjutnya, data 
+diubah menjadi embedding dan disimpan dalam basis data vektor untuk 
+memudahkan pencarian. Model kemudian dilatih untuk mengambil dan 
+mengelompokkan informasi berdasarkan query pengguna melalui pemodelan topik. 
+Hasil yang dihasilkan diverifikasi oleh ahli untuk memastikan akurasi dan 
+relevansi nya, diikuti dengan evaluasi kinerja model menggunakan metrik evaluasi 
+yang sesuai. Akhirnya, model diintegrasikan ke dalam aplikasi yang ramah 
+pengguna untuk diterapkan dalam sesi konseling oleh praktisi kesehatan mental dan 
+peneliti. Penelitian ini akan menjunju ng tinggi prinsip etika dengan 
+menganonimkan data dan tidak melibatkan subjek manusia secara langsung.  
+   
+  
+Gambar 3. 1 Alur Penelitian  
+ 
+3.2 Data Preparation  
+ 
+Gambar 3. 2 Tahap Data Preparation  
+Tahap ini melibatkan pengumpulan dan penyusunan data mentah dari dialog 
+klien -konselor (CCD).  Proses dimulai dengan pengumpulan data , di mana dialog 
+diambil dari transkrip wawancara psikoterapi, yang merupakan data dari tugas akhir 
+ 
+ di Jurusan Psikologi Universitas Gunadarma. Dialog -dialog ini kemudian 
+dikompilasi menjadi satu Dataset, data diatur dalam format yang koheren dan dapat 
+diakses.  
+Data pre -processing dilakukan untuk membersihkan teks, menghilangkan 
+informasi yang tidak relevan seperti cap waktu, kata -kata pengisi, atau petunjuk 
+non-verbal. Teknik tokenisasi, lemmatisasi, dan normalisasi diterapkan untuk 
+menstandarkan teks. Pembuatan  Teks untuk Augmentasi juga dapat digunakan 
+untuk meningkatkan dataset, menciptakan sampel pelatihan tambahan yang tetap 
+menjaga konteks dan makna dialog.  
+ 
+3.3 Vector DB Creation  
+ 
+Gambar 3. 3 Tahap Vector DB Creation  
+Data yang telah dipersiapkan dimuat ke dalam sistem dan diubah menjadi 
+representasi vektor menggunakan model bahasa yang sesuai . Representasi vektor 
+ini kemudian disimpan dalam basis data vektor untuk memudahkan pencarian dan 
+pengambilan informasi.   
+ 
+ 
+ 3.4 Query Retrieval  
+ 
+Gambar 3. 4 Tahap Query Retrieval  
+Pengguna mengajukan query atau pertanyaan terkait topik dalam konteks 
+Psikologi yang ingin dijelajahi. Query ini kemudian diubah menjadi representasi 
+vektor dan digunakan untuk mencari potongan teks yang relevan dalam basis data 
+vektor.  
+ 
+3.5 Topic Modelling  
+ 
+Gambar 3. 5 Tahap Modeling  
+Topic modelling atau pemodelan topik digunakan untuk mengidentifikasi 
+topik -topik utama yang dibahas dalam potongan teks yang telah diambil. Ini dapat 
+dilakukan dengan algoritma seperti Latent Dirichlet Allocation (LDA) atau 
+BERTopic. Hasil dari pemodelan topik ini dapat membantu dalam memahami 
+struktur topi k dalam teks Psikologi dan memfasilitasi analisis lebih lanjut.  
+ 
+ 
+ 3.6 Code Generation and Visualization  
+ 
+Gambar 3. 6 Tahap Code Generation & Visualization  
+Hasil dari analisis, seperti topic map atau diagram jaringan, dapat digunakan 
+untuk menghasilkan kode atau visualisasi yang memudahkan pemhaman dan 
+interpretasi informasi yang ditemukan . Contohnya, hasil dari pemodelan topik 
+dapat divisualisasikan dalam bentuk peta topik yang menunjukkan hubungan antara 
+topik -topik yang diidentifikasi dalam teks.  
+3.7 Expert Validation  
+ 
+Gambar 3. 7 Tahap Expert Evaluation  
+Hasil dari analisis dievaluasi dan divalidasi oleh pakar  dalam bidang 
+Psikologi. Peninjauan Hasil ( Output Review ) melibatkan penyajian peta topik yang 
+dihasilkan kepada para pakar Psikologi untuk menilai relevansi dan akurasinya. 
+Evaluasi Pakar ( Expert Evalutaion ) mengumpulkan umpan balik tentang kinerja 
+model, khususnya relevansi semantik dan interpretabilitas topik yang diidentifikasi. 
+Penyempurnaan Iteratif mengintegrasikan umpan balik ini untuk menyempurnakan 
+pemahaman semantik model dan meningkatkan kualitas peta topik.  
+ 
+ 3.8 Model Evaluation  
+ 
+Model RAG dievaluasi menggunakan metrik yang sesuai untuk menentukan 
+kinerja dan efektivitasnya . Metrik yang umum digunakan  seperti METEOR, 
+ROUGE, BLEU, cosine similarity, Pearson correlation coefficient , dan F1 -score 
+(Radeva et al., 2024) . Selain itu, studi pengguna dilakukan untuk mendapatkan 
+umpan balik tentang kegunaan dan efektivitas model dalam aplikasi praktis.  
+3.9 Integration and Deployment  
+ 
+Gambar 3. 8 Tahap Integration and Deployment  
+Model RAG yang telah dilatih dan dievaluasi diintegrasikan ke dalam sistem 
+atau aplikasi yang akan digunakan oleh pengguna akhir . Tahap user interface 
+development yaitu menciptakan antarmuka yang intuitif bagi pengguna, 
+memungkinkan mereka memasukkan dialog dan melihat peta topik yang dihasilkan 
+secara interaktif. Tahap deployment adalah  membuat sistem dapat diakses untuk 
+digunakan di dunia nyata, memastikan bahwa sistem dapat menangani input secara 
+real-time dan menghasilkan peta topik yang andal secara efisien.  
+ 
+  

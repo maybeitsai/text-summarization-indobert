@@ -1,0 +1,293 @@
+ 
+ 
+ 
+PENGEMBANGAN ALGORITMA ENKRIPSI CITRA DIGITAL BERBASIS KOMPOSISI 
+LOGISTIC MAP DAN CIRCLE MAP  
+ 
+ 
+  
+1 
+ Bab I PENDAHULUAN  
+1.1.  Latar Belakang  Masalah  
+Kebutuhan manusia akan informasi online meningkat seiring dengan digitalisasi diseluruh 
+aspek kehidupan. Dengan demikian, semakin tinggi pula data -data yang tersimpan dalam dunia 
+maya untuk memenuhi ke butuhan akan informasi tersebut. Beberapa aplikasi yang ada 
+mensyaratkan informasi detail dari setiap penggunanya baik berupa teks, citra, audio, video, dan 
+multimedia. Dengan derasnya arus pengambilan data yang terjadi setiap hari, maka keamanan data 
+menj adi hal yang sangat penting.  Sistem keamanan data menjadi sangat riskan untuk dibuka dan 
+diambil untuk tujuan -tujuan negatif. Sistem pengamanan data yang dilakukan untuk mencegah 
+terjadinya kebocoran dokumen individu atau perusahaan dikenal dengan metode kriptografi.  
+Beberapa data statistik menunjukkan, perkembangan yang pesat di bidang internet ternyata 
+diiringi juga dengan tingginya tingkat percobaan pembobolan sistem keamanan. Pada tahun 1996, 
+U.S. Federal Computer Incident Response Capability (FedCIRC ) melaporkan bahwa lebih dari 
+2500 “insiden” di sistem komputer atau jaringan komputer yang disebabkan oleh gagalnya sistem 
+keamanan atau adanya usaha untuk membobol sistem keamanan [13] Pada tahun 1996. NCC 
+Information Security Breaches Survey di Inggris menunjukkan bahwa kejahatan komputer naik 
+200% dari tahun 1995 ke 1996. Survey ini juga menunjukkan bahwa kerugian yang diderita rata -
+rata US $30.000 untuk setiap insiden. Ditunjukkan juga beberapa organisasi yang mengalami 
+kerugian sampai US $1.5 juta. Pada Juli 2020, Lembaga Riset Siber Indonesia Communication and 
+Information System Security Research Center (CISSReC) menemukan bahwa ada orang yang 
+membeli data 91 juta pengguna akun e -commerce Tokopedia yang bocor beberapa pada Mei  2020  
+lalu dan mengedarka n tautan unduhannya melalui Facebook.  
+Karena  itu, faktor keamanan komputer sangat penting  untuk terus ditingkatkan. Garfinkel 
+[11] mengemukakan bahwa keamanan komputer (computer security) melingkupi empat aspek, 
+yaitu privacy, integrity, authentication, dan availability. Serangan yang terjadi pada aspek privacy 
+misalnya, adalah usaha untuk melakukan penyadapan (dengan program sniffer). Usaha -usaha yang 
+dapat dilakukan untuk meningkatkan privacy dan confidentiality adalah dengan menggunakan 
+teknologi kript ografi.  
+Kriptografi adalah ilmu yang mempelajari teknik -teknik matematika yang berhubungan 
+dengan aspek keamanan informasi, seperti kerahasiaan data, keabsahan data, integritas data, serta 
+autentifikasi data (menezes, et al, 1996). Kriptografi telah diguna kan untuk mengamankan berbagai  
+2 
+ tipe data dengan cara menjaga kerahasiaannya oleh user agar tidak disalahgunakan oleh pihak yang 
+tidak berkepentingan. Proses kriptografi dilakukan dengan mengenkripsi data asli yang disebut 
+dengan plaintext  dengan memberi ke amanan sehingga dihasilkan ciphertext . Data asli tersebut 
+diperoleh kembali setelah dilakukan proses deskripsi terhadap ciphertext . Proses mengubah 
+plaintext  menjadi ciphertext  disebut enkripsi. Sedangkan proses kebalikannya yakni mengubah 
+ciphertext  menja di plaintext  disebut dengan deskripsi. Algoritma untuk mentransformasikan 
+plaintext  menjadi ciphertext  disebut cipher. Dalam perkembangannya, algoritma enkripsi saat ini 
+dibangun dengan menggunakan basis chaotic cipher agar kinerja dalam pengamanan data da n 
+informasi meningkat.  
+Keamanan kriptografi modern tergantung pada key yang digunakan, bukan pada 
+algoritmanya [Munir, 2012]. Mekanisme kriptografi berbasis key dapat digambarkan seperti 
+gambar 1.1.  
+Gambar 1.1: Kriptografi Berbasis Kunci  
+Fungsi yang digu nakan pada kriptografi adalah fungsi chaos. Dimana fungsi ini memiliki 
+keunggulan dari sisi kecepatan, keamanan, kompleksitas, dan daya komputasi. Chaos merupakan 
+jenis dari perilaku suatu sistem ataupun fungsi yang memiliki sifat acak dan peka terhadap ni lai 
+awal dan ergodisitas. Dalam  teori probabilitas , ergodik  adalah sebuah sistem dinamis yang secara 
+garis besar memiliki perilaku yang sama pada sepanjang rata -rata w aktu sejalan dengan rata -rata 
+atas ruang dari seluruh keadaan sistem dalam  ruang fase nya. Contoh proses ergodik adalah 
+peng ambilan data temperatur. Misal kita mengambil data temperatur pada suatu hari. Kita tidak 
+bisa mengulangi proses tersebut pada hari sebelumnya (wiki). Fungsi yang memiliki sifat chaos 
+dinamakan fungsi chaos. Fungsi chaos digunakan sebagai pembangkit bilang an acak. Beberapa 
+fungsi yang bersifat chaos diantaranya adalah : circle map, logistic map, gauss map, Bernoulli map, 
+dan sine map.  
+ 
+3 
+ Dilihat dari pengembangannya, ilmu kriptografi dibagi menjadi dua, yaitu kriptografi klasik 
+dan kriptografi modern. Kekuatan  kriptografi klasik terletak pada kerahasiaan algoritma yang 
+digunakan. Sedangkan kekuatan kriptografi modern terletak pada kerahasiaan kunci penyandian. 
+Kriptografi klasik merupakan kriptografi yang digunakan pada zaman dahulu sebelum komputer 
+ditemukan a tau sudah ditemukan namun belum secanggih sekarang. Kriptografi ini melakukan 
+pengacakan huruf pada plaintext . Kriptografi ini hanya melakukan pengacakan pada huruf A – Z. 
+Sedangkan pada kriptografi modern terdapat berbagai macam algoritma yang dimaksudkan  untuk 
+mengamankan informasi yang dikirim melalui jaringan komputer. Algoritma kriptografi modern 
+umumnya beroperasi dalam mode bit. Berbeda dengan kriptografi klasik yang beroperasi dalam 
+mode karakter (seperti yang dilakukan pada cipher substitusi atau c ipher transposisi dari algoritma 
+kriptografi klasik). (https://mcdenin.wordpress.com/2018/02/10/kripografi -metode -klasik -dan-
+modern -kriptografi -beserta -contoh -enkripsi -dan-deskripsi/)  
+Berdasarkan kunci penyandiannya kriptografi dibagi menjadi dua jenis yai tu enkripsi kunci 
+simetri dan enkripsi kunci publik. Suatu enkripsi dikatakan enkripsi simetris ketika proses enkripsi 
+dan dekripsinya  menggunakan kunci yang sama. Enkripsi publik artinya untuk proses enkripsi dan 
+dekripsi menggunakan kunci yang berbeda. [Menezes et al.,1996] Dalam penyimpanan dan 
+pengiriman data atau informasi rahasia terdapat dua tipe serangan, yaitu cryptanalytic attack  dan 
+brute force attack [Stallings, 2011]. Serangan tersebut bertujuan untuk memperoleh kunci sehingga 
+dengan mudah mem peroleh plaintext  dari ciphertext . Cryptanalytic attack  mengandalkan sifat dari 
+algoritma dan juga dari karakteristik umum dari plaintext  atau beberapa pasang plaintext -ciphertext , 
+sedangkan brute force attack mencoba setiap kemungkinan kunci pada cipherte xt  sampai plaintext  
+ditemukan.Terdapat beberapa cryptanalytic attack diantaranya, ciphertext  only dan known 
+plaintext . Pada Ciphertext  only attack, hacker (penyerang) hanya mengetahui algoritma dan 
+ciphertext  sehingga secara statistik dapat mengidentifika si plaintext . Sedangkan pada Known 
+plaintext  attack, hacker memiliki ciphertext  yang ingin diketahui plaintext nya dan memiliki satu 
+pasang atau lebih ciphertext -plaintext  lainnya yang telah didapatkannya untuk mengungkap struktur 
+algoritma dan kunci agar m endapatkan    plaintext nya. [Stallings, 2011].  
+Statistical attack  digunakan untuk mengetahui fenomena penyembunyian data 
+acak/terenkripsi pada suatu media. (Westfeld, A. and Pfitzmann, A. 2000. Attack on 
+Steganographic systems. 3rd International Workshop.  Lecture Note in Computer Science, Springer 
+Verlag Berlin, 1768) Statistical attack merupakan pemecahan chipertext dengan beberapa 
+mekanisme yang memiliki skema sebagai mana tam pak pada gambar  1.2.   
+4 
+  
+ 
+ 
+Gambar 1. 2. Skema Statisti cal Atta ck 
+ Sedangkan differ ential attack   bekerja dengan membandingkan variasi input dan variasi 
+output terenkripsi untuk menemukan kunci atau pesan teks biasa yang diinginkan. Dalam model ini, 
+penyerang dapat membuat sistem kriptografi dan mengenkripsi data yang dipilihnya mengguna kan 
+kunci target (yang merupakan rahasia). Dengan menganalisis hasil yang kembali ( ciphertext  yang 
+diketahui), penyerang dapat menentukan kunci yang digunakan. Setelah kunci dipulihkan, transmisi 
+masa depan yang menggunakannya dapat dengan cepat didekripsi . Munculnya teknologi, internet, 
+dan sistem data otomatis, membuat skenario ini jauh lebih mungkin daripada yang diharapkan pada 
+pandangan pertama. Seperti yang terlihat pada gambar 1. 3. 
+ 
+Gambar 1. 3. Skema Differential  attack  
+5 
+ Kinerja dari suatu algoritm a dapat dilihat dari daya tahan keamanan algoritma nya terhadap 
+serangan dan waktu komputasinya. Ada beberapa metode dalam penyandian diantaranya adalah 
+dengan menggunakan algoritma Data Encryption Standard (DES), algoritma Advanced Encryption 
+Standard (AES ) dan algoritma Rivest -Shamir -Adleman (RSA). Algoritma tersebut mengenkripsi 
+citra memerlukan waktu komputasi yang lama dan ruang kunci yang rendah walaupun 
+menghasilkan data yang terenkripsi dengan baik. Namun, enkripsi citra digital yang lebih 
+diutamakan  adalah enkripsi citra digital yang memakan waktu lebih cepat tanpa mengorbankan 
+keamanannya [Pareek, Patidar,dan Sud, 2006]. Salah satu solusi dari masalah keamanan citra 
+tersebut adalah enkripsi citra berbasis chaos. Metode ini memberikan kombinasi yang baik dari 
+kecepatan, keamanan yang tinggi, dan kompleksitas.  
+Chaos adalah tipe dari perilaku suatu sistem ataupun fungsi yang bersifat acak, peka 
+terhadap nilai awal dan ergodi sitas. Fungsi yang memiliki sifat chaos dinamakan fungsi chaos. 
+Fungsi chaos sud ah dibuktikan sangat cocok untuk proteksi data [Kocarev and Lian, 2011]. Fungsi 
+yang memiliki sifat chaos antara lain henon map, Arnold’s cat map, circle map, logistic map, MS 
+Map, dan tent map . Karena keacakannya, fungsi chaos akan digunakan untuk membang kitkan 
+barisan bilangan acak sebagai pembangkit kunci. Pendekatan enkripsi yang digunakan untuk teks 
+tidak bagus untuk enkripsi citra [Munir, 2012 ]. Hal ini karena citra digital memiliki karakteristik 
+tertentu seperti redundansi data. Data citra memiliki korelasi yang kuat antara pixel yang 
+berdekatan baik secara horisontal, vertikal, dan diagonal. Sehingga enkripsi secara tradisional 
+seperti IDEA, AES, DES, RSA, dan Blowfish tidak cocok untuk enkripsi citra.  
+Dua fungsi chaos yang sudah dikenal menunjukkan  sifat chaos adalah Logistic Map dan 
+Circle Map. Keduanya memiliki potensi keacakan yang tinggi. Logisti c Map  menjadi salah satu 
+map paling terkenal di  teorema sistem dinamis dan chaos. Map ini  awalnya digunakan untuk 
+menggambarkan pertumbuhan penduduk  dunia seiring berjalannya waktu di bawah batasan 
+berdasarkan fungsi kurva berbentuk S yang sangat umum. Dan sekarang  Logistic Map  dapat 
+digunakan untuk mensimulasikan banyak proses alam. Fungsi logistik menggunakan diferensial  
+persamaan yang memperlakukan wak tu sebagai kontinu. Logistic Map  malah menggunakan 
+persamaan perbedaan nonlinier untuk  melihat langkah -langkah waktu diskrit. Disebut peta logistik 
+karena memetakan nilai populasi setiap saat  langkah ke nilainya pada langkah waktu berikutnya  (ps 
+Circle Map   adalah map satu dimensi yang memetakan sebuah lingkaran ke dirinya sendiri. 
+Circle Map juga sangat susah diserang dari brute force attack karena memiliki keunggulan dengan 
+nilai entropi 7.99 dengan korelasi terendah mendekati nol dan ruang kunci mencapai  103×17.   
+6 
+ Korelasi mendekati nol dan entropi mendekati 8 adalah parameter penting untuk enkripsi gambar 
+yang baik.[Roshini, Sridevi, Lakhsmi, 2019].  
+Algor itma komposisi secara sekuensial   yaitu Gauss Map dan Circle Map [Yudi, Suryadi, 
+Luqman, 2019]  digunaka n untuk menyelidiki kemungkinan sifat chaos yang lebih besar. Algoritma 
+ini memiliki diagram sensitifitas yang jauh lebih besar terhadap nilai awal .  Algoritma ini  kurang 
+cocok untuk RNG karena hanya 4 yang memenuhi dari 16 uji NIST . Jadi tingkat keacakann ya 
+hanya 25%. Jika Gauss -Circle Map ini digunakan untuk tujuan kriptografi, maka sistem 
+kriptografi nya akan memiliki ketahanan brute force attack  yang kuat  namun  lemah terhadap 
+statistical attack . Berdasarkan beberapa penelitian tersebut , maka pada  penelit ian ini akan 
+dikembangkan fungsi c haotik baru untuk membangkitkan key stream dengan komposisi fungsi 
+Logistic  Map dan Circle Map . Tujuan nya adalah  meningkatkan daya tahan algoritma enkripsi 
+terhadap berbagai serangan.  
+1. 3.  Tujuan Penelitian  
+Tujuan dari penelitian ini antara lain:  
+a. Menganalisis dan menghasilkan fungsi chaos baru berdasarkan fungsi Logistic Map dan 
+fungsi circle Map menggunakan konsep komposisi fungsi, sebagai fungsi pembangkit 
+bilangan acak.  
+b.  Menghasilkan algoritma baru dan program aplikasi baru untuk mengenkripsi dan 
+mendekripsi citra digital menggunakan fungsi chaos baru tersebut.  
+c. Menguji dan menganalisis daya tahan algoritma baru dalam mengenkripsi dan mendekripsi 
+citra digital terhadap brute -force, statistical attack, dan differential attack  secara kualitatif 
+dan kua ntitatif.   
+25 
+ Bab III METODE  PENELITIAN  
+3.1. Skema Tahapan Penelitian  
+Secara garis besar metode atau tahapan penelitian yang dilak ukan dalam pe nyelesaian disertasi ini 
+diperlihatkan oleh Gambar 3.1. Tahapan penelitian ini dilakukan secara terstruktur dan sistematis, 
+sehingga diperoleh hasil yang optimal.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 3.1. Diagram Alur Penelitian  
+ 
+ 
+ Identifikasi 
+Masalah  
+Studi Literatur  
+Memformulasikan F ungsi Chaos Baru 
+dengan menerapkan fungsi  komposisi pada 
+Logistic Map dan Circle Ma p 
+Menguji sifat  Chaos Baru dengan lyapunov 
+exponent dan bifurkasi diagram  
+Analisis hasil uji oba pada citra digital baik 
+seara kuantitatif maupun kualitatif  Mengimplemen tasikan algoritma dengan baik 
+melalui simulasi program enkripsi dan 
+deskripsi digital berdasarkan data uji  Merancang dan membuat algoritma enkripsi 
+berdasarkan fungsi komposisi tersebut pada 
+citra digital   
+26 
+ 3.2. Mo del Operasional Penelitian  
+o
+  
+Gambar 3.2. Mo del Operasional Penelitian Proses Pembangkit K ey Str eam 
+Model Operasional Penelitian yang dilakukan adalah memasukkan fungsi chaos Logistic 
+Map dan Circle Map. Dari gabungan keduanya akan dihasilkan komp osisi fungsi yang mengacu 
+pada  bab 2.1.4. Komposisi fungsi tersebut akan menghasilkan fungsi chaos baru yang akan 
+dijadikan key stream chaotic. Selanjutnya untuk memastikan bahwa fungsi baru Logistic Map dan 
+Circle Map bersifat chaotic, maka perlu dilakukan pengujian sifat chaoticnya. Hal tersebut 
+ditunjukkan berdasarkan analisis diagram bifurkasi dan Lyapunov exponent yang terbentuk. Selain 
+itu juga mengacu pada barisan bilangan yang dibangkitkan oleh fungsi tersebut secara acak. Untuk 
+menguji keacakan key stream yang dihasilkan, maka akan dilakukan uji NIST.  
+ 
+  
+27 
+ 
+ 
+Gambar 3. 3. Mo del Operasional Penelitian Proses Enkripsi  
+Model operasional p enelitian yang p ertama dilakukan adalah pros es enkripsi ,  dimana ci tra 
+asli di rubah  ke matriks citra asli . Setelah itu , matriks t ersebut disubstitusi dengan XOR. S ementara 
+itu, fungsi chaos baru dijadikan k ey str eam chaoti c yang juga akan disubst itusi dengan  XOR.  
+Keduanya akan m enghasilkan matriks citra  terenkripsi  yang akan m embentuk citra  terenkripsi . 
+  
+28 
+ Gambar 3. 4. Mo del Operasional Penelitian Proses Dekripsi  
+ Model operasional p enelitian yang dilakukan untuk m engembalikan citra asli adalah pros es 
+deskripsi , dimana citra  terenkripsi  dirubah k e matriks citra  terenkripsi   kemudian matriks t ersebut 
+akan disubstitusi d engan XOR. S ementara itu, fungsi chao s baru dijadikan k ey stream chaotic yang 
+juga akan disubstitusi d engan XOR. K eduanya akan m enghasilkan matriks citra  terdeskripsi  yang 
+selanjutnya akan dirubah m enjadi citra  terdekripsi . 
+ 
+3.3. Fungsi  Kom posisi Logistic Map dan Circle Map  
+ 
+Fungsi chaos baru  dalam penelitian ini diformulasikan melalui proses komposisi dua fungsi 
+chaos yaitu Logistic Map  dan fungsi chaos Circle Map. Proses komposisi fungsi chaos Logistic 
+Map dan Circle Map dapat dilakukan karena keduanya mempunyai derajat dan dimensi yang sama . 
+Jika fungsi Logistic Map dinyatakan sebagai f(x) dan fungsi Circle  Map sebagai fungsi g(x), maka 
+fungsi komposisi Logistic Map d an Circle Map dinyatakan sebagai fungsi h(x) , yaitu :  
+ 
+Fungsi  Logistic  Map 
+ 
+= xn +1 = r xn (1 – xn) mod 1           (3.1)  
+ 
+ 
+Fungsi Circle Map  
+ 
+       (3.2)  
+ 
+  
+Dikomposisikan  
+ = 
+Untuk 
+       =
+  = r xn (1 – xn) mod 1  
+Untuk 
+      
+         
+ 
+ 
+h(x) = 
+ = r( 
+  (1 – 
+ ) 
+mod 1                     (3. 3)  
+ 
+Jadi didapatkan fungsi rekursif  adalah : 
+ 
+= r( 
+  (1 – 
+ ) mod 1       
+(3. 4)  
+ 
+Persamaan (3.3) merupakan hasil komposisi fungsi dari dua fungsi chaos. Fungsi ini 
+memiliki 4 parameter yaitu Xn ∈ (0, 1) dan  r, Ω, K ∈ R. Selanjutnya untuk memastikan bahwa 
+fungsi baru Logisti c Circle Map bersifat chaotic, maka perlu dilakukan pengujian sifat chaoticnya.  
+29 
+ Hal tersebut ditunjukkan berdasarkan analisis diagram bifurkasi dan Lyapunov exponent yang 
+terbentuk. Selain itu juga mengacu pada barisan bilangan yang dibangkitkan oleh fungsi tersebut 
+secara acak. dan menguji keacakan key stream yang dihasilkan fungsi dengan uji NIST . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

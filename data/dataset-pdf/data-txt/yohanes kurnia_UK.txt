@@ -1,0 +1,281 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+SISTEM DETEKSI CERDAS SUARA PADA JANTUNG 
+UNTUK PEN YAKIT  GAGAL KATUP JANTUNG  Bab 1  
+Pendahuluan  
+Salah satu penyebab utama kematian di seluruh dunia adalah penyakit 
+jantung atau disfungsi jantung.  Penyakit  ini dapat diidentifikasi dengan mudah 
+dengan variasi suara yang dihasilkan oleh  aktivitas  jantung . Penyakit  Jantung atau 
+yang dikenal  kardiovaskular (CVD) yang diakui sebagai penyebab utama kematian 
+di negara -negara di seluruh dunia, dan oleh karenanya, deteksi, pengobatan, dan 
+pencegahan yang tepat waktu menjadi dasar perawatan komprehensif yang 
+diberikan oleh seorang dokter kepada pasiennya.1Pada tahun 2015, 31% kematian 
+global disebabkan oleh CVD, di mana 17,7 juta orang meninggal akibat penyakit 
+jantung.  
+ 
+1.1. Latar Belakang  
+ 2Banyak penyakit jantung dapat dikenali pada tahap awal dengan 
+menggunakan pemeriksaan suara jantung dan dengan demikian dapat ditangani 
+lebih awal.  Pola mendengarkan sistem kardiovaskular ( diagnos a ausk ultasi  ) dapat 
+membantu dalam diagnosis tepat waktu penyakit katup jantung (VHD), gagal 
+jantung congestive, penyakit hipertensi, aritmia seperti fibrilasi atrium, penyakit 
+arteri obstruktif, dan penyakit jantung struktural di antara lainnya.  
+ Diagnosa a uskultasi yang komprehensif ini membutuhkan pengalaman 
+klinis yang penting  , pengalaman  dan konsentrasi  keterampilan mendengarkan  dari 
+dokter atau tenaga kesehatan . Oleh karena itu, ada kebutuhan yang belum 
+terpenuhi untuk sistem portabel untuk deteksi dini penyakit jantung. Penulis  
+mengusulkan model prototipe sistem stetoskop digital pintar untuk mem antau  suara jantung pasien dan mendiagnosis kelainan  suara jantung  secara waktu nyata . 
+Sistem ini terdiri dari  dua sub  sistem yang berkomunikasi secara nirkabel 
+menggunakan teknologi hemat energi (Bluetooth ) : Smart Digital signal processing 
+Stetoskop  klasik/analog  , dan Sistem  pengambilan keputusan berbasis Kecerdasan 
+Artifisial .  
+ Auskultasi adalah salah satu teknik tertua, termurah, dan paling berguna 
+dalam diagnosis penyakit jantung. Sejak penemuannya pada tahun 1816, stetoskop 
+telah digunakan sebagai bagian dari evaluasi awal semua pasien yang dicurigai 
+mengalami masalah jantung atau paru -paru.3 Seorang dokter yang berpengalaman 
+dapat mendiagnosis sejumlah kondisi klinis hanya dengan melakukan auskultasi 
+awal pada dada pasien (Tilkian dan Conover, 1984). Telah ada beberapa upaya 
+untuk menciptakan stetoskop yang ditingkatkan secara elektronik, den gan 
+peningkatan amplifikasi suara dan tanggapan frekuensi yang lebih baik.  
+Pendeteksian keakuratan untuk  suara abnormal jantung adalah sangat penting 
+dalam diagnose awal , karena sifat dan keberadaan suara jantung membantu  
+diagnosis dan pengobatan  atau penanganan  awal pada penyakit  jantung . Namun, 
+penggunaan stetoskop  standar oleh dokter   untuk mendeteksi suara jantung  yang 
+tidak normal  menunjukkan adanya subjektivitas penilaian   yang tergantung pada 
+pengalaman dan kemampuan pendengaran dan kemudian menyebabkan ketidak 
+akuratan diagnosis yang dibuat berdasarkan auskultasi manusia.  
+ Diagnosa Auskultasi telah dianggap sebagai bagian penting  dari 
+pemeriksaan fisik sejak zaman Hippocrates. Stetoskop, yang diperkenalkan oleh 
+Laennec sekitar lebih dari dua abad yang lalu, merupakan  salah satu instrumen 
+medis pertama yang memungkinkan pemeriksaan struktur tubuh bagian dalam dan fungsinya. Stetoskop masih tetap menjadi alat yang dapat memberikan informasi 
+klinis yang berpotensi dan berharga. Namun, hasil pemeriksaan tersebut sangat 
+subjektif dan tidak dapat dibagikan dan dikomunikasikan dengan mudah, terutama 
+karena pengalaman dan kemampuan persepsi pada pendengaran dokter, yang 
+menyebabkan perbedaan pada penilaian diagnos a.  
+ Pada s aat ini, oleh karena kemajuan teknologi dan penemuan metode 
+pemeriksaan lain, diagnose auskultasi tetap menjadi bagian penting dalam 
+pemeriksaan klinis non -invasif.  Teknik diagnos a auskultasi jantung bergantung 
+pada praktik dan keterampilan profesional yang melakukannya, dan pengalaman 
+klinis  dan ini menjadi  sangat penting dalam mengidentifikasi kelainan atau disfungsi  
+pada  jantung . Modifikasi Steteskop klasik menjadi d igital  dengan  menangkap suara 
+jantung pasien, menyaring dan mendigitalkan, dan mengirimkan suara jantung 
+yang ditangkap  oleh  gawai atau mini komputer atau pemrosesan sinya l atau 
+pesawat seluler  secara nirkabel untuk memvisualisasikan suara jantung dan untuk 
+diproses lebih lanjut  untuk membuat keputusan apakah suara jantung normal atau 
+tidak normal.  
+ 4Namun, menurut Durand (Durand dan Pibarot, 1995), pengenalan 
+steteskop digit al atau elektronik tersebut  ke dalam praktik klinis tetap mempunyai 
+hambatan antara  lain oleh faktor -faktor seperti kebisingan latar belakang, suara 
+yang tidak dikenal bagi para klinisi , karena pada bag ian penyaringan  sinyal pasif , 
+analisis dan pengu atan sinyal  yang t idak tepat  atau ke kurangan material 
+pembungkusnya  yang t idak mampu mered am Tingkat  kebisingan sekitar , dan 
+desain ergonomis yang  membuat hasil Analisa  atau hasil suara  tidak tepat . Oleh 
+karena itu, kurang tepatnya diagnosis dapat menyebabkan pengambilan keputusan tindakan medis  yang  salah arah, yang kemudian  dapat  menyebabkan pemberian 
+pengobatan yang keliru  dan tidak efektif.  
+ 
+1.2. Batasan dan Tujuan  
+ Pada saat ini , perawatan kesehatan dengan digital atau disebut 
+telemedicine menjadi pilihan sebagai dalam p erawatan jarak jauh oleh karena 
+Covid -19. Oleh karena itu berdasarkan penjelasan latar belakang sebelumnya, 
+penulis  berharap dapat men ciptakan  suatu alat yang menggunakan teknologi 
+penginderaan digital cerdas untuk menangkap suara  detak jantung , mempunyai 
+sensor akust ik/tran duser  aktif yang mampu membuang atau me redam kategori 
+suara yang tidak diinginkan seperti noise atau suara bising , dengan menggunakan  
+kecerdasan artifisial  (AI) untuk membantu petugas kesehatan membuat diagnosa 
+yang akurat . 
+Penelitian terbatas menjadi ;  
+1. Sistem filter atau klasifikasi aktif cerdas pada steteskop klasik lebih optimal dan 
+efektif yang mengubah gelombang suara menjadi sinyal listrik yang dapat diproses 
+, diperk uat suara  yang diinginkan , dengan distorsi seminimal  mungkin  .Atau dapat  
+disebut mempunyai kem ampuan  menganalisis sinyal suara  dan menyaring 
+kebisingan yang tidak diinginkan  atau menghilangkan jenis suara yang tidak 
+diinginkan seperti kebisingan  karena aktivitas  lingkungan tertentu . 
+2.Metode Diagnosa Cerdas dengan  Kecerdasan  artifisial pada perangkat klasifikasi 
+cerdas steteskop  klasik  untuk menghasilkan prediksi awal diagnose  auskultasi yang 
+akurat  pada jantung  . 
+ Bab 3  
+Metodologi  
+ Pengenalan  karakteristik suara jantung , juga dikenal sebagai auskultasi 
+jantung,telah  menjadi salah satu metode paling primitif dan populer untuk 
+mendeteksi penyakit jantung dini dengan  bantuan suara jantung abnormal. 
+Phonocardiogram (PCG), juga dikenal sebagai suara jantung (HS), adalah grafik  
+rekaman HS dengan bantuan alat yang disebut fonokardiograf  .  
+ Terdapat  tiga keterbatasan utama dari auskultasi jantung: Pertama, 
+persyaratan perangkat harus sangat  sensitif karena suara memiliki amplitudo yang 
+sangat rendah. Kedua, sinyal suara jantung  dengan amplitudo rendah rentan  
+terganggu  oleh  suara kebisingan y ang mengakibatkan  diagnosis yang salah. 
+Akhirnya, keandalan teknik auskultasi  terutama tergantung pada keterampilan, 
+keahlian, dan kemampuan pendengaran dokter.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  Gambar 1 : Blok Dia gram Sistem Steteskop Cerdas  
+ Agar suara jantung  dapat  ditampilkan dengan jelas, maka sinyal listrik yang 
+diperoleh melalui mikrofon elektret yang terintegrasi dalam stetoskop analog  
+direncanakan melewati preamplifier  lalu men uju serangkaian filter  akfif (  low-pass 
+;untuk mencegah aliasing , filter high -pass  ;untuk mencegah suara frekuensi sangat 
+rendah )  yang dihasilkan oleh tekanan selama kontak stetoskop , secara berurutan. 
+kemudian akan di kuantifikasi menjadi sinyal digital dengan system  konverter 
+analog -ke-digital (ADC) yang terintegrasi dalam mikrokomputer. Kemudian, sinyal 
+digital  yang mengandung noise akan di tapis dengan menggunakan  filter digital 
+yang dirancang d engan  perhitungan pada  MATLAB untuk mendapatkan sinyal 
+suara seharusnya  dalam modul pemrosesan sinyal digital  , kemudian sampel sinyal 
+diproses untuk ekstraksi fitur dan klasifikasi. Setelah itu, diagnosis otomatis dapat 
+dilakukan.    
+ 
+3.1 Motivasi  
+ Penulis  mengusulkan solusi teknologi yang dibangun di atas stetoskop  
+klasik , yang hampir tidak berubah sejak penemuannya di awal 1800 -an. Alat klinis 
+yang ada di mana -mana ini memiliki sejumlah keterbatasan. Untuk hasil terbaik, 
+pengguna harus berada di lingkungan yang tenang, karena kebisingan latar 
+belakang dapat dengan mudah m enutupi suara halus yang berasal dari paru -paru. 
+Diagnostik harus terlatih dengan baik dalam memposisikan p eletakan steteskop 
+pada dada dengan benar  dalam menafsirkan suara.  Tenaga Kesehatan harus  
+belajar  melakukannya dengan baik dan membutuhkan waktu dan bimbingan, dan 
+bahkan para ahli pun bisa berbeda pendapat tentang apa yang mereka dengar. Itu 
+sebabnya bahkan dokter yang berpengalaman pun lebih memilih untuk  melengkapi 
+penggunaan stetoskop dengan teknik lain, seperti rontgen dada.   Motivasinya adalah bagaimana kita  dapat mengatasi keterbatasan 
+stetoskop klasik dan memanfaatkan biaya rendah dan kemudahan dalam 
+penggunaannya  sekaligus juga kemampuan memberikan refe rensi Keputusan  
+diagnose  berbasis ke cerdasan artifisial.  
+ 
+3.2 Framework Riset  
+ Detak jantung dan aliran darah yang dihasilkan melalui jantung 
+menghasilkan suara jantung yang identik . Aktivitas penutupan katup jantung yang 
+menghasilkan suara jantung normal: penutupan katup mitral dan trikuspid  
+menghasilkan bunyi jantung pertama (“S1”), dan penutupan katup aorta dan 
+pulmonal menghasilkan bunyi jantung kedua  atau disebut suara jantung (“S2”) .  
+ Pembukaan katup jantung biasanya tidak menghasilkan suara. Juga, aliran  
+darah dari satu struktur jantung ke struktur lain biasanya laminar atau cenderung  
+diam  atau dikatakan  di bawah normal. Masalah pada katup jantung atau otot 
+jantung atau keduanya menyebabkan jantung tidak normal  dan menimbulkan 
+suara dan gumaman. Suara jantung ( HS ) ketiga (S3) biasanya disebabkan oleh 
+pengurangan darah secara tiba -tiba suplai dari atrium kiri ke ventrikel.  
+ Pada anak -anak dan orang dewasa (35 -40 tahun), ini normal. Namun,  pada 
+kelompok usia lain dan terutama pada kelompok usia lebih dari 40 tahun, tidak 
+normal dan dapat  berhubungan dengan disfungsi atau dapat berhubungan dengan 
+over  loading volume ventrikel . Pada suara  keempat  (S4)  berhubungan dengan 
+gagal jantung pada periode diastolik. Suara jantung ini bisa  lebih lanjut dicirikan 
+sebagai frekuensi S1 karena lebih kecil dari S2. Suara bernada rendah S3  dan S4 terjadi 0,1 hingga 0,2 detik setelah S2 dan sekitar 0,07 hingga 0,1 detik sebelum S1. 
+Kemungkinan munculnya anomal i suara jantung ( HS) lainnya  seperti  murmur  yang 
+dapat dikorelasikan sebagai  masalah kardiovaskular.  
+ Bunyi jantung S1 dan S2 adalah bunyi bernada tinggi dan terdengar baik 
+dari diafragma  stetoskop. Bunyi jantung normal S1 dan S2 memiliki rentang 
+frekuensi 50 -60 Hz dan 80 -90 Hz .. Suara jantung ke tiga (HS) S3 dapat didengar 
+selama aliran darah masuk ke ventrikel dari atrium dan  biasanya suara bernada 
+rendah pra -diastolik. Ketika gagal jantung terdeteksi, S3 dapat dirujuk  sebagai 
+gejala ekstrapolatif yang buruk. S3 memiliki bandwidth 20 -30 Hz . Bunyi jantung 
+keempat (S4)  terjadi pada akhir diastol, yang mer upakan suara bernada rendah dan 
+dapat ditandai dengan baik oleh bel  dari stetoskop. Bunyi jantung ke empat S4  tidak 
+terlihat selama fibrilasi atrium atau flutter . S4 yang tidak normal memiliki  rentang 
+frekuensi di bawah 20 Hz .  
+ Dengan kemajuan teknologi elektronik baru -baru ini, stetoskop digital 
+semakin meningkat  popularita snya . Ada berbagai jenis stetoskop digital yang 
+memiliki  telah diindustrialisasi untuk menggantikan steteskop  analog  atau 
+steteskop klasik . Stetoskop digital dapat memberikan kualitas suara lebih baik 
+dengan variasi amplifikasi , meminimalkan kebisingan interferensi, dan 
+menyediakan media  untuk  visualisasi dan penyimpanan.  
+ Stetoskop elektronik /digital  masih dilengkapi dengan kabel penghubung  
+antara bagian dada dan bagian kepala, dengan bagian dada memiliki modul 
+nirkabel untuk ditransmisikan  sinyal ke penerima seperti telepon, perekam audio 
+digital, atau komputer untuk merekam dan mendengarkan  ke suara .  Penulis  
+berusaha untuk mensistematiskan rekomendasi mengenai konstruksi sistem digital, yang harus diperhatikan untuk mencapai rekaman dan pemrosesan suara 
+jantung berkualitas tinggi. Sistem stetoskop digital terdiri dari sensor, yang 
+menerima sinyal dari dada, preamplifier, untuk memperkuat suara, kemudian filter 
+dan konverter analo g ke digital. Data ditransmisikan ke komputer melalui kabel 
+atau nirkabel. Kemudian sampel sinyal diproses untuk ekstraksi fitur dan klasifikasi. 
+Setelah itu, diagnosis otomatis dapat dibuat.  
+ 
+3.3 Pendekatan  
+ Sistem prototipe yang penulis ajukan terdiri dari dua sub  sistem yang 
+berkomunikasi secara nirkabel menggunakan Bluetooth  teknologi energi rendah 
+(BLE): Subsistem sensor, dan subsistem deteksi cerdas. Sensor akustik pada 
+pertama memperoleh sinyal suara jantung dan memasukkannya ke analog -font-
+end (AFE), di mana akan mengalami  pra-amplifikasi dan penyaringan sinyal suara 
+jantung  dan suara bising lainnya . Setelah itu, sinyalnya dikonversi oleh ADC dalam 
+mikrokontroler  atau mikro komputer dan ditransmisikan secara nirkabel ke 
+komputer pribadi (PC) atau gawai ( ponsel tangan ) dimana sinyal akan diproses dan 
+diklasifikasikan menggunakan kecerdasan artifisial . 
+Akuisisi sinyal suara jantung real -time, amplifikasi, penyaringan, digitalisasi, dan 
+transmisi nirkabel  dilakukan oleh sub -sistem sensor. Sensor khusus dirancang dan 
+diimplementasikan  dengan memanfaatkan  stetoskop klasik atau analog atau 
+tradisional untuk memperkuat bentuk gelombang suara jantung. Tranduser atau  sensor dengan bandwidth 20 –600 Hz dipilih untuk melakukan konversi suara 
+jantung menjadi  sinyal  listrik. Tranduser ditempatkan di tabung karet sangat dekat 
+dgn bagian  diagfragma dari  steteskop.  
+ Dari bagian tranduser , sinyal diumpankan ke  analog front end (AFE), dan 
+mikrokontroler dengan Bluetooth modul energi rendah (BLE). Stetoskop yang 
+dibuat khusus memperoleh sinyal akustik, menguatkan dan menyaring  melalui AFE, 
+dan kemudian mendigitalkan dan mengirimkan data mentah ke subsistem 
+pengambilan keputusan .  AFE diperlukan untuk mempertahankan rasio signal -to-
+noise (SNR) yang tinggi, dan  sedikit. Sirkuit pra -penguat mengambil sinyal suara 
+jantung yang sangat lemah  dari tranduser  dan menguatkannya ke tingkat yang 
+sesuai.  
+ Sinyal suara yang telah di kuatkan akan  diteruskan kepada bagian 
+komputasi filter aktif , Dimana  ARM Cortex M0 adalah contoh dari mikrokontroler 
+yang mungkin a kan dipilih oleh penulis dan memiliki built -in Bluetooth 4.0  atau 
+modul energi rendah. ARM Cortex  menggunakan program antarmuka pengguna, 
+yang memungkinkan pengujian  dan menjalankan monitoring untuk mendapatkan 
+sinyal untuk kemudian akan diumpankan untuk bagian denoising dan amplifikasi 
+dgn memanfaatkan algoritma perpustakaan yang ada.  ARM Cortex memiliki 10 -bit 
+modul analog -to-digital (ADC), yang mampu memperoleh sinyal akustik pada 
+sampling 500 Hz  dengan resolusi 2,93 mV. Selain itu, dimensi, fitur konsumsi daya 
+rendah, tegangan operasi 3.0 V  voltag e, dan modul BLE built -in membuat AFE 
+desain  yang sangat baik untuk aplikasi ini. Sensor atau tranduser ditenagai dgn  
+baterai Li -ion yang terhubung langsung melalui rangkaian Pengaturan stabilisasi daya . Modul manajemen daya (PMM) adalah konverter boost (ke 3,3 V dan 5 V) 
+dan micro -USB sebagai pengisi daya . 
+ Suara jantung yang diterima melalui bluetooth dapat dikirimkan kepada 
+gawai atau computer mini  , untuk dilakuk an proses  klasifikasi atau prosesing signal 
+untuk prediksi penyakit jantung  . Modul pendeteksian suara jantung pada waktu 
+nyata tergantung  pada suara atau signal akustik yang telah difilter atau ditapis dgn 
+baik sehingga mempunyai level atau rasio sinyal -ke-noise yang baik sehingga  dapat  
+diku antis asi lalu kemudian dilakukan training pada computer .  
+Beberapa metode untuk meningkatkan rasio sinyal -ke-noise menggunakan filter 
+digital dan pemrosesan sinyal, dengan tujuan mendapatkan segmentasi otomatis 
+adalah sebagai berikut:  
+1. Pemfilteran Median: Metode ini menghilangkan noise impulsif (outlier) 
+dengan mengganti nilai sinyal dengan median dari tetangganya.  
+2. Pemfilteran Derivative: Metode ini menggunakan turunan sinyal untuk 
+mengidentifikasi perubahan yang signifikan dalam sinyal dan menghilangkan 
+noise kecil yang tidak berpengaruh.  
+3. Pemfilteran Gaussian: Metode ini menghapus noise acak dengan 
+menerapkan filter Gaussian pada sinyal untuk menghasilkan distribusi 
+normal.  
+4. Pemfilteran Adaptif: Metode ini menggunakan pendekatan adaptif untuk 
+memperoleh filter yang menyesuaikan karakteristik sinyal dan noise 
+berdasarkan analisis statistik.  5. Ekstraksi Fitur Spektral: Metode ini melibatkan penggunaan transformasi 
+Fourier atau metode pengolahan spektral lainnya untuk mengidentifikasi 
+komponen sinyal yang relevan dan isolasi dari noise.  
+Dengan menggunakan metode -metode di atas, pengolahan sinyal dan filter digital 
+aktif dapat membantu meningkatkan rasio sinyal -ke-noise, yang pada gilirannya 
+mendukung segmentasi otomatis.  
+Pada Kesimpulannya ,d engan sistem yang dirancang ini,  penulis berharap dapat  
+melakukan pra -diagnosis penyakit jantung dalam waktu singkat tanpa mengekspos 
+pasien pada pemeriksaan terperinci dan prosedur tambahan. Sementara petugas 
+kesehatan yang sesuai mendengarkan suara jantung, di sisi lain, mereka dapat 
+memeriksa informasi anom ali jantung terkait di layar sehingga membuat diagnosis 
+awal lebih mudah. Pemeriksaan terperinci (EKG, angiografi, dll ) dapat dilanjutkan  
+sesuai dengan pra -diagnosis ini. Penting untuk mengembangkan sistem bantu, 
+terutama untuk mengurangi beban dokter berpengalaman, untuk membantu 
+dokter yang tidak berpengalaman dan untuk menghemat waktu. Dalam penelitian 
+ini, penulis mengharapkan s uara jantung d apat se cara otomatis didiagnosis apakah 
+ada anomali di jantung atau tidak. Sistem ini dapat diintegrasikan ke dalam 
+platform seluler dengan mengembangkan aplikasi untuk platform seluler. Yang 
+terakhir tetapi tidak kalah pentingnya, filter di unit pemrosesan sinyal analog dapat  
+dihapus dan diimplementasikan secara digital dengan komputer tertanam.  
+ 
+ 
+ 
+ 

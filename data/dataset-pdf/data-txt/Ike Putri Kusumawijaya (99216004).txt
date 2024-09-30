@@ -1,0 +1,208 @@
+  
+ 
+ 
+ 
+ 
+PENGEMBANGAN METODE IDENTIFIKASI 
+PERGERAKAN ANOMALI PADA KERUMUNAN 
+BERBASIS GENERATIF  
+ 
+ 
+ 
+ 
+ 1 
+ 
+ 
+ 
+ 1. PENDAHULUAN  
+ 
+1.1 Latar  Belakang  
+Dengan bertambahnya populasi dan keragaman aktivitas manusia, adegan keramaian 
+menjadi lebih sering terjadi di dunia nyata daripada sebelumnya. Komposisi penonton 
+yang heterogen dalam hal warna kulit, usia, bahasa, dan b udaya menghadirkan beberapa 
+masalah administratif bagi penyelenggara lokal yang berfokus pada memastikan 
+manajemen acara yang efisien. Otoritas administratif lebih peduli untuk memahami 
+mekanisme kerumunan yang menjelaskan apa yang dapat membahayakan kerum unan 
+besar. Hal tersebut  membawa tantangan besar bagi manajemen publik, keamanan atau 
+keselamatan.  
+Aktivitas perubahan individu dalam kerumunan dapat terjadi karena  beberapa hal,  
+biasanya dipicu oleh kejadian tidak normal seperti kebakaran, suara keras yang 
+berbahaya, pelepasan gas, atau adanya tindakan mengancam seperti tauran, perampokan 
+atau tindakan criminal lainnya . Perilaku  ini menimbulkan keributan atau  chaos  yang 
+dihasilka n dapat mengarah pada tindakan yang sama mengancamnya dengan insiden itu 
+sendiri (Grant dan Flynn, 2017). Untuk mengidentifikasi/menafsirkan insiden keributan 
+tersebut secara manual hampir tidak mungkin (Cao et al., 2009; Joshi et al., 2019) , 
+dikarenakan  jumlah kamera pengawas yang berada didalam satu area  melebihi jumlah 
+personel dan monitor , sehinnga  potensi kesalahan seperti personel yang mengabaikan 
+insiden  atau melewatkan insiden ini  dapat terjadi  dalam  hal ini  
+Tempat -tempat umum menggunakan semakin b anyak kamera pengintai, misalnya, 
+sistem transportasi umum, rumah sakit, pusat perbelanjaan, taman, dll. Kamera 
+keamanan yang sangat besar membuat sejumlah besar video dan aplikasi potensial 
+mencakup deteksi objek, pelacakan, pengambilan gambar, dan sebaga inya. Dengan 
+meluasnya penggunaan teknik pengawasan video, evaluasi manual dari sejumlah besar 
+data video  kerumunan  yang dikumpulkan dari kamera pengawasan menjadi rumit, 
+memakan waktu, dan tidak efektif dalam kasus kerumunan besar. Hal ini membutuhka n 
+tenaga kerja dan perhatian terus menerus untuk memutuskan apakah tindakan yang 2 
+ 
+ 
+ 
+ diambil adalah normal atau tidak normal. Oleh karena itu, fungsi deteksi anomali 
+otomatis diperlukan untuk sistem pengawasan dalam mengidentifikasi dan mendeteksi 
+anomali seca ra akurat di tempat kejadian.  
+Mendeteksi perilaku abnormal dengan cepat dan otomatis di lingkungan yang ramai 
+sangat penting untuk meningkatkan keselamatan, mencegah risiko, dan menjamin 
+respon yang cepat. Deteksi anomali dalam sistem pengawasan sangat pen ting untuk 
+memastikan keselamatan, keamanan, dan dalam beberapa kasus  termasuk dalam 
+pencegahan kemungkinan bencana. Deteksi anomali bermaksud untuk menemukan 
+anomali dalam waktu cepat secara otomatis. Sistem pemantauan cerdas menjadi penting 
+untuk manajem en kerumunan yang efektif. Computer vision , analisis video, dan deteksi 
+anomali pada kerumunan secara otomatis telah menjadi topik penelitian yang populer  
+dan k arena adegan yang rumit dan ketidakpastian anomali, deteksi anomali  ini masih 
+menantang.  
+Untuk masalah unsupervised  dan semi-supervised , generative adversarial network  
+(GAN) menjadi metode yang representatif di bidang kecerdasan buatan. Dalam jaringan 
+tradisional, vektor berdimensi tinggi perlu ditransfer ke vektor laten agar menyerupai 
+data sumber. Banyak pendekatan yang telah meningkatkan masalah dari tahap pelatihan. 
+GAN menunjukkan kinerja yang lebih baik dibandingkan dengan metode tradisional. 
+GAN adalah semi-supervised learning  dari representasi fitur yang kaya untuk distribusi 
+data arbitrer. Metode ini sangat cocok digunakan untuk deteksi anomali. Jaringan 
+double-encoder memungkinkan model untuk menghasilkan gambar ke representasi yang 
+mendasarinya dalam tahap pelatihan. GAN mempelajari kejadian reguler dengan 
+meminimalkan jarak antara frame video yang berdekatan dan vektor laten (Han et al., 
+2020).3 
+ 
+ 
+ 
+  
+1.3 Tujuan Penelitian  
+Tujuan dari penelitian ini adalah mengembangkan metode untuk meng identifikasi 
+pergerakan  anomali pada kerumunan  berbasis generatif  menggunakan Generative 
+Adversarial Network  (GAN ) dan menggunakan pemrosesan video secara real time . 
+Pengembangan penelitian GAN dengan  menggunakan representasi video  secara real-
+time memungkinkan dapat diimplementasikan secara langsung di tempat publik.   
+Penelitian ini juga bertujuan untuk melakukan deteksi pergerakan pada kerumunan 
+dalam tingkat kepadatan yang berbeda, sehingga dapat mengklasifikasi pergerakan 
+kerumunan yang bersifat anomali maupun normal. 48 
+ 
+ 
+ 
+  
+3. METODOLOGI  PENELITIAN  
+ 
+Penelitian ini melakukan pen gembangan metode untuk deteksi pergerakan anomali 
+pada kerumunan menggunakan Algoritma Generative Adversarial Network . Metodologi 
+yang digunakan adalah sebagai berikut.  
+1. Studi literature. Pada tahap ini dila kukan studi terhadap beberapa artikel dan buku 
+yang menguraikan mengenai pemrosesan video , deteksi pergerakan anomali  pada 
+kerumunan dan Algoritma Generative Adversarial Network    
+2. Merancang algoritma Generative Adversarial Network  secara Real time untuk 
+mengklasifikasi antara pergerakan normal dan anomal i pada kerumunan  
+3. Menguji keunggulan Generative Adversarial Network  secara Real time  dengan 
+algoritma sebelumnya  
+ 
+3.1 Sistem Struktur Anomal i pada Kerumunan  
+ 
+Gambar 3.1 Sistem Deteksi Anomal i pada Kerumunan (Yang et al., 2012)  
+ 
+Pada gambar 3.1 merupakan konsep awal s istem struktur pada kerumunan, untuk 
+medeteksi adanya kerumunan yang bersifat anomaly. Konsep ini berawal dari model dari 
+kerumunan atau dapat dikatakan social force model  yaitu sebuah m odel kerumunan  yang 
+memfokuskan pada karakteristik lokal orang jika terdapat tekanan dalam kerumunan, atau 
+kerumunan yang memiliki kepadatan yang tinggi. Model ini  dimulai dengan penempatan 
+frame video untuk menghitung karakteristik lokal secara efisien dan mendapatkan nilai 
+local pressure model atau local model . Model ini berfungsi untuk mengekstrak 
+49 
+ 
+ 
+ 
+ karakteristik tekanan lokal untuk mengetahui pola atau sifat perilaku dari kerumunan 
+sesuai karakteristik penduduk/masyarakat . Pola ini menggunakan vektor fitur diekstraksi 
+untuk frame video  dengan pem anfaatan Histogram of Oriented Pressure  (HOP), dan 
+untuk pola anomal i akan terlihat  menggukan  Support Vector Machine  (SVM).  
+Untuk klasifikasi, dan filter median diimplementasikan pada hasi l klasifikasi. Filter 
+median adalah metode penyaringan digital non -linear yang biasanya digunakan untuk 
+menghilangkan  noise dari sinyal atau gambar  pada video. Penelitian ini menggunakan 
+model s istem anomal i untuk mengetahui pola pergerakan pada kerumunan kh ususnya 
+pada objek peneliti atau masyarakat di Indonesia. Sehingga mendapat kebaharuan 
+menjadi dataset untuk membedakan pola pergerakan pada kerumunan anomal i ataupun 
+normal pada penduduk Indonesia.  
+ 
+3.2 Kerangka Penelitian Perilaku Anomal i pada  Kerumunan  
+ 
+Gambar 3.2 Kerangk a Penelitian Perilaku Anomal i pada kerumunan. (El -Etriby et al., 
+2017)  
+ 
+ Pada gambar 3.2 merupakan kerangka penelitian yang diadaptasi dari penelitian 
+El-Etriby et al., tahun 2017 . Pada penelitian  ini, sumber kerumunan berasal dari video 
+atau kamera pengawas, proses selanjutnya melalui segmentation video , yaitu proses yang 
+dilakukan pada gambar 3.1 berfungsi untuk menemukan pola yang terjadi pada 
+kerumunan. Pada proses segmentasi juga akan dianalisis pola yang memiliki kerumunan 
+normal dan tidak norma l/anomal i, pola ini dijadikan formation block  berfungsi untuk 
+mendapatkan karakterisitik yang didapat dari kerumunan, karakteristik yang diambil 
+adalah nilai kepadatan kerumunan, tekanan pada kerumunan, serta pergerakan  
+kerumunan yang terjadi, hasil dari k arakteristik ini menjadi point of interest  atau hal 
+50 
+ 
+ 
+ 
+ utama dalam pengambilan pola, sehingga dari nilai ini akan diketahui an alisis perila ku  
+yang terekam dalam video.  
+ 
+3.3 Tahap  Pelatihan dan Pengujian Menggunakan GAN  
+Sistem trainin g atau pelatihan dan  testing atau pengujian  menggunakan algoritma  
+Generative Adversarial Network , terdapat pada gambar 3.3  
+ 
+Gambar 3.3  Kerangka Proses Klasifikasi Penelitian . (El -Etriby et al., 2017)  
+ 
+Kerangka proses di atas  dibagi menjadi dua tahap utama  yaiu pelatihan ja ringan dan 
+pengujian jaringan untuk deteksi anomali.  
+Tahap 1: Tahap pelatihan mengikuti langkah -langkah di bawah ini:  
+1. Ekstraksi representasi dynamic images  untuk setiap frame input (perilaku normal).  
+2. Melatih dua Denoising Autoencoder  (DAE ) yang berbeda, satu untuk frame input 
+dan yang lainnya untuk dynamic images . 
+51 
+ 
+ 
+ 
+ 3. Ekstraksi high-level features  dari frame input dan dynamic images  dari Denoising 
+Autoencoder  (DAE ) yang telah dilatih sebelumnya sesuai dengan tipe datanya.  
+4. Pelatihan dua Conditional Ge nerative Adversarial Networks  (CGAN ) tentang 
+high-level features  yang diekstraksi dari frame input dan dynamic images . 
+ 
+Tahap 2: Tahap pengujian mengikuti langkah -langkah di bawah ini:  
+1. Ekstraksi representasi dynamic images  untuk setiap masukan frame penguj ian. 
+2. Perhitungan high-level features  untuk frame input dan representasi dynamic 
+images  yang sesuai.  
+3. Perhitungan generation error maps  menggunakan pre-trained Conditional 
+Generative Adversarial Networks  (CGAN ) untuk menghitung binary detection 
+maps  untuk setiap tingkat representasional.  
+4. Hasil deteksi akhir ditentukan berdasarkan penggabungan peta deteksi yang 
+diekstraksi.  
+ 
+ Pada gambar 3.3  algoritma  Generative adversarial network  menggunakan 
+dynamic image atau analisa urutan video yang dijadikan  gambar. Pada gambar tersebut 
+frame yang sudah dijadikan gambar dilakukan proses  training . Pengembangan dari proses 
+training  dan testing ini adalah dengan menggunakan input video seperti pada gambar 3.4  
+ 
+Gambar 3.4 Konsep Masukkan video  
+  
+Pada gambar 3.4 konsep masukkan v ideo dilakukan melalui kamera pengawas 
+yang terhubung kepada router untuk dapat melakukan streaming  atau analisis secara real-
+time/online . Hasil proses training dan testing disimpan dalam server, sehingga saat 
+kamera menangkap v ideo maka akan membandingkan dengan server yang sudah terisi 
+52 
+ 
+ 
+ 
+ oleh konsep atau pola dari normal dan anomal i. Sehingga penelitian yang akan diteliti 
+memiliki konsep sebagai berikut :  
+ 
+Gambar 3.5 Konsep Penelitian  
+ 
+ Pada gambar 3.5 konsep penelitian berawal dari kamera pengawas yang 
+membandingkan masukkan dari train GAN  yang disimpan di dalam server dengan video 
+yang diambil dari kamera secara real time , hasil dari perbandingan  video tersebut akan 
+menghasilkan  behavio ur analysis  atau pola gerakan anomali pada kerumunan sehingga 
+output nya akan  menjadi suatu dataset  untuk identifikasi gerakan anomali pada 
+kerumunan.  
+ 

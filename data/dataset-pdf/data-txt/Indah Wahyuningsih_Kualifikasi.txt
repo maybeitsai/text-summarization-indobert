@@ -1,0 +1,317 @@
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Pengembangan  Machine Learning  Framework  Pada 
+Vibration Analyzer  di Rotating Machinery  Berbasis 
+Internet of Things  
+ 1 
+ BAB I  
+PENDAHULUAN  
+ 
+1.1 Latar Belakang   
+Pada industri permesinan yang mengandalkan rotaring machinery , sangat 
+membutuhkan optimalisasi, khususnya dalam menyeimbangkan, mensinkronkan, 
+meminimalkan noise getaran/vibrasi. Rotary Machine  memiliki  peran penting 
+untuk mencapai berbagai tujuan dalam industri. Integrasi mekanik, digital dan 
+komputer  sistem terus berkembang di industri modern. Di turbo  mesin, rotor 
+mengalami lecet dan kelelahan karena  penggunaannya yang terus -menerus, 
+sehingga menghambat pengoperasiannya seiring waktu.  Meskipun memiliki 
+struktur yang kokoh, segala ketidaksempurnaan,  minimal, kompromikan 
+kinerjanya.  Namun, rotor mesin jenis ini bergerak dengan kecepatan tinggi  
+kecepatan, membutuhkan penggunaan sensor elektronik untuk mengekstraksi  
+informasi yang akurat . Mesin -mesin ini adalah tulang punggung produksi mekanis 
+dan otonom yang menyediakan semua produk dengan cepat dan mudah dijangkau  
+(Das Oguzhan et all ., 2023).  
+ Konsep  Machine Learning  (ML) adalah cabang penting dari  kecerdasan 
+buatan  yang membantu memecahkan berbagai masalah di berbagai disiplin ilmu 
+termasuk teknik, kesehatan,  keuangan  , pendidikan, dan militer yang memerlukan 
+optimasi, prediksi, dan penilaian. Teknik Machine Learning  dapat dikategorikan 
+ke dalam  pembelajaran yang diawasi, tidak diawasi, semi -diawasi, dan 
+penguatan  . Secara umum, pembelajaran yang diawasi membahas prosedur regresi 
+dan klasifikasi, sedangkan  pembelajaran tanpa pengawasan  biasanya digunakan 
+dalam masalah asosiasi dan cluster. Berbagai  teknik  Machine 
+Learning  dipraktikkan untuk berbagai jenis masalah. Algoritma yang paling 
+umum digunakan adalah algoritma Deep  Neural Networks  (DNN) , Artificial 
+Neural Networks  (ANN) , AdaBoost  (AB), Random Forest  (RF),  Support Vector 
+Machines  (SVM),  K Nearest Neighbors  (KNN), and  Decision Trees  (DT) . 
+Industrial Internet of Things (IIoT) merupakan pendekatan yang relatif 2 
+ baru untuk industri yang sudah ada dan industri yang cukup baru , hal ini 
+membuka cakrawala terhadap berbagai peluang dalam membantu industri agar 
+beroperasi lebih efektif dan menjamin keselamatan, sekaligus meningkatkan 
+persentase efisiensi dan memotong sejumlah besar biaya. Dunia usaha 
+diperkirakan akan mengeluarkan sekitar 80 persen dari investasi awal mereka di 
+bidang teknologi dan diperkirakan jumlah ini akan tumbuh mendekati nilai USD 4 
+triliun di pasar spesifik teknologi pada tahun 2025 (Nasscom, 2018).  Dengan 
+demikian, bantuan konektivitas seluruh perangkat ke dalam satu jaringan 
+memberikan kemampuan bagi manusia untuk mengakses teknologi dengan sangat 
+efektif dan efisien . Oleh karena itu, IIoT akan merevolusi cara produksi dan 
+distribusi di industri dengan cara yang sangat produktif, sekaligus menawarkan 
+keselamatan  (Kumar, AS  dan Iyer, E , 2019)  
+Mesin putar pada konfigurasi umum terdiri dari tiga bagian utama , 
+bantalan gelinding atau jurnal (antifriction atau fluid bearing), rotor, dan pondasi. 
+Karena mesin rotari umumnya bekerja di tempat yang keras lingkungan operasi, 
+ini membuat mereka lebih banyak terkena berbagai jenis kesalahan dan 
+peningkatan kesulitan diagnosis kesalahan. Kegagalan di Rotary Machine  
+menyebabkan penurunan produktivitas, masalah ekonomi, keselamatan, dan 
+lingkungan lainnya (O. Abdeljaber et all., 2017). Malfungsi pada mesin y ang 
+berputar dapat menyebabkan kerusakan pada komponen penting mesin, seperti 
+bantalan, atau bahkan menyebabkan kegagalan mesin, yang berdampak pada 
+keselamatan dan ekonomi (Perez, 2022) . Oleh karena itu, deteksi dini dan 
+diagnosis kesalahan rotor dan bantalan yang andal pada tahap awal menjadi 
+penting dalam industri untuk meningkatkan keandalan alat berat dan efektivitas 
+biaya perawatan. Baru -baru ini, perusahaan manufaktur telah melakukan upaya 
+besar untuk menerapkan program pemeliharaan mesin yang efekti f yang dapat 
+mendeteksi dan mendiagnosis kesalahan rotor dan bantalan pada tahap awal  (Liu, 
+R  et all.,  2018).  Lebih banyak upaya dilakukan untuk mendeteksi dan memantau 
+berbagai kesalahan yang terjadi pada mesin rotari berdasarkan metode 
+pemantauan kondisi yang berbeda. Berorientasi pada kemandirian variasional 
+mode metode dekomposisi diusulkan melalui analisis korelasi untuk secara 3 
+ adaptif mendapatkan fitur kesalahan lemah dan majemuk dari bantalan set roda 
+(Z. Li, J. Chen et all., 2017) . Resonansi stokastik pertama kali diselidiki dalam 
+sistem multi -stabil dengan menghitung amplifikasi spektral keluarannya, 
+menganalisis respons frekuensi keluarannya secara numerik, menguji pengaruh 
+faktor penskalaan ulang dan redaman pada respons keluaran, dan akhirnya 
+menyajikan metode untuk memulai diagnosis kesalahan bantalan berdasarkan 
+teredam. resonansi stokastik dengan pencocokan kondisi stabil (Y. Lei, Z et all., 
+2017) .  
+Respon getaran mesin yang berputar sensitif terhadap perubahan 
+parameter struktural. Selain itu, perilaku getaran akibat cacat rotor bervariasi 
+tergantung pada sifat gangguannya. Oleh karena itu, menganalisis sinyal getaran 
+dapat mengungkap kesalahan apa pun pada mesin yang berputar. Oleh karena itu, 
+pemantauan kondisi berbasis getaran (VCM) bermanfaat dalam mendeteksi 
+kesalahan terkait rotor dan bantalan. Umumnya VCM dilakukan dengan 
+memasang beberapa sensor getaran pada masing -masing lokasi bearing pada 
+mesin yang dipantau. Selama bertahun -tahun, teknik VCM telah berhasil 
+digunakan untuk mendeteksi dan mendiagnosis kesalahan rotor dan bantalan . 
+Ringkasan penelitian terbaru dalam diagnosis dan prognosis mesin, serta 
+kemungkinan tren masa depan, telah disediakan oleh Jardine et al. Tama dkk. dan 
+Kumar dkk. baru -baru ini memberikan gambaran umum tentang VCM dan 
+menyajikan tinjauan literatur mengenai penelitian terbaru di bidang ini. Selain itu, 
+mereka telah membangun rig eksperimental untuk mensimulasikan beberapa 
+kesalahan rotor, yaitu ketidakseimbangan rotor dan ketidaksejajaran poros. 
+Tinjauan menyeluruh baru -baru ini mengenai pemantauan kondisi berbasis 
+getaran pada Rotary Machine  disajikan oleh Tiboni dkk. Yunusa -Kaltungo telah 
+memberikan tinjauan literatur yang komprehensif tentang VCM pada Rotary 
+Machine . 
+Saat ini banyak peneliti yang mengusulkan VCM yang menggunakan 
+teknik kecerdasan buatan (AI) dalam proses identifikasi kesalahan rotor, seperti 
+metode logika fuzzy dan jaringan saraf tiruan (ANN) . ANN telah menunjukkan, 
+dalam banyak penelitian dalam beberapa hari terakhir, keefektifannya dalam 4 
+ mengidentifikasi berbagai kesalahan Rotary Machine  secara akurat. Selain itu, 
+metode kecerdasan buatan dapat membantu mempercepat pengambilan keputusan 
+dengan mengurangi keterlibatan manusia.  
+Mubaraali dkk. telah memperkenalkan metode sistem diagnostik cerdas 
+yang menggunakan jaringan saraf fuzzy menggunakan parameter gejala 
+diagnostik bantalan khusus (SSP) dalam domain waktu dan frekuensi untuk secara 
+tepat dan otomatis menentukan jenis kesalahan bantalan kecepatan rendah. 
+Khoualdia dkk.  telah mampu mendiagnosis kesalahan pada motor induksi dalam 
+kondisi operasi yang berbeda menggunakan jaringan saraf tiruan (JST) multi -layer 
+perceptron (MLP) dengan algoritma pembelajaran Levenberg – Marquardt. 
+Kesalahan yang termasuk dalam studi mereka adalah patahnya batang rotor, 
+kesalahan bantalan, dan ketidaksejajaran.  
+Sepulveda dan Sinha  telah mengembangkan model diagnosis kesalahan 
+mesin yang dapat diterapkan secara membabi buta pada mesin serupa dengan 
+akurasi prediksi yang tinggi. Mereka telah mengidentifikasi kondisi sehat dan 
+rusak dari rig eksperimental yang beroperasi pada berbagai kecepatan 
+menggunakan model pembelajaran mesin berbasis getaran cerdas (SVML). Mei 
+dkk. mencapai analisis mendalam dan pemrosesan data skala besar sambil 
+memilih beberapa kombinasi fitur yang secara efektif mengkarakterisasi informasi 
+keadaan. Penelitian mereka mengusulkan metode CM mesin dan peralatan yang 
+menggabungkan pemilihan fitur berbasis tingkat kontribusi relatif (RDoC) dan 
+jaringan sisa dalam (DRN). Mereka mengusulkan strategi pemilihan kombinasi 
+fitur yang optimal dengan kepadatan informasi karakterisasi yang tinggi untuk 
+memenuhi tantangan sejumlah besar sensor dengan tingkat pengambilan sampel 
+yang tidak cocok.  Espinoza -Sepulveda dan Sinha telah menyajikan model ML 
+berbasis getaran (VML) dengan jaringan multi -layered percept ron (MLP), empat 
+lapisan tersembunyi, dan masing -masing lapisan dengan jumlah variabel neuron 
+non-linier. Metode yang mereka usulkan menggunakan pengukuran getaran dari 
+rig berskala laboratorium dan menggunakan model pembelajaran mesin (ML) 
+berbasis kecerdasan buatan (AI). Penelitian ini terutama berfokus pada 
+pengoptimalan parameter berbasis getaran untuk mengidentifikasi kesalahan rotor 5 
+ tanpa menyertakan komponen Rotary Machine  lainnya dan menggunakan model 
+jaringan saraf tiruan (ANN) untuk klasifikasi. Namun, ada kebutuhan untuk 
+menyelidiki efektivitas parameter ini dalam mengidentifikasi kesalahan rotor dan 
+bantalan.  Penelitian ini merupakan perluasan dari penelitian sebelumnya. Model 
+ANN dan parameter getaran yang digunakan dalam model VML sebelumnya 
+untuk deteksi kesalahan rotor digunakan lagi dalam penelitian ini untuk 
+membakukan metode yang diusulkan sebelumnya. Namun parameter getaran baik 
+dalam domain waktu maupun frekuensi direvisi lebih lanjut dengan memperluas 
+pita frekuensi sehingga parameter yang direvisi dapat menutupi cacat bantalan 
+anti gesekan.  
+Berdasarkan data, fakta, dan pengalaman mitra di lapang, permasalahan 
+khusus yang akan dicarikan solusinya adalah bahwa pengukuran rotating 
+machinery oleh alat ukur yang ada sangat terkendala dengan adanya fenomena 
+analisis dilakukan secara manual yang meliputi keterbatasan sdm, analisisnya 
+tidak bisa dilakukan secara cepat, serta gangguan vibrasi pada rotating . Hal ini 
+akan menimbulkan resiko yang signifikan bagi setiap pemakaian rotatating 
+machinery. Disimpulkan bahwa deteksi kesalahan dini adalah diperlukan untuk 
+menjaga biaya di industri menjaga masa pakai mesin dan suku cadang. Karena itu, 
+sistem pemeliharaan tingkat lanjut berpindah ke sistem lain bentuk penanganan 
+pemeliharaan yang disebut prediktif pemeliharaan. Jadi, itu berdasarkan kondisi 
+pemantauan untuk meningkatkan tingkat produktivitas, kualitas produksi, dan 
+efisiensi manufaktur tanaman. Konsep utama pemeliharaan prediktif adalah untuk 
+mencapai deteksi dini potensi kegagalan. Dengan memanfaatkan algoritma 
+Machine Learning  yang dilatih menggunakan dataset vibrasi yang komprehensif, 
+aplikasi ini dapat mendeteksi anomali pada mesin rotasi secara dini dan 
+memberikan rekomendasi tindakan perawatan yang tepat. 
+ 6 
+  
+1.3 Tujuan  Penelitian  
+Berdasarkan rumusan masalah yang telah dijelaskan. Berikut ini adalah 
+tujuan dari penelitian diantaranya  
+1. Meningkatkan kemampuan Vibration Analyzer  dalam mendiagnosis, 
+memprediksi, dan memantau kondisi Rotary Machine secara real -time.  
+2. Mengembangkan model Machine Learning  yang akurat untuk memprediksi 
+tingkat ketidakseimbangan.  
+3. Mendesain arsitektur sistem cerdas yang dapat mengintegrasikan data 
+getaran dari sensor IoT, algoritma Machine Learning , dan fungsi analisis 
+data lainnya dalam sebuah platform yang terpadu.  17 
+ BAB III  
+METODOLOGI  
+ 
+3.1 Motivasi  
+ Penelitian ini mendorong penggunaan teknologi Internet of Things (IoT) 
+dan Machine Learning  (ML) untuk meningkatkan pemantauan dan prediksi 
+kondisi Rotary Machine  melalui analisis data getaran. Dengan mengintegrasikan 
+sensor IoT untuk pengumpulan data getaran secara real -time dan mengaplikasikan 
+teknik preprocessing serta model ML, tujuan utamanya adalah untuk secara 
+efektif mendeteksi ketidakseimbangan dan potensi kerusakan pada mesin sebelum 
+mencapai tingkat yang dapat mengganggu operasional. Langkah -langkah ini 
+diharapkan dapat memberikan kontribusi signifikan dalam meningkatkan 
+keandalan mesin, mengoptimalkan strategi pemeliharaan, dan mengurangi biaya 
+operasional dalam lingkungan industri.  
+ Ketidakseimbangan pada machine rotary dapat menyebabkan berbagai 
+masalah, seperti getaran berlebihan, keausan komponen yang cepat, dan 
+penurunan performa mesin. Hal ini dapat mengakibatkan downtime yang mahal 
+dan bahkan kerusakan permanen pada mesin. Oleh karena itu, penting untuk 
+menerapkan metode yang efektif untuk mendeteksi dan menyeimbangkan 
+machine rotary.  
+ 
+3.2 Framework Riset  
+ Penelitian ini bertujuan mengintegrasikan teknologi Internet of Things (IoT) 
+dengan Machine Learning  (ML) untuk meningkatkan analisis getaran pada Rotary 
+Mchine, khususnya dalam deteksi ketidakseimbangan. Berikut ini adalah Gambar 
+3.1 Gambaran Umum Penelitian . 
+  18 
+ 
+ 
+Gambar 3.1 Gambaran Umum Penelitian  
+ Berdasarkan Gambar 3.1 Gambaran Umum Penelitian , Penelitian ini 
+dimulai dengan tahap pengembangan simulator getaran yang bertujuan untuk 
+mereplikasi kondisi operasional Rotary Machine  secara realistik dalam 
+lingkungan kontrol. Simulator ini dirancang untuk menghasilkan data getaran 
+yang representatif yang nantinya akan digunakan sebagai dataset dalam penelitian. 
+Setelah itu, data getaran akan diakuisisi menggunakan perangkat akuisisi data 
+yang terhubung langsung dengan sensor -sensor getaran pada mesin. Data ini 
+kemudian dikirimkan melalui jaringan Internet of Things (IoT) ke server pusat 
+untuk diproses lebih lanjut. Pada tahap ini, data akan diproses menggunakan 
+teknik -teknik Machine Learning , seperti regresi dan klasifikasi, untuk 
+menganalisis pola getaran dan mendeteksi ketidakseimbangan pada Rotary 
+Machine . Hasil analisis ini akan membentuk dasar pengembangan Machine 
+Learning  framework yang dapat memberikan prediksi tingkat ketidakseimbangan, 
+mengidentifikasi faktor penyebab, serta mengoptimalkan strategi pemeliharaan 
+mesin secara efektif. Dengan demikian, penelitian ini bertujuan untuk 
+mengintegrasikan teknologi simulasi, IoT, dan Machine Learning  dalam upaya 
+meningkatkan pemantauan dan pemeliharaan Rotary Machine dalam berbagai 
+aplikasi industri.  
+ Pada tahapan penelitian ini, akan diuraikan langkah -langkah implementasi 
+yang meliputi pengembangan sistem pemantauan menggunakan teknologi Internet 
+of Things (IoT) dan penerapan Machine Learning  untuk analisis data getaran pada 
+Rotary Machine . Flowchart yang disajikan akan menggambarkan secara visual 
+bagaimana data getaran diakuisisi, diproses, dan digunakan untuk memprediksi 
+serta menganalisis kondisi mesin. Berikut ini Gambar 3.2 Tahapan Penelitian . 19 
+ 
+ 
+Gambar 3.2 Tahapan Penelitian  
+ Berdasarkan Gambar 3.2 Tahapan Penelitian terdapat tahap pertama yaitu 
+studi literatur yang berasal dari artikel ilmiah dan buku yang berkaitan tentang 
+Machine Learning  dan penggunaan Internet of Things pada Rotary Machine. 
+Tahap berikutnya yaitu langkah mengumpulkan data getaran dari Rotary Machine  
+menggunakan sensor Internet of Things (IoT) dimulai dengan pemasangan sensor 
+getaran pada mesin yang akan dipantau. Sensor ini dirancang untuk mengukur 
+perubahan getaran yang terjadi pada berbagai frekuensi dan  amplitudo selama 
+operasi normal mesin. Data getaran yang terkumpul kemudian dikirimkan secara 
+langsung melalui jaringan IoT, memanfaatkan koneksi nirkabel atau protokol 
+komunikasi lainnya, ke server atau platform cloud untuk pengolahan lebih lanjut. 
+Proses ini memungkinkan analisis data secara real -time serta penyimpanan yang 
+terpusat, memfasilitasi pemantauan kondisi mesin yang efisien dan responsif 
+terhadap perubahan yang terjadi. Tahap selanjutnya yaitu process data, dimana 
+data getaran yang telah dikum pulkan dari sensor IoT dipersiapkan untuk analisis 
+lebih lanjut dengan melakukan serangkaian transformasi dan pemrosesan. 20 
+ Langkah ini mencakup penghapusan noise atau gangguan dari data untuk 
+meningkatkan kualitas sinyal, normalisasi data untuk memastikan skala yang 
+konsisten, serta ekstraksi fitur -fitur yang relevan dari data getaran seperti 
+frekuensi dominan, RMS (Root Mean Square), atau karakteristik lain yang dapat 
+memberikan wawasan tentang kondisi mesin. Proses preprocessing ini krusial 
+untuk memastikan bahwa data yang digunakan dalam pelatihan model Machine 
+Learning  tidak tercemar oleh faktor -faktor eksternal yang tidak relevan, sehingga 
+hasil analisis dan prediksi yang dihasilkan lebih akurat dan dapat diandalkan. 
+Langkah Develop ML Framework dalam penelitian ini melibatkan pemilihan dan 
+pengembangan model Machine Learning  yang optimal untuk menganalisis data 
+getaran dari Rotary Machine . Setelah data melalui tahap preprocessing untuk 
+memastikan kebersihan dan kualitasnya, langkah berikutnya adalah memilih 
+model yang sesuai seperti regresi untuk memprediksi nilai numerik seperti tingkat 
+ketidakseimbangan, atau klasifikasi untuk mengidentifikasi kondisi mesin 
+berdasarkan pola getaran tertentu. Selanjutnya, model tersebut disetel 
+hyperparameternya untuk meningkatkan performa, dan kemudian divalidasi 
+menggunakan teknik cross -validation untuk memastikan kehandalannya dalam 
+memprediksi kondisi mesin secara akurat. Proses ini bertujuan untuk 
+menghasilkan framework Machine Learning  yang dapat mendukung pemantauan 
+dan pengambilan keputusan yang lebih efisien dalam pemeliharaan mesin, dengan 
+potensi untuk meningkatkan efisiensi operasional dan mengurangi downtime yang 
+tidak terencana dalam berbagai industri.  
+ Tahapan Train ML Models merupakan proses di mana model Machine 
+Learning  diberi latihan menggunakan data getaran yang telah diproses 
+sebelumnya. Melalui proses ini, model belajar untuk mengenali pola -pola dalam 
+data yang mengindikasikan kondisi mesin, seperti ketidakseimbangan atau 
+keausan. Dengan menggunakan teknik -teknik seperti regresi atau klasifikasi, 
+model dilatih untuk memberikan prediksi yang akurat berdasarkan data yang 
+diberikan. Evaluasi terus -menerus terhadap performa model dilakukan untuk 
+memas tikan kehandalan dan kemampuan generalisasi terhadap data baru. Hasil 
+dari tahapan ini penting untuk mendukung pengambilan keputusan yang lebih 21 
+ efisien dalam pemeliharaan Rotary Machine , dengan tujuan meningkatkan 
+produktivitas dan mengurangi risiko kegagalan mesin dalam berbagai industri.  
+ Tahapan Evaluate dalam pengembangan framework Machine Learning  
+melibatkan evaluasi mendalam terhadap performa model yang telah dilatih. 
+Setelah melalui proses pelatihan menggunakan data getaran yang diproses, model 
+dievaluasi menggunakan metrik evaluasi seperti akurasi, presisi, recall, dan F1 -
+score untuk mengukur seberapa baik model mampu memprediksi atau 
+mengklasifikasikan kondisi Rotary Machine . Evaluasi ini penting untuk 
+memastikan bahwa model ML dapat memberikan hasil yang dapat diandalkan dan 
+konsisten dalam mengidentifikasi masalah potensial pada mesin.  
+ Setelah model ML dievaluasi dan dipastikan memiliki kinerja yang 
+memadai, langkah selanjutnya adalah mendeploy framework ML ke dalam 
+lingkungan produksi. Proses deployment ini melibatkan integrasi model dengan 
+sistem IoT yang sudah ada, sehingga model dapat digunakan secara real -time 
+untuk pemantauan kondisi mesin secara kontinu. Dengan demikian, tahapan 
+evaluate dan deploy Machine Learning  framework models merupakan langkah 
+krusial dalam mengimplementasikan solusi yang dapat meningkatkan efisiensi 
+operasional dan meminimalkan risiko kegagalan mesin dalam industri yang 
+bergantung pada performa Rotary Machine . 
+ 
+3.3 Pendekatan  
+Pendekatan Machine Learning  untuk analisis getaran dapat dikategorikan 
+menjadi beberapa tugas utama, seperti klasifikasi kerusakan, prediksi kerusakan, 
+deteksi anomali, dan pemeliharaan prediktif. Algoritma yang cocok untuk setiap 
+tugas berbeda -beda, tergantung pada karakteristik data getaran, kompleksitas 
+masalah, dan tujuan analisis.  Analisis getaran merupakan teknik penting untuk 
+memantau kondisi dan mendeteksi kerusakan pada mesin. Dalam beberapa tahun 
+terakhir, Machine Learning  telah menunjukkan potensi besar untuk meningkatkan 
+kemampuan analisis getaran, menawarkan solusi inovatif untuk berbagai 
+tantangan dalam industri manufaktur, energi, dan lainnya.  
+Pendekatan Machine Learning  untuk analisis getaran dapat dikategorikan 22 
+ menjadi dua metode utama  yaitu  regresi dan klasifikasi.  Metode regresi digunakan 
+untuk memprediksi nilai numerik, seperti tingkat keparahan kerusakan atau waktu 
+tersisa sebelum kegagalan mesin.  Metode klasifikasi digunakan untuk 
+mengkategorikan data getaran ke dalam kelas -kelas yang berbeda, seperti normal, 
+aus, atau rusak.   
+ 
+ 
+ 

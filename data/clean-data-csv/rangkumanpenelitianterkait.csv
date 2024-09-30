@@ -1,0 +1,304 @@
+nama_dokumen,kalimat,index,important,length,words_in_title,position,cue_words
+Alfharizky Fauzi_Kualifikasi.txt,perbandingan tinjauan penelitian dalam tinjauan penelitian ini terdapat perbandingan mendalam antara berbagai pendekatan yang digunakan untuk pencocokan gambar teks berbasis pembelajaran mendalam.,0,1,14,0.0,0.875,0.0
+Alfharizky Fauzi_Kualifikasi.txt,penelitian ini mengidentifikasi dan mengklasifikasikan pendekatan pendekatan utama berdasarkan keselarasan antara gambar dan teks serta metode pembelajarannya.,1,1,12,0.08333333333333333,0.625,0.0
+Alfharizky Fauzi_Kualifikasi.txt,beberapa penelitian terkait tentang pengolahan citra dan teks penyakit kulit untuk menentukan klasifikasi jenis penyakit pada kulit yang terdeteksi pada organ kulit menggunakan metode algoritma pengolahan image teks maupun keduanya yang menjadi rujukan penelitian .,2,1,22,0.14814814814814814,0.375,0.0
+Alfharizky Fauzi_Kualifikasi.txt,dalam keseluruhan perbandingan ini penelitian ini memberikan wawasan yang komprehensif tentang kelebihan dan kekurangan masing masing pendekatan serta tantangan dan peluang pengembangan di masa depan memberikan dasar yang kuat bagi peneliti baru untuk mengeksplorasi dan berkontribusi dalam bidang pencocokan gambar teks berbasis pembelajaran mendalam.,3,1,22,0.02857142857142857,0.125,0.125
+Alfharizky Fauzi_Kualifikasi.txt,diuraikan pada tabel 2.4 berikut ini yaitu peneliti ebaid et al.,4,1,8,0.0,0.125,0.0
+Alfharizky Fauzi_Kualifikasi.txt,2023b mohammed al tuwaijari 2021 shen et al.,5,1,8,0.0,0.375,0.0
+Alfharizky Fauzi_Kualifikasi.txt,2024 wei et al.,6,1,0,0.0,0.625,0.0
+Alfharizky Fauzi_Kualifikasi.txt,2018,7,1,0,0.0,0.875,0.0
+Alifurrohman_Kualifikasi.txt,berdasarkan tabel perbandingan di atas dapat diketahui berbagai perbedaan pada masing masing penelitian.,0,1,0,0.0,0.9,0.0
+Alifurrohman_Kualifikasi.txt,mode l permasalahan pada penelitian terdahulu terbagi menja di beberapa model yaitu dynamic vehicle routing problem dvrp dynamic vehicle routi ng problem with time window s dvrp tw capacited vehicle routing problem cvrp heterogeounus capac ited vehicle routing problem hcvrp trave l salesman problem tsp.,1,1,40,0.19444444444444445,0.7,0.0
+Alifurrohman_Kualifikasi.txt,terkait fokus permasalahan yang diambil pada berbagai penelitian mulai dari permintaan pelangg an yang tidak pasti keadaan lalu lintas dan terkait kendaraan yang diguna kan pada proses pengirim an.,2,1,15,0.0,0.5,0.0
+Alifurrohman_Kualifikasi.txt,penyelesaian dilakukan dengan menggun akan metaheuristi k dianta ranya hybrid brain storm optimi zation bso ant colony optimizat ion dan yang lainnya .,3,1,16,0.0,0.3,0.0
+Alifurrohman_Kualifikasi.txt,pengga bunga n algorit ma juga dilakuka n pada beberapa penelitian terdahulu seperti hybrid antara brain strom optimizat ion dengan ant colony optimization.,4,1,16,0.0,0.1,0.0
+Alifurrohman_Kualifikasi.txt,pengguna an machine learning yaitu reinforcement learning deep reinforcement learning dan deep qnetwork digunaka n pada berbagai penelitian sebab memil iki kelebiha n yaitu lebih optimal pada data yang banyak.,5,1,21,0.10714285714285714,0.1,0.0
+Alifurrohman_Kualifikasi.txt,multi attention juga digunaka n pada penyelesaian permasalahan optimasi rute dan menunjuk an hasil yang optimal.,6,1,11,0.08333333333333333,0.3,0.1
+Alifurrohman_Kualifikasi.txt,pada penelitian selanjut nya fokus penelitian pada model masa lah dynamic vehicle routing problem with time windows dvrp tw dengan fokus terhadap ketidakpastian jalan raya serta ketidakpastian pelangga n yang berubahubah dimana pada prose s pengiriman ke pelangga n terdapat jende la waktu atau batasan waktu pengirim an sampai ke pelangga n.,7,1,36,0.22857142857142856,0.5,0.0
+Alifurrohman_Kualifikasi.txt,pada penelitian terdahulu hanya fokus pada salah satu saja seperti hanya fokus pada pelangga n yang tidak pasti atau ketidakpastian jalan raya.,8,1,9,0.0,0.7,0.0
+Alifurrohman_Kualifikasi.txt,penyelesaian dilakukan dengan mengguna kan deep reinforcement learning pada hal ini mengguna kan metode deep qnetwork dqn dengan menggabungkan multi header attention kedalam arsitektur dqn.,9,1,17,0.11538461538461539,0.9,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,berdasarkan tabel 2.,0,1,0,0.0,0.9615384615384616,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,2 state of the art maka dapat disimpulkan mengenai kebaruan yang dapat diambil dari penelitian dengan topik peng ukuran kualitas melalui klasifikasi.,1,1,14,0.13043478260869565,0.8846153846153846,0.038461538461538464
+Armando Tirta Dwilaga_Kualifikasi.txt,ditemukan dari referensi referensi terkait yang dibagi menjadi kelompok objek data pertama adalah ban dan pendukung seperti roda dan sekrup bahwa convolutional neural networks cnn menjadi model yang paling banyak sekali digunakan.,2,1,18,0.16,0.8076923076923077,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,adapun pengelompokan dalam ketertarikan pengambilan topik penelitian ini berdasarkan referensi penelitian terdahulu di mana diketahui pertama berdas arkan penerapan convolutional neural networks cnn dalam industri untuk menemukan cacat pada barang barang seperti ban roda dan sekrup dengan teknik teknik yang digunakan dalam penelitian jenis ini dapat dipelajari dan diterapkan pada situasi khusus produk ban karena dilatarbelakangi beberapa penelitia n bahwa cacat ban seperti retak dan serpihan yang lolos dapat menimbulkan risiko keselamatan dan mempengaruhi keselamatan berkendara kendaraan.,3,1,48,0.1111111111111111,0.7307692307692307,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,kedua adalah penggunaan convolutional neural networks cnn dalam pemeriksaan visual yang telah banyak digunakan dalam sistem inspeksi visual untuk mendeteksi mengklasifikasikan dan mengidentifikasi objek dan fitur dalam gambar.,4,1,16,0.17391304347826086,0.6538461538461539,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penelitian sebelumnya di bidang ini dapat memberikan wawasan tentang bagaimana convolutional neural networks cnn dapat diterapkan untuk menganalisis gambar produk ban dan melakukan pengukuran kualitas.,5,1,14,0.3684210526315789,0.5769230769230769,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,ketiga segmentasi citra metode penting dalam analisis gambar untuk pengukuran kualitas adalah segmentasi gambar.,6,1,10,0.1111111111111111,0.5,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penelitian sebelumnya mengenai segmentasi gambar dapat menawarkan strategi dan teknik yang dapat digunakan untuk mengisolasi daerah yang signifikan atau bermasalah dalam foto produk ban.,7,1,13,0.08695652173913043,0.4230769230769231,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,keempat analisis dan klasifikasi f itur penelitian terkait analisis dan klasifikasi ciri ciri pada barang manufaktur dapat menjadi sumber inspira si untuk memahami ciri ciri yang relevan dengan produk dan bagaimana menerapkan teknik klasifikasi untuk menentukan kualitas.,8,1,26,0.10344827586206896,0.34615384615384615,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penggunaan dataset pada literature ada beberapa splitting data yang dilakukan yaitu pertama 80 training data 20 validation data kedua 80 training data 10 validation data 10 testing data ketiga 70 training data 0 validation data 10 testing data keempat 60 training data 20 validation data 20 testing data.,9,1,40,0.0,0.2692307692307692,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penggunaan batch size 4 10 20 16 32 64 150 256 .,10,1,11,0.0,0.19230769230769232,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penggunaan layer coonvolutional 2 3 5 7 22 layer pooling 2 3 5 .,11,1,13,0.0,0.11538461538461539,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penggunaan learning rate 0.01 0.001 0.0001 0.000001 .,12,1,11,0.0,0.038461538461538464,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penggunaan epoch 10 20 30 100 120 200.,13,1,8,0.0,0.038461538461538464,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penggunaan nilai dropout 0.1 0.2 0.5. penggunaan input size 256x256 127x127 900x900 50x50 64x64 .,14,1,17,0.0,0.11538461538461539,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,penelitian yang dilakukan oleh vasan sridharan sreelatha vaithiyanatha 2023 melakukan perbandingan dilakukan untuk pretrained model vgg 16 googlenet alexnet resnet 50.,15,1,15,0.0,0.19230769230769232,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,permasalahan yang ditimbulkan oleh masing masing jurnal referensi dominan seperti dalam beberapa penelitian yang menggambarkan dominansi permasalahan seperti wang guo lu et al 2019 permasalahan penggunaan algoritma convolutional neural networks cnn dengan arsitektur convolutional pooling fully convolutional network mungkin tidak sensitif terhadap cacat kecil pada gambar ban seperti gelembung karena hilangnya detail yang disebabkan oleh operasi pengumpulan data.,16,1,39,0.15,0.2692307692307692,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,dilanjutkan oleh penelitian wu jiao sun et al 2021 penelitian ini mengakui bahwa hasil deteksi cacat gelembung sedikit buruk dan menyarankan penelitian lebih lanjut dengan menggunakan kombinasi metode deteksi langsung dan tidak langsung.,17,1,22,0.0,0.34615384615384615,0.038461538461538464
+Armando Tirta Dwilaga_Kualifikasi.txt,li fan zhang et al 2021 menyatakan meskipun algoritma ini berhasil dalam mendeteksi berbagai jenis cacat masih terdapat kebutuhan untuk meningkatkan deteksi pada jenis cacat tertentu seperti gelembung yang memiliki perbedaan yang halus dari bagian sekitarnya.,18,1,21,0.034482758620689655,0.4230769230769231,0.038461538461538464
+Armando Tirta Dwilaga_Kualifikasi.txt,permasalahan yang terjadi masalah sensitivitas terhadap cacat kecil pada gambar ban dapat diatasi dengan menggunakan algoritma convolutional neural networks cnn dengan membangun model atau kerangka kerja menggunakan keras sebuah library deep learning yang dirancang untuk mempermudah proses pengembangan dan eksperimen model jaringan saraf .,19,1,27,0.1875,0.5,0.038461538461538464
+Armando Tirta Dwilaga_Kualifikasi.txt,membangun model menggunakan keras sebenarnya mendefinisikan arsitektur model dengan menambahkan lapisan lapisan yang sesuai.,20,1,9,0.0,0.5769230769230769,0.038461538461538464
+Armando Tirta Dwilaga_Kualifikasi.txt,lapisan lapisan tersebut akan membentuk struktur atau arsitektur dari model yang kemudian dapat dilatih dan dievaluasi.,21,1,8,0.0,0.6538461538461539,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,keras menyediakan berbagai model pretrained yang dapat digunakan dengan menambahkan lapisan lapisan convolutional max pooling 2d flatten dan dense fully connected layeri yang akan membantu model untuk mempelajari fiturfitur yang lebih spesifik terkait dengan gambar ban dan meningkatkan sesitivitas terhadap cacat.,22,1,26,0.058823529411764705,0.7307692307692307,0.038461538461538464
+Armando Tirta Dwilaga_Kualifikasi.txt,pengembangan algoritma convolutional neural networks cnn salah satunya den gan melakukan perbandingan pada kompone nkomponen di dalam nya berdasarkan referensi sumber penelitian terdahulu sehingga membentuk perbandingan versi baru yang dibuat seperti melakukan perbandingan penggunaan layer yang sama ko nvulasi dan pooling mulai dari 3 4 5 6 layer perbandingan penggunaa n seberapa banyak jumlah epoch 20 50 100 perbandingan format splitting data 8020 602020 702010 801010 perbandingan penggunaan algoritma optimasi stochastic gradient descent sgd root mean square propagation rmsprop dan adaptive momentum adam dan perbandingan penggunaan learning rate 0.001 0.0001 dan 000001.,23,1,72,0.07352941176470588,0.8076923076923077,0.038461538461538464
+Armando Tirta Dwilaga_Kualifikasi.txt,melakukan evaluasi dan penyesuaian di mana setelah melatih model dengan kumpulan data maka harus menilai performanya menggunakan ukuran terkait seperti skor f1 akurasi presisi dan perolehan .,24,1,15,0.038461538461538464,0.8846153846153846,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,sehingga meningkatkan sensitivitas terhadap cacat gambar ban dapat dicapai dengan menggabungkan teknik deteksi langsung dan tidak langsung menambahkan lebih banyak lapisan dan menggunakan model terlatih.,25,1,14,0.041666666666666664,0.9615384615384616,0.038461538461538464
+Devi Resviani_KUALIFIKASI.txt,berdasarkan tabel 2.1 penelitian sim et al.,0,1,8,0.0,0.9929577464788732,0.0
+Devi Resviani_KUALIFIKASI.txt,2019 berhasil memanfaatkan sinyal acoustic emission ae untuk mendeteksi kerusakan pada katup kompresor reciprocating.,1,1,12,0.1111111111111111,0.9788732394366197,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian tersebut menunjukkan bahwa nilai rms ae sangat dipengaruhi oleh kondisi katup dan kecepatan kompresor membuktikan ae sebagai alat diagnosis yang efektif melalui analisis varians dan regresi.,2,1,17,0.043478260869565216,0.9647887323943662,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian loukopoulos et al.,3,1,0,0.0,0.9507042253521126,0.0
+Devi Resviani_KUALIFIKASI.txt,2019 melangkah lebih jauh dengan menggunakan kombinasi metode statistik dan machine learning untuk memperkirakan kapan kerusakan akan terjadi remaining useful life rul.,4,1,12,0.1111111111111111,0.9366197183098591,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian tersebut menunjukkan bahwa metode prognostik yang beragam seperti metode ensemble memberikan hasil yang lebih baik dibandingkan metode tunggal yang digunakan oleh sim et al.,5,1,13,0.0,0.9225352112676056,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,2019 dalam meningkatkan akurasi prediksi rul.,6,1,0,0.0,0.9084507042253521,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian cabrera et al.,7,1,0,0.0,0.8943661971830986,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 mengusulkan metode baru untuk diagnosis kesalahan menggunakan pendekatan bayesian dan pengurangan dimensi deret waktu dengan model lstm.,8,1,12,0.0,0.8802816901408451,0.0
+Devi Resviani_KUALIFIKASI.txt,hasilnya menunjukkan akurasi pengenalan kesalahan yang lebih tinggi daripada metode lain yang memperkenalkan penggunaan optimasi bayesian dalam model deep learning untuk meningkatkan kinerja.,9,1,14,0.05,0.8661971830985915,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian loutas et al.,10,1,0,0.0,0.852112676056338,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 mengembangkan indikator kesehatan berbasis pengukuran suhu dan pca untuk estimasi probabilistik tentang rul.,11,1,11,0.05555555555555555,0.8380281690140845,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian tersebut menunjukkan bahwa model gradient boosted trees gbts dan nonhomogeneous hidden semi markov models nhhsmm efektif dalam memprediksi rul dengan tingkat kepercayaan tinggi menggarisbawahi pentingnya pendekatan probabilistik berbasis data yang memperluas penggunaan metode machine learning yang digunakan oleh loukopoulos et al.,12,1,30,0.08571428571428572,0.823943661971831,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,2019 .,13,1,0,0.0,0.8098591549295775,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian toroghi and sadighi 2020 menggunakan electrical signature analysis esa untuk mendeteksi kesalahan mekanis pada kompresor yang menunjukkan bahwa sinyal arus dapat digunakan secara akurat melalui analisis transformasi fourier fft.,14,1,20,0.037037037037037035,0.795774647887324,0.0
+Devi Resviani_KUALIFIKASI.txt,metode tersebut menambah dimensi baru dalam deteksi kerusakan dengan metode non invasif yang berbeda dari ae yang digunakan oleh sim et al.,15,1,13,0.0,0.7816901408450704,0.0
+Devi Resviani_KUALIFIKASI.txt,2019 .,16,1,0,0.0,0.7676056338028169,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian x.,17,1,0,0.0,0.7535211267605634,0.0
+Devi Resviani_KUALIFIKASI.txt,li et al.,18,1,0,0.0,0.7394366197183099,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 mengembangkan metodologi prognostik menggunakan just intime learning jitl berbasis gradient boosting decision tree gbdt menunjukkan bahwa pendekatan ini 42 mampu mengatasi non linearitas dan memprediksi rul dengan akurasi tinggi.,19,1,23,0.06896551724137931,0.7253521126760564,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian ini dapat dikatakan melanjutkan perkembangan metode prognostik dari loukopoulos et al.,20,1,8,0.0,0.7112676056338029,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,2019 memperkenalkan adaptasi langsung berdasarkan kondisi operasi yang beragam.,21,1,8,0.0,0.6971830985915493,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian zou et al.,22,1,0,0.0,0.6830985915492958,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 mengembangkan model evaluasi berbasis analytic hierarchy process ahp dan fuzzy comprehensive evaluation fce untuk strategi pemeliharaan optimal.,23,1,16,0.043478260869565216,0.6690140845070423,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian tersebut menunjukkan bahwa metode ini meningkatkan keandalan evaluasi dan memberikan panduan efektif untuk desain dan pemeliharaan kompresor memperluas aplikasi metode prediktif yang sebelumnya difokuskan pada estimasi rul.,24,1,17,0.043478260869565216,0.6549295774647887,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian charoenchitt and tangamchit 2021 mendeteksi kerusakan awal pada kompresor menggunakan autoencoder menggabungkan data termodinamika dan getaran untuk meningkatkan akurasi prediksi.,25,1,16,0.043478260869565216,0.6408450704225352,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,pendekatan ini memperkuat penggunaan data sensor yang berbeda untuk deteksi anomali yang telah diinisiasi oleh toroghi and sadighi 2020 dengan esa.,26,1,14,0.0,0.6267605633802817,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian lu and wang 2021 mengembangkan sistem prediksi kegagalan menggunakan dekomposisi wavelet dan artificial neural network ann menunjukkan akurasi hampir 100 dalam deteksi kegagalan.,27,1,19,0.0,0.6126760563380281,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian tersebut menggabungkan analisis domain waktu dan wavelet untuk meningkatkan fitur ekstraksi dan prediksi melanjutkan tren dalam penggunaan machine learning untuk diagnosis yang dimulai oleh penelitian sebelumnya.,28,1,17,0.09090909090909091,0.5985915492957746,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian zhang et al.,29,1,0,0.0,0.5845070422535211,0.0
+Devi Resviani_KUALIFIKASI.txt,2021 mengevaluasi penggunaan teknologi ae dengan metode deep learning khususnya cnn dan lstm untuk memprediksi karakteristik dinamis katup.,30,1,14,0.047619047619047616,0.5704225352112676,0.0
+Devi Resviani_KUALIFIKASI.txt,hasilnya menunjukkan akurasi tinggi dan memperluas penggunaan teknologi ae yang awalnya diusulkan oleh sim et al.,31,1,10,0.0,0.5563380281690141,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,2019 dengan tambahan kemampuan deep learning untuk prediksi yang lebih canggih.,32,1,7,0.07142857142857142,0.5422535211267606,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian zhao et al.,33,1,0,0.0,0.528169014084507,0.0
+Devi Resviani_KUALIFIKASI.txt,2021 mengembangkan metodologi deteksi kesalahan menggunakan cnn yang ditingkatkan dengan mekanisme perhatian mencapai akurasi 99.4 bahkan dalam kondisi bising.,34,1,15,0.0,0.5140845070422535,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,penelitian ini menunjukkan kemampuan cnn yang ditingkatkan dalam pemrosesan fitur global dan akurasi diagnosis tinggi memperluas kemampuan prediksi deep learning yang digunakan 43 oleh zhang et al.,35,1,18,0.041666666666666664,0.5,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,2021 .,36,1,0,0.0,0.4859154929577465,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian cerrada et al.,37,1,0,0.0,0.47183098591549294,0.0
+Devi Resviani_KUALIFIKASI.txt,2022 mengusulkan penggunaan sinyal arus sebagai metode non intrusif untuk diagnosis kesalahan bantalan mencapai presisi tinggi dengan metode lamda.,38,1,15,0.0,0.45774647887323944,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian ini menawarkan solusi yang lebih sederhana dan efisien biaya dibandingkan analisis getaran tradisional menggabungkan pendekatan berbasis data yang telah diterapkan dalam penelitian sebelumnya.,39,1,17,0.043478260869565216,0.44366197183098594,0.0
+Devi Resviani_KUALIFIKASI.txt,setiap penelitian membangun fondasi yang sebelumnya dan memperluas metode yang digunakan untuk diagnosis dan prediksi kerusakan kompresor reciprocating .,40,1,10,0.125,0.4295774647887324,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,hal ini menunjukkan perkembangan dari analisis sederhana sinyal ae ke penggunaan kombinasi metode machine learning dan data sensor yang lebih kompleks .,41,1,13,0.10526315789473684,0.4154929577464789,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,sebagaimana penelitian yang akan diusulkan pengembangan model prediksi kegagalan mesin bertujuan untuk menciptakan sistem pemeliharaan prediktif yang efektif yang dapat membantu organisasi dalam mengoptimalkan operasi dalam meminimalkan risiko kerusakan.,42,1,20,0.037037037037037035,0.4014084507042254,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,konteks analisis penelitian sebelumnya mengenai diagnosis dan prediksi kerusakan pada kompresor reciprocating diagram fishbone dapat digunakan untuk menggambarkan faktor faktor kunci yang berkontribusi terhadap pengembangan teknologi dan metodologi dalam bidang ini.,43,1,20,0.08,0.3873239436619718,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,berikut diagram fishbone yang mempengaruhi penelitian usulan pengembangan prediksi kegagalan pada kompresor reciprocating yang dapat dilihat pada gambar 2.4. usulan penelitian disertasi prediksi kegagalan mesin predictive maintenance machine learning metode diagnosis analisis statistik acoustic emission ae sim et al .,44,1,33,0.23333333333333334,0.3732394366197183,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,2019 zhang et al .,45,1,0,0.0,0.3591549295774648,0.0
+Devi Resviani_KUALIFIKASI.txt,2021electrical signature analysis esa toroghi sadighi 2020 cerrada et al .,46,1,10,0.0,0.34507042253521125,0.0
+Devi Resviani_KUALIFIKASI.txt,2022 multiple linear regression mlr loukopoulos et al .,47,1,8,0.0,0.33098591549295775,0.0
+Devi Resviani_KUALIFIKASI.txt,2019polynomial regression loukopoulos et al .,48,1,0,0.0,0.31690140845070425,0.0
+Devi Resviani_KUALIFIKASI.txt,2019analytic hierarchy process ahp zou et al .,49,1,7,0.0,0.3028169014084507,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 strategi pemeliharaan pemeliharaan berbasis kondisi sim et al .,50,1,9,0.06666666666666667,0.2887323943661972,0.0
+Devi Resviani_KUALIFIKASI.txt,2019 toroghi sadighi 2020 getaran lu wang 2021 charoenchitt tangamchit 2021 selforganising map som loukopoulos et al .,51,1,17,0.0,0.2746478873239437,0.0
+Devi Resviani_KUALIFIKASI.txt,2019knearest neighbours regression knnr loukopoulos et al .,52,1,7,0.0,0.2605633802816901,0.0
+Devi Resviani_KUALIFIKASI.txt,2019gradient boosting decision tree gbdt li et al .,53,1,8,0.0,0.24647887323943662,0.0
+Devi Resviani_KUALIFIKASI.txt,2010 support vector machine svm toroghi sadighi 2020gradient boosted trees gbts loutas et al .,54,1,14,0.047619047619047616,0.2323943661971831,0.0
+Devi Resviani_KUALIFIKASI.txt,2020nonhomogeneous hidden semi markov models nhhsmm loutas et al .,55,1,9,0.0,0.21830985915492956,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 deep learningconvolutional neural network cnn zhang et al .,56,1,9,0.0,0.20422535211267606,0.0
+Devi Resviani_KUALIFIKASI.txt,2021 zhao et al.,57,1,0,0.0,0.19014084507042253,0.0
+Devi Resviani_KUALIFIKASI.txt,2021long shortterm memory lstm cabrera et al .,58,1,7,0.0,0.176056338028169,0.0
+Devi Resviani_KUALIFIKASI.txt,2020denoising autoencoder cabrera et al .,59,1,0,0.0,0.1619718309859155,0.0
+Devi Resviani_KUALIFIKASI.txt,2020autoeconder charoenchitt tangamchi 2021artificial neural network ann lu wang 2021spare autoencoder cabrera et al .,60,1,14,0.0,0.14788732394366197,0.0
+Devi Resviani_KUALIFIKASI.txt,2020pemeliharaan prediktif loukopoulos et al .,61,1,0,0.0,0.13380281690140844,0.0
+Devi Resviani_KUALIFIKASI.txt,2019 li et al .,62,1,0,0.0,0.11971830985915492,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 cabrera et al .,63,1,0,0.0,0.1056338028169014,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 zhang et al.,64,1,0,0.0,0.09154929577464789,0.0
+Devi Resviani_KUALIFIKASI.txt,2021 zhao et al .,65,1,0,0.0,0.07746478873239436,0.0
+Devi Resviani_KUALIFIKASI.txt,2021prognostik berbasis data loutas et al .,66,1,6,0.07692307692307693,0.06338028169014084,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 zou et al.,67,1,0,0.0,0.04929577464788732,0.0
+Devi Resviani_KUALIFIKASI.txt,2020pemeliharaan preventif lu wang 2021 charoenchitt tangamchit 2021pemeliharaan berbasis risiko zou et al .,68,1,13,0.05,0.035211267605633804,0.0
+Devi Resviani_KUALIFIKASI.txt,2020fuzzy comprehensive evaluation fce zou et al .,69,1,7,0.0,0.02112676056338028,0.0
+Devi Resviani_KUALIFIKASI.txt,2020principal component analysis pca loutas et al .,70,1,7,0.0,0.007042253521126761,0.0
+Devi Resviani_KUALIFIKASI.txt,2020statistical process control spc loutas et al .,71,1,7,0.0,0.007042253521126761,0.0
+Devi Resviani_KUALIFIKASI.txt,2020failure mode and effect analysis fmea zou et al .,72,1,9,0.0,0.02112676056338028,0.0
+Devi Resviani_KUALIFIKASI.txt,2020 cluster validity assessment cva cerrada et al .,73,1,8,0.0,0.035211267605633804,0.0
+Devi Resviani_KUALIFIKASI.txt,2022hotelling s tsquared t² dan q residuals loutas et al .,74,1,9,0.0,0.04929577464788732,0.0
+Devi Resviani_KUALIFIKASI.txt,2020regression analysis sim et al .,75,1,0,0.0,0.06338028169014084,0.0
+Devi Resviani_KUALIFIKASI.txt,2019 anova analysis of variance sim et al .,76,1,8,0.0,0.07746478873239436,0.0
+Devi Resviani_KUALIFIKASI.txt,"2019 gambar 2.4 diagram fishbone usulan penelitian disertasi
+
+metodepenelitian
+3.1 tahapan penelitian tahapan penelitian merupakan serangkaian langkah langkah yang dilakukan dalam penelitian.",77,1,20,0.0,0.09154929577464789,0.0
+Devi Resviani_KUALIFIKASI.txt,gambaran mengenai tahapan penelitian ini dapat dilihat pada gambar 3.1. studi literatur pengumpulan dan analisis data preprocessing data pemilihan algoritma yang efektif pengembangan model machine learning sistem peringatan pemeliharaan prediktif evaluasi identifikasi permasalahan integrasi model dengan sistem peringatan pemeliharaan prediktif gambar 3.1 tahapan penelitian gambar 3.1 menunjukkan tahapan penelitian sebagai dasar untuk pengembangan sistem pemeliharaan prediktif menggunakan teknik machine 45 learning.,78,1,52,0.05714285714285714,0.1056338028169014,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,tahapan penelitian ini terdiri dari studi literatur untuk memahami keadaan yang terfokus terhadap tentang mesin kompresor reciprocating metode prediksi pemeliharaan mesin predictive maintenance dan machine learning.,79,1,17,0.4117647058823529,0.11971830985915492,0.0
+Devi Resviani_KUALIFIKASI.txt,identifikasi permasalahan secara spesifik yang akan diatasi oleh penelitian termasuk mendefinisikan ruang lingkup serta tujuan dari penelitian.,80,1,10,0.0,0.13380281690140844,0.0
+Devi Resviani_KUALIFIKASI.txt,pengumpulan data yang relevan dan melakukan analisis awal untuk memahami karakteristik dan pola dalam data.,81,1,8,0.0,0.14788732394366197,0.0
+Devi Resviani_KUALIFIKASI.txt,p reprocessing data melibatkan pembersihan data normalisasi dan transformasi data agar siap digunakan dalam model machine learning.,82,1,12,0.125,0.1619718309859155,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap ini bertujuan untuk mengatasi masalah data yang hilang outliers dan memastikan data berada dalam format yang sesuai.,83,1,9,0.0,0.176056338028169,0.0
+Devi Resviani_KUALIFIKASI.txt,p emilihan algoritma machine learning yang efektif untuk membantu mencapai akurasi yang lebih tinggi dan efisiensi dalam prediksi.,84,1,11,0.11764705882352941,0.19014084507042253,0.0
+Devi Resviani_KUALIFIKASI.txt,p engembangan dan melatih model machine learning menggunakan algoritma yang telah dipilih dengan data yang telah diperoses tahap ini melibatkan pembagian data menjadi set pelatihan dan set pengujian serta termasuk mengatur parameter model untuk mencapai kinerja terbaik.,85,1,24,0.07692307692307693,0.20422535211267606,0.0
+Devi Resviani_KUALIFIKASI.txt,s istem peringatan pemeliharaan prediktif menggunakan model machine learning untuk memprediksi kegagalan mesin sistem ini bertujuan untuk memberikan peringatan dini sebelum terjadinya kerusakan atau kegagalan mesin.,86,1,17,0.15789473684210525,0.21830985915492956,0.0
+Devi Resviani_KUALIFIKASI.txt,i ntegrasi model dengan sistem peringatan pemeliharaan prediktif tahap ini memastikan bahwa model dapat bekerja secara realtime dan memberikan peringatan yang akurat kepada pengguna.,87,1,13,0.0,0.2323943661971831,0.0
+Devi Resviani_KUALIFIKASI.txt,serta tahapan terakhir adalah evaluasi kinerja sistem secara keseluruhan untuk memastikan bahwa sistem peringatan pemeliharaan prediktif berfungsi dengan baik dan mencapai tujuan yang diinginkan.,88,1,12,0.0,0.24647887323943662,0.0
+Devi Resviani_KUALIFIKASI.txt,3.2 pengumpulan dan analisis data observasi data dilakukan pada platform terpercaya yang menyediakan berbagai dataset publik yaitu kaggle .,89,1,13,0.0,0.2605633802816901,0.0
+Devi Resviani_KUALIFIKASI.txt,data yang digunakan yaitu dataset mesin kompresor reciprocating yang divisualisasikan oleh akun kaggle bernama ahmet okudan.,90,1,11,0.1875,0.2746478873239437,0.0
+Devi Resviani_KUALIFIKASI.txt,dataset tersebut berisi data operasional dari mesin kompresor reciprocating dengan total 1000 sampel.,91,1,10,0.2,0.2887323943661972,0.0
+Devi Resviani_KUALIFIKASI.txt,setiap sampel dalam dataset tersebut mencakup 26 kolom yang berisi informasi dapat dilihat pada tabel 3.1. 46 tabel 3.1 deskripsi kolom dataset mesin kompresor reciprocating no nama kolom deskripsi 1.,92,1,25,0.13636363636363635,0.3028169014084507,0.0
+Devi Resviani_KUALIFIKASI.txt,id identifikasi unik untuk setiap entri 2.,93,1,0,0.0,0.31690140845070425,0.0
+Devi Resviani_KUALIFIKASI.txt,rpm kecepatan putaran mesin dalam rotasi per menit 3.,94,1,7,0.07142857142857142,0.33098591549295775,0.0
+Devi Resviani_KUALIFIKASI.txt,motor power daya motor dalam watt 4.,95,1,6,0.0,0.34507042253521125,0.0
+Devi Resviani_KUALIFIKASI.txt,torque torsi yang dihasilkan oleh mesin 5.,96,1,0,0.08333333333333333,0.3591549295774648,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,outlet pressure bar tekanan keluaran dalam bar 6.,97,1,7,0.0,0.3732394366197183,0.0
+Devi Resviani_KUALIFIKASI.txt,air flow aliran udara yang diukur 7.,98,1,6,0.0,0.3873239436619718,0.0
+Devi Resviani_KUALIFIKASI.txt,noise db tingkat kebisingan dalam desibel 8.,99,1,6,0.0,0.4014084507042254,0.007042253521126761
+Devi Resviani_KUALIFIKASI.txt,outlet temperature suhu keluaran 9.,100,1,0,0.0,0.4154929577464789,0.0
+Devi Resviani_KUALIFIKASI.txt,water pump outlet pressure tekanan keluaran pompa air 10.,101,1,9,0.0,0.4295774647887324,0.0
+Devi Resviani_KUALIFIKASI.txt,water inlet temperature suhu air masuk 11.,102,1,7,0.0,0.44366197183098594,0.0
+Devi Resviani_KUALIFIKASI.txt,water outlet temperature suhu air keluar 12.,103,1,6,0.0,0.45774647887323944,0.0
+Devi Resviani_KUALIFIKASI.txt,water pump power daya pompa air 13.,104,1,7,0.0,0.47183098591549294,0.0
+Devi Resviani_KUALIFIKASI.txt,water flow aliran air 14.,105,1,0,0.0,0.4859154929577465,0.0
+Devi Resviani_KUALIFIKASI.txt,oil pump power daya pompa oli 15.,106,1,7,0.0,0.5,0.0
+Devi Resviani_KUALIFIKASI.txt,oil tank temperature suhu tangki oli 16.,107,1,7,0.0,0.5140845070422535,0.0
+Devi Resviani_KUALIFIKASI.txt,gacceleration x gaccx akselerasi gravitasi pada sumbu x 17.,108,1,8,0.0,0.528169014084507,0.0
+Devi Resviani_KUALIFIKASI.txt,gacceleration y gaccy akselerasi gravitasi pada sumbu y 18.,109,1,8,0.0,0.5422535211267606,0.0
+Devi Resviani_KUALIFIKASI.txt,gacceleration z gaccz akselerasi gravitasi pada sumbu z 19.,110,1,8,0.0,0.5563380281690141,0.0
+Devi Resviani_KUALIFIKASI.txt,hacceleration x haccx akselerasi horizontal pada sumbu x 20.,111,1,8,0.0,0.5704225352112676,0.0
+Devi Resviani_KUALIFIKASI.txt,hacceleration y haccy akselerasi horizontal pada sumbu y 21.,112,1,8,0.0,0.5845070422535211,0.0
+Devi Resviani_KUALIFIKASI.txt,hacceleration z haccz akselerasi horizontal pada sumbu z 22.,113,1,8,0.0,0.5985915492957746,0.0
+Devi Resviani_KUALIFIKASI.txt,bearings kondisi bearing misalnya ok 23.,114,0,0,0.0,0.6126760563380281,0.0
+Devi Resviani_KUALIFIKASI.txt,water pump kondisi pompa air misalnya ok 24.,115,0,7,0.0,0.6267605633802817,0.0
+Devi Resviani_KUALIFIKASI.txt,radiator kondisi radiator misalnya clean 25.,116,0,0,0.0,0.6408450704225352,0.0
+Devi Resviani_KUALIFIKASI.txt,exvalve kondisi katup eksvalve misalnya clean 26.,117,0,6,0.0,0.6549295774647887,0.0
+Devi Resviani_KUALIFIKASI.txt,ac motor kondisi motor ac misalnya stable analisis data penelitian ini menggunakan metode exploratory data analysis eda bertujuan untuk memberikan gambaran umum tentang data dan mengidentifikasi pola atau anomali yang mungkin tidak terlihat dengan metode lain.,118,0,22,0.0,0.6690140845070423,0.0
+Devi Resviani_KUALIFIKASI.txt,penerapan metode eda dalam dataset mesin kompresor reciprocating menggunakan software python open access di notebook jupyter gambaran mengenai alur proses analisis data dapat dilihat pada gambar 3.2. 47 visualisasi data impor dataset identifikasi outlier analisis korelasi antar variabel statistik deskriptif impor library informasi dataset gambar 3.2 alur proses analisis data gambar 3.2 menggambarkan alur proses analisis data dengan tahap pertama adalah mengimpor library atau pustaka yang diperlukan untuk analisis data.,119,1,58,0.07894736842105263,0.6830985915492958,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap selanjutnya adalah mengimpor dataset yang akan dianalisis.,120,1,0,0.0,0.6971830985915493,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap berikutnya adalah memeriksa informasi dasar tentang dataset untuk memahami struktur dan isi data.,121,1,9,0.0,0.7112676056338029,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap ini termasuk melihat beberapa baris pertama dataset tipe data setiap kolom dan jumlah data.,122,1,7,0.0,0.7253521126760564,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap selanjutnya statistik deskriptif untuk memahami distribusi data seperti mean median mode standard deviation dan range .,123,1,12,0.0,0.7394366197183099,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap berikutnya identifikasi outlier atau nilai yang jauh berbeda dari data lainnya.,124,1,7,0.0,0.7535211267605634,0.0
+Devi Resviani_KUALIFIKASI.txt,outlier dapat mempengaruhi analisis dan model sehingga perlu diperiksa apakah akan dihapus atau ditangani dengan cara lain.,125,1,8,0.0,0.7676056338028169,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap selanjutnya analisis korelasi dilakukan untuk melihat hubungan antara variabel variabel dalam dataset.,126,1,7,0.0,0.7816901408450704,0.0
+Devi Resviani_KUALIFIKASI.txt,korelasi membantu memahami bagaimana satu variabel mungkin mempengaruhi variabel lain.,127,1,7,0.0,0.795774647887324,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap terakhir visualisasi data menggunakan berbagai jenis grafik seperti histogram scatter plot dan box plot untuk lebih memahami distribusi dan pola dalam data.,128,1,14,0.0,0.8098591549295775,0.0
+Devi Resviani_KUALIFIKASI.txt,3.3 preprocessing data preprocessing data sangat penting untuk memastikan bahwa data yang digunakan untuk pelatihan model machine learning memiliki kualitas yang tinggi relevan dan sesuai.,129,1,15,0.11764705882352941,0.823943661971831,0.0
+Devi Resviani_KUALIFIKASI.txt,alur proses data preprocessing pada penelitian ini dapat dilihat pada gambar 3.3. imputasi transformasi data reduksi dimensi gambar 3.3 alur proses data preprocessing 48 gambar 3.3 menunjukkan alur proses data preprocessing terdiri dari tahap pertama imputasi dilakukan untuk mengganti nilai yang outlier dengan nilai yang lebih representative.,130,1,35,0.0,0.8380281690140845,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap kedua transformasi data untuk memperbaiki distribusi yang tidak normal.,131,1,6,0.0,0.852112676056338,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap ketiga reduksi dimensi yaitu mengurangi jumlah fitur dalam dataset guna menangani dataset dengan banyak fitur mengurangi kompleksitas model dan mencegah overfitting.,132,1,15,0.0,0.8661971830985915,0.0
+Devi Resviani_KUALIFIKASI.txt,3.4 sistem peringatan pemeliharaan prediktif sistem peringatan pemeliharaan prediktif adalah sistem yang menggunakan teknik teknik analisis data terutama machine learning untuk memantau kondisi mesin dan memprediksi kegagalan yang mungkin terjadi.,133,1,23,0.13636363636363635,0.8802816901408451,0.0
+Devi Resviani_KUALIFIKASI.txt,penelitian ini mengusulkan sistem untuk memberikan peringatan dini kepada operator atau tim pemeliharaan sehingga tindakan preventif dapat dilakukan sebelum kegagalan terjadi mengurangi downtime dan biaya pemeliharaan.,134,1,14,0.0,0.8943661971830986,0.0
+Devi Resviani_KUALIFIKASI.txt,gambaran alur kerja usulan sistem peringatan pemeliharaan prediktif dapat dilihat pada gambar 3.4. monitoring data realtime input data ke model prediksideteksi anomalianalisis prediksialert jadwal pemeliharaan gambar 3.4 alur kerja sistem peringatan pemeliharaan prediktif gambar 3.4 menggambarkan alur kerja dari sistem pemeliharaan prediktif pada mesin kompresor reciprocating berbasis machine learning.,135,1,46,0.2222222222222222,0.9084507042253521,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap awal adalah data operasional mesin dikumpulkan secara menerus menggunakan sensor bertujuan memastikan data terkini tersedia untuk dianalisis guna mendeteksi 49 tanda tanda awal kegagalan mesin.,136,1,18,0.045454545454545456,0.9225352112676056,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap kedua menginput data dari pemantauan realtime ke dalam model prediksi pemeliharaan yang telah dilatih.,137,1,9,0.0,0.9366197183098591,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap ketiga mendeteksi adanya anomali atau pola yang tidak biasa agar tindakan pencegahan dapat diambil sebelum kerusakan terjadi.,138,1,10,0.0,0.9507042253521126,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap keempat analisis prediksi untuk memperkirakan kapan dan bagaimana kegagalan akan terjadi sehingga pemeliharaan dapat direncanakan dengan tepat.,139,1,8,0.0,0.9647887323943662,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap kelima alert atau peringatan untuk memberikan informasi kepada tim pemeliharaan agar dapat segera mengambil tindakan.,140,1,8,0.0,0.9788732394366197,0.0
+Devi Resviani_KUALIFIKASI.txt,tahap terakhir menjadwalkan tindakan pemeliharaan yang diperlukan berdasarkan peringatan untuk menghindari kegagalan mendadak dan meminimalkan downtime.,141,1,11,0.0,0.9929577464788732,0.0
+Erfiana Wahyuningsih_UK.txt,berdasarkan beberapa penelitian terkait sram untuk mewujudkan sram low power dan high read stability metode yang dapat dilakukan yakni gdi mgdi finfet cntfet hingga adiabatik.,0,1,17,0.28,0.9655172413793104,0.034482758620689655
+Erfiana Wahyuningsih_UK.txt,namun yang akan menjadi focus utama penelitian ini yakni penerapan dari metode mgdi modified gate diffusion input.,1,1,10,0.0,0.896551724137931,0.0
+Erfiana Wahyuningsih_UK.txt,desain sel m gdi memanfaatkan input untuk bertindak sebagai sumber dan penyimpan untuk transistor mos yang mengurangi komponen konsumsi daya short circuit dinamis menjadi nilai yang dapat diabaikan tanpa memerlukan pertimbangan desain sirkuit khusus.,2,1,24,0.05405405405405406,0.8275862068965517,0.0
+Erfiana Wahyuningsih_UK.txt,oleh karena itu dipilih metode m gdi sebab metode ini menawarkan solusi yang lebih efisien dalam hal konsumsi daya dan kompleksitas desain yang sangat penting dalam pengembangan sirkuit digital yang hemat energi dan efisien 8.,3,1,19,0.06451612903225806,0.7586206896551724,0.034482758620689655
+Erfiana Wahyuningsih_UK.txt,2.4 rangkuman penelitian .,4,1,0,0.0,0.6896551724137931,0.0
+Erfiana Wahyuningsih_UK.txt,"metodepenelitian
+untuk mempermudah dalam melakukan penelitian maka dibuat sebuah flowchart agar penelitian tidak menyimpang dan salah.",5,1,7,0.0,0.6206896551724138,0.0
+Erfiana Wahyuningsih_UK.txt,berikut flowchart penelitian untuk rangkaian sram 6t low power dan high read stability dengan metode m gdi.,6,1,13,0.45,0.5517241379310345,0.0
+Erfiana Wahyuningsih_UK.txt,gambar 10.,7,1,0,0.0,0.4827586206896552,0.0
+Erfiana Wahyuningsih_UK.txt,alur penelitian sram 6t dengan metode m gdi dalam me mulai desain sram 6t dengan menggunakan metode m gdi diperlukan studi literatur terkait bebera pa penelitian dengan metode atau hasil serupa .,8,1,22,0.14814814814814814,0.41379310344827586,0.034482758620689655
+Erfiana Wahyuningsih_UK.txt,setelah me mpelajari se luruh penelitian terkait maka di lakukan desain rangkaian sram dengan metode konvensional sebagai referensi untuk dilakukan proses m gdi.,9,1,15,0.10714285714285714,0.3448275862068966,0.0
+Erfiana Wahyuningsih_UK.txt,referensi rangkaian diperlukan untuk melihat hasil sebagai pembanding dengan rangkaian baru yang didesain dengan metode mgdi.,10,1,8,0.0,0.27586206896551724,0.034482758620689655
+Erfiana Wahyuningsih_UK.txt,dipilih desain berdasarkan penelitian sebelumnya yang dilakukan oleh ebrahim abiri dan abdolreza darabi 2015 sram 8t dengan low power dan high read stability menggunakan metode m gdi.,11,1,19,0.2962962962962963,0.20689655172413793,0.0
+Erfiana Wahyuningsih_UK.txt,berdasarkan penelit ian yang dilakukan rangkaian sram ini terbagi menjadi 3 blok yakni write bloc k sram 8t block dan read bloc k seperti pada gambar 11 be rikut gambar 11.,12,1,23,0.0625,0.13793103448275862,0.0
+Erfiana Wahyuningsih_UK.txt,desain sram 8t dengan metode m gdi lengkap gambar 11 akan dijadikan referensi untuk dilakukan tahap m gdi selanjutnya guna mendapatkan desain baru dengan kemampuan low power da n high read stability.,13,1,23,0.2857142857142857,0.06896551724137931,0.0
+Erfiana Wahyuningsih_UK.txt,penelitian tetap akan memusatkan pada desain rang kaian sram 8t untuk direduksi menjadi 6t dengan metode mgdi.,14,1,11,0.08,0.0,0.0
+Erfiana Wahyuningsih_UK.txt,hasil yang dihar apkan tetap mengacu pada low power dan mempertaha nkan pula kemampuan high read stability.,15,1,12,0.21739130434782608,0.06896551724137931,0.034482758620689655
+Erfiana Wahyuningsih_UK.txt,rangkaian sram 8t diatas memiliki hasil simulasi seperti yang tamp ak pada gambar 12.,16,1,11,0.038461538461538464,0.13793103448275862,0.034482758620689655
+Erfiana Wahyuningsih_UK.txt,gambar 12.,17,1,0,0.0,0.20689655172413793,0.0
+Erfiana Wahyuningsih_UK.txt,simulasi sinyal masukan dan keluar an sram 8t dalam kondisi menulis write proses write pada rangkaian sram 8t dimulai ketika word line wl mencapai tegangan tinggi yang menyebabkan transistor akses access transistors menjadi aktif on.,18,1,26,0.02631578947368421,0.27586206896551724,0.0
+Erfiana Wahyuningsih_UK.txt,pada saat itu data disimpan dengan cepat pada node q dan qb yang terhubung ke gerbang da ri transistor pusat sel enr dan enl.,19,1,15,0.0,0.3448275862068966,0.0
+Erfiana Wahyuningsih_UK.txt,setelah itu data mencapai keadaan permanen dengan bantuan sel sel m gdi .,20,1,8,0.09523809523809523,0.41379310344827586,0.0
+Erfiana Wahyuningsih_UK.txt,selama siklus write sel m gdi berperan dalam memastikan bahwa data yang ditulis ke dalam sel memori sram disimpan dengan stabil dan cepat yang merupakan bagian penting dari desain sram low power gambar 1 3.,21,1,21,0.16666666666666666,0.4827586206896552,0.0
+Erfiana Wahyuningsih_UK.txt,simulasi sinyal masukan dan keluar an hanya pada rangkaian blok sram 8t dalam blok rangkaian sram 8t input utama termasuk word line wl bit lines bl dan blb dan sinyal sinyal kontrol untuk operasi pembacaan dan penulisan.,22,1,27,0.027777777777777776,0.5517241379310345,0.0
+Erfiana Wahyuningsih_UK.txt,output dari rangkaian ini adalah data yang dibaca dari sel memori d_out dan d_outb .,23,1,10,0.0,0.6206896551724138,0.0
+Erfiana Wahyuningsih_UK.txt,ketika melakukan operasi penulisan data yang akan ditulis ke dalam sel memori disuplai melalui bit lines bl dan blb.,24,1,11,0.0,0.6896551724137931,0.0
+Erfiana Wahyuningsih_UK.txt,sinyal wl diaktifkan untuk menghubungkan sel memori dengan bit lines memungkinkan data untuk ditransfer ke dalam sel.,25,1,11,0.0,0.7586206896551724,0.0
+Erfiana Wahyuningsih_UK.txt,setelah data ditu lis wl dinonaktifkan untuk mengisolasi sel dari bit lines dan menjaga data yang telah disimpan .,26,1,12,0.0,0.8275862068965517,0.0
+Erfiana Wahyuningsih_UK.txt,selama operasi pembacaan wl diaktifkan untuk menghubungkan sel memori dengan bit lines memungkinkan data yang tersimpan di dalam sel untuk ditransfer keluar.,27,1,14,0.0,0.896551724137931,0.0
+Erfiana Wahyuningsih_UK.txt,data yang dibaca kemudian muncul pada output d_out dan d_outb dengan swing tegangan maksimum pad a output inverter .,28,1,15,0.0,0.9655172413793104,0.0
+Robert_Kualifikasi.txt,tidak ada rangkuman penelitian terkait.,1,1,0,0.0,1,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan penelitian di atas permasalahan pada klasifikasi batik biasanya berasal dari dataset yang kurang mendukung.,0,1,8,0.11764705882352941,0.9090909090909091,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,selain itu warna citra rgb bukanlah faktor penting pada klasifikasi motif batik pada daerah tertentu yang memiliki warna seragam.,1,1,11,0.23529411764705882,0.7272727272727273,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,selanjutnya deteksi tepi dilakukan untuk meningkatkan akurasi.,2,1,0,0.0,0.5454545454545454,0.09090909090909091
+Tatya Atyanti Paramastri_Kualifikasi.txt,namun karena deteksi tepi membuat citra menjadi grayscale maka sebaiknya hanya dilakukan pada klasifikasi motif batik dari satu daerah.,3,1,8,0.26666666666666666,0.36363636363636365,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan penelitian tersebut klasifikasi citra berbasis kuantum dapat dilakukan dengan menggunakan komputer pribadi baik komputer klasik atau terhubung dengan komputer kuantum.,4,1,13,0.16666666666666666,0.18181818181818182,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,kedua pilihan tersebut memiliki kelebihan dan kekurangannya masingmasing.,5,1,0,0.0,0.0,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,masalah yang masih dihadapi oleh penggunaan komputasi kuantum saat ini adalah kecepatan maka dari itu banyak jurnal yang mengabaikan kompleksitas waktu.,6,1,9,0.05263157894736842,0.18181818181818182,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,selain itu untuk menyesuaikan dengan kemampuan perangkat yang digunakan citra yang akan diproses harus mengalami downscaling dan dataset yang digunakan tidak dapat dalam jumlah yang sangat besar.,7,1,9,0.05263157894736842,0.36363636363636365,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan penelitian didapatkan hasil bahwa deteksi tepi canny memberikan hasil yang lebih baik dibandingkan sobel prewitt robert.,8,1,12,0.0,0.5454545454545454,0.09090909090909091
+Tatya Atyanti Paramastri_Kualifikasi.txt,hal ini dikarenakan operator canny mempunyai beberapa tahap deteksi tepi yang tidak dimiliki oleh operator lain sehingga dapat menghasilkan tepi yang lebih jelas.,9,1,10,0.0,0.7272727272727273,0.09090909090909091
+Tatya Atyanti Paramastri_Kualifikasi.txt,penerapan komputasi kuantum pada detekti tepi terbukti dapat menghasilkan deteksi tepi yang lebih baik dibandingkan dengan deteksi tepi canny klasik dengan mendeteksi lebih banyak tepi dibandingkan deteksi tepi klasik berdasarkan jumlah tepi yang dihasilkan.,10,1,23,0.045454545454545456,0.9090909090909091,0.09090909090909091
+Tia Haryanti_Kualifikasi.txt,berdasarkan penelitian penelitian dalam tabel di atas menjelaskan mengenai peran dari teknologi artificial intelligence dalam mengembangkan solusi yang canggih untuk mengidentifikasi kelelahan pada pengemudi.,0,1,14,0.16666666666666666,0.9787234042553191,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,melalui pemrosesan visual secara mendalam dan pemahaman pola teknologi tersebut mampu 40 mendeteksi tanda tanda kelelahan pada area mata mulut dan kepala pengemudi dengan tingkat akurasi yang semakin tinggi.,1,1,19,0.08333333333333333,0.9361702127659575,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,studi diatas menunjukkan bahwa terdapat potensi d alam meningkatkan keselamatan di jalan raya melalui pendekatan berbasis teknologi yang cerdas dan efektif.,2,1,14,0.0,0.8936170212765957,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,penelitian penelitian sejenis yang merupakan peneltian terdahulu antara lain implementasi pemanfaatan kecerdasan buatan dalam bidang teknologi infor masi untuk mendeteksi kelelahan seperti pada tahun 2019 dengan mengusulkan sistem pengenalan aktivitas pengemudi berbasis deep learning dengan akurasi 932 untuk mengenali pengemudi menjawab telepon dan 945 mengirim pesan xing y.,3,1,33,0.08333333333333333,0.851063829787234,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,lv c.,4,1,0,0.0,0.8085106382978723,0.0
+Tia Haryanti_Kualifikasi.txt,wang h.,5,1,0,0.0,0.7659574468085106,0.0
+Tia Haryanti_Kualifikasi.txt,ca o d.,6,1,0,0.0,0.723404255319149,0.0
+Tia Haryanti_Kualifikasi.txt,velenis e.,7,1,0,0.0,0.6808510638297872,0.0
+Tia Haryanti_Kualifikasi.txt,wang f.,8,1,0,0.0,0.6382978723404256,0.0
+Tia Haryanti_Kualifikasi.txt,y.,9,1,0,0.0,0.5957446808510638,0.0
+Tia Haryanti_Kualifikasi.txt,2019.,10,1,0,0.0,0.5531914893617021,0.0
+Tia Haryanti_Kualifikasi.txt,pada tahun 2020 terdapat dua penelitian yang mengusulkan deteksi kelelahan berbasis multi fitur wajah untuk meningkatkan akurasi deteksi.,11,1,12,0.05555555555555555,0.5106382978723404,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,algoritma yang digunakan yaitu yolov3 tiny dengan akurasi 9510 li k.,12,1,7,0.0,0.46808510638297873,0.0
+Tia Haryanti_Kualifikasi.txt,go ng y.,13,1,0,0.0,0.425531914893617,0.0
+Tia Haryanti_Kualifikasi.txt,ren z.,14,1,0,0.0,0.3829787234042553,0.0
+Tia Haryanti_Kualifikasi.txt,2020.,15,1,0,0.0,0.3404255319148936,0.0
+Tia Haryanti_Kualifikasi.txt,serta penggunaan algoritma em cnn dengan akurasi 97913 zhao z.,16,1,8,0.0,0.2978723404255319,0.0
+Tia Haryanti_Kualifikasi.txt,zhou n.,17,1,0,0.0,0.2553191489361702,0.0
+Tia Haryanti_Kualifikasi.txt,zhang l.,18,1,0,0.0,0.2127659574468085,0.0
+Tia Haryanti_Kualifikasi.txt,yan h.,19,1,0,0.0,0.1702127659574468,0.0
+Tia Haryanti_Kualifikasi.txt,xu y.,20,1,0,0.0,0.1276595744680851,0.0
+Tia Haryanti_Kualifikasi.txt,zhang z.,21,1,0,0.0,0.0851063829787234,0.0
+Tia Haryanti_Kualifikasi.txt,2020.,22,1,0,0.0,0.0425531914893617,0.0
+Tia Haryanti_Kualifikasi.txt,pada tahun selanjutnya terdapat penelitian mengembangkan metode deteksi kelelahan pengemudi menggunakan cnn dengan parameter yang diukur yaitu posisi kepala dan mata.,23,1,12,0.1111111111111111,0.0,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,nilai akurasi yang didapat rata rata 8955 li x.,24,1,0,0.0,0.0425531914893617,0.0
+Tia Haryanti_Kualifikasi.txt,xia j.,25,1,0,0.0,0.0851063829787234,0.0
+Tia Haryanti_Kualifikasi.txt,cao l.,26,1,0,0.0,0.1276595744680851,0.0
+Tia Haryanti_Kualifikasi.txt,zhang g.,27,1,0,0.0,0.1702127659574468,0.0
+Tia Haryanti_Kualifikasi.txt,feng x 2021.,28,1,0,0.0,0.2127659574468085,0.0
+Tia Haryanti_Kualifikasi.txt,tahun 2022 terdapat dua penelitan pengembangan sistem untuk meningkatkan akurasi deteksi kel elahan dan memperbaiki kinerja sistem.,29,1,12,0.11764705882352941,0.2553191489361702,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,deteksi pada kondisi siang hari saat pengemudi menggunakan kacamata memiliki nilai akurasi 98 alharbey r.,30,1,11,0.1875,0.2978723404255319,0.0
+Tia Haryanti_Kualifikasi.txt,dessouky m.,31,1,0,0.0,0.3404255319148936,0.0
+Tia Haryanti_Kualifikasi.txt,m.,32,1,0,0.0,0.3829787234042553,0.0
+Tia Haryanti_Kualifikasi.txt,sedik a.,33,1,0,0.0,0.425531914893617,0.0
+Tia Haryanti_Kualifikasi.txt,siam a.,34,1,0,0.0,0.46808510638297873,0.0
+Tia Haryanti_Kualifikasi.txt,i.,35,1,0,0.0,0.5106382978723404,0.0
+Tia Haryanti_Kualifikasi.txt,elaskily m.,36,1,0,0.0,0.5531914893617021,0.0
+Tia Haryanti_Kualifikasi.txt,a 2022.,37,1,0,0.0,0.5957446808510638,0.0
+Tia Haryanti_Kualifikasi.txt,terdapat juga kombinasi metode cnn dan sv m untuk mendeteksi kelelahan pengemudi mencapai akurasi pengujian 9965 salma anber wafaa alsaggaf wafaa shalash 2022.,38,1,19,0.08333333333333333,0.6382978723404256,0.0
+Tia Haryanti_Kualifikasi.txt,tahun 2023 terdapat penelitian deteksi kantuk berdasarkan perilaku pengemudi menggunakan pengukuruan fisiologis sensor galvanic sk in response gsr dengan akurasi 91 bajaj j.s. kumar n.,39,1,22,0.1111111111111111,0.6808510638297872,0.0
+Tia Haryanti_Kualifikasi.txt,kaushal r.k. gururaj h.l. flammini f.,40,1,8,0.0,0.723404255319149,0.0
+Tia Haryanti_Kualifikasi.txt,natarajan r 2023.,41,1,0,0.0,0.7659574468085106,0.0
+Tia Haryanti_Kualifikasi.txt,penelitian terkini menunjukkan bahwa penggunaan cnn dalam pengenalan pola dan citra memiliki akurasi yang tinggi namun pengaplik asian dalam sistem deteksi dini kantuk pada kondisi pre driving masih terbatas.,42,1,18,0.18181818181818182,0.8085106382978723,0.0
+Tia Haryanti_Kualifikasi.txt,kebaruan dari 41 penelitian ini terletak pada pengembangan algoritma yang dioptimalkan untuk deteksi dini kantuk dengan memanfaatkan penggabungan data citra gambar dan data fisiol ogis untuk meningkatkan keakuratan deteksi serta integrasinya dalam lingkungan pre driving belum banyak dilakukan.,43,1,25,0.06896551724137931,0.851063829787234,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,inovasi penelitian ini yaitu pembuatan dataset primer yang dibangun khusus untuk penelitian ini.,44,1,9,0.0,0.8936170212765957,0.02127659574468085
+Tia Haryanti_Kualifikasi.txt,melibatkan berbagai kelompok pengemudi dala m pengumpulan data memungkinkan sistem untuk mengidentifikasi tanda tanda kantuk dengan lebih tepat mengatasi keterbatasan dataset yang umumnya digunakan yang cenderung homogen dan terbatas.,45,1,18,0.14285714285714285,0.9361702127659575,0.0
+Tia Haryanti_Kualifikasi.txt,dataset yang khusus dan beragam ini memperkuat basis data untuk pelatihan dan pengujian model yang digunakan serta meningkatkan kinerja dan reliabilitas sistem deteksi dini kantuk secara keseluruhan.,46,1,16,0.14285714285714285,0.9787234042553191,0.02127659574468085
+Utami Lestari_Kualifikasi.txt,berdasarkan penelitian telaah pustaka yang telah dilakukan dapat disimpulkan bahwa proses telaah sejawat dapat dilakukan secara otomatis dengan bantuan teknologi kecerdasan buatan.,0,1,13,0.0,0.9333333333333333,0.06666666666666667
+Utami Lestari_Kualifikasi.txt,beberapa penelitian sebelumnya telah membahas mengenai penggunaan kecerdasan buatan terutama menggunakan model bahasa besar.,1,1,8,0.0,0.8,0.06666666666666667
+Utami Lestari_Kualifikasi.txt,berdasarkan pemaparan tersebut maka terdapat peluang untuk dilakukan pengembangan platform tinjauan artikel ilmiah dalam bidang ilmu computer dengan menggunakan model bahasa besar.,2,1,14,0.10526315789473684,0.6666666666666666,0.06666666666666667
+Utami Lestari_Kualifikasi.txt,2.6 peer review peer review process adalah proses di mana jurnal menilai kualitas naskah sebelum diterbitkan ditinjau oleh para ahli yang relevan di bidangnya untuk mereview dan mengomentari naskah yang diterima.,3,1,21,0.041666666666666664,0.5333333333333333,0.0
+Utami Lestari_Kualifikasi.txt,proses ini bertujuan untuk membantu editor menentukan apak ah naskah harus diterbitkan dalam jurnal.,4,1,10,0.0,0.4,0.0
+Utami Lestari_Kualifikasi.txt,poin penting dalam peer review process 1.,5,1,0,0.0,0.26666666666666666,0.0
+Utami Lestari_Kualifikasi.txt,naskah yang dikirimkan ke jurnal terlebih dahulu melalui penyaringan awal oleh tim editorial.,6,1,6,0.0,0.13333333333333333,0.0
+Utami Lestari_Kualifikasi.txt,2.,7,1,0,0.0,0.0,0.0
+Utami Lestari_Kualifikasi.txt,naskah yang lolos pemeriksaan akan dikirim pada minimal dua peer reviewer untuk ditinjau.,8,1,8,0.07142857142857142,0.13333333333333333,0.0
+Utami Lestari_Kualifikasi.txt,3.,9,1,0,0.0,0.26666666666666666,0.0
+Utami Lestari_Kualifikasi.txt,peer reviewer secara independen membuat rekomendasi kepada editor jurnal apakah naskah harus ditolak atau diterima dengan atau tanpa revisi.,10,1,10,0.0,0.4,0.0
+Utami Lestari_Kualifikasi.txt,4.,11,1,0,0.0,0.5333333333333333,0.0
+Utami Lestari_Kualifikasi.txt,editor jurnal mempertimbangkan semua umpan balik dari peer reviewer dan membuat keputusan untuk menerima atau menolak naskah.,12,1,10,0.0,0.6666666666666666,0.0
+Utami Lestari_Kualifikasi.txt,5.,13,1,0,0.0,0.8,0.0
+Utami Lestari_Kualifikasi.txt,peer review process untuk publikasi jurnal pada dasarnya adalah mekanisme kendali mutu dimana para ahli mengevaluasi naskah yang bertujuan untuk memastikan kualitas dari naskah yang diterbitkan.,14,1,17,0.0,0.9333333333333333,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,berdasarkan perbandingan tinnjauan pustaka di atas yang kemudian disesuaikan dengan tujuan dari penelitian ini.,0,1,8,0.0,0.9,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,maka dapat disimpulkan.,1,1,0,0.0,0.7,0.1
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,1.,2,1,0,0.0,0.5,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,kegiatan inspeksi yang dilakukan dengan manual memiliki berbagai macam kendala dan keterbatasan.,3,1,6,0.0,0.3,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2.,4,1,0,0.0,0.1,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,kegiatan inspeksi yang dilakukan dengan manual membutuhkan tenaga (operator) ahli dengan jumlah yang banyak sehingga tidak efisien mengingat perbedaan persepsi antara operator serta human error sangat mungkin terjadi.,5,1,14,0.0,0.1,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,3.,6,1,0,0.0,0.3,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,Otomatisasi kegiatan inspeksi produk menggunakan artificial intelogence namun terkendala pemilihan algoritma karena membutuhkan eskperimen secara intensif dan komprehensif.,7,1,13,0.047619047619047616,0.5,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,4.,8,1,0,0.0,0.7,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,Informasi yang disampaikan harus dapat menjelaskan kondisi produk dengan baik dan jelas sehingga tersampaikan dengan baik ke pihak terkait.,9,1,0,0.08333333333333333,0.9,0.0

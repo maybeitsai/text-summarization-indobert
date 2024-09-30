@@ -1,0 +1,61 @@
+nama_dokumen,kalimat,index,important,length,words_in_title,position,cue_words
+Alfharizky Fauzi_Kualifikasi.txt,tujuan umum penelitian ini adalah mengembangkan prototype sistem identifikasi berbasis aplikasi yang dapat mengidentifikasi penyakit kelainan pada kulit manusia dan mengenalinya sebagai jenis penyakit kulit serta dapat memberikan keterangan dan penanganan dalam pengobatan menggunakan metode pengolahan citra dan teks .,0,1,24,0.2413793103448276,0.8,0.2
+Alfharizky Fauzi_Kualifikasi.txt,tujuan khusus penelitian adalah 1.,1,1,0,0.0,0.4,0.0
+Alfharizky Fauzi_Kualifikasi.txt,mengembangkan metode identifikasi penyakit kulit sebagai pra diagnosis dengan menggabungkan dua metode pengolahan data yaitu pengolahan gambar dan pengolahan teks menjadi bi directional image text matching untuk mendapatkan hasil yang lebih akurat dalam identifikasi image to teks maupun sebaliknya teks to image .,2,1,29,0.16666666666666666,0.0,0.2
+Alfharizky Fauzi_Kualifikasi.txt,2.,3,1,0,0.0,0.4,0.0
+Alfharizky Fauzi_Kualifikasi.txt,menghasilkan model identifikasi bi directional image teks matching yang dapat digunakan untuk identifikasi penyakit kulit yang dapat digunakan untuk prototype system identifikasi penyakit kulit berbasis aplikasi sebagai pra diagnosis pasien.,4,1,21,0.14285714285714285,0.8,0.2
+Alifurrohman_Kualifikasi.txt,berdasarkan rumusan masalah yang telah dipaparkan tujuan penelitian dari penelitian ini sebagai berikut.,0,1,7,0.0,0.8571428571428571,0.0
+Alifurrohman_Kualifikasi.txt,10 1.,1,1,0,0.0,0.5714285714285714,0.0
+Alifurrohman_Kualifikasi.txt,mengembangkan model berbasis deep q network dqn yang diperkaya dengan mekanisme multi header attention untuk menyelesaikan dynamic vehicle routing problem with time windows dvrptw.,2,1,21,0.44,0.2857142857142857,0.14285714285714285
+Alifurrohman_Kualifikasi.txt,2.,3,1,0,0.0,0.0,0.0
+Alifurrohman_Kualifikasi.txt,menilai efektivitas model dqn dengan multi header attention dalam meningkatkan efisiensi pengiriman dan kepuasan pelanggan melalui penentuan rute optimal dalam kondisi yang dinamis.,4,1,17,0.06666666666666667,0.2857142857142857,0.14285714285714285
+Alifurrohman_Kualifikasi.txt,3.,5,1,0,0.0,0.5714285714285714,0.0
+Alifurrohman_Kualifikasi.txt,menunjukkan kemampuan adaptasi model terhadap perubahan kondisi seperti fluktuasi lalu lintas kedatangan pelanggan baru dan batasan jendela waktu.,6,1,12,0.038461538461538464,0.8571428571428571,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,berikut adalah tujuan penelitian yang melandasi dalam penelitian ini 1.,0,1,0,0.0,0.8333333333333334,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,membangun model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban.,1,1,11,0.4375,0.5,0.16666666666666666
+Armando Tirta Dwilaga_Kualifikasi.txt,2.,2,1,0,0.0,0.16666666666666666,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,mengimplementasikan dan menghasilkan usulan model algoritma convolutional neural networks cnn dalam membangun sistem deteksi cacat produk ban.,3,1,15,0.2857142857142857,0.16666666666666666,0.16666666666666666
+Armando Tirta Dwilaga_Kualifikasi.txt,3.,4,1,0,0.0,0.5,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,mengukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban.,5,1,13,0.47058823529411764,0.8333333333333334,0.0
+Devi Resviani_KUALIFIKASI.txt,adapun tujuan dari penelitian ini secara umum adalah memberikan solusi untuk pemeliharaan prediktif pada mesin kompresor reciprocating menggunakan machine learning .,0,1,10,0.38461538461538464,0.8888888888888888,0.0
+Devi Resviani_KUALIFIKASI.txt,selain itu secara khusus tujuan penelitian ini adalah sebagai berikut 1.,1,1,0,0.0,0.6666666666666666,0.0
+Devi Resviani_KUALIFIKASI.txt,membandingkan efektivitas berbagai algoritma machine learning untuk memprediksi kegagalan pada mesin kompresor reciprocating.,2,1,10,0.38461538461538464,0.4444444444444444,0.0
+Devi Resviani_KUALIFIKASI.txt,2.,3,1,0,0.0,0.2222222222222222,0.0
+Devi Resviani_KUALIFIKASI.txt,menghasilkan model machine learning dari algoritma yang terpilih untuk memprediksi kegagalan pada mesin kompresor reciprocating.,4,1,11,0.35714285714285715,0.0,0.1111111111111111
+Devi Resviani_KUALIFIKASI.txt,3.,5,1,0,0.0,0.2222222222222222,0.0
+Devi Resviani_KUALIFIKASI.txt,menghasilkan prototipe sistem peringatan pemeliharaan prediktif berbasis machine learning pada mesin kompresor reciprocating.,6,1,12,0.42857142857142855,0.4444444444444444,0.1111111111111111
+Devi Resviani_KUALIFIKASI.txt,4.,7,1,0,0.0,0.6666666666666666,0.0
+Devi Resviani_KUALIFIKASI.txt,mengevaluasi kinerja sistem peringatan pemeliharaan prediktif berbasis machine learning pada pada mesin kompresor reciprocating.,8,1,12,0.42857142857142855,0.8888888888888888,0.0
+Erfiana Wahyuningsih_UK.txt,1.,0,1,0,0.0,0.8,0.0
+Erfiana Wahyuningsih_UK.txt,mereduksi jumlah transistor pada rangkaian sram dengan menggunakan metode m gdi.,1,1,7,0.15,0.4,0.0
+Erfiana Wahyuningsih_UK.txt,2.,2,1,0,0.0,0.0,0.0
+Erfiana Wahyuningsih_UK.txt,mampu menunjukkan kinerja dari penggunaan low power pada rangkaian sram 6t 3.,3,1,8,0.2,0.4,0.0
+Erfiana Wahyuningsih_UK.txt,mampu mempertahankan high read stability pada rangkaian sram 6t,4,1,7,0.2777777777777778,0.8,0.0
+Robert_Kualifikasi.txt,tujuan dari penelitian ini adalah 1.,0,1,0,0.0,0.8333333333333334,0.0
+Robert_Kualifikasi.txt,menghasilkan metode dan algoritma ekstrasi fitur ekspresi wajah berbasis morfologi matematika.,1,1,10,0.1111111111111111,0.5,0.16666666666666666
+Robert_Kualifikasi.txt,2.,2,1,0,0.0,0.16666666666666666,0.0
+Robert_Kualifikasi.txt,menghasilkan model klasifikasi mnn yang dapat digunakan untuk pengenalan ekspresi wajah .,3,1,7,0.4166666666666667,0.16666666666666666,0.16666666666666666
+Robert_Kualifikasi.txt,3.,4,1,0,0.0,0.5,0.0
+Robert_Kualifikasi.txt,menghasilkan prototype perangkat lunak sistem pengenalan ekspresi wajah .,5,1,8,0.2857142857142857,0.8333333333333334,0.16666666666666666
+Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan rumusan masalah maka tujuan dari penelitian ini adalah 1.,0,1,0,0.0,0.875,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,mengumpulkan informasi batik daur hidup yogyakarta yang akurat.,1,1,7,0.2857142857142857,0.625,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,2.,2,1,0,0.0,0.375,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya.,3,1,8,0.35714285714285715,0.125,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,3.,4,1,0,0.0,0.125,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,mengembangkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta.,5,1,10,0.9090909090909091,0.375,0.125
+Tatya Atyanti Paramastri_Kualifikasi.txt,4.,6,1,0,0.0,0.625,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,mengukur nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum.,7,1,14,0.5625,0.875,0.125
+Tia Haryanti_Kualifikasi.txt,tujuan umum penelitian adalah mengembangkan sistem deteksi kantuk predriving yang inovatif dengan menggunakan kecerdasan artifisial untuk meningkatkan keselamatan dan kesejahteraan pengemudi.,0,1,14,0.29411764705882354,0.6666666666666666,0.3333333333333333
+Tia Haryanti_Kualifikasi.txt,tujuan khusus penelitian ini yaitu sebagai berikut 1.,1,1,0,0.0,0.0,0.0
+Tia Haryanti_Kualifikasi.txt,membangun dataset baru dari data citra wajah dan data fisiologis untuk pelatihan dan pengujian model deteksi kantuk predriving.,2,1,13,0.17647058823529413,0.6666666666666666,0.3333333333333333
+Utami Lestari_Kualifikasi.txt,secara umum penelitian ini bertujuan untuk menciptakan platform tinjauan artikel ilmiah berbasis kecerdasan buatan dengan menggunakan model bahasa besar.,0,1,13,0.05263157894736842,0.5,0.5
+Utami Lestari_Kualifikasi.txt,tujuan penelitian secara khusus adalah sebagai berikut 1.membangun model platform tinjauan artikel ilmiah dengan llm 2.mengembangkan algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal,1,1,19,0.09090909090909091,0.5,0.5
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,tujuan penelitian merupakan jawaban dari rumusan masalah yang menjadi hasil akhir dari penelitian.,0,1,0,0.0,0.8888888888888888,0.1111111111111111
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,berikut ini adalah tujuan penelitian.,1,1,0,0.0,0.6666666666666666,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,1.,2,1,0,0.0,0.4444444444444444,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,menghasilkan aplikasi deteksi objek yang dapat mengidentifikasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan.,3,1,13,0.16666666666666666,0.2222222222222222,0.1111111111111111
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2.,4,1,0,0.0,0.0,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,mengetahui pembaharuan yang ada pada pengembangan aplikasi untuk mendeteksi objek yang dapat mengidentifikasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan.,5,1,14,0.15789473684210525,0.2222222222222222,0.1111111111111111
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2.kegiatan inspeksi yang dilakukan dengan manual membutuhkan tenaga operator ahli dengan jumlah yang banyak sehingga tidak efisien mengingat perbedaan persepsi antara operator serta human error sangat mungkin terjadi.,6,1,15,0.0,0.4444444444444444,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,3.otomatisasi kegiatan inspeksi produk menggunakan artificial intelogence namun terkendala pemilihan algoritma karena membutuhkan eskperimen secara intensif dan komprehensif.,7,1,14,0.045454545454545456,0.6666666666666666,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,4.informasi yang disampaikan harus dapat menjelaskan kondisi produk dengan baik dan jelas sehingga tersampaikan dengan baik ke pihak terkait.,8,1,0,0.07692307692307693,0.8888888888888888,0.0

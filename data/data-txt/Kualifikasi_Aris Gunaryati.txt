@@ -1,0 +1,589 @@
+   
+ 
+ANALIS IS RUNTUN WAKTU DENGAN  METODE  
+QUANTUM ARIMA NEURAL NETWORK  
+(STUDI KASUS: DATA  PERTAMBAHAN JUMLAH  
+KAS US HAR IAN COV ID 19  DI JAKA RTA) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 3 
+  
+BAB I PENDAHULUAN 
+ 
+1.1     Latar Belakang 
+ 
+Penelitian terkait a nalisis runtun waktu ( time series ) dan peramalan 
+(forecasting ) adalah bidang penelitian yang aktif , artinya sampai saat ini masih terus 
+dilakukan penelitian mengenai keakuratan dalam proses peramalan runtun waktu 
+terkait dengan proses pengambilan keputusan. Beberapa penelitian yang melakukan 
+riset pada runtun waktu menggunakan metode statistik, jaringan s yaraf ( neural 
+network), wavelet , maupun system fuzzy . [1, 2]  
+Metode peramalan runtun waktu  lebih menitikberatkan proses pada upaya 
+mencari pola data, dan bukan untuk  menjelaskan mengapa ada pola seperti itu. 
+Metode ini akan lebih cocok jika kebutuhan hanya lah ingin mengetahui berapa 
+angka yang akan diprediksi untuk periode mendatang  dan tidak perlu campur tangan 
+dari luar untuk mempengaruhi hasil prediksi, karena sandaran satu -satunya adalah 
+data historis yang memang sudah terjadi dan tidak dapat ditarik ke mbali. Metode  
+peramalan data runtun waktu secara umum terbagi menjadi dua bagian. Pertama, 
+metode  peramalan dengan cara  matematika statistik seperti moving average, 
+exponential smoothing ,  analisis trend  serta yang paling sering digunakan adalah 
+ARIMA (Bo x Jenkins). Kedua, metode  peramalan yang didasarkan pada kecerdasan 
+buatan seperti neural network , algoritma genetika, simulated annealing, genetic 
+programming , klasifikasi dan model hybrid.  Tidak semua metode dapat digunakan 
+secara efektif pada semua data . Metode -metode tersebut memiliki kekurangan dan 
+kelebihan  yang berbeda. Terlebih lagi, masalah dalam dunia nyata seringkali 
+merupakan masalah yang kompleks dan satu model mungkin tidak mampu 
+mengatasi hal tersebut dengan baik  [2].  
+Pemilihan metode -metode  tersebut tergantung pada berbagai aspek yang 
+mempengaruhi yaitu aspek waktu, pola data, tipe model system yang diamati, tingkat 
+keakuratan ramalan yang diinginkan dan sebagainya. Karena itulah muncul suatu 
+masalah jika pengamatan atau pengujian dilakukan pada suatu system dinamis yang 
+memiliki system pola data dengan formulasi yang selalu berubah -ubah atau dengan 
+kata lain system yang memiliki tingkat kesulitan yang tinggi untuk dibuatkan 
+formulasi modelnya pada suatu kurun waktu tertentu. Di samping itu, untuk 
+menerapkan metode statistik tersebut data harus memenuhi beberapa asumsi -asumsi 
+tertentu sesuai dengan pola data.  4 
+ Dengan teknologi di bidang kecerdasan buatan ( Artificial Intellegence ) yaitu 
+teknologi jaringan syaraf tiruan ( Neural Network ) maka identifikasi pola data dari 
+system dapat dilakukan dengan metode pendekatan pembelajaran atau pelatihan 
+yaitu untuk menentukan bobot penghubung antar simpul yang optimum. Keunggulan 
+utama jaringan syaraf tiruan adalah kemampuan komputasi yang  paralel dengan cara 
+belajar dari pola -pola yang diajarkan. Berdasarkan kemampuan belajar yang 
+dimilikinya, maka jaringan syaraf tiruan dapat dilatih untuk mempelajari dan 
+menganalisa pola data masa lalu dan berusaha mencari suatu formula atau fungsi 
+yang akan menghubungkan pola data masa lalu dengan keluaran yang diinginkan 
+pada saat ini maupun pada masa mendatang. Dalam  sebuah studi komparatif (studi 
+perbandingan) telah dilakukan penelitian terhadap model peramalan runtun waktu 
+yang memiliki trend dan pol a musiman untuk mengetahui apakah model yang lebih 
+kompleks selalu menghasilkan forecast (ramalan) yang lebih baik daripada model 
+statistika. Dalam studi perbandingan  tersebut,  metode yang dibandingkan adalah 
+model Winter’s Decomposition, Time Series Regre ssion, ARIMA dan Neural 
+Network . Hasilnya diperoleh kesimpulan bahwa model yang kompleks tidak selalu 
+menghasilkan forecast (ramalan) yang lebih baik dibandingkan model statistitika 
+sederhana. Data yang digunakan dalam penelitian tersebut adalah data penum pang 
+pesawat internasional dari bulan Januari 1949 sampai bulan Desember 1960.  [3] 
+Untuk metode peramalan yang kompleks dengan data yang sangat banyak, 
+dibutuhkan suatu metode yang tidak hanya berbasis kecerdasan buatan lagi. Saat 
+machine learning  sudah di kembangkan untuk mengenali dan mempelajari pola suatu 
+data sehingga dapat memberikan hasil prediksi yang benar berdasarkan pola data 
+tersebut. Karena peningkatan jumlah data yang akan diprediksi , maka d alam 
+beberapa tahun terakhir, para peneliti telah meny elidiki apakah komputer kuantum  
+dapat digunakan untuk meningkatkan kinerja algoritma machine learning . Dengan 
+adanya  efek mekanika kuantum seperti superposisi dan keterlibatan  (entanglement) 
+maka komputer kuantum diharapkan dapat memberikan keuntungan untuk 
+memecahkan masalah tertentu lebih cepat daripada komputer  klasik. Meskipun 
+komputer kuantum masih dalam tahap percobaan,  namun  algoritma kuantum telah  
+dikembangkan selama dua dekade terakhir. Algoritma kuantum melibatkan masalah 
+seperti  faktorisasi bilan gan-bilangan besar dan optimalisasi dengan yang terakhir 
+efektif digunakan  dalam percepatan algoritma machine learning . Salah satu 
+algoritma machine learning yang sudah dikembangkan saat ini untuk metode 
+peramalan adalah metode Quantum Neural Network  (QNN)  [4, 5]  5 
+ Berdasarkan latar belakang tersebut  maka dalam penelitian ini penulis 
+tertarik untuk me mbuat suatu metode peramalan berbasis komputasi kuantum dari 
+metode peramalan Hybrid Arima Neural Network  (Quantum ARIMA Neural 
+Network)  dengan studi kasus data pertambahan jumlah  kasus har ian cov id 19  di 
+Jakarta. Studi kasus ini dilakukan u ntuk mengendalikan penyebaran Covid 19 
+melalui  analisis prediksi penambahan kasus harian baik jumlah yang positif, 
+meninggal dan sembuh dari Covid 19 di periode yang akan datang. Beberapa 
+penelitian telah dilakukan untuk membuat model prediksi Covid 19 in i, di antaranya 
+menggunakan model pertumbuhan logistik dan model dinamik [6] model ARIMA 
+[7, 8], model hibrid ARIMA dan wavelet [9], model ARIMA machine learning [10] 
+dan model-model lainnya [11-15]. Dalam penelitian ini akan dilakukan analisis 
+runtun waktu pertambahan jumlah kasus harian Cov id 19 di Jakarta dengan metode 
+Hybrid Quantum ARIMA NN berdasarkan dataset dari si tus 
+https://corona.jakarta.go.id tanggal 6 Maret 2020 sampai 30 Juni 2021 sebagai data 
+training dan nanti akan diprediksi untuk tanggal 1 Juli 2021 sampai dengan 31 Juli 
+2021 sebagai data uji. 
+ 
+Tujuan umum  dari penelitian ini adalah untuk mengembangkan model 
+prediksi Quantum ARIMA NN yang diharapkan dapat  menghasilkan  tingkat 
+akurasi yang tinggi dengan komputasi yang tidak terlalu lama dalam pengolahan 
+data yang cukup besar.  Tujuan khususnya adalah menganalisis data pertambahan 
+jumlah kasus harian Covid 19 di Jakarta menggunakan metode  ARIMA, Neural 
+Network, Hybrid Arima NN dan Quantum ARIMA N N dan membandingkan 
+akurasinya  
+ 
+ 
+1.2     Rumusan Masalah 
+ 
+ 
+Berdasarkan  latar  belakang  masalah  tersebut  maka  yang  menj adi  
+rumusan mas alah p ada penelitian ini ad alah : 
+1. Bagaimana pola d ata ru ntun w aktu pertambah an jumlah kasus ha rian 
+Covid  19 di Jakarta dari tanggal 6 Maret 2020 s ampai ta nggal 30 Juni 
+2021  ? 
+2. Bagaimana membu at model peramalan yang sesuai dan cocok untuk  
+data runtun waktu tersebut d engan metode ARIMA ?  
+3. Bagaimana membu at model  peramalan data runtun  waktu tersebut 
+dengan metode Neural Network  (NN) ?  4. Bagaimana cara membu at model  Hybrid ARIMA Neural Network 
+(ARIMA-NN) yang sesuai dan cocok dengan data runtun  waktu 
+tersebut? 
+ 
+5. Bagaimana mengembangkan model Quantum Arima Neural Network 
+untuk data runtun waktu?  
+6.  Bagaimana tingkat akurasi dan hasil peramalan untuk  jumlah k asus 
+harian Covid  19 di  Jakarta p ada periode  tanggal 1 Juli sampai 31 Juli 
+2020 berdasarkan model-model tersebut?  
+ 
+ 
+1.3     Tuju an dan Batasan Penelitian 
+ 
+1.3.1  Tujuan Penelitian : 
+ 
+Berdasarkan rumus an masalah di atas, maka  tujuan penelitian ini adalah 
+sebagai berikut :  
+1. Mempel ajari  pola  data  runtun  waktu  pertambahan  jumlah  kasus  
+harian Covid  19 di Jakarta dari tangg al 6 Maret 2020  sampai tangg al 30 
+Juni 2021 apakah merupakan runtun waktu seasonal  atau non seasonal 
+2. Menentukan  model  peramal an ARIMA yang sesuai dengan data 
+runtun w aktu tersebut 
+3. Menentukan  model  peramalan untuk  data runtun  waktu tersebut 
+meng gunakan metode  Neural Network  (NN) 
+4. Menentukan model peramalan Hybrid Arima Neural Network  untuk data 
+runtun waktu tersebut  
+5. Membuat  dan mengembangkan model  Hybrid Q u a n t u m  ARIMA-
+NN yang dapat mem berikan hasil peramalan yang lebih akurat 
+6. Membuat  analisis hasil peramalan untuk  jumlah kasus harian Covid  19 
+di Jakarta pada periode tanggal 1 Juli sampai  31 Juli 2020  berdasarkan 
+model-model tersebut  15   
+Berdasarkan perbandingan telaah tersebut, pada penelitian ini akan diusulkan s ebuah metode 
+untuk  menghasilkan model peramalan yang sesuai untuk  data runtun  waktu yang ada, yaitu data 
+jumlah kasus harian Covid  19 di Jakarta dengan metode  Hybrid ARIMA-QNN berdasarkan 
+dataset dari situs https://corona.jakarta.go.id tangg al 6 Maret 2020  sampai  30 Juni 2021  sebagai 
+data training dan nanti akan diprediksi  untuk  tanggal 1 Juli 2021  sampai  dengan 31 Juli 2021 
+sebagai data uji. Metode Hybrid ARIMA-QNN  diusulkan d engan harapan akan memb erikan 
+nilai pe ramalan yang lebih akurat de ngan pr esisisi yang tinggi16  BAB III 
+METODE  PENELITIAN  
+ 
+ 
+3.1     Gambaran  Umum Penelitian 
+ 
+Motivasi  dari  Metodologi yang diusulkan  adalah membu at suatu metode  peramalan 
+yang sesuai dengan data runtun  waktu yang ada serta meni ngkatkan akurasinya dengan tetap 
+memp erhatikan efisiensi w aktu ko mputasi nya. 
+ 
+Langkah-langkah yang dilakuk an dalam p enelitian ini adalah m enganalisis data jum lah 
+kasus h arian Covid 19 di Jakarta berdasarkan dataset dari situs ht tps://corona.jakarta.go.id 
+tangg al 6 Maret 2020  sampai 30 Juni 2021  sebagai data training dan nanti akan diprediksi 
+untuk  tanggal 1 Juli 2021  sampai  dengan 31 Juli 2021 sebagai data uji dengan tahapan sebagai 
+berikut :  
+1. Mempersiapk an data runtun w aktu yang akan dia nalisis 
+ 
+2. Menganalisis data runtun  waktu yang ada meng gunakan metode  statistika 
+ 
+ARIMA 
+ 
+3. Menganalisis data runtun  waktu yang ada menggunakan metode  Quantum 
+ 
+Neural Network  
+ 
+4. Mengembangkan model  Hybrid ARIMA-Quantum  Neural Network 
+ 
+5. Menentukan mod el yang cocok untuk s etiap variabel 
+ 
+6. Menguji kecocokan masing-masing model  
+ 
+7. Melakuk an peramalan dengan menggunakan mo del yang cocok 
+ 
+8. Melakuk an perbandingan tingkat aku rasi hasil  peramalan dengan tiap model  
+ 
+Untuk  mend apatkan model peramalan yang diharapkan sesuai dengan data runtun  waktu 
+yang ada, maka perlu dilakukan pendekatan ilmiah yaitu dengan melihat  pola d ata 
+runtun  waktu yang ada terlebih  dahulu.  Dengan melihat  pola data awal yang di miliki 
+maka  akan memud ahkan dalam memi lih model yang sesuai untuk  data tersebut. 
+Pendekatan lainnya  adalah  me nggunakan  too ls  untuk  m enentukan  secara otomatis 
+Bentuk model  statistik ARIMA yang sesuai dengan runtun  waktu yang ada, lalu model 
+tersebut dilatih menggunakan quantum  neural network agar diket ahui pola-pola d ata 
+yang sudah ada d an d apat d iuji akurasinya.17  Tipe Model Pola Tipikal ACF          Pola Tipikal PACF  
+ 
+AR (p)  Menurun  secara 
+ekspon ensial/ 
+sinusoidal  Terputus s etelah lag p 
+ 
+MA (q)  
+Terputus s etelah lag q Menurun  secara ekspon ensial/ 
+sinusoidal  
+ 
+ARMA (p, q) Menurun  secara 
+ekspon ensial/ 
+sinusoidal  Menurun  secara ekspon ensial/ 
+sinusoidal  
+ 3.2       Model  ARIMA  
+ 
+Bentuk u mum model AR IMA dapat dinyatakan dalam p ersamaan berikut:  
+ ............................... ................................ .................................  1 
+Operator AR adalah 
+  ………… ............................................................2  
+Operator MA adalah 
+…............................................................ ............. .3 
+1. Autore gressive Integrated Moving  Average (ARIMA) Not asi 
+model : ARIMA (p, d, q)  
+p : orde  untuk pros es autoregressive (AR),  
+d : orde  yang menyatakan banyaknya proses dife rensi d ilakuk an pada data time series 
+yang tidak stasione r, 
+q : orde  yang menyatakan proses moving a verage (MA). 
+ 
+ 
+Pola teoretis ACF dan PACF dari proses yang stasio ner 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    Sumber : Aswi dan Sukarna 2006  
+ 
+2. Tahapan Analisis Time  Series (ARIMA) 
+a. Membuat Plot Time  Series 
+ Identifikasi asumsi s tasione ritas data runtun waktu. 
+ Suatu de ret pengamatan dikat akan stasioner  apabila proses tidak berubah 
+seiring  dengan perubahan waktu 
+ Tidak  stasioner  dalam  mean  :  jika  trend  tidak  datar  (tidak   sejajar 
+smbu   waktu) 
+ Tidak stasioner  dalam varian : jika trend datar atau hampir datar, tetapi 
+data tersebar membangun pola m elebar atau m enyempit (pola t eromp et)18   Tidak stasioner  dalam mean & varians : j ika trend tidak datar dan 
+data memb entuk po la terompet. 
+ 
+Augmented Di ckey- Fuller (Uji Formal untuk Stasion eritas) 
+Hipotesis :  
+ 
+H0 : Terdapat akar unit dan  data tidak st asioner  (=0) 
+H1 : Tid ak terdapat akar unit dan data stasioner  (<0 span =””>) 
+   Taraf Signifik ansi : α = … %  
+ 
+   Statistik Uji  : 
+ 
+ ............................................................... ...4 
+ 
+  
+............................................................................................... .5 
+............................................................................................... .......... .6 
+Kriteria Uji : 
+H0 ditolak jika nilai mu tlak dari Augmented Di ckey- Fuller > nilai kritis  
+MacKinnon  , atau nilai prob .* < α. 
+ 
+ 
+b. Menghitung/ Membu at Plot ACF  dan PACF  
+ Mengidentifikasi model runtun w aktu yang mungkin 
+ Mengestimasi p arameter model  
+ 
+ 
+c. Uji Signifik ansi Parameter 
+Hipotesis  : 
+   H0 : 
+  dan/atau 
+  (parameter tidak signifik an terhadap model)  
+   H1 : 
+  dan/atau 
+  (parameter signifik an terhadap model)  
+   Taraf Signifik ansi : α = …% 
+   Statistik Uji  : 
+     dan/atau  
+19  
+   Kriteria Uji : 
+Tolak H 0 jika 
+ atau p -value <  alpha  
+d. Verifikasi Mo del 
+ Independensi Residual  
+      Hipotesis :  
+H0 : 
+     (tidak ada korelasi antar-lag) 
+H1  : Paling sedikit ada  satu 
+  
+dengan k=12, 24, 36, 48  (ada ko relasi antar-lag) 
+Statistik Uji  : 
+ 
+Kriteria Uji : 
+Tolak H 0 jika  
+  atau p -value < alpha 
+dengan m = l ag maksim um, s = jumlah p arameter yang diesti masi, 
+dan  = taraf signifik ans 
+ Normalitas Residual  
+Hipotesis :  
+H0 : 
+  (residual berdistriusi  norm al) 
+H1 : 
+  (residual t idak berdistribusi  norm al) 
+Statistik Uji           :  
+ 
+: fungsi peluang kumulatif r esidual  
+ 
+: distribusi ku mulatif  yang diobs ervasi dari suatu sampel acak 
+sebanyak N o servasi 
+Kriteria Uji : 
+Tolak H 0 jika 
+  atau p -value < alpha 
+ Ukuran Ketepatan Ra malan 
+Mod el dengan uku ran ketepatan p eramalan yang baik ad alah model  yang 
+menghasilkan error yang kecil. 
+Nilai teng ah kesalahan kuadrat (Mean Square Er ror) 
+20  Berikut flo wchart langkah-langkah membu at model 
+ARIMA : 
+ 
+ 
+Gambar 1. Flowch art Analisis Runtun Waktu ARIMA  
+ 
+ 
+3.3     Model Neural  Network  
+ Dalam buku Jaringan Syaraf Tiruan dan Pemrogramannya Menggunakan 
+MATLAB, Drs. Jong Jek Siang, M.Sc menyebutkan bahwa Jaringan Syaraf Tiruan 
+adalah system pemroses informasi yang memiliki karakteristik mirip dengan jaringan 
+syaraf biologi. Jaringan Syaraf T iruan dibentuk sebagai generalisasi model 
+matematika dari jaringan syaraf biologi, dengan asumsi bahwa Pemrosesan informasi 
+terjadi pada banyak elemen sederhana (neuron)  
+a. Sinyal dikirimkan di antara neuron -neuron melalui penghubung -penghubung  
+b. Penghubung ant ar neuron memiliki bobot yang akan memperkuat atau 
+memperlemah sinyal  
+c. Untuk menentukan output, setiap neuron menggunakan fungsi aktivasi (biasanya 
+bukan fungsi linier) yang dikenakan pada jumlahan input yang diterima. Besarnya 
+output ini selanjutnya diband ingkan dengan suatu batas ambang (treshhold)  21  Jaringan Syaraf Tiruan ditentukan oleh tiga hal :  
+a. Pola hubungan antar neuron (disebut arsitektur jaringan)  
+b. Metode untuk menentukan bobot penghubung (disebut metode training/learning 
+algoritma)  
+c. Fungsi Aktivasi  
+Gambar skematik tipikal neuron dapat dilihat pada gambar 2  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 2 Syaraf Biologis  
+ Pemrosesan informasi dalam Jaringan Syaraf Tiruan dapat disingkat sebagai 
+berikut :  Sinyal (baik berupa aksi ataupun potensial) muncul sebagai masukan unit 
+(sinapsis); efek dari tiap sinyal ini dinyatakan sebagai bentuk perkalian dengan 
+sebuah nilai bobot untuk mengindikasikan kekuatan dari sinapsis. Semua sinyal yang 
+diberi pengali bobo t ini kemudian dijumlahkan satu sama lain untuk menghasilkan 
+unit aktivasi. Jika aktivasi ini melampaui sebuah batas ambang tertentu maka unit 
+tersebut akan memberikan keluaran dalam bentuk respon terhadap masukan. Unit 
+aktivasi ini kemudian dibandingkan d engan sebuah nilai ambang, dan hasilnya 
+dimasukkan kedalam fungsi transfer (fungsi non -linier) yang akan menghasilkan 
+sebuah keluaran. Secara ringkas proses tersebut dapat digambarkan dalam gambar 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 3 Neuron buatan McCulloch -Pitts sebagai operator matematis  
+22   Aktivasi dari unit masukan diatur dan diteruskan melalui jaring hingga nilai 
+dari keluaran dapat ditentukan. Jaring berperan sebagai fungsi vektor yang 
+mengambil satu vektor pada masukan dan mengeluarkan satu vektor lain pada 
+keluaran. Model Jaringan Syaraf Tiruan dapat memiliki sebuah lapisan bobot, dimana 
+masukan dihubungkan langsung dengan keluaran, atau beberapa lapisan yang 
+didalamnya terdapat beberapa lapisan tersembunyi, karena berada t ersembunyi 
+diantara neuron masukan dan keluaran. Jaring syaraf menggunakan unit tersembunyi 
+untuk menghasilkan representasi pola masukan secara internal didalam jaring syaraf. 
+Fungsi transfer ( non-linier ) yang digunakan dalam tiap neuron (baik dilapisan 
+masukan, keluaran, atau lapisan tersembunyi) dapat berupa fungsi nilai ambang, 
+fungsi linier, fungsi sigmoid, ataupun fungsi gaussian, tergantung dari karakter 
+neuron sesuai keinginan kita. Hal ini dapat dilihat pada gambar 4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Gambar 4 Tipikal Sebuah Jaringan Syaraf Tiruan  
+ 
+3.3.1  Komponen Jaringan Syaraf  
+ Terdapat beberapa tipe jaringan syaraf, hampir semuanya memiliki 
+komponen -komponen yang sama. Seperti halnya otak manusia, jaringan syaraf juga 
+terdiri atas beberapa neuron dan ada hubungan antar neu ron tersebut. Neuron -neuron 
+tersebut akan mentransformasikan informasi yang diterima melalui sambungan 
+keluarnya menuju ke neuron -neuron yang lain. Pada jaringan syaraf, hubungan ini 
+dikenal dengan nama bobot.  Informasi tersebut disimpan pada suatu nilai t ertentu 
+pada bobot tersebut. Neuron ini sebenarnya mirip dengan sel neuron biologis. 
+Neuron -neuron buatan tersebut bekerja dengan cara yang sama pula dengan neuron 
+biologis. Informasi (disebut dengan: input) akan dikirim ke neuron dengan bobot 
+kedatangan t ertentu. Input ini akan diproses oleh suatu fungsi perambatan yang akan 
+menjumlahkan nilai -nilai semua bobot yang datang. Hasil penjumlahan ini kemudian 
+akan dibandingkan dengan suatu nilai ambang  (threshold ) tertentu melalui fungsi 
+aktivasi setiap neuron.  Apabila input tersebut melewati suatu nilai ambang tertentu, 
+23  maka neuron tersebut akan diaktifkan, tapi kalau tidak, maka neuron tersebut tidak 
+akan diaktifkan. Apabila neuron tersebut diaktifkan, maka neuron tersebut akan 
+mengirimkan output melalui bobot -bobot outputnya kesemua neuron yang 
+berhubungan dengannnya.  
+Pada Jaringan syaraf, neuron -neuron akan dikumpulkan dalam lapisan ( layer ) 
+yang disebut dengan lapisan neuron ( neuron layer ). Neuron -neuron pada satu lapisan 
+akan dihubungkan dengan lapisan -lapisan sebelum dan sesudahnya (kecuali lapisan 
+input dan lapisan output). Informasi yang diberikan pada jaringan syaraf akan 
+dirambatkan lapisan ke lapisan. Mulai dari lapisan input sampai ke lapisan output 
+melalui lapisan lainnya, yang sering disebut sebagai  lapisan tersembunyi ( hidden 
+layer ). 
+ 
+3.3.2 Arsitektur Jaringan Syaraf  
+3.3.2.1   Jaringan dengan lapisan tunggal ( single layer net ) 
+Jaringan dengan lapisan tunggal hanya memiliki satu lapisan dengan bobot -
+bobot terhubung. Jaringan ini hanya menerima input kemudian secara langsung akan 
+mengolahnya menjadi output tanpa harus melalui lapisan tersembunyi.  
+ 
+3.3.3.3    Jaringan dengan banyak  lapisan ( multilayer net ) 
+Jaringan dengan banyak lapisan memiliki 1 atau lebih lapisan yang terletak 
+diantara lapisan input dan lapisan output (memiliki 1 atau lebih lapisan tersembunyi). 
+Umumnya, ada lapisan bobot -bobot yang terletak antara 2 lapisan yang  bersebelahan. 
+Jaringan dengan banyak lapisan ini dapat menyelesaikan permasalahan yang lebih 
+sulit daripada jaringan dengan lapisan tunggal, tentu saja dengan pembelajaran yang 
+lebih rumit. Namun demikian, pada banyak kasus, pembelajaran pada jaringan 
+dengan banyak lapisan ini lebih sukses dalam menyelesaikan masalah.  
+ 
+3.3.3. Fungsi Aktivasi  
+Ada beberapa fungsi aktivasi yang sering digunakan dalam jaringan syaraf 
+tiruan, antara lain :  
+a. Fungsi Undak Biner ( Hard Limit ) 
+Jaringan dengan lapisan tunggal sering menggunakan fungsi undak ( step 
+function ) untuk mengkonversikan input dari suatu variabel yang bernilai kontinu ke 
+suatu output biner (0 atau 1)  24  
+ 
+ 
+ 
+ 
+ 
+b. Fungsi undak biner ( Threshold ) 
+Fungsi undak biner dengan menggunakan nilai ambang sering juga disebut 
+dengan fungsi nilai ambang ( Threshold ) atau fungsi Heaviside . 
+c. Fungsi Bipolar ( Symetric Hard Limit ) 
+Fungsi bipolar sebenarnya hampir sama dengan fungsi undak biner, hanya 
+saja output yang dihasilkan berupa 1, 0 atau -1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+d. Fungsi Bipolar (dengan threshold)  
+Fungsi bipolar sebenarnya hampir sama dengan fungsi undak biner dengan 
+threshold. Hanya saja keluaran yang dihaslkan berupa 1, 0, atau -1 
+e. Fungsi Linear (Identitas)  
+Fungsi linear memiliki nilai output yang sama dengan nilai inputnya.  
+25   
+f. Fungsi Saturating Linear  
+Fungsi ini akan bernilai 0 jika inputnya kurang dari – ½, dan akan bernilai 1 
+jika inputnya lebih dari ½. Sedangkan jika nilai input terletak antara -1/2 dan ½, maka 
+outputnya akan bernilai sama dengan nilai input ditambah ½  
+g. Fungsi Symetric Saturating Linear  
+Fungsi ini akan bernilai -1 jika inputnya kurang dari -1, dan akan bernilai 1 
+jika inputnya lebih dari 1. Sedangkan jika nilai input terletak antara -1 dan 1, maka 
+outputnya akan bernilai sama dengan nil ai inputnya.  
+ 
+h. Fungsi Sigmoid Biner  
+Fungsi ini digunakan untuk jaringan syaraf yang dilatih dengan menggunakan 
+metode backpropagation. Fungsi sigmoid biner memiliki nilai pada range 0 sampai 1. 
+Oleh karena itu, fungsi ini sering digunakan untuk jaringan syaraf yang 
+membutuhkan nilai output yang terletak pada interval 0 sampai 1. Namun, fungsi ini 
+bisa juga digunakan oleh jaringan syaraf yang nilai outputnya 0 atau 1.  
+ 
+ 
+26  i. Fungsi Sigmoid Bipolar  
+Fungsi sigmoid bipolar hampir sama dengan fungsi sigmoid biner, ha nya saja 
+output dari fungsi ini memiliki range antara 1 sampai -1 
+Fungsi ni sangat dekat dengan fungsi hyperbolic tangent. Keduanya memiliki 
+range antara -1 sampai 1. Untuk fungsi hyperbolic tangent,  
+ 
+3.4 MODEL HYBRID ARIMA NEURAL NETWORK  
+ Berdasarkan hasil peramalan model ARIMA, akan dilakukan proses analisis 
+runtun waktu menggunakan metode jaringan syaraf tiruan. Dengan kata lain, output 
+dari peramalan model ARIMA  akan menjadi input pada proses pengolahan data 
+menggunakan metode jaringan syaraf tiruan. Kemudian akan ditentukan model 
+jaringan syaraf tiruan yang sesuai dan cocok untuk data runtun waktu tersebut.  
+Secara  matemat is, hasil  ramalan  secara  keselu ruhan  yang diperoleh  adalah sebagai  
+berikut  : 
+ 
+ 
+Zt  merupakan  hasil  pe ramalan  yang merupakan  gabungan  nilai ramalan dari 
+model  ARIMA atau Exponential Smoothing  dan nilai ramalan  dari model  JST. 
+Berikut  ini adalah  arsitektur  model  peramal an hybrid  ARIMA -JST dan ES -JST 
+ 
+ 
+Gambar  5 Model Hybrid ARIMA -JST dan Hybrid ES -JST 
+ 
+3.5 MODEL QUANTUM HYBRID ARIMA NEURAL NETWORK  
+Ada b anyak pendekatan untuk  pengembangan model Quantum Arima NN. 
+Model-model  ini fokus  pada yang berbeda aspek kompu tasi ku antum  dan pemros esan 
+saraf. Dalam kompu tasi kuantum, Sebagai unit info rmasi  terkecil, bit kuantum  atau 
+qubit  adalah si stem kuantum  yang me nyatakan terletak di ruang Hilb ert dua 
+dimensi. Seperti bit dalam klasik kompu ter, qubit  berlabel dan mengekspresikan  satu 
+bit informasi:  sesuai dengan bit  0 kompu ter klasik,  dan bit 1. Keadaan qubit  
+menyatakan superposisi  keadaan yang kohere : 
+27  
+ ............................... ..................... .............. 7 
+Di mana  dan menentukan probabilitas yang sesuai. Gerbang kuantum  yang 
+mencakup karakteristik kompu tasi kuantum me rupakan dasar untuk i mplem entasi 
+fisik dari kompu tasi kuantum. Himpunan  logika unive rsal termasuk  dalam logika 
+kuantum. Mirip  dengan bit klasik,  gerbang dasar dapat memb entuk gerbang 
+kuantum  bemacam-macam dan menyelesaikan keadaan ku antum  dari beberapa 
+logika tr ansformasi.  berbasis elemen pada gerbang pergeseran fasa 1 bit dan gerbang 
+kontro l-Tidak 2 bit dalam dinamika kuantum diambil  sebagai fungsi aktivasi dalam 
+Jaringan saraf. Untuk  memud ahkan aplikasi, fo rmulir berikut: 
+Fungsi ko mpleks dib erikan untuk menyatakan keadaan kuantum: 
+............................................................... .................. ................ .8 
+ adalah bilangan imaginer  adalah k uantum  fase 
+ 
+ 
+3.6 Pengukuran Kinerja  
+3.6.1 Mean Squared Error  
+Dalam statistik, Mean Squared Error  (MSE) sebuah estimator adalah nilai 
+yang diharapkan dari kuadrat error . Error  yang ada menunjukkan seberapa besar 
+perbedaan hasil estimasi dengan nilai yang akan diestimasi. Perbedaan itu terjadi 
+karena adanya keacakan pada data atau karena estimator tida k mengandung informasi 
+yang dapat menghasilkan estimasi yang lebih akurat  
+3.6.2  Komparasi Hasil Peramalan  
+Setelah nilai Mean Squared Error dari kedua metode didapatkan, maka akan 
+dilakukan komparasi terhadap nilai MSE yang didapatkan pada periode testing (out-
+sample ) 
+ Jika nilai MSE STATISTIKA  < MSE ANN maka metode Statistika memiliki performa 
+lebih baik dibandingkan metode ANN karena memiliki tingkat kesalahan relatif 
+lebih kecil.  
+ Sebaliknya, jika MSE STATISTIKA > MSE ANN maka metode Statistika memilki 
+perform a lebih buruk dibandingkan metode ANN karena tingkat kesalahan yang 
+dihasilkan relatif lebih besar.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

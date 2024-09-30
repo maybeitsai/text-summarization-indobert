@@ -1,0 +1,205 @@
+i 
+ PENGEMBANGAN KRIPTOGRAFI  PADA  CITRA DIGITAL 
+BERBASIS CHAOTIC  MAP  
+ 4 
+ BAB I  
+PENDAHULUAN  
+ 
+1.1 Latar Belakang  
+Perkembangan teknologi dan komunikasi menyebabkan digitalisasi pada 
+media  citra untuk memberikan  informasi . Digitalisasi media  citra dapat 
+memudahkan akses dan modifikasi terhadap konten pada data yang ditransmisikan. 
+Kemudahan pada digitalisasi citra menyebabkan peluang terhadap kejahatan yan g 
+mungkin terjadi seperti akses tidak sah, modifikasi konten, pelanggaran hak cipta, 
+dan lain -lain (Hamza, 2019) . Keamanan data menjadi sangat penting pada media 
+digital untuk menghindari kejahatan yang mengancam data yang bersifat rahasia 
+dan privasi.  Berbagai teknologi dan komunikasi menggunakan media gambar atau 
+citra di semua aspek untuk memudahkan pengguna. Citra dapat mengandung 
+berbagai arti dan makna dalam menggambarkan suatu objek data atau informasi. 
+Keamanan citra diperlukan untuk melindungi makna informasi  yang ada di 
+dalamnya . 
+ Kriptografi merupakan ilmu yang berhubungan dengan transformasi data 
+untuk membuat artinya tidak dipahami (untuk menyembunyikan maknanya), 
+mencegahnya dari perubahan tanpa izin, atau mencegahnya dari penggunaan yang 
+tidak sah. Kriptografi menggunakan berba gai macam teknik matematika untuk 
+menjaga konten pada pesan terenkripsi (Joshi & Karkade, 2015) . Kriptografi pada 
+citra dapat diterapkan dengan metode chaotic . Metode chaotic  merupakan teknik 
+untuk enkripsi yang berdasarkan gerakan atau dinamika yang rumit dan tidak 
+terduga tergantung pada k eadaan atau kondisi awal pada seb uah sistem  (Lone et al., 
+2021) . Beberapa algoritma yang merupakan kriptografi berbasis chaotic  yaitu 
+algoritma Cat Map , Henon Map  (Ratna et al., 2021) , dan Logistic Map  (Lone et al., 
+2021) . 
+ Cat Map merupakan algoritma yang ditemukan oleh ahli matematik Rusia 
+bernama Vladimir  Arnold yang  membuktikan algoritmanya pada citra kucing  
+(Ratna et al., 2021) . Henon Map  adalah  algoritma  yang ditemukan oleh  ahli 
+matematik  Perancis bernama  Michael Henon dan merupakan bentuk simplifikasi 5 
+ algoritma dari mod el algoritma lorentz  (Ratna et al., 2021) . Logistic Map  
+merupakan algoritma yang ditemukan oleh ahli matematik  Belgia bernama Pierre 
+Francois Verhulst  yang awalnya diterapkan untuk menghitung populasi maksimum 
+masyarakat untuk sumber daya yang terbatas  (Chen et al., 2021) . 
+Peneliti  Aesha Elghandour dan kawan – kawan (Elghandour et al., 2021)  
+melakukan penelitian mengembangkan metode  kriptografi citra digital  dengan 
+teknik konfus i dan difusi  menggunakan algoritma Logistic Map   sebagai  konfusi  
+dan Two-Dimensional Piecewise Smooth nonlinier Chaotic Map sebagai difusi . 
+Hasil penelitian tersebut membukitkan keamanan algoritma dengan melalui 
+beberapa analisis pengujian yaitu  performa keamanan,  analisis histogram  dan noise . 
+Peneliti  Parveiz Nazir Lone dan kawan -kawan (Lone et al., 2021)  
+melakukan penelitian mengembangkan metode  kriptografi menggunakan al goritma 
+Random Matrix Affine Cipher, Henon Map dan Logistic Map. Hasil penelitian 
+tersebut yaitu algoritma yang diusulkan diterapkan pada citra berwarna . 
+Penelit i Anak Agung Putri Ratna dan kawan -kawan (Ratna et al., 2021)  
+melakukan penelitian mengembangkan metode  kriptografi dengan menggunakan 
+algoritma Arnold’s Cat Map  dan Henon Map . Teknik konfusi digunakan pada 
+algoritma Arnold’s Cat Map dan teknik difusi digunakan pada algoritm a Henon 
+Map. Hasil penelitian membuktikan bahwa teknik konfusi dan difusi dapat 
+memberikan keamanan yang baik pada metode kriptografi citra digital.  
+Peneliti  Shazia Sabir dan kawan -kawan (Sabir & Guleria, 2021)  melakukan 
+penelitian mengembangkan metode kriptografi citra digital menggunakan 
+algoritma Arnold’s Cat Map , Reality Preserving Two Dimensional Di screte 
+Fractional Hertley Transform dan Random Matrix Affine Cipher . Hasil penelitian 
+yaitu metode diterapkan pada enkripsi citra digital dengan multi -layer  warna 
+komponen RGB.  
+Peneliti  Arwa Benlashram dan kawan -kawan (Benlashram et al., 2020)  
+melakukan penelitian mengembangkan metode kriptografi citra digital 
+menggunakan metode pengacakan piksel dan 3D Chaotic Map . Hasil penelitian 
+menunjukkan  performa ke amanan dengan menggunakan parameter nilai korelasi, 6 
+ entropi, NPCR ( Number of Pixel Change Rate ) dan UACI (Unif ied Average 
+Change Intensity ). 
+Dari uraian diatas dapat disimpulkan bahwa metode kriptografi citra digital 
+berbasis chaotic dapat dikembangkan untuk meningkatkan pe rforma keamanan. 
+Penelitian ini mengusulkan pengembangan metode kriptografi citra digital dengan 
+menggunakan kombinasi dari Cat Map, Henon Map dan Logistic Map  
+menggunakan teknik konfusi dan difusi agar proses kripto grafi dapat meningkatkan 
+keamanan dengan melalui beberapa pengujian.  
+1.4 Tujuan Masalah  
+Sesuai dengan masalah penelitian yang telah diuraikan sebelumnya, maka 
+tujuan yang ingin dicapai dalam penelitian ini adalah:  
+1. Menghasilkan pengembangan metode kriptografi citra digital berbasis 
+chaotic . 
+2. Mengimplementasi rancangan pengembangan metode kriptografi citra 
+digital berbasis chaotic  dan mel akukan pengujia n. 17 
+ BAB III 
+METODOLOGI PENELITIAN  
+3.1 Tahapan Penelitian  
+Tahapan penelitian dibagi atas beberapa tahapan  yang dilakukan dari awal 
+sampai akhir. Tahapan dimulai dari studi literatur sampai analisis yang membentuk 
+alur secara sistematis. Tahapan penelitian ini terpada pada Gambar 3.1  
+ 
+Gambar 3.1 Tahapan Penelitian  
+  Tahapan penelitian pada Gambar 3.1 menjelaskan tahapan yang dilakukan 
+pada penelitian ini. Tahapan pertama yaitu studi literatur dengan membaca dan 
+memahami beberapa penelitian yang dilakukan oleh peneliti sebel umnya, kemudian 
+desain algoritma dilakukan pada Matlab, pengujian dilakukan dengan beberapa 
+parameter pengujian dan analisis dilakukan dari beberapa pengujian yang telah 
+dilakukan.  
+3.2 Desain Algoritma  
+Penelitian yang terdahulu menggunakan metode yang memiliki ke amanan 
+tinggi yang dibuktikan dengan beberapa parameter pengujian. Pada penelitian ini 
+mengajukan pengembangan algoritma kriptografi citra digital dengan 
+mengkombinasi teknik konfusi dengan algoritma Cat Map dan Henon Map  serta 
+teknik difusi dengan algoritma Logistic Map . Pengembangan pada algoritma ini 
+diharapkan dapat memiliki keamanan yang lebih tinggi dengan melalui beberapa 
+parameter pengujian. Diagram alur proses enkripsi dapat dilihat pada 3.2.  
+18 
+  
+Gambar 3.2 Diagram Alur Proses Enkripsi  
+  Gambar 3.2 merupakan diagram alur proses enkripsi yang diusulkan pada 
+penelitian ini. Citra asli dan kunci enkripsi menjadi input pada proses enkripsi. 
+Langkah pertama yaitu p engacakan piksel dilakukan dengan algoritma Cat Map 
+menggu nakan persamaan (2.1) dan algoritma Henon Map menggunakan persamaan 
+(2.5) dan (2.6). Kemudian pembangkitan keystream  dengan algoritma Logistic Map  
+menggunakan persamaan (2.9). Keystream  yang dibangkitkan akan dilakukan 
+operasi XOR dengan piksel citra asli sehingga menghasilkan citra terenkripsi.  
+Diagram alur proses dekripsi dapat dilihat pada Gambar 3.3  
+ 
+Gambar 3.3 Diagram Alur Proses Dekripsi  
+19 
+  Gambar 3.3 merupakan diagram alur proses dekripsi yang diusulkan pada 
+penelitian ini. Proses dekripsi merupakan k ebalikan dari proses enkripsi. Citra 
+terenkripsi dan kunci dekripsi menjadi input pada proses dekripsi. Kunci enkripsi 
+dan dekripsi merupakan kunci yang sama. Langkah pertama yaitu pembangkitan 
+keystream  menggunakan Logistic Map . Kemudian pengembalian nila i piksel 
+dengan operasi XOR. Pengembalian posisi piksel dengan algoritma  Henon map  
+menggunakan persamaan (2.7) dan (2.8) serta algoritma Cat Map  menggunakan 
+persamaan (2.2) sehingga menghasilkan citra asli kembali.  
+3.3 Pengujian  
+Tahapan pengujian dilakukan unt uk mengetahui hasil pada proses enkripsi 
+dan dekripsi beberapa pengujian yang dilakukan yaitu:  
+1. Histogram  
+Histogram merupakan analisis statistik yang menunjukkan penyebaran atau 
+distribusi piksel pada citra. Histogram sering digunakan untuk pada pengolahan 
+citra untuk melihat kualitas citra. Kriptografi pada citra digital yang ideal 
+memiliki distribusi nilai p iksel yang beragam (Benlashram et al., 2020) . 
+2. PSNR  (Peak Signal Noise to Ratio ) 
+PSNR digunakan untuk pengukuran kualitas citra antara citra asli dan noise 
+yang terjadi pada citra terenkripsi.  Nilai PSNR ≥ 30 dB membuktikan kualitas 
+yang ba ik pada citra asli atau citra terdekripsi (Lone et al., 2021) . Berikut 
+persamaan PSNR terdapat pada persamaan 3.1.  
+𝑃𝑆𝑁𝑅 =10 ×𝑙𝑜𝑔 10(255 )2
+𝑀𝑆𝐸                         (3.1)  
+Persamaan 3.1 merupakan persamaan untuk mencari nilai PSNR. Sebelum 
+mencari nilai PSNR harus didapatkan nilai MSE terlebih dahulu. Berikut 
+persamaan MSE  (Mean Square Error ) terdapat pada persamaan 3.2.  
+𝑀𝑆𝐸 =1
+𝑀𝑁 ∑ ∑ (𝑔′(𝑥,𝑦)−𝑔(𝑥,𝑦))2 𝑁
+𝑦=1𝑀
+𝑥=1             (3.2)  
+Persamaan 3.2 terdapat g’  (x, y) dan g (x, y) yang merupakan citra terenkripsi 
+dan citra asli atau citra terdekripsi. M dan N merupakan ukuran dari citra.  
+ 
+ 20 
+ 3. Korelasi  
+Korelasi merupakan anlisis untuk mengukur teknik enkripsi pada kriptografi. 
+Korelasi akan menunjukkan hubungan piksel yang berderkatan pada citra. 
+Koefisien korelasi  dapat dilihat secara vertikal, horizontal dan diagonal. Berikut 
+persamaan korelasi terdapat  pada persamaan 3.3 (Benlashram et al., 2020) . 
+𝑟𝑥𝑦=𝐶𝑜𝑣 (𝑥,𝑦)
+√𝐷(𝑥)𝐷(𝑦)             (3.3)  
+Pada persamaan 3.3 terdapat r merupakan nilai korelasi. x dan y merupakan 
+piksel yang berdekatan. Cov merupakan kovaransi. D merupakan deviasi.  Nilai 
+korelasi yang mendekati 0 menunjukkan kemanan yang baik pada citra 
+terenkripsi  (Lone et al., 2021) . 
+4. NPCR dan UACI  
+NPCR ( Number of Pixel Change Rate ) dan UACI (Unif ied Average Chang ing 
+Intensity ) merupakan parameter untuk menguji performa algoritma dalam 
+enkripsi citra  (Lone et al., 2021) . NPCR digunakan untuk penghitungan 
+banyaknya perbedaan piksel dari dua buah citra, sedangkan UACI digunakan 
+untuk mengetahui interval perbedaan nilai piksel dari kedua citra.  Beriku t 
+persamaan NPCR dan UACI  terdapat pada persamaan 3.4 dan 3.5 . 
+𝑁𝑃𝐶𝑅 =1
+𝑚𝑛∑ 𝐷(𝑖,𝑗)×100% 𝑖,𝑗                                (3.4)  
+𝑈𝐴𝐶𝐼 = 1
+𝑚𝑛∑|𝐶(𝑖,𝑗)−𝐶′(𝑖,𝑗)|
+255×100 𝑖,𝑗                   (3.5)  
+Dimana  
+𝐷(𝑖,𝑗)={1,𝑗𝑖𝑘𝑎  𝐶(𝑖,𝑗)≠𝐶′(𝑖,𝑗),
+0,𝑗𝑖𝑘𝑎  𝐶(𝑖,𝑗)=𝐶′(𝑖,𝑗) 
+Pada persamaan 3.4 dan 3.5 terdapat m dan n yang merupakan ukuran citra. C 
+dan C’ merupakan dua citra terenkripsi dengan dua kunci yang berbeda.  Nilai 
+normal dari UACI yaitu 33.46% dan N PCR yaitu 99.60% (Lone et al., 2021) . 
+5. Entropi  
+Entropi digunakan untuk mengukur keacakan pada citra.  Nilai entropi akan 
+menunjukkan keacakan piksel pada citra terenkripsi (Elghandour et al., 2021) . 
+Berikut persamaan entropi terdapat pada persamaan 3.6.  21 
+ 𝐻(𝑚)=∑ 𝑃(𝑚𝑖)𝑙𝑜𝑔 2(1
+𝑃(𝑚𝑖)) 255
+𝑖=0              (3.6)  
+Pada persamaan 3.6 terdapat m yang merupakan citra yang digunakan. N 
+merupakan nilai piksel pada citra dan P merupakan probabilitas yang terjadi 
+pada citra.  Citra terenkrpsi dengan nilai entropi yang men dekati 8 membuktikan 
+keamanan yang baik pada citra te renkripsi  (Lone et al., 2021) . 
+3.4 Rencana Kerja  
+Rencana waktu penyelesaian penelitian ini selama 18 bulan, dengan d etail 
+rincian kerja terlihat pada tabel 3.1  
+Tabel 3.1. Rencana Pelaksanaan Penelitian . 
+ 
+Rencana kerja akan dilakukan selama 18 bulan. Bulan 1 sampai 3 dilakukan 
+studi pustaka. Bulan 3 sampai 6 dilakukan uji coba algoritma Cat Map , Henon Map  
+dan Logistic Map . Bulan 4 sampai 8 dilakukan evaluasi masing -masing metode 
+yang sudah dihasilkan. Bulan  7 sampai 11 perancangan metode pengembangan. 
+Bulan 10 sampai 12 pengujian metode pengembangan. Bulan 12 sampai 15 
+implementasi metode yang dikembangkan pada citra digital di Matlab. Bulan 14 
+sampai 18 dilakukan evaluasi metode yang dikembangkan.  
+ 
+ 
+ 
