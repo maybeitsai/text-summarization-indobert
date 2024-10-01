@@ -3,7 +3,10 @@ import re
 import csv
 import pandas as pd
 import nltk
+nltk.download('punkt')
+
 from nltk.corpus import stopwords
+from nltk.tokenize import sent_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 # Inisialisasi stemmer dan stopwords
@@ -92,9 +95,9 @@ def save_to_csv_with_features(input_folder, output_folder, section_name, title_d
 
 def split_sentences(text):
     """
-    Memecah teks menjadi kalimat-kalimat menggunakan tanda titik sebagai pemisah.
+    Memecah teks menjadi kalimat-kalimat menggunakan NLTK sent_tokenize.
     """
-    sentences = re.split(r'(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?)\s', text)
+    sentences = sent_tokenize(text)
     return [sentence.strip() for sentence in sentences if sentence]
 
 def clean_stopwords_and_stemming(sentence):
