@@ -1,5 +1,5 @@
 nama_dokumen,kalimat,index,important,length,words_in_title,position,cue_words
-Alfharizky Fauzi_Kualifikasi.txt,berbagai penelitian yang telah dilakukan belum terdapat identifikasi penyakit kulit pada manusia dengan teknis pendekatan data klinis dan non klinis .,0,1,11,0.19047619047619047,0.9375,0.0
+Alfharizky Fauzi_Kualifikasi.txt,penelitian berbagai penelitian yang telah dilakukan belum terdapat identifikasi penyakit kulit pada manusia dengan teknis pendekatan data klinis dan non klinis .,0,1,12,0.19047619047619047,0.9375,0.0
 Alfharizky Fauzi_Kualifikasi.txt,dengan mengintegrasikan data dari berbagai sumber termasuk rekam medis pasien informasi genetik paparan lingkungan dan kebiasaan gaya hidup serta image dari kulit yang terinfeksi virus penyakit kulit dengan bantuan analisis pengolahan citra berbasis komputer padahal dalam mendiagnosa penyakit kulit pada manusia para ahli sering mengalami kesulitan untuk mendeteksi adanya perbedaan dimana set iap kali terdeteksi selalu menunjukan hasil yang berbeda dengan diagnosis sebenarnya.,1,1,44,0.058823529411764705,0.8125,0.0625
 Alfharizky Fauzi_Kualifikasi.txt,maka terdapat peluang untuk melaku kan penelitian pada permasalahan ini yang menjadi topik penelitian.,2,1,6,0.0,0.6875,0.0
 Alfharizky Fauzi_Kualifikasi.txt,merujuk pada penelitian yang telah banyak dilakukan proses kerja rangkaian pembangunan sistem dalam mengidentifikasi adanya penyakit kulit untuk mengenalinya sebagai suatu jenis penyakit maupun kelainan pada kulit menggunakan pengolahan citra akan berisi tiga langkah utama yaitu segmentasi citra ekstraksi fitur dan klasifikasi objek.,3,1,26,0.08571428571428572,0.5625,0.0625
@@ -17,36 +17,89 @@ Alfharizky Fauzi_Kualifikasi.txt,bagaimana membangun model identifikasi penyakit
 Alfharizky Fauzi_Kualifikasi.txt,bagaimana membangun prototype system aplikasi berbantuan komputer yang tepat dan akurat untuk identifikasi adanya kelainan kulit yang diderita pasien sebagai tindakan pra diagnosis sehingga dapat diidentifikasi berdasarkan jenis penyakit kulit menggunakan usulan bi directional image text matching,15,1,26,0.11428571428571428,0.9375,0.0625
 Alifurrohman_Kualifikasi.txt,berdasarkan latar belakang yang telah dipaparkan maka rumusan masalah yang dapat disusun sebagai berikut .,0,1,0,0.0,0.75,0.0
 Alifurrohman_Kualifikasi.txt,1.,1,1,0,0.0,0.25,0.0
-Alifurrohman_Kualifikasi.txt,bagaimana deep q network dqn dengan mekanisme multi header attention dapat diterapkan untuk menyelesaikan dynamic vehicle routing problem with time windows dvrptw 2.,2,1,19,0.36,0.25,0.0
-Alifurrohman_Kualifikasi.txt,apakah penerapan dqn dengan multi header attention dapat meningkatkan efisiensi dan efektivitas dalam menentukan rute optimal pada kondisi dinamis seperti fluktuasi arus lalu lintas kedatangan pelanggan baru dan adanya jendela waktu .,3,1,19,0.030303030303030304,0.75,0.25
+Alifurrohman_Kualifikasi.txt,bagaimana deep q network dqn dengan mekanisme multi header attention dapat diterapkan untuk menyelesaikan dynamic vehicle routing problem with time windows dvrptw 2.,2,1,19,0.2962962962962963,0.25,0.0
+Alifurrohman_Kualifikasi.txt,apakah penerapan dqn dengan multi header attention dapat meningkatkan efisiensi dan efektivitas dalam menentukan rute optimal pada kondisi dinamis seperti fluktuasi arus lalu lintas kedatangan pelanggan baru dan adanya jendela waktu,3,1,19,0.029411764705882353,0.75,0.25
 Armando Tirta Dwilaga_Kualifikasi.txt,berikut adalah rumusan masalah yang melandasi dalam penelitian ini 1.,0,1,0,0.0,0.75,0.0
 Armando Tirta Dwilaga_Kualifikasi.txt,bagaimana membangun model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban 2.,1,1,12,0.4117647058823529,0.25,0.25
 Armando Tirta Dwilaga_Kualifikasi.txt,bagaimana mengimplementasikan dan menghasilkan usulan model algoritma convolutional neural networks cnn dalam membangun sistem deteksi cacat produk ban 3.,2,1,16,0.2727272727272727,0.25,0.25
-Armando Tirta Dwilaga_Kualifikasi.txt,bagaimana mengukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban,3,1,13,0.47058823529411764,0.75,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,bagaimana m engukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban,3,1,14,0.3684210526315789,0.75,0.0
 Devi Resviani_KUALIFIKASI.txt,berdasarkan pada latar belakang masalah penelitian yang telah diuraikan dan sesuai dengan usulan topik penelitian maka dirumuskan masalah pokok yang harus diteliti adalah sebagai berikut 1.,0,1,12,0.0,0.8,0.0
 Devi Resviani_KUALIFIKASI.txt,algoritma machine learning apa yang paling efektif untuk memprediksi kegagalan pada mesin kompresor reciprocating 2.,1,1,10,0.38461538461538464,0.4,0.0
 Devi Resviani_KUALIFIKASI.txt,bagaimana membangun model machine learning dari algoritma yang terpilih untuk memprediksi kegagalan pada mesin kompresor reciprocating 3.,2,1,12,0.3333333333333333,0.0,0.2
 Devi Resviani_KUALIFIKASI.txt,bagaimana membangun sistem peringatan pemeliharaan prediktif berbasis machine learning pada mesin kompresor reciprocating 4.,3,1,12,0.42857142857142855,0.4,0.2
-Devi Resviani_KUALIFIKASI.txt,bagaimana kinerja sistem peringatan pemeliharaan prediktif berbasis machine learning pada mesin kompresor reciprocating .,4,1,11,0.46153846153846156,0.8,0.0
+Devi Resviani_KUALIFIKASI.txt,bagaimana kinerja sistem peringatan pemeliharaan prediktif berbasis machine learning pada mesin kompresor reciprocating,4,1,11,0.46153846153846156,0.8,0.0
 Erfiana Wahyuningsih_UK.txt,1.,0,1,0,0.0,0.75,0.0
 Erfiana Wahyuningsih_UK.txt,bagaimana mereduksi gerbang cmos dengan metode m gdi pada rangkaian sram 2.,1,1,9,0.13636363636363635,0.25,0.0
 Erfiana Wahyuningsih_UK.txt,bagaimana menunjukkan kinerja rangkaian sram 6t dengan low power setelah jumlah transistor direduksi 3.,2,1,9,0.19047619047619047,0.25,0.0
-Erfiana Wahyuningsih_UK.txt,apakah rangkaian transistor yang telah direduksi jumlahnya mampu mempertahankan kemampuan high read stability .,3,1,8,0.14285714285714285,0.75,0.0
-Robert_Kualifikasi.txt,berdasarkan dari uraian latar belakang masalah dan usulan topik penelitian diatas terdapat beberapa masalah penelitian yang perlu dicari solusinya adalah 1.,0,1,11,0.0,0.9,0.0
-Robert_Kualifikasi.txt,metode dan algoritma morfologi matematika mana yang paling tepat digunakan untuk mengekstrasi fitur ekspresi wajah.,1,1,8,0.125,0.7,0.0
-Robert_Kualifikasi.txt,2.,2,1,0,0.0,0.5,0.0
-Robert_Kualifikasi.txt,bagaimana membang un model pengenalan ekspresi wajah berdasarkan gabungan usulan morfologi matematika dan jaringan saraf tiruan usulan model mnn .,3,1,17,0.19047619047619047,0.3,0.0
-Robert_Kualifikasi.txt,3.,4,1,0,0.0,0.1,0.0
-Robert_Kualifikasi.txt,bagaimana membangun prototype sistem pengenalan ekspresi wajah mengunakan usulan model mnn .,5,1,10,0.3333333333333333,0.1,0.1
-Robert_Kualifikasi.txt,1.3 batasan masalah penelitian adapun batasan masalah dari penelitian ini adalah 1.,6,1,7,0.0,0.3,0.0
-Robert_Kualifikasi.txt,fitur yang digunakan dalam penelitian ini adalah bentuk komponen wajah yang mengambarkan ekspresi .,7,1,7,0.13333333333333333,0.5,0.0
-Robert_Kualifikasi.txt,2.,8,1,0,0.0,0.7,0.0
-Robert_Kualifikasi.txt,dataset yang digunakan dalam penelitian ini terdiri dari 7 ekspresi yaitu netral marah sedih kaget senang jijik dan menghina .,9,1,11,0.05,0.9,0.0
-Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan latar belakang di atas maka rumusan masalah penelitian ini adalah 1.,0,1,0,0.0,0.8,0.0
-Tatya Atyanti Paramastri_Kualifikasi.txt,bagaimana mengumpulkan informasi batik daur hidup yogyakarta yang akurat 2.,1,1,8,0.26666666666666666,0.4,0.0
-Tatya Atyanti Paramastri_Kualifikasi.txt,bagaimana menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya 3.,2,1,9,0.3333333333333333,0.0,0.0
-Tatya Atyanti Paramastri_Kualifikasi.txt,bagaimana menerapkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta 4.,3,1,11,0.6923076923076923,0.4,0.0
-Tatya Atyanti Paramastri_Kualifikasi.txt,bagaimana nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum,4,1,13,0.6,0.8,0.2
+Erfiana Wahyuningsih_UK.txt,apakah rangkaian transistor yang telah direduksi jumlahnya mampu mempertahankan kemampuan high read stability,3,1,8,0.14285714285714285,0.75,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,berdasarkan topik pembahasan pada penelitian ini mengenai perancangan model platform koperasi bagi para petani maka didapatkan beberapa rumusan masalah untuk mengetahui masalah yang akan dicari solusinya.,0,1,13,0.19047619047619047,0.8333333333333334,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,rumusan masalah pada penelitian ini adalah sebagai berikut.,1,1,0,0.0,0.5,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,1.,2,1,0,0.0,0.16666666666666666,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,bagaimana proses perancangan model koperasi petani 6 2.,3,1,7,0.1875,0.16666666666666666,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,bagaimana metode prediksi permintaan dengan ann di dalam blockchain yang digunakan untuk mengoptimalkan permintaan pelanggan di masa depan selama periode tertentu 3.,4,1,10,0.0,0.5,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,bagaimana metode safety stock di dalam blockchain yang digunakan agar dapat mengoptimalkan stok dan permintaan tujuan penelitian untuk mengetahui target yang akan dicapai dalam penelitian ini.,5,1,13,0.0,0.8333333333333334,0.0
+Kualifikasi Witta Listiya Ningrum.txt,rumusan masalah pada penelitian ini difokuskan pada 1.,0,1,0,0.0,0.6666666666666666,0.0
+Kualifikasi Witta Listiya Ningrum.txt,bagaimana meng embangkan algoritma untuk merepresentasikan teks gambar dan video dari berbagai platform sosial media 2.,1,1,11,0.2857142857142857,0.0,0.0
+Kualifikasi Witta Listiya Ningrum.txt,bagaimana meng embangkan model klasifikasi toksisitas multimodal dengan metode large language model llm dengan jenis media teks gambar dan video,2,1,16,0.631578947368421,0.6666666666666666,0.0
+Kualifikasi_Aris Gunaryati.txt,berdasarkan latar belakang masalah tersebut maka yang menj adi rumusan masalah p ada penelitian ini ad alah 1.,0,1,10,0.0,0.8571428571428571,0.0
+Kualifikasi_Aris Gunaryati.txt,bagaimana pola data runtun w aktu pertambah an jumlah kasus ha rian covid 19 di jakarta dari tanggal 6 maret 2020 s ampai ta nggal 30 juni 2021 2.,1,1,24,0.1875,0.5714285714285714,0.0
+Kualifikasi_Aris Gunaryati.txt,bagaimana membu at model peramalan yang sesuai dan cocok untuk data runtun waktu tersebut d engan metode arima 3.,2,1,13,0.17391304347826086,0.2857142857142857,0.0
+Kualifikasi_Aris Gunaryati.txt,bagaimana membu at model peramalan data runtun waktu tersebut dengan metode neural network nn 4.,3,1,11,0.25,0.0,0.0
+Kualifikasi_Aris Gunaryati.txt,bagaimana cara membu at model hybrid arima neural network arimann yang sesuai dan cocok dengan data runtun waktu tersebut 5.,4,1,13,0.22727272727272727,0.2857142857142857,0.0
+Kualifikasi_Aris Gunaryati.txt,bagaimana mengembangkan model quantum arima neural network untuk data runtun waktu 6.,5,1,9,0.35294117647058826,0.5714285714285714,0.14285714285714285
+Kualifikasi_Aris Gunaryati.txt,bagaimana tingkat akurasi dan hasil peramalan untuk jumlah k asus harian covid 19 di jakarta p ada periode tanggal 1 juli sampai 31 juli 2020 berdasarkan modelmodel tersebut,6,1,20,0.13793103448275862,0.8571428571428571,0.14285714285714285
+Kualifikasi_Rama Dian Syah.txt,berdasarkan latar belakang yang telah diuraikan maka dapat dirumuskan rumusan masalah sebagai berikut 1.,0,1,6,0.0,0.6666666666666666,0.0
+Kualifikasi_Rama Dian Syah.txt,bagaimana mengembangkan metode kriptografi citra digital berbasis chaotic 2.,1,1,8,0.6666666666666666,0.0,0.3333333333333333
+Kualifikasi_Rama Dian Syah.txt,bagaimana hasil pengujian dari proses enk ripsi dan dek ripsi yang dilakukan,2,1,7,0.0,0.6666666666666666,0.3333333333333333
+Kualifikasi_Remigius.txt,salah satu tantangan utama dalam mengembangkan model i nteraksi antara manusia dan k omputer adalah bagaimana menangani secara efektif perbedaan individu preferensi maupun pengalaman lavie meyer 2010 serta fleksibilitas kognitif yang mungkin terkait dengan berbagai perilaku pengguna yang berbeda gonzalez 2013.,0,1,27,0.02857142857142857,0.8,0.2
+Kualifikasi_Remigius.txt,oleh karena itu keterlibatan komunitas dan persepsi pengguna perlu di pertimbangkan dalam proses pengembangan sistem pembelajaran berbasis teknologi metaverse dalam hal ini terkait pembelaja ran perkembangan arsitektur di perguruan tinggi .,1,1,18,0.42105263157894735,0.4,0.2
+Kualifikasi_Remigius.txt,keterlibatan komunitas menjadi indikasi adanya interaktivitas digital di antara para pengguna sedangkan persepsi pengguna menjadi indikasi dari adanya relevansi antara sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse serta harapan para pengguna tentang penyampaian matakuliah tersebut secara lebih baik.,2,1,21,0.4,0.0,0.2
+Kualifikasi_Remigius.txt,pengembangan sistem pembelajaran ini tidak mudah dan perlu didasarkan pada keterlibatan komunitas dan persepsi penggu na.,3,1,10,0.3333333333333333,0.4,0.2
+Kualifikasi_Remigius.txt,oleh karena itu masalah dalam penelitian ini adalah bagaimana sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse dikembangkan dengan keterlibatan komunitas dan persepsi pengguna di program studi teknik arsitektur fakultas teknik sipil dan perencanaan universitas gunadarma .,4,1,22,0.38095238095238093,0.8,0.2
+KUALIFIKASI_Riya Widayanti.txt,penelitian dalam penelitian terkait dengan tata kelola data yang diterapkan pada perguruan tinggi dengan mengggunakan teknologi blockchain mengacu pada topikjudul penelitian dan tujuan umum yang akan dicapai yang telah diuraikan pada latar belakang masalah identifikasi dan list permasalahan utama yang akan diteliti.,0,1,23,0.2857142857142857,0.5,0.0
+KUALIFIKASI_Riya Widayanti.txt,"bagaimana menganalisis lapisan data dalam tata kelola data terkait program merdeka belajar berbasis blockchain bagaimana mengidentifikasi lapisan arsitektur dalam blockchain yang berfungsi sebagai penyimpan data bagaimana mengekplorasi aspek administrasi data pada blockchain bagaimana menilai tata kelola data terkait kualitas data yang akan dikembangkan dalam teknologi blockchain
+
+tujuanpenelitan
+adapun tujuan penelitiannya adalah sebagai berikut menghasilkan skema logika data yang digunakan dalam aplikasi block chain yang menjadi ko nsensus atau perjanjian bersama dalam studi kasus menghasilan arshitektur blockchain yang digunakan dalam konsensus bersama memetakan as pek data privasi yang digunakan dengan aturan kepatuhan data antara lain dengan uu ite",1,1,62,0.10638297872340426,0.5,0.5
+Miftakhul Zaen_KUALIFIKASI.txt,berdasarkan latar belakang dan batasan masalah diperoleh rumusan masalah untuk mengembang kan algoritma dbscan .,0,1,8,0.2727272727272727,0.8,0.2
+Miftakhul Zaen_KUALIFIKASI.txt,berikut merupakan rumusan masalah pada pe nelitian ini.,1,1,0,0.0,0.4,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,1.,2,1,0,0.0,0.0,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,bagaimana cara mengatasi keterbatasan algoritma dbscan klasik dalam mengelola dataset bes ar pada klasterisasi supplier dengan mengguna kan komputasi kuantum 2.,3,1,15,0.3125,0.4,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,bagaimana pening katan efisiensi dan akurasi yang dapat dicapai oleh dbscan kuantum dalam pengelompokan supplier dibandingkan dengan implementasi klasik nya,4,1,13,0.1875,0.8,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,1.,0,1,0,0.0,0.8,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,bagaimana cara merancang model untuk klasifikasi k ematangan buah kelapa sawit 4 2.,1,1,10,0.25,0.4,0.2
+Ragmar Faikar Eka_Kualifikasi.txt,bagaimana mengetahui nilai akurasi dari klasifikasi kualitas buah kelapa sawit 3.,2,1,8,0.2857142857142857,0.0,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,bagaimana cara menggabung kan model mobilenetv3 dengan attention module cbam 4.,3,1,7,0.21428571428571427,0.4,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,bagaimana cara untuk mengimplementasi model klasifikasi k ematangan buah kelapa sawit ke dalam aplikasi mobile,4,1,10,0.25,0.8,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,rumusan masalah pada penelitian ini adalah sebagai berikut 1.,0,1,0,0.0,0.8,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,bagaimana mengembangkan model generative ai yang mampu menghasilkan data sintetis untuk meningkatkan akurasi model prediksi permintaan dan produksi beras 2.,1,1,15,0.25,0.4,0.2
+Reviana Siti Mardiah_Kualifikasi.txt,bagaimana mengembangkan model machine learning yang efektif untuk memprediksi permintaan dan produksi beras 3.,2,1,10,0.3,0.0,0.2
+Reviana Siti Mardiah_Kualifikasi.txt,bagaimana merancang model optimasi yang efektif untuk menentukan jumlah cadangan beras pemerintah yang optimal 4.,3,1,10,0.18181818181818182,0.4,0.2
+Reviana Siti Mardiah_Kualifikasi.txt,bagaimana membangun prototype decision support system untuk cadangan beras pemerintah,4,1,8,0.3333333333333333,0.8,0.2
+Reza Al Husna_Kualifikasi.txt,berdasarkan yang telah diuraikan pada latar belakang masalah diatas maka direncanakan perumusan masalah yang mendasari penelitian sebagai berikut.,0,1,9,0.0,0.75,0.0
+Reza Al Husna_Kualifikasi.txt,1.,1,1,0,0.0,0.25,0.0
+Reza Al Husna_Kualifikasi.txt,bagaimana mengembangkan algoritma dan metode menggunakan pendekatan feature fusion berbasis attention pada citra penyakit daun tanaman kakao 2.,2,1,14,0.35294117647058826,0.25,0.25
+Reza Al Husna_Kualifikasi.txt,bagaimana membangun sebuah sistem deteksi yang tepat dan akurat untuk identifikasi adanya gejala penyakit pada daun tanaman kakao yang dapat mem permudah petani kakao dalam mengenali daun yang terkena penyakit,3,1,18,0.2,0.75,0.25
+Robert_Kualifikasi.txt,penelitian berdasarkan dari uraian latar belakang masalah dan usulan topik penelitian diatas terdapat beberapa masalah penelitian yang perlu dicari solusinya adalah 1.,0,1,12,0.0,0.8333333333333334,0.0
+Robert_Kualifikasi.txt,metode dan algoritma morfologi matematika mana yang paling tepat digunakan untuk mengekstrasi fitur ekspresi wajah.,1,1,8,0.125,0.5,0.0
+Robert_Kualifikasi.txt,2.,2,1,0,0.0,0.16666666666666666,0.0
+Robert_Kualifikasi.txt,bagaimana membang un model pengenalan ekspresi wajah berdasarkan gabungan usulan morfologi matematika dan jaringan saraf tiruan usulan model mnn .,3,1,17,0.19047619047619047,0.16666666666666666,0.0
+Robert_Kualifikasi.txt,3.,4,1,0,0.0,0.5,0.0
+Robert_Kualifikasi.txt,bagaimana membangun prototype sistem pengenalan ekspresi wajah mengunakan usulan model mnn .,5,1,10,0.3333333333333333,0.8333333333333334,0.16666666666666666
+Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan latar belakang di atas maka rumusan masalah penelitian ini adalah 1.,0,1,0,0.0,0.9166666666666666,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,bagaimana mengumpulkan informasi batik daur hidup yogyakarta yang akurat 2.,1,1,8,0.26666666666666666,0.75,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,bagaimana menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya 3.,2,1,9,0.3333333333333333,0.5833333333333334,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,bagaimana menerapkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta 4.,3,1,11,0.6923076923076923,0.4166666666666667,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,"bagaimana nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum
+
+tujuanpenelitian berdasarkan rumusan masalah maka tujuan dari penelitian ini adalah 1.",4,1,19,0.42857142857142855,0.25,0.08333333333333333
+Tatya Atyanti Paramastri_Kualifikasi.txt,mengumpulkan informasi batik daur hidup yogyakarta yang akurat.,5,1,7,0.2857142857142857,0.08333333333333333,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,2.,6,1,0,0.0,0.08333333333333333,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya.,7,1,8,0.35714285714285715,0.25,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,3.,8,1,0,0.0,0.4166666666666667,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,mengembangkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta.,9,1,10,0.9090909090909091,0.5833333333333334,0.08333333333333333
+Tatya Atyanti Paramastri_Kualifikasi.txt,4.,10,1,0,0.0,0.75,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,mengukur nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum.,11,1,14,0.5625,0.9166666666666666,0.08333333333333333
 Tia Haryanti_Kualifikasi.txt,berdasarkan uraian lata r belakang penelitian yang telah diuraikan di atas maka dapat diidentifikasi beberapa masalah yang ingin dipecahkan untuk mencapai tujuan penelitian.,0,1,11,0.0,0.8571428571428571,0.0
 Tia Haryanti_Kualifikasi.txt,berikut merupakan rumusan masalah dari penelitian ini.,1,1,0,0.0,0.5714285714285714,0.0
 Tia Haryanti_Kualifikasi.txt,7 1.,2,1,0,0.0,0.2857142857142857,0.0
@@ -54,7 +107,7 @@ Tia Haryanti_Kualifikasi.txt,bagaimana membangun dataset baru berdasarkan data c
 Tia Haryanti_Kualifikasi.txt,apa saja parameter visual dan fisiologis yang digunakan dalam sistem deteksi dini kantuk berbasis kecerdasan artifisial 3.,4,1,10,0.2,0.2857142857142857,0.0
 Tia Haryanti_Kualifikasi.txt,bagaimana merancang sistem deteksi dini kantuk yang akurat mengidentifikasi tandatanda kelelahan pada pengemudi sebelum berkendara 4.,5,1,11,0.26666666666666666,0.5714285714285714,0.14285714285714285
 Tia Haryanti_Kualifikasi.txt,bagaimana implementasi sistem deteksi dini kantuk dalam lingkungan predriving pengemudi,6,1,7,0.5,0.8571428571428571,0.0
-Utami Lestari_Kualifikasi.txt,rumusan masalah berdasarkan latar belakang masalah yang telah disampaikan diperoleh beberapa permasalahan yang harus di selesaikan.,0,1,6,0.0,0.75,0.0
+Utami Lestari_Kualifikasi.txt,berdasarkan latar belakang masalah yang telah disampaikan diperoleh beberapa permasalahan yang harus di selesaikan.,0,1,0,0.0,0.75,0.0
 Utami Lestari_Kualifikasi.txt,permasalahan tersebut dirumuskan sebagai berikut 1.,1,1,0,0.0,0.25,0.0
 Utami Lestari_Kualifikasi.txt,bagaimana membangun model platform tinjauan artikel ilmiah dengan llm 2.,2,1,8,0.07142857142857142,0.25,0.25
 Utami Lestari_Kualifikasi.txt,bagaimana algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal,3,1,6,0.0,0.75,0.0

@@ -1,0 +1,1 @@
+1. bagaimana cara merancang model untuk klasifikasi k ematangan buah kelapa sawit 4 2. bagaimana mengetahui nilai akurasi dari klasifikasi kualitas buah kelapa sawit 3. bagaimana cara menggabung kan model mobilenetv3 dengan attention module cbam 4. bagaimana cara untuk mengimplementasi model klasifikasi k ematangan buah kelapa sawit ke dalam aplikasi mobile

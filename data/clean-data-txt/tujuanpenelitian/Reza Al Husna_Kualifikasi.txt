@@ -1,0 +1,1 @@
+tujuan penelitian yang ingin dicapai pada penelitian ini adalah 1. menghasilkan algoritma dan metode dengan pendekatan feature fusion berbasis attention untuk deteksi citra penyakit daun tanaman kakao . 2. menghasilkan sistem deteksi untuk mengenali gejala pada daun yang terinfeksi penyakit.

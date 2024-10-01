@@ -1,0 +1,1 @@
+secara umum penelitian ini bertujuan untuk menciptakan platform tinjauan artikel ilmiah berbasis kecerdasan buatan dengan menggunakan model bahasa besar. tujuan penelitian secara khusus adalah sebagai berikut 1.membangun model platform tinjauan artikel ilmiah dengan llm 2. mengembangkan algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal

@@ -1,0 +1,1 @@
+pengembangan model klasifikasi toksisitas multimodal pada platform sosial media menggunakan large language model llm dengan kombinasi jenis media teks gambar dan video

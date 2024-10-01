@@ -1,0 +1,1 @@
+pengembangan algoritma berbasis convolutional neural network cnn dalam pengukuran kualitas melalui klasifikasi pada produk ban

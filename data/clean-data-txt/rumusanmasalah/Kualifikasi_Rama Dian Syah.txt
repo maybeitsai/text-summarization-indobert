@@ -1,0 +1,1 @@
+berdasarkan latar belakang yang telah diuraikan maka dapat dirumuskan rumusan masalah sebagai berikut 1. bagaimana mengembangkan metode kriptografi citra digital berbasis chaotic 2. bagaimana hasil pengujian dari proses enk ripsi dan dek ripsi yang dilakukan

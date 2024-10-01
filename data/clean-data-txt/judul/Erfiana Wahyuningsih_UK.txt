@@ -1,0 +1,1 @@
+low power high read stability design 6t sram memory uses m gdi in 0.35 um.

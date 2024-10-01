@@ -1,0 +1,1 @@
+1. mereduksi jumlah transistor pada rangkaian sram dengan menggunakan metode m gdi. 2. mampu menunjukkan kinerja dari penggunaan low power pada rangkaian sram 6t 3. mampu mempertahankan high read stability pada rangkaian sram 6t

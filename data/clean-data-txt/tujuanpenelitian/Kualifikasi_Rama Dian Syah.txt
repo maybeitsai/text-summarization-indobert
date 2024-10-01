@@ -1,0 +1,1 @@
+sesuai dengan masalah penelitian yang telah diuraikan sebelumnya maka tujuan yang ingin dicapai dalam penelitian ini adalah 1. menghasilkan pengembangan metode kriptografi citra digital berbasis chaotic . 2. mengimplementasi rancangan pengembangan metode kriptografi citra digital berbasis chaotic dan melakukan pengujian.

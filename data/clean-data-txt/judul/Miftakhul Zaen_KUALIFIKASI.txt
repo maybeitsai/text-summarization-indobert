@@ -1,0 +1,1 @@
+pengembangan algoritma kuantum dbscan untuk klasterisasi supplier
