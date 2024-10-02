@@ -1,1 +1,3 @@
-rumusan masalah pada penelitian ini difokuskan pada 1. bagaimana meng embangkan algoritma untuk merepresentasikan teks gambar dan video dari berbagai platform sosial media 2. bagaimana meng embangkan model klasifikasi toksisitas multimodal dengan metode large language model llm dengan jenis media teks gambar dan video
+Rumusan masalah pada penelitian ini difokuskan pada :
+1. Bagaimana mengembangkan algoritma untuk merepresentasikan teks, gambar dan video dari berbagai platform sosial media?
+2. Bagaimana mengembangkan model klasifikasi toksisitas multimodal dengan metode Large Language Model (LLM) dengan jenis media teks, gambar dan video?
