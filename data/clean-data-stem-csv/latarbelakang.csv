@@ -1,0 +1,887 @@
+nama_dokumen,kalimat,index,important,conjunction,length,words_in_title,position,cue_words
+Alfharizky Fauzi_Kualifikasi.txt,kulit organ besar tubuh main peran tahan ancam lingkung bakteri virus zat bahaya,0,1,1,13,0.038461538461538464,0.0,0.0
+Alfharizky Fauzi_Kualifikasi.txt,sakit kulit sehat sebar luas serang orang orang usia sakit sebab faktor genetika gaya hidup papar lingkung,1,1,1,17,0.07407407407407407,0.09297052154195011,0.0
+Alfharizky Fauzi_Kualifikasi.txt,lain kulit y ang dunia indonesia mana sakit timbul tantang sehat masyarakat tinggi angka jadi j zhang et al,2,1,1,19,0.07142857142857142,0.18140589569160995,0.0
+Alfharizky Fauzi_Kualifikasi.txt,2023 ,4,1,1,14,0.08,0.3446712018140589,0.0
+Alfharizky Fauzi_Kualifikasi.txt,indonesia rumah 270 juta orang kena sakit kulit jadi salah negara kena dampak global,5,1,1,9,0.09090909090909091,0.41950113378684806,0.0
+Alfharizky Fauzi_Kualifikasi.txt,sakit kulit psoriasis eksim acne vulgar vitiligo melano ma,6,1,1,14,0.038461538461538464,0.4897959183673469,0.0
+Alfharizky Fauzi_Kualifikasi.txt,sakit sakit timbul gejala fisik dampak psikologis dalam pengaruh kualitas hidup pasien interaksi sosial,7,1,1,8,0.09523809523809523,0.5555555555555556,0.0
+Alfharizky Fauzi_Kualifikasi.txt,diagnosis efisien sakit kulit kunci nang an efektif,8,1,1,14,0.0,0.6167800453514739,0.0
+Alfharizky Fauzi_Kualifikasi.txt,proses diagnosis gantung alam klinis tahu medis dalam dermatolog kali batas akses awat kualitas,9,1,1,16,0.07407407407407407,0.673469387755102,0.0
+Alfharizky Fauzi_Kualifikasi.txt,diagnosis sakit kulit tradisional periksa langsung dokter spesialis kulit analis dasar alam klinis tahu medis milik,10,1,1,14,0.16666666666666666,0.7256235827664398,0.05
+Alfharizky Fauzi_Kualifikasi.txt,kembang teknologi bidang cerdas buat artificial intelligence ai potensi optimal proses diagnosis sakit kulit,11,1,1,10,0.14285714285714285,0.7732426303854876,0.05
+Alfharizky Fauzi_Kualifikasi.txt,maju bidang cerdas buat buka peluang tingkat diagnosis sakit kulit,12,1,1,14,0.2727272727272727,0.8163265306122449,0.05
+Alfharizky Fauzi_Kualifikasi.txt,manfaat algoritma cerdas buat bukti efektif dukung identifikasi sakit kulit tingkat akurasi cepat diagnosis,13,1,1,11,0.0,0.854875283446712,0.0
+Alfharizky Fauzi_Kualifikasi.txt,tantang uta ma hadap integrasi teknologi praktik klinis hari efisien aman,14,1,1,14,0.4,0.888888888888889,0.05
+Alfharizky Fauzi_Kualifikasi.txt,teliti sorot potensi kembang metode identifikasi pra diagnosis sakit kulit manfaat algoritma cerdas buat,15,1,1,16,0.2608695652173913,0.9183673469387754,0.0
+Alfharizky Fauzi_Kualifikasi.txt,kenal metode harap optimal aplikasi medical dermatology ken alkan dekat sistematis struktur kenal gejala sakit kulit,17,1,1,10,0.08695652173913043,0.963718820861678,0.0
+Alfharizky Fauzi_Kualifikasi.txt,teliti wei et al,18,1,1,7,0.047619047619047616,0.9795918367346937,0.0
+Alfharizky Fauzi_Kualifikasi.txt,2018 bahas kenal sakit kulit bas image color fitur tekstur,19,1,1,26,0.05128205128205128,0.9909297052154196,0.1
+Alfharizky Fauzi_Kualifikasi.txt,metode liput glcm analisis tekstur svm klasifikasi,20,1,1,7,0.1,0.9977324263038548,0.0
+Alfharizky Fauzi_Kualifikasi.txt,hasil fitur warna tekstur gabung tingkat akurasi kenal hing ga 90 teliti fauzi dzulfiqar wibowo et al 2022 bahas deteksi sakit kulit indonesia cnn ajar ensemble ,21,1,1,8,0.15,1.0,0.0
+Alfharizky Fauzi_Kualifikasi.txt,dataset cakup 1203 gambar sakit kulit klasifikasi,22,1,1,8,0.0,0.9977324263038548,0.05
+Alfharizky Fauzi_Kualifikasi.txt,metode ajar cnn ensemble deteksi gambar sakit kulit,24,1,1,11,0.0,0.9795918367346939,0.05
+Alfharizky Fauzi_Kualifikasi.txt,validasi silang k fold pisah data hasil optimal ,25,1,1,18,0.03125,0.963718820861678,0.0
+Alfharizky Fauzi_Kualifikasi.txt,prapemrosesan data arsitektur cnn resnet50 latih,26,1,1,9,0.045454545454545456,0.9433106575963719,0.0
+Alfharizky Fauzi_Kualifikasi.txt,hasil gambar rgb milik akurasi 49 gambar grayscale milik akurasi 47 ,27,1,1,8,0.045454545454545456,0.9183673469387754,0.0
+Alfharizky Fauzi_Kualifikasi.txt,teliti raghav agarwal et al 2023 bahas artificial intelligence deteksi ganggu kulit model deep learning convolutional neural network,28,1,1,11,0.0,0.888888888888889,0.05
+Alfharizky Fauzi_Kualifikasi.txt,dataset cakup 25000 gambar warna delapan ganggu kulit umum,29,1,1,20,0.09375,0.854875283446712,0.0
+Alfharizky Fauzi_Kualifikasi.txt,metode resnet 152 turun cnn pemrosesan klasifikasi citra,30,1,1,8,0.047619047619047616,0.8163265306122449,0.0
+Alfharizky Fauzi_Kualifikasi.txt,hasil teliti resnet152 74 24 validation and 73 01 test dataset ,31,1,1,7,0.047619047619047616,0.7732426303854875,0.05
+Alfharizky Fauzi_Kualifikasi.txt,teliti yue shen et al 2024 bahas m engoptimalkan diagnosis sakit kulit manfaat data komunitas daring teknik ontrastive learning clustering ,32,1,1,23,0.058823529411764705,0.72562358276644,0.05
+Alfharizky Fauzi_Kualifikasi.txt,metode dekat contrastive learning ajar representasi gambar label,33,1,1,7,0.1,0.6734693877551021,0.0
+Alfharizky Fauzi_Kualifikasi.txt,metode clustering gambar validasi standar tingkat anotasi,35,1,1,19,0.28,0.5555555555555555,0.05
+Alfharizky Fauzi_Kualifikasi.txt,hasil m odel transfer tugas akurasi 6176 teliti archana et al 2019 bahas klasifikasi m odel deteksi sakit kulit pemrosesan gambar aksesibilitas desa ,36,1,1,24,0.08823529411764706,0.4897959183673471,0.1
+Alfharizky Fauzi_Kualifikasi.txt,transformasi dct dwt svd deteksi sakit kulit ,37,1,1,17,0.06896551724137931,0.4195011337868481,0.0
+Alfharizky Fauzi_Kualifikasi.txt,hasil akurasi 80 persen,38,1,1,15,0.0,0.3446712018140589,0.0
+Alfharizky Fauzi_Kualifikasi.txt,teliti usul dekat pra diagnosis sakit kulit manusia indonesia kembang metode identifikasi bas ai manfaat data klinis non klinis,39,1,1,16,0.21739130434782608,0.2653061224489795,0.05
+Alfharizky Fauzi_Kualifikasi.txt,integrasi data sumber rekam medis pasien informasi genetik papar lingkung biasa gaya hidup metode usul tuju tingkat akurasi cepat diagnosis sakit kulit hasil pasien,40,1,1,17,0.14285714285714285,0.18140589569161017,0.05
+Alfharizky Fauzi_Kualifikasi.txt,met ode usul timbang karakteristik unik duduk indonesia variasi sakit kulit preferensi pasien relevansi efektivitas konteks ini,41,1,1,18,0.15384615384615385,0.09297052154195021,0.1
+Alfharizky Fauzi_Kualifikasi.txt,dekat ubah signifikan metod e diagnostik tradisional potensi revolusi bidang dermatologi medis indonesia negara lain,42,1,1,17,0.06666666666666667,0.0,0.05
+Alifurrohman_Kualifikasi.txt,machine learning ml cabang cerdas artifisial manfaat teknik statistik algoritma ajar putus prediksi dasar data,0,1,1,15,0.03333333333333333,0.0,0.0
+Alifurrohman_Kualifikasi.txt,algoritma ml komputer tingkat efisiensi jenis kerja program eksplisit tugas karimi-mamaghan m mohammadi m meyer p karimi-mamaghan a m  talbi e g 2022,1,1,1,23,0.0,0.06664751508187303,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,ml manfaat teknik statistik teori probabilitas matematika ilmu komputer bangun model dataset ada,2,1,1,13,0.037037037037037035,0.13099683998850906,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,machine learning metode otomatis analis data atur atur prediksi data tahu,3,1,1,11,0.043478260869565216,0.1930479747199081,0.0
+Alifurrohman_Kualifikasi.txt,algoritma metode statistik terap komputer mampu ajar data tingkat kerja pecah program eksplisit ni qiuping  tang yuanxiang 2023,4,1,1,18,0.0,0.25280091927607007,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,machine learning bagi kategori supervised learning unsupervised learning reinforcement learning karimi-mamaghan m mohammadi m meyer p karimi-mamaghan a m  talbi e g 2022,5,1,1,23,0.06666666666666667,0.3102556736569951,0.0
+Alifurrohman_Kualifikasi.txt,reinforcement learning machine learning beda supervised learning unsupervised learning reinforcement learning trial and eror interaksi langsung lingkung panzer  bender 2022,6,1,1,20,0.06896551724137931,0.3654122378626832,0.0
+Alifurrohman_Kualifikasi.txt,reinforcement learning rl sinyal awas ajar rl gantung sinyal umpan individu agent lingkung,7,1,1,13,0.08,0.41827061189313414,0.0
+Alifurrohman_Kualifikasi.txt,umpan koreksi tindak agen agen tahap ajar maksimal hadiah reward maksimal nilai cumulativereward hadiah imbal kumpul kumulatif capai mampu ajar mandiri kuat ni  tang 2023,8,1,1,25,0.0,0.4688307957483482,0.0
+Alifurrohman_Kualifikasi.txt,algoritma rl bagi kategori ajar bas model ajar bebas model mousavi seyed sajad howley enda  schukat michael 2018,9,1,1,18,0.03333333333333333,0.5170927894283252,0.0
+Alifurrohman_Kualifikasi.txt,ajar bas model milik tahu lingkung optimal dahulu,10,1,1,8,0.047619047619047616,0.5630565929330652,0.0
+Alifurrohman_Kualifikasi.txt,ajar bebas model rendah cepat latih mudah implementasi cepat sesuai skenario nyata,11,1,1,12,0.038461538461538464,0.6067222062625682,0.0
+Alifurrohman_Kualifikasi.txt,terap reinforcement learning hasil signifikan bidang robotika jens kober j andrew bagnell jan peters 2013 main silver d huang a maddison c et al,12,1,1,24,0.05263157894736842,0.6480896294168342,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,2016 sehat liu siqi see kay choong ngiam kee yuan celi leo anthony sun xingzhi feng mengling 2020 distribusi logistik he zhenhua chen liang liu bin 2024,13,1,1,27,0.0,0.6871588623958633,0.0
+Alifurrohman_Kualifikasi.txt,kembang teknik machine learning deep learning guna arsitektur neural network kompleks pecah sulit selesai dekat konvensional,14,1,1,16,0.11538461538461539,0.7239299051996553,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,salah teknik hasil signifikan guna mekanisme perhati ganda multi-header attention,15,1,1,10,0.0,0.7584027578282103,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,multi-header attention mekanisme lapis perhati direplikasi kali model fokus beda urut masuk sama cordonnier loukas  jaggi 2020,16,1,1,17,0.03225806451612903,0.7905774202815283,0.0
+Alifurrohman_Kualifikasi.txt,mekanisme kali kenal konteks model transformer vaswani et al 2017 luas aplikasi salah satu optimal rute logistik xin liang wen song zhiguang cao and jie zhang 2021,17,1,1,27,0.05,0.8204538925596093,0.0
+Alifurrohman_Kualifikasi.txt,distribusi giat proses salur produk produsen tangan masyarakat konsumen efisien tjiptono  ana 2020,18,1,1,13,0.0,0.8480321746624533,0.0
+Alifurrohman_Kualifikasi.txt,kirim salah tuju proses distribusi paham lokasi tuju distribusi,19,1,1,9,0.0,0.8733122665900602,0.0
+Alifurrohman_Kualifikasi.txt,lokasi tuju proses distribusi yangmengakibatkan biaya transportasi tinggi,20,1,1,8,0.0,0.8962941683424304,0.0
+Alifurrohman_Kualifikasi.txt,biaya transportasi lebih anggar tentu rute distribusi manual acak tentu jalur distribusi dasar kira saja,21,1,1,15,0.041666666666666664,0.9169778799195634,0.0
+Alifurrohman_Kualifikasi.txt,vehicle routing problem vrp optimasi kombinatorial klasik kali usul george danztig 1959 dantzig  ramser 1959,22,1,1,15,0.15384615384615385,0.9353634013214593,0.0
+Alifurrohman_Kualifikasi.txt,vehicle routing problem vrp masalah np-hard optimasi kombinatorial ajar dekade,23,1,1,10,0.19047619047619047,0.9514507325481183,0.0
+Alifurrohman_Kualifikasi.txt,tuju utama tentu rute optimal armada kendara layan kumpul langgan,24,1,1,10,0.041666666666666664,0.9652398735995403,0.0
+Alifurrohman_Kualifikasi.txt,teliti kait vrp kunci tingkat daya saing industri logistik,25,1,1,9,0.0,0.9767308244757253,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,kembang distribusi dunia nyata karakteristik banyak variasi vrp single objective vrp multi objective,26,1,1,13,0.04,0.9859235851766734,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,jenis vehicle routing problem vrp capacited vehicle routing problem cvrp vrp with time windows vrptw multi-depot vehicle routing problem mdvrp abdirad maryam krishnan krishna gupta deepak 2022 dynamic vehicle routing problem with time windows dvrptw ghannam  gleixner 2023 vehicle routing problem with pickup and delivery vrrppd m liu q,27,1,1,49,0.17073170731707318,0.9928181557023844,0.0
+Alifurrohman_Kualifikasi.txt,song q zhao l li z yang y zhang 2022,28,1,1,10,0.0,0.9974145360528582,0.0
+Alifurrohman_Kualifikasi.txt,dynamic vehicle routing problem with time window dvrptw masalah optimasi rute batas jendela masalah,29,1,1,14,0.4,0.9997127262280954,0.0
+Alifurrohman_Kualifikasi.txt,langgan milik periode layan,31,1,1,13,0.0,0.9974145360528583,0.0
+Alifurrohman_Kualifikasi.txt,dvrptw jadwal kirim barang terima rentang minimal biaya operasional liu et al 2023,32,1,1,17,0.0,0.9928181557023844,0.0
+Alifurrohman_Kualifikasi.txt,masalah dvrptw ubah dinamis pesan baru batal lambat tidak pasti lintas kirim durasi layan tambah kompleksitas masalah,34,1,1,7,0.0,0.9767308244757253,0.0
+Alifurrohman_Kualifikasi.txt,kirim jendela kendala proses distribusi,35,1,1,7,0.0,0.9652398735995403,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,kirim lebih jendela tetap akibat ketidakpuasan langgan,36,1,1,14,0.0,0.9514507325481183,0.0
+Alifurrohman_Kualifikasi.txt,masalah selesai tingkat solusi optimal masalah ada,38,1,1,10,0.1,0.9169778799195634,0.0
+Alifurrohman_Kualifikasi.txt,solusi selesai masalah metode eksak metode heuristik metode metaheuristik m liu q zhao q,39,1,1,15,0.03571428571428571,0.8962941683424304,0.1111111111111111
+Alifurrohman_Kualifikasi.txt,song y zhang 2023,40,1,1,29,0.1111111111111111,0.8733122665900603,0.0
+Alifurrohman_Kualifikasi.txt,guna machine learning reinforcement learning selesai vrp tawar dekat baru,41,1,1,22,0.2,0.8480321746624533,0.0
+Alifurrohman_Kualifikasi.txt,kembang algoritma otomatis ajar lingkung hasil solusi optimal kondisi dinamis arus lintas datang langgan baru,42,1,1,10,0.0,0.8204538925596093,0.0
+Alifurrohman_Kualifikasi.txt,metode reinforcement learning selesai vrp dynamic programing algoritma q learning algoritma deep q-network dqn policy-based reinforce algorithms value and policy combined actor-critic algorithms advantage actor-critic algorithms ni  tang 2023,43,1,1,10,0.041666666666666664,0.7905774202815284,0.0
+Alifurrohman_Kualifikasi.txt,dynamic vehicle routing problem with time window dvrptw metode selesai masalah brain storm optimization bso ant colony optimization aco liu et al,44,1,1,15,0.125,0.7584027578282103,0.0
+Alifurrohman_Kualifikasi.txt,2022 algoritma hybrid brain storm optimization bso liu et al,45,1,1,10,0.2631578947368421,0.7239299051996554,0.0
+Alifurrohman_Kualifikasi.txt,2023 algoritma dynamic hybrid genetic search hgs ghannam  gleixner 2023,46,1,1,16,0.16,0.6871588623958632,0.0
+Alifurrohman_Kualifikasi.txt,guna reinforcement learning selesai masalah joe  lau 2020 gabung deep reinforcement learning simulated annealing drlsa,48,1,1,28,0.15151515151515152,0.6067222062625681,0.1111111111111111
+Alifurrohman_Kualifikasi.txt,guna deep reinforcement learning masalah optimasi rute li et al,49,1,1,9,0.043478260869565216,0.5630565929330652,0.0
+Alifurrohman_Kualifikasi.txt,2021 model masalah heterogeneous capacited vehicle routing problem hcvrp jiuxiu zhao 2020 teliti vehicle routig problem,50,1,1,13,0.16666666666666666,0.5170927894283253,0.0
+Alifurrohman_Kualifikasi.txt,guna deep q-network bdeir et al,51,1,1,9,0.041666666666666664,0.4688307957483481,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,2021 masalah route usul routing problem deep q-network rpdqn vehicle routing problem hasil dekat rp-dqn hasil tingkat kerja selesai rute kendara manfaat representasi status dinamis efisiensi sampel baik,52,1,1,25,0.08333333333333333,0.4182706118931342,0.0
+Alifurrohman_Kualifikasi.txt,guna model bas perhati attenttion teliti kool et al,53,1,1,24,0.09090909090909091,0.36541223786268295,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,2018 selesai optimisasi kombinatorial rute travelling salesman problem tsp vehicle routing problem vrp,54,1,1,20,0.0,0.3102556736569951,0.05555555555555555
+Alifurrohman_Kualifikasi.txt,hasil model fleksibilitas tangan jenis optimisasi kombinatorial set hyperparameters,55,1,1,19,0.2962962962962963,0.25280091927607024,0.0
+Alifurrohman_Kualifikasi.txt,dasar teliti terap reinforcement learning otomatis identifikasi pola strategi baik optimal rute distribusi hadap kondisi dinamis ubah variabilitas arus lintas duga minta langgan muncul prediksi,56,1,1,18,0.0,0.19304797471990798,0.0
+Alifurrohman_Kualifikasi.txt,mampu adaptasi ini algoritma bas reinforcement learning tingkat efisiensi logistik temu solusi rute optimal tingkat responsivitas butuh langgan fluktuasi signifikan kurang tunggu biaya operasional,57,1,1,13,0.038461538461538464,0.13099683998850914,0.0
+Alifurrohman_Kualifikasi.txt,dekat ini janji tingkat kerja logistik tawar mampu respons fleksibel tantang operasional kompleks puas langgan lanjut operasional lingkung bisnis kompetitif,58,1,1,15,0.0,0.06664751508187285,0.1111111111111111
+Alifurrohman_Kualifikasi.txt,teliti harap meingkatkan efisiensi pilih rute konteks logistik distribusi dinamis hadap dynamic vehicle routing problem with time windows dvrptw,59,1,1,17,0.034482758620689655,0.0,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,tumbuh industri menteri industri republik indonesia triwulan iii 2023 kerja sektor industri olah baik,0,1,1,14,0.0,0.0,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,dasar data keluar badan pusat statistik bps sektor industri olah tumbuh 520 persen periode lampau tumbuh pdb 494 persen periode sama,1,1,1,21,0.0,0.05713085486242386,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,i ndustri manufaktur utama kontribusi dasar nilai p erekonomian nasional ,2,1,1,10,0.0,0.11258139046418819,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,harap positif kait implikasi bangun berkelanj utan teknologi industri 4 0 akhir,3,1,1,12,0.0,0.166351606805293,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,kurang paham akurat proses teknologi industri 4 0 manufaktur lanjut halang utama bisnis kejar digitalisasi pikir lanjut ching ghobakhloo iranmanesh maroufkhani asad 2022 tingkat saing dunia a jalan tingkat teknologi proses operasi usaha,4,1,1,33,0.0,0.2184415038857383,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,produk anggap cacat hasil penuh standar tetap usaha,5,1,1,8,0.05555555555555555,0.2688510817055241,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,pilih produk beli timbang aspek salah satu kualitas produk ,6,1,1,9,0.11764705882352941,0.3175803402646503,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,teknologi faktor utama dukung produktivitas lanjut usaha tengah,7,1,1,8,0.0,0.364629279563117,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,guna teknologi usaha tengah batas kali sebab batas mampu tahu sumber daya manusia sdm,8,1,1,14,0.0,0.4099978996009242,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,konteks alat tingkat efisiensi operasional sarana tingkat daya saing luas pasar hernita surya perwira abubakar idris 2021 landas kendali kualitas produksi massal guna metrik beda ukur produk patuh spesifikasi tetap usaha,9,1,1,31,0.08108108108108109,0.45368620037807184,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,produksi massal fitur ukur kendali kualitas tradisional dimensi geometris parameter material parameter visual,10,1,1,13,0.09090909090909091,0.49569418189456,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,verifikasi kondisi muka produk lengkap p roduk parameter visual subjek tantang otomatisasi,11,1,1,12,0.043478260869565216,0.5360218441503884,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,uji henti gera benda angkut,13,1,1,23,0.03225806451612903,0.6116362108800673,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,periksa data kumpul asumsi abai salah akurat sumber masalah oborski wysocki 2022 produksi massal mula produk cacat butuh biaya kerja ulang bongkar besar,14,1,1,9,0.0,0.6469229153539173,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,cacat temu cacat lanjut proses berl angsung sebab serius,15,1,1,10,0.0,0.6805293005671078,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,identifikasi sebab dasar lemah asal produksi massal kait proses penting,16,1,1,40,0.06976744186046512,0.7124553665196387,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,cacat kait produk muncul alas gantung sifat cacat cacat kait proses timbul optimalisasi parameter proses identifikasi cacat yan g standar hassan hamdan shahin adelmaksoud bitar 2023 ban kenal produksi massal periksa kualitas timbang karakteristik kualitatif visual ban luncur pasar tantang,17,1,1,22,0.07407407407407407,0.7427011132115102,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,karakteristik visual ban ciri ciri formal anotasi kode batang ciri ciri identifikasi produk aspek kualitatif konsentrasi bahan geometri tampil ban fungsi akhir,18,1,1,9,0.1111111111111111,0.771266540642722,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,konte n visual bebas cacat tanda produk kualitas tinggi,19,1,1,26,0.08823529411764706,0.7981516488132745,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,jamin produksi massal ban kualitas data proses manufaktur kumpul periksa kualitas digital produk pabrik kuric klarak saga cisar hajducik wiecek 2021 maju teknologi pesat dampak industri,20,1,1,19,0.0,0.8233564377231675,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,industri 4 0 padu aset fisik teknologi canggih cerdas buat iot robot cetak 3d komputasi awan d an lain,21,1,1,10,0.0,0.8468809073724007,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,organisasi adopsi 4 0 sifat fleksibel ambil putus dasar data ,22,1,1,21,0.037037037037037035,0.8687250577609745,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,maju teknologi cerdas buat komputasi kognitif bawa dunia manufaktur cepat tingkat efisiensi bisnis adel 2022 kualitas salah teknologi cerdas buat jawab,24,1,1,12,0.09523809523809523,0.9073724007561437,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,ajar mesin cerdas buat operasi manufaktur,25,1,1,10,0.0,0.9241755933627388,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,salah dekat ukur kendali kualitas terap ajar mesin fahle prinz kuhlenkotter 2020 ,26,1,1,7,0.0,0.9392984667086747,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,teknologi pabrik pabrik cerdas cerdas buat tugas tugas tingkat tinggi,27,1,1,12,0.1,0.952741020793951,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,dap at putus ajar alam situasi langsung,28,1,1,15,0.08,0.9645032556185675,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,teknologi ai tugas tugas tingkat ajar alam tingkat sistem otomatisasi ukur kualitas ,29,1,1,13,0.041666666666666664,0.9745851711825246,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,bantu produsen capai volume produksi tingkat jamin kualitas produk pasar javaid heleem singh sum 2021 ,30,1,1,15,0.043478260869565216,0.9829867674858224,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,penelitan tulbure adrian dulf 2021 kataka n salah metode klasifikasi kenal pola foto,31,1,1,13,0.0,0.9897080445284604,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,visi komputer ubah kembang algoritme ajar dalam banyak gpu pasuk pasar komputasi kuat skala besar,32,1,1,16,0.23809523809523808,0.9947490023104388,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,ajar dalam pil ki tahu fitur meta deskripsi fitur fitur deteksi objek gambar,33,1,1,7,0.05555555555555555,0.998109640831758,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,metode deep learning cnn klasifikasi gambar deteksi objek jalan guna algoritma kenal pola atas kualitas produk,34,1,1,12,0.045454545454545456,0.9997899600924177,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,deteksi otomatis harap identifikasi cacat produk produksi,35,1,1,18,0.16,0.9997899600924176,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti tamborski rojek mikolajewski 2023 gabung cerdas buat ubah industri sektor ban,36,1,1,18,0.08333333333333333,0.998109640831758,0.06896551724137931
+Armando Tirta Dwilaga_Kualifikasi.txt,k onteks ukur kendali kualitas produk ban industri identifikasi cacat ban otomatis menjad i ilmiah teknis signifikan sulit,37,1,1,38,0.05714285714285714,0.994749002310439,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,mampu cerdas buat tingkat kontrol kualitas ban revolusi bisnis ban hasil produksi ban aman diand alkan bahaya lingkung,38,1,1,11,0.047619047619047616,0.9897080445284604,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,metode inspeksi visual salah metode uji non destruktif industri manufaktur inspeksi visual metode cepat biaya rendah uji non destruktif yan ren sun williams 2024 mampu cerdas buat padu ajar dalam jadi kendali kualitas manfaat bidang inspeksi visual produk,39,1,1,15,0.08333333333333333,0.9829867674858224,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,mudah guna inspeksi visual metode uji kualitas timbul rusa benda periksa,40,1,1,13,0.09090909090909091,0.9745851711825246,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,salah dasar cepat evaluasi uji kualitas produk sebab rusa material kuric klarak saga et al,41,1,1,16,0.043478260869565216,0.9645032556185675,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,2021 periksa kualitas bas teknologi salah prosedur utama nilai barang tentu terima tolak,42,1,1,22,0.0,0.9527410207939508,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,banyak operator manusia periksa produk tahap inspeksi visual inspeksi verifikasi sesuai presisi andal inspeksi kali pada,43,1,1,17,0.08695652173913043,0.9392984667086747,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,faktor pengaruh proses inspeksi visual hasil akurasi inspeksi 80 industri tu juan inspeksi 100 sistem manufaktur canggih inspeksi visual manual makan biaya,44,1,1,16,0.19047619047619047,0.924175593362739,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,cipta sumber teknologi informasi kait teknologi klasifikasi saji dekat bas cerdas buat inspeksi visual proses ajar dalam,45,1,1,40,0.07142857142857142,0.9073724007561437,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,dekat cakup convolutional neural network cnn inspeksi aplikasi komputer terap lantai pabrik proses inspeksi mudah guna,46,1,1,8,0.05263157894736842,0.888888888888889,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,guna teknologi algoritma bas computer vision bantu otomatisasi proses inspeksi visual sundaram zaid 2023 teliti benbarrad salhaoui kenitar arioua 2021 sumber teknologi informasi kait teknologi klasifikasi teknologi inovatif machine vision inspeksi 247 andal cepat bantu produsen tingkat efisiensi operasi manufaktur,47,1,1,25,0.02857142857142857,0.8687250577609745,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,data akses alat visi identifikasi lapor produk cacat,48,1,1,14,0.045454545454545456,0.8468809073724007,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti nguyen yu shin kwon kwak kim 2021 sumber teknologi informasi kait teknologi klasifikasi terap pra pemrosesan data kumpul ekstrak region of interest roi gambar,49,1,1,23,0.03125,0.8233564377231674,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,batas sedia data label sesuai metode ajar transfer latih model klasifikasi model latih belum,50,1,1,12,0.09090909090909091,0.7981516488132745,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,tugas klasifikasi kumpul data kabel listrik kumpul data transmisi terbit jaring saraf vggnet resnet dense net googlenet teliti analis hasil capai sistem nya,51,1,1,28,0.15625,0.7712665406427223,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,hasil eksperimen sistem klasifikasi produk cacat cepat akurat lingkung manufaktur dunia nyata,52,1,1,10,0.05,0.7427011132115101,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti kiruthikaa pon samyuktha swathi vinush 2023 sumber teknologi informasi kait teknologi klasifikasi model convolutional neural network cnn fungsi dasar database gambar memvalidasi benar model metrik ses uai,53,1,1,13,0.14285714285714285,0.7124553665196388,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,eksperimen akurat kerja biaya rendah dekat estimasi umur ban saran,54,1,1,24,0.18518518518518517,0.6805293005671077,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti bahas deteksi otomatis manfaat teknologi komputer tangan masalah kait ukur kualitas produk,55,1,1,30,0.16129032258064516,0.6469229153539173,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,salah teknik ajar mesin atas identifikasi pola kategorisasi objek gambar convolutional neural network cnn aspek cerdas buat prosedur ekstraksi klasifikasi fitur ajar mesin arsitektur ,56,1,1,22,0.037037037037037035,0.611636210880067,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti wang guo lu zhang 2019 guna metode convolutional neural network cnn model arsitektur fully convolutional network vgg16 bangun arsitektur dasar representasi gambar ban akurat temu kelompok cacat gambar ban,57,1,1,23,0.2222222222222222,0.5746691871455576,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,hasil banding vgg16 lapis hasil a kuras 78 9 satu akurat deteksi cacat skala beda hasil prediksi hasil jenis cacat ban beda,58,1,1,27,0.06060606060606061,0.5360218441503887,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti lin 2023 metode deep learning convolutional neural network cnn metode shufflenet tingkat fokus kualitas ban risiko kait cacat lubang reta muka ban,60,1,1,30,0.17647058823529413,0.4536862003780719,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti banding kerja metode beda akurasi klasifikasi googlenet 827 shufenet tradisional 853 vggnetis 873 resnet 90 shufenet tingkat milik akurasi tinggi 947 jadi efektif deteksi rusa ban,61,1,1,11,0.045454545454545456,0.40999789960092403,0.06896551724137931
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti,62,1,1,8,0.125,0.364629279563117,0.06896551724137931
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti li fan zhan g jiang 2021 metode algoritma convolutional neural networks cnn arsitektur tirenet kembang kerangka kerja endtoend deteksi cacat gambar sinar x ban libat 11 jenis cacat ban,63,1,1,25,0.16666666666666666,0.3175803402646505,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,algoritma usul tirenet hasil capai tingkat recall timbang 947 dataset tawar,64,1,1,31,0.08571428571428572,0.268851081705524,0.0
+Armando Tirta Dwilaga_Kualifikasi.txt,mampu algoritma deteksi cacat ban tingkat hasil tinggi,65,1,1,49,0.16279069767441862,0.2184415038857384,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,teliti wu jiao sun chen 2020 usul metode deteksi cacat ban dasar r cnn deteksi objek gabung convolutional neural network cnn al goritma pilih wilayah,66,1,1,17,0.2857142857142857,0.1663516068052929,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,metode deteksi cacat ban fokus deteksi dinding samping benda asing tapak gelembung dinding samping gabung fitur konvolusi lapis tiga arsitektur zeiler fergus network men gekstraksi karakteristik dalam masuk faster r cnn,68,1,1,20,0.07142857142857142,0.057130854862423676,0.034482758620689655
+Armando Tirta Dwilaga_Kualifikasi.txt,metode deteksi cacat ban usul capai klasifikasi lokalisasi cacat ban akurat tingkat kenal uji 954 dasar jelas teliti salah satu wakil wang guo lu et al 2019 masalah guna algoritma convolutional neural network cnn arsitektur fully convolutional network sensitif cacat gambar ban gelembung hilang detail sebab operasi kumpul data,69,1,1,8,0.05555555555555555,0.0,0.034482758620689655
+Devi Resviani_KUALIFIKASI.txt,teknologi informasi ti era digital kembang pesat penuh butuh bisnis ubah muncul teknologi kala,0,1,1,14,0.0,0.0,0.1
+Devi Resviani_KUALIFIKASI.txt,kapabilitas ti dinamis cakup mampu oleh terap integrasi tata ulang sumber daya ti capai tuju bisnis t li chan 2019 ,1,1,1,20,0.0,0.07270233196159122,0.0
+Devi Resviani_KUALIFIKASI.txt,artificial intelligence ai bidang luas teknologi informasi libat komputasi kembang perangkat lunak transmisi data,2,1,1,14,0.0,0.14266117969821673,0.1
+Devi Resviani_KUALIFIKASI.txt,ai terap tingkat kerja sektor sehat organisasi bisnis industri otomotif manufaktur,3,1,1,11,0.0,0.20987654320987653,0.1
+Devi Resviani_KUALIFIKASI.txt,ai peran otomatisasi tugas tingkat akurasi efisiensi operasional,4,1,1,8,0.0,0.27434842249657065,0.1
+Devi Resviani_KUALIFIKASI.txt,teknologi ai cakup kenal suara robotika identifikasi biometrik deep learning machine learning mohammad 2020 ,5,1,1,14,0.10526315789473684,0.33607681755829905,0.0
+Devi Resviani_KUALIFIKASI.txt,ai cakup teknologi machine learning salah dorong utama inovasi terap ai situasi analisis data skala cepat efisien soliman fatnassi elgammal figueiredo 2023 ,6,1,1,22,0.07407407407407407,0.3950617283950617,0.0
+Devi Resviani_KUALIFIKASI.txt,machine learning ml ajar mesin bidang ilmu komputer fokus kembang algoritma teknik selesai kompleks sulit pecah metode pemograman konvensional rebala ravi churiwala 2019 ,7,1,1,23,0.10714285714285714,0.4513031550068587,0.1
+Devi Resviani_KUALIFIKASI.txt,machine learning bagi kategori supervised learning unsupervised learning semisupervised learning reinforcement learning mohammad 2020 ,8,1,1,14,0.13333333333333333,0.50480109739369,0.0
+Devi Resviani_KUALIFIKASI.txt,algoritma supervised learning naive bayes linear discriminant analysis lda logistic regression knearest neighbors knn support vector machine svm decision tree dt random forest rf adaptive boosting adaboost extreme gradient boosting xgboost stochastic gradient descent sgd rule based classification,9,1,1,38,0.047619047619047616,0.5555555555555556,0.0
+Devi Resviani_KUALIFIKASI.txt,unsupervised 6 learning algoritma clustering kmeans mean shift density based spatial clustering of applications with noise dbscan gaussian mixture models gmm agglomerative hierarchical clustering ,10,1,1,24,0.034482758620689655,0.6035665294924555,0.0
+Devi Resviani_KUALIFIKASI.txt,algoritma reinforcement learning cakup qlearning deep q learning monte carlo methods i h sarker 2021 ,11,1,1,15,0.047619047619047616,0.6488340192043895,0.0
+Devi Resviani_KUALIFIKASI.txt,teknologi machine learning populer bidang aplikasi mampu luas,12,1,1,8,0.15384615384615385,0.691358024691358,0.0
+Devi Resviani_KUALIFIKASI.txt,area aplikasi tonjol aman siber intelijen ancam mana machine learning deteksi ancam kolaboratif timbang indikator ancam preuveneers joosen privacy 2021 ,13,1,1,20,0.08695652173913043,0.7311385459533608,0.0
+Devi Resviani_KUALIFIKASI.txt,sektor sehat machine learning deteksi diagnosis covid 19 akurasi guna jenis descriptor tekstur medeiros machado de freitas da silva de souza 2024 ,14,1,1,22,0.07692307692307693,0.7681755829903977,0.0
+Devi Resviani_KUALIFIKASI.txt,teknologi kenal gambar ucap pola hasil janji deteksi kanker ginjal gali stojanovi aji 2024 ,15,1,1,14,0.0,0.8024691358024691,0.1
+Devi Resviani_KUALIFIKASI.txt,analisis prediktif ambil putus cerdas buka peluang tingkat efisiensi produktivitas sektor industri elkateb m twalli shendy abu elanien 2024 ,16,1,1,19,0.0,0.8340192043895748,0.1
+Devi Resviani_KUALIFIKASI.txt,kompresor reciprocating alat mekanis industri modern kimia kilang transportasi gas simpan gas giampaolo 2023 ,17,1,1,14,0.10526315789473684,0.8628257887517147,0.0
+Devi Resviani_KUALIFIKASI.txt,kompresor milik kapasitas mampu tekan gas kondisi udara isi tekan udara ban kendara xing feng he peng 2021 ,18,1,1,18,0.045454545454545456,0.888888888888889,0.0
+Devi Resviani_KUALIFIKASI.txt,kompresor reciprocating milik lebih efisiensi mampu kompresi mampu awat fleksibilitas biaya operasional rendah lv yu ma ye wu wang 2021 ,19,1,1,20,0.08695652173913043,0.9122085048010974,0.0
+Devi Resviani_KUALIFIKASI.txt,dekade tuntun ekonomi pengaruh operasional kompresor reciprocating mana paksa kompresor kapasitas penuh cadang tuntut kerja andal,20,1,1,16,0.1,0.9327846364883402,0.0
+Devi Resviani_KUALIFIKASI.txt,tantang akibat lelah aus hindar cerrada montalvo zambrano cabrera s nchez 2022 ,21,1,1,12,0.0,0.9506172839506174,0.0
+Devi Resviani_KUALIFIKASI.txt,jenis gagal 7 kompresor reciprocating liput gagal segel piston gagal bantal gagal katup,22,1,1,13,0.125,0.9657064471879285,0.0
+Devi Resviani_KUALIFIKASI.txt,gagal segel piston sebab bocor fluida kompresi potensi akibat bakar ledak,23,1,1,11,0.0,0.9780521262002744,0.0
+Devi Resviani_KUALIFIKASI.txt,gagal bantal akibat getar pengaruh komponen lain,24,1,1,7,0.0,0.9876543209876543,0.0
+Devi Resviani_KUALIFIKASI.txt,gagal katup ganggu operasi picu sistem medina s nchez cabrera cerrada estupi an ao v squez 2024 ,25,1,1,17,0.0,0.9945130315500685,0.0
+Devi Resviani_KUALIFIKASI.txt,katup rusak alas henti jadwal persentase 36 ikut cincin piston 7 yu zhang hu chen 2022 bantal capai 16 gagal kompresor wu li zhu li zhang zhang yu wang 2023 ,26,1,1,30,0.03125,0.9986282578875173,0.0
+Devi Resviani_KUALIFIKASI.txt,rusa mesin kompresor reciprocating milik dampak signifikan rugi ekonomi usaha lv et al,27,1,1,13,0.16666666666666666,1.0,0.0
+Devi Resviani_KUALIFIKASI.txt,2021 ,29,1,1,20,0.04,0.9945130315500685,0.0
+Devi Resviani_KUALIFIKASI.txt,kompresor operasi efisiensi ukur akibat rugi finansial teliti muo 2018 acu wachel mana henti habis biaya 100 000 usd hari,31,1,1,13,0.0,0.9780521262002744,0.0
+Devi Resviani_KUALIFIKASI.txt,teliti shu et al,32,1,1,19,0.08333333333333333,0.9657064471879286,0.0
+Devi Resviani_KUALIFIKASI.txt,2016 rugi tahun akibat madam abnormal amerika serikat capai 2 miliar dolar as,34,1,1,19,0.09090909090909091,0.9327846364883402,0.0
+Devi Resviani_KUALIFIKASI.txt,kompresor reciprocating tangan gas mudah bakar hidrogen etilena gas alam timbul ancam serius selamat manusia muka lv et al,35,1,1,25,0.07407407407407407,0.9122085048010974,0.0
+Devi Resviani_KUALIFIKASI.txt,2021 ,37,1,1,11,0.058823529411764705,0.8628257887517146,0.0
+Devi Resviani_KUALIFIKASI.txt,gagal kompresor reciprocating sebab henti rugi produksi biaya awat potensi bahaya selamat tekan strategi pantau pelihara efektif kompresor reciprocating,38,1,1,14,0.05,0.8340192043895748,0.0
+Devi Resviani_KUALIFIKASI.txt,maintenance pelihara giat tuju kerja andal mesin sistem kurang risiko gagal panjang umur operasional zonta da costa da rosa righi de da trindade li 2020 ,39,1,1,20,0.08333333333333333,0.8024691358024691,0.0
+Devi Resviani_KUALIFIKASI.txt,pelihara bagi strategi kategori utama,40,1,1,16,0.0,0.7681755829903979,0.0
+Devi Resviani_KUALIFIKASI.txt,reactive maintenance rm mana tindak pelihara alat alami rusa 8 parah,41,1,1,8,0.0,0.7311385459533607,0.0
+Devi Resviani_KUALIFIKASI.txt,preventif maintenance pm libat pelihara jadwal dasar tetap iterasi proses timbang kondisi aktual alat,42,1,1,17,0.0,0.691358024691358,0.0
+Devi Resviani_KUALIFIKASI.txt,tiga predictive maintenance pdm pantau kondisi alat real time gagal pelihara alat alami rusa ran zhou lin wen deng 2019 ,43,1,1,34,0.0,0.6488340192043897,0.1
+Devi Resviani_KUALIFIKASI.txt,metode pelihara diagnosis salah tradisional pelihara rutin inspeksi manusia kala kali deteksi salah cegah gagal akurat,44,1,1,7,0.0,0.6035665294924555,0.0
+Devi Resviani_KUALIFIKASI.txt,metode metode batas mampu prediksi potensi gagal jadi,46,1,1,14,0.15789473684210525,0.50480109739369,0.0
+Devi Resviani_KUALIFIKASI.txt,sistem pelihara prediktif teknik model gerak integrasi autoregresif model diagnosis prognosis salah bantu deteksi salah cegah gagal,47,1,1,21,0.07407407407407407,0.45130315500685875,0.0
+Devi Resviani_KUALIFIKASI.txt,sistem hemat biaya awat tingkat efektivitas operasional identifikasi salah ambil putus proaktif varghese 2023 pelihara prediktif milik fokus utama tingkat efisiensi energi hemat energi turun henti jadwal assagaf sukandi abdillah arifin ga technology 2023 ,48,1,1,25,0.0,0.3950617283950619,0.0
+Devi Resviani_KUALIFIKASI.txt,dekat teoritis praktis usul terap pelihara prediktif,49,1,1,29,0.0,0.33607681755829893,0.1
+Devi Resviani_KUALIFIKASI.txt,contoh teliti elkateb et al,50,1,1,12,0.0,0.27434842249657065,0.0
+Devi Resviani_KUALIFIKASI.txt,2024 algoritma machine learning adaboost klasifikasi henti mesin real time pelihara prediktif industri tekstil,51,1,1,20,0.0,0.20987654320987664,0.0
+Devi Resviani_KUALIFIKASI.txt,teliti l wang zhu and zhao 2024 gusul strategi pelihara prediktif dinamis bas data metode ansambel deep learning prediksi sisa manfaat,52,1,1,9,0.14285714285714285,0.14266117969821693,0.0
+Devi Resviani_KUALIFIKASI.txt,bidang transportasi teliti h nia flodin casanueva asplund and stichel 2024 metode multibody dynamics simulations mbs hitung sisa umur roda rel kereta api pelihara prediktif,53,1,1,8,0.14285714285714285,0.07270233196159111,0.0
+Devi Resviani_KUALIFIKASI.txt,kembang sistem pelihara prediktif pompa sentrifugal limbah teliti bahar schokry and alhanjouri 2023 9 metode seasonal autoregressive integrated moving average sarima amal deret anomaly detection toolkit adtk deteksi anomali,54,1,1,31,0.36363636363636365,0.0,0.1
+Erfiana Wahyuningsih_UK.txt,2013 sram makan 90 area chip jadi komponen utama sirkuit digital,0,1,1,11,0.04,0.0,0.0
+Erfiana Wahyuningsih_UK.txt,dasar data men desain memori timbang kerja area chip rendah kurang luas area kecil ukur sebar daya maksimal,1,1,1,18,0.0,0.1536,0.0
+Erfiana Wahyuningsih_UK.txt,sebab memori sumber kuat statis sirkuit digital 1 konverter data analog digital converter adc dorong industri semikonduktor maksimal fungsi kerja komponen b eberapa akhir,2,1,1,24,0.0,0.2944,0.0
+Erfiana Wahyuningsih_UK.txt,salah tuntut cepat kembang cipta komponen l ebih blok fungsional integrasi chip ,3,1,1,12,0.0,0.4224,0.25
+Erfiana Wahyuningsih_UK.txt,komponen ram harap cepat disipasi daya rendah,4,1,1,7,0.0,0.5376,0.0
+Erfiana Wahyuningsih_UK.txt,guna ram perangkat digital mayoritas portable mampu baterai daya sistem maksimal tuntut imbang fungsi cepat 2 salah fungsi ram simpan memori sementara,6,1,1,10,0.0,0.7296,0.0
+Erfiana Wahyuningsih_UK.txt,memori simpan ram kirim cpu olah jalan program aplikasi guna,9,1,1,7,0.0,0.9216,0.0
+Erfiana Wahyuningsih_UK.txt,cpu komputer proses data detik,10,1,1,7,0.0,0.96,0.0
+Erfiana Wahyuningsih_UK.txt,namu n cepat gantung ram guna,13,1,1,7,0.0,0.9984,0.0
+Erfiana Wahyuningsih_UK.txt,proses simpan memori komputer cepat ram besar,14,1,1,13,0.07692307692307693,0.9855999999999999,0.0
+Erfiana Wahyuningsih_UK.txt,konteks multitasking mampu komputer jalan aplikasi sekaligus,15,1,1,22,0.029411764705882353,0.96,0.0
+Erfiana Wahyuningsih_UK.txt,ram komputer perangkat smartphone,17,1,1,14,0.0,0.8704,0.0
+Erfiana Wahyuningsih_UK.txt,ram tingkat mampu multitasking komputer gadget,18,1,1,17,0.06451612903225806,0.8064,0.0
+Erfiana Wahyuningsih_UK.txt,ram kurang gagal sistem freeze smartphone komputer,19,1,1,20,0.06060606060606061,0.7296,0.0
+Erfiana Wahyuningsih_UK.txt,sram static random access memory jenis memori tahan data pasok daya segar kala,20,1,1,55,0.2,0.6399999999999999,0.0
+Erfiana Wahyuningsih_UK.txt,sram cache prosesor memori cepat aplikasi cepat a ksesnya 3 skala dimensi transistor komponen utama susun sistem converter data sram mudah tentu,21,1,1,14,0.08,0.5376000000000001,0.0
+Erfiana Wahyuningsih_UK.txt,transistor salah tentu skala ,22,1,1,13,0.037037037037037035,0.4224,0.0
+Erfiana Wahyuningsih_UK.txt,sistem converter tuntut butuh bocor drain induksi gerbang doping salur band band tunel simpang,23,1,1,28,0.024390243902439025,0.2943999999999999,0.125
+Erfiana Wahyuningsih_UK.txt,2 muka rakesh abhisek 2015 sram 6t milik unggul teliti letak desain operasi simpan data efisien stabil,24,1,1,107,0.043478260869565216,0.15360000000000013,0.125
+Erfiana Wahyuningsih_UK.txt,sram 6t desain konvensional milik arsitektur cakup rangkai pre charge driver tulis sel sram transistor kolom kuat sinyal sense amplifier,25,1,1,74,0.05357142857142857,0.0,0.375
+Fitriana Indah Pramitasari_Kualifikasi.txt,teknologi informasi ti ilmu bidang teknologi kembang bantu kerja manusia,0,1,1,10,0.05,0.0,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,kembang teknologi informasi ti cerdas buat artificial intelligence ai bawa ubah sektor,1,1,1,12,0.09523809523809523,0.06555555555555555,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,ai teknologi trending hits era digital chollet 2021 salah sektor alami ubah ti ranah ai sektor tani,2,1,1,17,0.038461538461538464,0.1288888888888889,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,mana par a tani manfaat teknologi meni ngkatkan efisien produktivitas mereka,3,1,1,11,0.05,0.19,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,data sumber bps 2023 usaha tani orang utp 29 342 202 unit turun 745 persen 2013 31 705 295 unit,4,1,1,20,0.03333333333333333,0.24888888888888888,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,kepala badan pusat statistik bps amalia adininggar widyasanti didik dunia tani salah sebab rendah produktivitas tani tanah air,5,1,1,18,0.037037037037037035,0.3055555555555555,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,mana 75 tani didik tamat sekolah dasar sd,6,1,1,8,0.05555555555555555,0.36000000000000004,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,usia tani salah faktor turun produktivitas tani,7,1,1,7,0.058823529411764705,0.4122222222222222,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,58 total tani indonesia usia 45 tahun,8,1,1,7,0.058823529411764705,0.46222222222222226,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,mantan wakil menteri tani bayu khrisnamurti dapat tani capai rp 1 juta rupiah sebab tenaga tani turun 5 juta 10 akhir,9,1,1,21,0.038461538461538464,0.51,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,dasar indeks tahan pangan gfsi 2022 ukur indikator jangkau harga pangan affordability sedia pasok availability kualitas nutrisi quality and safety keber lanjut adaptasi sustainability and adaptation ,10,1,1,26,0.029411764705882353,0.5555555555555556,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,konsumsi pangan global cenderung tingkat cepat banding pasok,11,1,1,8,0.05263157894736842,0.5988888888888888,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,kait isu isu global tumbuh populasi rozi,12,1,1,7,0.0,0.6400000000000001,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2023 pesat tumbuh populasi tingkat minta pang an dunia tingkat produktivitas 2 prosedur tani zarandi,13,1,1,17,0.038461538461538464,0.6788888888888889,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2022 kentang salah tanam komersial kontribusi tahan pangan kurang miskin kalang tani negara kembang mijena,14,1,1,17,0.12,0.7155555555555555,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2022 tanam kentang anggap tanam potensi tahan pangan hasil kuantitas produk kualitas tanam singkat,15,1,1,16,0.04,0.75,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,kentang milik sejarah membant u atas tahan pangan kontribusi tingkat dapat masyarakat sulit ekspansi populasi devaux et al 2021 transformasi digital bidang tani tren praktik tata kelola lanjut,16,1,1,28,0.05714285714285714,0.7822222222222223,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,sensor bidang tani kumpul data memungkinka n analisis cepat kompleks,17,1,1,10,0.047619047619047616,0.8122222222222222,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,geser paradigma arah kelola tani bas data bantu tani proses ambil putus roman,18,1,1,13,0.09090909090909091,0.84,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2023 platform digital industri berko laborasi bagi data cipta sedia layan digital dukung lanjut chavez,19,1,1,17,0.04,0.8655555555555555,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2023 platform bas cerdas buat manfaat bantu giat bisnis manufaktur kantor gladysz,20,1,1,14,0.13636363636363635,0.888888888888889,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2023 transformasi digital main peran tingkat bagi informasi pemrosesan informasi rantai pasok balci,21,1,1,15,0.08695652173913043,0.9099999999999999,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2024 platform digital tawar peluang tingkat tahan rantai pasok manufaktur hadap kompleksitas tantang bagi data picu tekan eksternal langka sumber daya faktor geopolitik risiko muncul lestari lingkung chari,22,1,1,30,0.07894736842105263,0.9288888888888888,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2023 platform koperasi harap bantu sejahtera tani,23,1,1,9,0.16666666666666666,0.9455555555555557,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,tani jual hasil panen platform koperasi langsung konsumen,24,1,1,8,0.17647058823529413,0.96,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,cerdas buat platform koperasi tani proses analis data 3 cepat rantai pasok,25,1,1,12,0.35294117647058826,0.9722222222222221,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,tingkat efisiensi produktifitas tani,27,1,1,7,0.11764705882352941,0.9900000000000001,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,platform koperasi teliti dasar konsep economic sharing ,28,1,1,18,0.08,0.9955555555555555,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,platform economic sharing manfaat teknologi model bisnis sektor tukar ekonomi dabija et al 2022 sari et al 2022 ,29,1,1,30,0.0,0.9988888888888888,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,economic sharing pecah proses bisnis sektor industri jadi pasar tembus pandang skala internasional ekspansi pesat gojek grab maxim layan ride hailing airbnb akomodasi kauffman naldi 2020 sari et al 2022 ,30,1,1,8,0.1111111111111111,1.0,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,transparansi rantai pasok kali pandang elemen pecah tantang,31,1,1,15,0.08333333333333333,0.9988888888888889,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,kait sektor bahan baku transparansi kali harap pecah utama pasti usul produk lacak rantai pasok,32,1,1,36,0.0,0.9955555555555555,0.10526315789473684
+Fitriana Indah Pramitasari_Kualifikasi.txt,khusus teknologi blockchain desentralisasi jamin aman data tawar peluang cipta aset informasi digital den gan tingkat kekal transparansi ros et al 2019 angela et al 2021 blockchain catat ubah kuat ubah data anti rusak konsistensi jaring,33,1,1,14,0.0,0.99,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,block chain desentralisasi kombinasi karakter catat ubah hasil transparansi anggota jaring shuaib et al,34,1,1,17,0.12,0.9822222222222222,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,2020 alamsyah et al 2022 teknologi blockchain cerdas buat milik peran optimal rantai pasok metode analisis prediksi,35,1,1,24,0.06896551724137931,0.9722222222222222,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,konteks manajemen rantai pasok ann amal minta optimalisasi inventaris rencana logistik deteksi anomali sooria et al 2023 amal minta teliti prediksi minta periode tentu,36,1,1,9,0.0,0.96,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,tuju meminimalisir risiko stok over stok y ang kosong,38,1,1,20,0.07142857142857142,0.9288888888888889,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,masalah atas kombinasi inventory management ,39,1,1,8,0.05263157894736842,0.9099999999999999,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,sistem inventory management milik peran pantau kondisi barang tahap 4 rantai pasok distribusi barang gudang pusat ritel sesuai minta konsumen,40,1,1,7,0.0,0.888888888888889,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,metode kembang pecah proses inventory management gudang pusat,41,1,1,20,0.0,0.8655555555555555,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,safety stock salah metode analisis kontrol stok,42,1,1,30,0.05405405405405406,0.8400000000000001,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,mana metode safety stock tentu stok minimum maksimum devi et al 2018 safety stock anggap salah kurang resiko habis stok,43,1,1,26,0.03125,0.8122222222222222,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,rantai pasok inventory man agement efektif layan baik langgan tahan reputasi usaha chamani et al 2022 kombinasi teknologi blockchain ai buka peluang optimal efesiensi transparansi tra nsparansi manajemen rantai pasok,44,1,1,15,0.0,0.7822222222222224,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,cerdas buat blockchain teknologi depan ekonomi digital alamsyah et al 2022 terap algoritma ann integrasi blockchain un tuk prediksi minta kelola inventaris tentu safety stock otomatis,45,1,1,21,0.13043478260869565,0.75,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,catat transaksi data minta blockchain aman transparansi informasi jaga sistem manajemen inv entar efisien handal,46,1,1,12,0.15,0.7155555555555555,0.10526315789473684
+Fitriana Indah Pramitasari_Kualifikasi.txt,teliti kait platform tani dekat platform pemrosesan informasi tani cerdas mana dekat desain pandu pembanguanan sistem tani cerdas efektif andal kuat,47,1,1,18,0.1111111111111111,0.6788888888888889,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,platform tani cerdas hasil tingkat produktivitas profitabilitas kerja tani pintar hubung zarandi,48,1,1,19,0.034482758620689655,0.6399999999999999,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2022 teliti saji platform agroapi sedia akses d ata model sektor tani application programming interface api,49,1,1,11,0.0,0.5988888888888889,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,api agroapi fokus produktivitas tani indikasi tanggal tanam klasifikasi tanah cuaca katalog bioinput indeks vegetasi oleh citra satelit roman,50,1,1,14,0.0,0.5555555555555555,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2023 teliti kait metode ann teknik amal minta laku,52,1,1,14,0.0,0.46222222222222215,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,kerja ann milik untung lingkung bisnis ubah prediksi minta 5 putus manufaktur inventory management ,53,1,1,17,0.09090909090909091,0.4122222222222223,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,algoritma ajar prediksi prediksi deret depan,54,1,1,17,0.0,0.35999999999999993,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,dekat ann akurasi proses prediksi minta ashvin sum 2015 teliti bahas atur safety stock,55,1,1,15,0.08695652173913043,0.3055555555555557,0.05263157894736842
+Fitriana Indah Pramitasari_Kualifikasi.txt,topik baik sistem simpan barang rantai pasok toko retail gudang pusat tuju kurang biaya rantai pasok sebut,56,1,1,12,0.2,0.24888888888888883,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,teliti sistem kendali sedia an baru barang gudang pusat hitung minimal biaya supply chain dasar minta konsumen,57,1,1,15,0.13636363636363635,0.19000000000000017,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,sistem kendali sedia meminimalka n biaya rantai pasok tingkat sedia produk tahan sedia penuh efrilianda,58,1,1,7,0.0625,0.12888888888888886,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,et al 2018 dasar analisis teliti usul ancang model platform koperasi tani,59,1,1,7,0.0,0.06555555555555576,0.0
+Fitriana Indah Pramitasari_Kualifikasi.txt,metode uml gambar alur sistem platform koperasi tani use case diagram activity diagram sequence diagram,60,1,1,10,0.17647058823529413,0.0,0.0
+Kualifikasi Witta Listiya Ningrum.txt,kembang teknologi internet aplikasi kembang pesat dampak hebat,0,1,1,8,0.045454545454545456,0.0,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,salah teknologi dampak layan sosial media sosial media salah wadah sedia bagi konten interaksi sosial ekspresi pikir ide ide foto video,1,1,1,21,0.10714285714285714,0.06449879064767536,0.0
+Kualifikasi Witta Listiya Ningrum.txt,sosial media milik aspek positif salah satu sama masyarakat,2,1,1,9,0.09523809523809523,0.12684762160709487,0.0
+Kualifikasi Witta Listiya Ningrum.txt,orang orang lapis masyarakat dunia hubung individu bangun jaring untung,3,1,1,10,0.0,0.18704649287825853,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,akhsi nitin 2021 tingkat sedia layan data wajar hadir sosial media dampak hambat guna online temu salah langgar hukum sakit malu individu komentar benci platform aplikasi online ,4,1,1,27,0.07894736842105263,0.24509540446116637,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,regiolina et all 2023 lepas nyata sosial media tawar dunia sosial media milik aspek negatif,5,1,1,15,0.07407407407407407,0.30099435635581834,0.0
+Kualifikasi Witta Listiya Ningrum.txt,terkadang komentar diskusi buka picu debat beda dapat kesal konten saji,6,1,1,11,0.0,0.35474334856221446,0.0
+Kualifikasi Witta Listiya Ningrum.txt,seringkali debat muncul halhal caracara kotor debat,7,1,1,7,0.0,0.40634238108035475,0.0
+Kualifikasi Witta Listiya Ningrum.txt,guna sosial media akun pribadi masyarakat artis bisnis,8,1,1,8,0.09523809523809523,0.4557914539102392,0.0
+Kualifikasi Witta Listiya Ningrum.txt,guna sosial media paham etika etika sosial dunia maya,9,1,1,9,0.1,0.5030905670518678,0.0
+Kualifikasi Witta Listiya Ningrum.txt,toksisitas perilaku racun sosial media toleransi,11,1,1,12,0.13043478260869565,0.5912389142703575,0.0
+Kualifikasi Witta Listiya Ningrum.txt,toksisitas lingkup sosial gambar sebar negatif benci dampak negatif orang orang alam,12,1,1,11,0.13043478260869565,0.6320881483472185,0.0
+Kualifikasi Witta Listiya Ningrum.txt,toksisitas 2 sosial media upaya sebar ujar benci leceh orang diskusi,14,1,1,15,0.2,0.7073367374361731,0.0
+Kualifikasi Witta Listiya Ningrum.txt,toksisitas kali sebar bentuk teks,15,1,1,28,0.05128205128205128,0.7417360924482665,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,internet sosial media guna toksisitas parah dampak meme bentuk gambar video mudah konsumsi tarik perhati,16,1,1,19,0.12903225806451613,0.7739854877721042,0.0
+Kualifikasi Witta Listiya Ningrum.txt,revati meetkumar 2018 klasifikasi komentar racun online bagi tingkat toksisitasnya m enjadi 6 label sedia kumpul data platform kaggle toxic severe toxic leceh ancam hina ujar benci identitas,17,1,1,23,0.0,0.8040849234076861,0.0
+Kualifikasi Witta Listiya Ningrum.txt,teliti akhsi nitin 2021 saji model cnn deteksi cyberbullying modalitas data sosial beda tekstual visual infografis teks semat gambar,18,1,1,12,0.08,0.8320343993550121,0.0
+Kualifikasi Witta Listiya Ningrum.txt,teliti arsitektur capsnet convnet jaring saraf jaring capsule capsnet rute dinamis prediksi konten intimidasi tekstual jaring saraf konvolusi convnet prediksi konten intimidasi visual,19,1,1,15,0.0,0.8578339156140823,0.0
+Kualifikasi Witta Listiya Ningrum.txt,konten infograf is didiskritisasi pisah teks gambar google lens aplikasi google foto,20,1,1,53,0.03571428571428571,0.8814834721848965,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,evaluasi eksperimental kumpul data modal campur isi 10 000 komentar postingan ambil youtube instagram twitter,21,1,1,12,0.0,0.9029830690674551,0.0
+Kualifikasi Witta Listiya Ningrum.txt,model usul capai kerja superlatif auc roc 098 metode deep learning bukti guna oleh hasil canggih tugas bahasa alami latih ujung ujung mampu ajar representasi tom et all 2017 studi kait lapor guna model deep learning cnn rnn fitur gambar semantik deteksi konten intimidasi analis fitur tekstual bas gambar guna akhsi nitin 2021 ,22,1,1,8,0.1,0.9223327062617577,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,deep learning aplikasi kenal wajah deteksi obje k pemrosesan bahasa alami lagi,23,1,1,10,0.2631578947368421,0.9395323837678043,0.0
+Kualifikasi Witta Listiya Ningrum.txt,kembang deep learning pesat salah satu multimodal learning ,24,1,1,21,0.2413793103448276,0.9545821015855953,0.0
+Kualifikasi Witta Listiya Ningrum.txt,mana model tangan jenis data teks gambar suara video sama,25,1,1,13,0.037037037037037035,0.9674818597151303,0.0
+Kualifikasi Witta Listiya Ningrum.txt,3 firoj et all 2022 deteksi disinformasi multimodal cakup kombinasi modalitas teks gambar ucap video struktur jaring media sosial informasi temporal,26,1,1,21,0.12903225806451613,0.9782316581564094,0.0
+Kualifikasi Witta Listiya Ningrum.txt,canggih deteksi disinformasi multimodal dasar teliti modalitas fokus disinformasi informasi salah tuju rugi,27,1,1,18,0.03571428571428571,0.9868314969094328,0.0
+Kualifikasi Witta Listiya Ningrum.txt,survei hadir tantang teliti tarik deteksi disinformasi multimodal gabung modalitas seringkali selaras representasi beda teks vs gambar teks vs video dll,29,1,1,16,0.2916666666666667,0.9975812953507122,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,anastasia et all 2020 gabung fitur komponen efektif deteksi berita palsu gabung fitur gambar efektif fitur visual gambar,30,1,1,48,0.09803921568627451,0.999731255038968,0.08333333333333333
+Kualifikasi Witta Listiya Ningrum.txt,multimodal large language models llm,31,1,1,15,0.16,0.999731255038968,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,large language models model cerdas buat rancang tangan proses jenis data modalitas teks gambar video audio,32,1,1,20,0.06666666666666667,0.9975812953507122,0.0
+Kualifikasi Witta Listiya Ningrum.txt,large language models llm maju pemrosesan bahasa alami teliti cerdas buat m usman et all 2023 model model tingkat mampu mesin signifikan paham menghasilk an bahasa manusia jie kevin 2023 manfaat teknik deep learning kumpul data luas llm mahir tugas hubung bahasa buat teks terjemah ringkas analisis sentimen,33,1,1,14,0.15384615384615385,0.9932813759742005,0.0
+Kualifikasi Witta Listiya Ningrum.txt,beda llm tradisional fokus teks multimodal llm paham integrasi jenis informasi tingkat paham kerja tugas,34,1,1,20,0.06666666666666667,0.986831496909433,0.0
+Kualifikasi Witta Listiya Ningrum.txt,andr ei k et all 2024 kerja llm pemrosesan buat teks kesan potensi untung tambah integrasi llm jaring syaraf lain,35,1,1,20,0.06666666666666667,0.9782316581564096,0.0
+Kualifikasi Witta Listiya Ningrum.txt,large language models llm efektif tugas klasifikasi salah aplikasi utama pemrosesan bahasa alami nlp,37,1,1,23,0.16129032258064516,0.9545821015855953,0.0
+Kualifikasi Witta Listiya Ningrum.txt,teliti topik llm teliti 4 teliti chenyang et all 2023 usul macaw llm llm multimodal integrasi informasi visual audio tekstual,38,1,1,20,0.06666666666666667,0.9395323837678043,0.0
+Kualifikasi Witta Listiya Ningrum.txt,macaw llm komponen utama modul modalitas ode data multimodal modul kognitif manfaat llm latih da n modul selaras selaras representasi,39,1,1,14,0.038461538461538464,0.9223327062617576,0.0
+Kualifikasi Witta Listiya Ningrum.txt,set data instruksi multimodal 69k contoh gambar 50k contoh video,40,1,1,14,0.07692307692307693,0.9029830690674551,0.0
+Kualifikasi Witta Listiya Ningrum.txt,teliti feilong at all 2023 usul x llm ubah multimodal gambar suara video dalam bahasa asing antarmuka x2l masuk dalam model llm chatglm,41,1,1,20,0.06060606060606061,0.8814834721848965,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,latih x llm 3 ta hap 1 konversi informasi multimodal latih antarmuka x2l selaras encoder pisah konversi informasi multimodal bahasa,42,1,1,18,0.3181818181818182,0.8578339156140823,0.0
+Kualifikasi Witta Listiya Ningrum.txt,2 selaras representasi x2l llm enco der modal tunggal selaras llm antarmuka x2l independent,43,1,1,25,0.34615384615384615,0.8320343993550121,0.125
+Kualifikasi Witta Listiya Ningrum.txt,3 integrasi modalitas encoder modal tunggal selaras llm antarmuka x2l integrasi kapabilitas multimodal llm,44,1,1,15,0.0,0.8040849234076861,0.0
+Kualifikasi Witta Listiya Ningrum.txt,teliti hasil skor relative 84 5 klasifikasi toksisitas proses identifikasi klasifikasi konten perilaku anggap rugi bahaya kandung benci lingkung online,45,1,1,10,0.04,0.7739854877721042,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,platform sosial media algoritma klasifikasi platform platform twitter instagram tiktok mana konten bagi guna agam teks gambar video,46,1,1,15,0.07142857142857142,0.7417360924482667,0.0
+Kualifikasi Witta Listiya Ningrum.txt,kembang model klasifikasi toksisitas platform sosial media kombinasi multimodal rujuk upaya cipta tingkat model algoritma identifikasi klasifikasi konten sifat toxic rugi platform platform sosial media,47,1,1,17,0.0,0.7073367374361731,0.0
+Kualifikasi Witta Listiya Ningrum.txt,konteks algoritma k lasifikasi rangkai prosedur atur identifikasi pisah konten kategori relevan toxic netral nontoxic ,48,1,1,19,0.0,0.6707874227358237,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,5 toksisitas acu tingkat bahaya ketidakamanan konten benci leceh ancam,49,1,1,11,0.0,0.6320881483472185,0.08333333333333333
+Kualifikasi Witta Listiya Ningrum.txt,teliti model klasifikasi khairul et all 2023 klasifikasi batik tanah liat sumatera barat metode cnn,50,1,1,10,0.04,0.5912389142703574,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,data teliti 400 citra batik bagi 4 kelas tentu 320 citra data latih 80 citra data uji,51,1,1,11,0.17391304347826086,0.5482397205052404,0.0
+Kualifikasi Witta Listiya Ningrum.txt,hasil uji latih cnn nilai akurasi batik tanah liat sumatera barat 98 75 data latih 62 5 data uji,52,1,1,15,0.11538461538461539,0.5030905670518679,0.0
+Kualifikasi Witta Listiya Ningrum.txt,tingkat akurasi r uju bangun real application kenal motif batik umum,54,1,1,71,0.12962962962962962,0.4063423810803548,0.0
+Kualifikasi Witta Listiya Ningrum.txt,hasil metode cnn terap klasifikasi batik tanah liat sumatera barat,55,1,1,12,0.04,0.35474334856221446,0.08333333333333333
+Kualifikasi Witta Listiya Ningrum.txt,teliti peiyu shuangtao 2019 klasifikasi sentimen multimodal tweet isi teks gambar,56,1,1,11,0.041666666666666664,0.3009943563558183,0.0
+Kualifikasi Witta Listiya Ningrum.txt,metode model bidirectional lstm ekstraksi modalitas teks model vgg 16 m engekstraksi fitur modalitas gambar,57,1,1,9,0.045454545454545456,0.24509540446116623,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,algoritma fusi selesai fitur teks gambar,58,1,1,19,0.8888888888888888,0.18704649287825872,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,metode fusi sum fitur global fitur teks ftext fitur gambar fimage metode fusi i ni skor mikro f1 796 metode fusi concatena te fitur global gabung fitur teks ftext fitur gambar fimage skor mikro f1 823 metode fusi tiga metode fusi bas perhati usul makalah capai skor mikro f1 tinggi hingg a 842 teliti hong fan 2021 unt uk deteksi toksisitas adopsi model bert klasifikasi komentar racun data media sosial twitter,59,1,1,11,0.08333333333333333,0.126847621607095,0.041666666666666664
+Kualifikasi Witta Listiya Ningrum.txt,hasil evaluasi bert milik mampu klasifikasi prediksi komentar racun tingkat akurasi tinggi,60,1,1,13,0.0,0.06449879064767543,0.0
+Kualifikasi Witta Listiya Ningrum.txt,teliti banding model bas bert 3 model multilingual bert roberta distilbert,61,1,1,10,0.08333333333333333,0.0,0.0
+Kualifikasi_Aris Gunaryati.txt,teliti kait analisis runtun time series amal forecasting bidang teliti aktif teliti akurat proses amal runtun kait proses ambil putus,0,1,1,20,0.07692307692307693,0.0,0.0
+Kualifikasi_Aris Gunaryati.txt,teliti riset runtun metode statistik jaring s yaraf neural network wavelet system fuzzy ,1,1,1,13,0.17391304347826086,0.13317479191438764,0.0
+Kualifikasi_Aris Gunaryati.txt,1 2 metode amal runtun menitikberatkan proses upaya cari pola data pola itu,2,1,1,13,0.13636363636363635,0.2568370986920333,0.0
+Kualifikasi_Aris Gunaryati.txt,metode cocok butuh angka prediksi periode campur tangan pengaruh hasil prediksi sandar satu data historis tarik mbali,3,1,1,17,0.07407407407407407,0.37098692033293695,0.0625
+Kualifikasi_Aris Gunaryati.txt,metode amal data runtun bagi bagi,5,1,1,14,0.12,0.5707491082045184,0.0
+Kualifikasi_Aris Gunaryati.txt,metode amal matematika statistik moving average exponential smoothing analisis trend arima bo x jenkins,6,1,1,16,0.11538461538461539,0.6563614744351962,0.0
+Kualifikasi_Aris Gunaryati.txt,metode amal dasar cerdas buat neural network algoritma genetika simulated annealing genetic programming klasifikasi model hybrid,9,1,1,24,0.06666666666666667,0.8561236623067777,0.0625
+Kualifikasi_Aris Gunaryati.txt,metode efektif data ,10,1,1,21,0.038461538461538464,0.9036860879904876,0.0625
+Kualifikasi_Aris Gunaryati.txt,metode metode milik kurang lebih beda,11,1,1,11,0.09523809523809523,0.9417360285374554,0.0
+Kualifikasi_Aris Gunaryati.txt,dunia nyata seringkali kompleks model atas 2 pilih metode metode gantung aspek pengaruh aspek pola data tipe model system amat tingkat akurat ramal bagai,12,1,1,26,0.125,0.9702734839476814,0.0625
+Kualifikasi_Aris Gunaryati.txt,muncul amat uji system dinamis milik system pola data formulasi ubah ubah system milik tingkat sulit buat formulasi model kurun tentu,13,1,1,12,0.0,0.9892984542211652,0.0
+Kualifikasi_Aris Gunaryati.txt,samping terap metode statistik data penuh asumsi asumsi sesuai pola data,14,1,1,21,0.03571428571428571,0.9988109393579071,0.0
+Kualifikasi_Aris Gunaryati.txt,4 teknologi bidang cerdas buat artificial intellegence teknologi jaring syaraf tiru neural network identifikasi pola data system metode dekat ajar latih tentu bobot hubung simpul optimum,15,1,1,20,0.06896551724137931,0.9988109393579072,0.0625
+Kualifikasi_Aris Gunaryati.txt,unggul utama jaring syaraf tiru mampu komputasi paralel ajar pola pola ajar,16,1,1,14,0.22727272727272727,0.9892984542211652,0.0
+Kualifikasi_Aris Gunaryati.txt,dasar mampu ajar milik jaring syaraf tiru latih ajar menganalisa pola data usaha cari formula fungsi hubung pola data keluar datang,17,1,1,12,0.0,0.9702734839476813,0.125
+Kualifikasi_Aris Gunaryati.txt,studi komparatif studi banding teliti model amal runtun milik trend pol a musim model kompleks hasil forecast ramal model statistika,18,1,1,11,0.043478260869565216,0.9417360285374554,0.0
+Kualifikasi_Aris Gunaryati.txt,studi banding metode banding model winters decomposition time series regre ssion arima neural network ,19,1,1,11,0.1,0.9036860879904876,0.0
+Kualifikasi_Aris Gunaryati.txt,hasil oleh simpul model kompleks hasil forecast ramal banding model statistitika sederhana,20,1,1,13,0.043478260869565216,0.8561236623067776,0.125
+Kualifikasi_Aris Gunaryati.txt,data teliti data tum pang pesawat internasional januari 1949 desember 1960,21,1,1,15,0.037037037037037035,0.7990487514863258,0.0625
+Kualifikasi_Aris Gunaryati.txt,3 metode amal kompleks data butuh metode bas cerdas buat lagi,22,1,1,14,0.0,0.732461355529132,0.0
+Kualifikasi_Aris Gunaryati.txt,machine learning kembang nali ajar pola data hasil prediksi dasar pola data sebut,23,1,1,9,0.0,0.6563614744351961,0.0625
+Kualifikasi_Aris Gunaryati.txt,tingkat data prediksi d alam teliti meny elidiki komputer kuantum tingkat kerja algoritma machine learning ,24,1,1,12,0.0,0.5707491082045184,0.0
+Kualifikasi_Aris Gunaryati.txt,efek mekanika kuantum superposisi libat entanglement komputer kuantum harap untung pecah cepat komputer klasik,25,1,1,46,0.23684210526315788,0.47562425683709886,0.125
+Kualifikasi_Aris Gunaryati.txt,komputer kuantum tahap coba algoritma kuantum kembang dekade akhir,26,1,1,18,0.17391304347826086,0.37098692033293695,0.0
+Kualifikasi_Aris Gunaryati.txt,algoritma kuantum libat faktor bilan ganbilangan optimalisasi efektif cepat algoritma machine learning ,27,1,1,70,0.16666666666666666,0.25683709869203336,0.0
+Kualifikasi_Aris Gunaryati.txt,salah algoritma machine learning kembang metode amal metode quantum neural network qnn 4 5 5 dasar latar teliti tulis tarik me mbuat metode amal bas komputasi kuantum metode amal hybrid arima neural network quantum arima neural network studi data tambah har ian cov id 19 jakarta,28,1,1,16,0.11538461538461539,0.13317479191438747,0.1875
+Kualifikasi_Aris Gunaryati.txt,studi u ntuk kendali sebar covid 19 analisis prediksi tambah hari positif tinggal sembuh covid 19 periode datang,29,1,1,21,0.42857142857142855,0.0,0.0
+Kualifikasi_Rama Dian Syah.txt,kembang teknologi komunikasi sebab digitalisasi media citra informasi ,0,1,1,8,0.16666666666666666,0.0,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,digitalisasi media citra mudah akses modifikasi konten data transmisi,1,1,1,9,0.06666666666666667,0.10518626734842952,0.0
+Kualifikasi_Rama Dian Syah.txt,mudah digitalisasi citra sebab peluang jahat yan g akses sah modifikasi konten langgar hak cipta hamza 2019 ,2,1,1,17,0.045454545454545456,0.20452885317750183,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,aman data media digital hindar jahat ancam data sifat rahasia privasi,3,1,1,11,0.0625,0.29802775748721694,0.0
+Kualifikasi_Rama Dian Syah.txt,teknologi komunikasi media gambar citra aspek mudah guna,4,1,1,8,0.07692307692307693,0.3856829802775749,0.0
+Kualifikasi_Rama Dian Syah.txt,citra kandung arti makna gambar objek data informasi,5,1,1,8,0.07142857142857142,0.4674945215485757,0.0
+Kualifikasi_Rama Dian Syah.txt,aman citra lindung makna informasi dalam ,7,1,1,14,0.05555555555555555,0.6135865595325055,0.0
+Kualifikasi_Rama Dian Syah.txt,kriptografi ilmu hubung transformasi data paham sembunyi makna cegah ubah izin cegah guna sah,8,1,1,12,0.05555555555555555,0.6778670562454346,0.0
+Kualifikasi_Rama Dian Syah.txt,kriptografi berba gai teknik matematika jaga konten pesan enkripsi joshi karkade 2015 ,10,1,1,19,0.04,0.7888970051132214,0.0
+Kualifikasi_Rama Dian Syah.txt,kriptografi citra terap metode chaotic ,12,1,1,12,0.3076923076923077,0.8765522279035792,0.0
+Kualifikasi_Rama Dian Syah.txt,metode chaotic teknik enkripsi dasar gera dinamika rumit duga gantung k eadaan kondisi seb uah sistem lone et al,15,1,1,17,0.09090909090909091,0.9642074506939371,0.0
+Kualifikasi_Rama Dian Syah.txt,2021 ,17,1,1,21,0.041666666666666664,0.9934258582907233,0.0
+Kualifikasi_Rama Dian Syah.txt,algoritma kriptografi bas chaotic algoritma cat map henon map ratna et al,19,1,1,22,0.03571428571428571,0.9992695398100804,0.0
+Kualifikasi_Rama Dian Syah.txt,2021 logistic map lone et al,21,1,1,8,0.0,0.9817384952520087,0.0
+Kualifikasi_Rama Dian Syah.txt,2021 ,22,1,1,22,0.2857142857142857,0.9642074506939372,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,cat map algoritma temu ahli matematik rusia nama vladimir arnold bukti algoritmanya citra kucing ratna et al,23,1,1,12,0.0,0.9408327246165085,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,2021 ,24,1,1,9,0.0,0.9116143170197224,0.0
+Kualifikasi_Rama Dian Syah.txt,henon map algoritma temu ahli matematik perancis nama michael henon bentuk simplifikasi 5 algoritma mod el algoritma lorentz ratna et al,25,1,1,15,0.16666666666666666,0.8765522279035792,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,2021 ,26,1,1,7,0.07692307692307693,0.8356464572680788,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,logistic map algoritma temu ahli matematik belgia nama pierre francois verhulst terap hitung populasi maksimum masyarakat sumber daya batas chen et al,27,1,1,11,0.0,0.7888970051132214,0.0
+Kualifikasi_Rama Dian Syah.txt,2021 ,28,1,1,11,0.21428571428571427,0.7363038714390064,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,teliti aesha elghandour kawan kawan elghandour et al,29,1,1,12,0.0625,0.6778670562454346,0.0
+Kualifikasi_Rama Dian Syah.txt,2021 teliti kembang metode kriptografi citra digital teknik konfus i difusi algoritma logistic map konfusi twodimensional piecewise smooth nonlinier chaotic map difusi ,30,1,1,11,0.2,0.6135865595325054,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,hasil teliti bukit aman algoritma analisis uji performa aman analisis histogram noise ,31,1,1,30,0.1724137931034483,0.5434623813002192,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,teliti parveiz nazir lone kawan kawan lone et al,32,1,1,12,0.11764705882352941,0.46749452154857546,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,2021 teliti kembang metode kriptografi al goritma random matrix affine cipher henon map logistic map,33,1,1,8,0.0,0.3856829802775749,0.0
+Kualifikasi_Rama Dian Syah.txt,hasil teliti algoritma usul terap citra warna ,34,1,1,13,0.46153846153846156,0.29802775748721677,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,penelit i anak agung putri ratna kawan kawan ratna et al,35,1,1,21,0.0,0.20452885317750183,0.058823529411764705
+Kualifikasi_Rama Dian Syah.txt,2021 teliti kembang metode kriptografi algoritma arnolds cat map henon map ,36,1,1,14,0.42857142857142855,0.10518626734842931,0.17647058823529413
+Kualifikasi_Rama Dian Syah.txt,teknik konfusi algoritma arnolds cat map teknik difusi algoritm a henon map,37,1,1,23,0.21739130434782608,0.0,0.11764705882352941
+Kualifikasi_Remigius.txt,era teknologi informasi komunikasi modern dunia fisik dunia digital satu transformasi dunia visual anggota komunitas dunia padu interaksi lain,0,1,1,19,0.043478260869565216,0.0,0.0
+Kualifikasi_Remigius.txt,dunia y ang kenal metaverse zhao jiang chen liu xue chen 2022 istilah metaverse asal majemuk meta universe dunia mentransendensi realitas dunia virtual pintar smart penuh harap guna,1,1,1,28,0.03225806451612903,0.09518143961927425,0.0
+Kualifikasi_Remigius.txt,istilah kali kenal neal s tephenson 1992 acu makna libat komunitas dalam realitas virtual alternatif semesta hubung jeja ring internet realitas visual zhao et al ,2,1,1,25,0.06451612903225806,0.18560380725758477,0.0
+Kualifikasi_Remigius.txt,2022 fiksi bas teknologi multimedia eksplorasi metaverse sedia alam realistis aktivitas kaya guna teknologi maju dukung konstruksi metaverse bas libat komunitas community engagement orientasi guna useroriented ,3,1,1,26,0.14814814814814814,0.2712671029149316,0.0
+Kualifikasi_Remigius.txt,kembang metaverse tahap kerangka konst ruksi visual nya proses eksplorasi kait grafik interaksi teknik visualisasi nya dukung konstruksi visual metaverse bas libat komunitas orientasi guna,4,1,1,25,0.19230769230769232,0.3521713265913147,0.05263157894736842
+Kualifikasi_Remigius.txt,metaverse elemen ideal libat teknologi metaverse tugas interaksi aksi guna umpan salur sensor bentuk konstruksi metaverse dunia visual bas integrasi dunia fisik dunia digital zhao et al,5,1,1,27,0.10344827586206896,0.4283164782867341,0.0
+Kualifikasi_Remigius.txt,2022 ,7,1,1,16,0.14285714285714285,0.5663295657346817,0.05263157894736842
+Kualifikasi_Remigius.txt,elemen kembang potensi aplikasi bidang 2 ajar matakuliah jurus teknik arsitektur spesifik mata kuliah kembang arsitektur,8,1,1,25,0.03225806451612903,0.6281975014872101,0.0
+Kualifikasi_Remigius.txt,petrigna musumeci 2022 muka terap teknologi m etaverse tuju bentuk jejaring integrasi dunia fisik dunia digital dunia visual guna komunitas hubung interaksi jaring virt ual,9,1,1,12,0.05,0.6853063652587745,0.0
+Kualifikasi_Remigius.txt,terap teknologi metaverse potensial masalah jaring siber pakai mudah putus alami ganggu,10,1,1,15,0.09523809523809523,0.7376561570493754,0.0
+Kualifikasi_Remigius.txt,kerja teknologi metaverse cenderung rendah jaring siber lambat lingkung komunitas guna jaring generasi 3g 4g,11,1,1,19,0.13636363636363635,0.7852468768590125,0.0
+Kualifikasi_Remigius.txt,terap teknologi metaverse efektif komunitas guna nikmat layan akses internet d iperluas dalam libat komunitas dunia fisik dunia virtual,12,1,1,30,0.2222222222222222,0.8280785246876858,0.05263157894736842
+Kualifikasi_Remigius.txt,teknologi metaverse terap aplikasi populer realitas augmentasi augmented reality ar realitas virtual virtual reality vr kembang hadir libat komunitas dalam hubung digital alam guna koneksi sosial metaverse ajar kembang arsitektur ,13,1,1,25,0.0967741935483871,0.8661511005353956,0.0
+Kualifikasi_Remigius.txt,terap teknologi metaverse te rancam alami aman basis data server privasi data kait baja sinyal gelombang otak ekspresi wajah gera mata tangan libat komunitas lingkung,14,1,1,24,0.0,0.8994646044021415,0.0
+Kualifikasi_Remigius.txt,serang hacker serang kontrol perangkat realitas augmentasi realitas virtual lacak lokasi guna fitur biometrik identitas guna ancam selamat manusia infrastruktur iot choi et al ,15,1,1,23,0.22727272727272727,0.9280190362879238,0.05263157894736842
+Kualifikasi_Remigius.txt,2022 memperti mbangkan faktor aman alat pantau kembang tangan perilaku buruk guna ajar kembang arsitektur bas metaverse metaverse alat dorong perilaku guna positif,16,1,1,17,0.3,0.9518143961927424,0.05263157894736842
+Kualifikasi_Remigius.txt,desain aplikasi sistem ajar kembang arsitektur bas 3 metaverse pandu ikut aspek privasi tata kelola timbang etis,17,1,1,32,0.1875,0.9708506841165974,0.10526315789473684
+Kualifikasi_Remigius.txt,s olusi lindung aman sistem ajar kait kembang arsitektur bas metaverse manajemen identitas data klon avatar jejak digital sadar situasional kontrol konten buat guna bahas kait syarat aplikasi tingkat perilaku guna positif ,18,1,1,24,0.3333333333333333,0.9851279000594885,0.10526315789473684
+Kualifikasi_Remigius.txt,tingkat libat komunitas dalam sistem ajar kembang arsitektur bas metaverse internet of things iot manfaat meta data realtime realitas fisik realitas digital dunia virtual,19,1,1,28,0.03125,0.994646044021416,0.0
+Kualifikasi_Remigius.txt,iot lengkap muka alam guna dunia virtual realitas augmentasi realitas virtual konteks sadar situasional fisik aplikasi arvr picu tukar data dasar ukur metrik kerja metaverse dunia fisik digital,20,1,1,14,0.0,0.9994051160023796,0.0
+Kualifikasi_Remigius.txt,perangkat ar reaksi gera j ari guna picu fungsi siberfisik dorong peristiwa dunia fisik,21,1,1,16,0.09090909090909091,0.9994051160023796,0.05263157894736842
+Kualifikasi_Remigius.txt,petrigna musumeci 2022 interaksi bantu iot bantu cipta cermin digital digital twin fi sik libat komunitas ,22,1,1,12,0.4,0.9946460440214158,0.05263157894736842
+Kualifikasi_Remigius.txt,sistem ajar kembang arsitektur 1 bas metaverse tuju refleksi dekat fisik realtime,23,1,1,30,0.27586206896551724,0.9851279000594884,0.10526315789473684
+Kualifikasi_Remigius.txt,cermin digital bangun temu kelompok produktif guna interaksi ajar demonstrasi replika prototipe perangkat keras lunak pakai representasi visual terap sistem ajar kait kembang arsitektur bas metaverse libat komunitas persepsi guna ,24,1,1,22,0.30434782608695654,0.9708506841165973,0.05263157894736842
+Kualifikasi_Remigius.txt,konteks sistem ajar kembang arsitektur bas metaverse dunia virtual dimensi berba sis internet komunitas guna aktivitas hari avatar wakil nya nyata imajiner,25,1,1,14,0.09523809523809523,0.9518143961927424,0.0
+Kualifikasi_Remigius.txt,ruang virtual dunia nyata alternatif avatar 4 profil digital libat partisipasi giat ajar virtual,26,1,1,8,0.0625,0.9280190362879238,0.0
+Kualifikasi_Remigius.txt,metaverse platform milik teknologi struktur bagi kategori beda ,27,1,1,12,0.0,0.8994646044021416,0.0
+Kualifikasi_Remigius.txt,realitas augmentasi augmented reality realtime lingkung grafis digital dunia fisik nyata smartphone ,28,1,1,15,0.3333333333333333,0.8661511005353956,0.05263157894736842
+Kualifikasi_Remigius.txt,sistem ajar kait kembang arsitektur bas metaverse realitas tempat informasi lingkung nyata anim asi dimensi ,29,1,1,13,0.0,0.828078524687686,0.0
+Kualifikasi_Remigius.txt,lifelogging augmentasi virtual perangkat pintar adopsi rekam hidup hari internet instagram facebook twitter ,30,1,1,24,0.0,0.7852468768590125,0.0
+Kualifikasi_Remigius.txt,tiga dunia cermin geografis geographical mirror world simulasi dunia nyata tampil informasi struktur nyata transfer ruang virtual giat internet aplikasi seluler google maps earth ,31,1,1,20,0.0,0.7376561570493754,0.0
+Kualifikasi_Remigius.txt,empat realitas virtual dunia campur virtual reality and mixed reality dunia fisik dunia digital integrasi dunia visual kamel et al,33,1,1,8,0.14285714285714285,0.6281975014872099,0.0
+Kualifikasi_Remigius.txt,2008 ,35,1,1,19,0.041666666666666664,0.49970255800118984,0.0
+Kualifikasi_Remigius.txt,interaksi komunitas metaverse dorong guna pasuk platform sebut,36,1,1,8,0.125,0.4283164782867341,0.0
+Kualifikasi_Remigius.txt,metaverse daya tarik bangkit minat guna ,37,1,1,22,0.08,0.3521713265913146,0.05263157894736842
+Kualifikasi_Remigius.txt,interaksi real time guna rasa hadir libat digital ruang nyata guna rasa aktivitas alam virtual temp at sulit kunjung,38,1,1,14,0.4666666666666667,0.27126710291493145,0.05263157894736842
+Kualifikasi_Remigius.txt,metaverse milik elemen komunitas kuat hubung timbal bentuk,39,1,1,9,0.11764705882352941,0.18560380725758494,0.0
+Kualifikasi_Remigius.txt,guna tingkat kunjung guna layan digabungka n unggul metaverse terap aktif bidang lembaga perintah aktif tinjau kenal metaverse tingkat minat partisipasi komunitas ,40,1,1,32,0.13793103448275862,0.09518143961927432,0.05263157894736842
+Kualifikasi_Remigius.txt,kembang sistem ajar kembang arsitektu r guru bas metaverse libat komunitas persepsi guna timbang ,41,1,1,9,0.2,0.0,0.05263157894736842
+KUALIFIKASI_Riya Widayanti.txt,ubah teknologi rasa zaman,1,1,1,37,0.0625,0.14266117969821673,0.0
+KUALIFIKASI_Riya Widayanti.txt,ubah teknologi modern pengaruh kerja bidang didik sehat ekonomi bidang u rahardja 2019 ubah teknologi informasi komunikasi revolusi industri 1 0 4 0 ubah tahun guna teknologi modern sesuai butuh manusia adaptasi gaya hidup lepas nama teknologi,3,1,1,11,0.0625,0.3950617283950617,0.2
+KUALIFIKASI_Riya Widayanti.txt,teliti nasution,4,1,1,9,0.07692307692307693,0.50480109739369,0.0
+KUALIFIKASI_Riya Widayanti.txt,m 2018 teknologi informasi bidang ilmu kembang pesat prediksi ubah tahun,5,1,1,16,0.047619047619047616,0.6035665294924555,0.0
+KUALIFIKASI_Riya Widayanti.txt,pasuk era informasi mana data aset organisasi guru tinggi,6,1,1,23,0.09523809523809523,0.691358024691358,0.2
+KUALIFIKASI_Riya Widayanti.txt,sedia data organisasi butuh proses adaptasi ubah dorong transformasi arah digital saji data mudah ambil putus,7,1,1,11,0.0,0.7681755829903977,0.0
+KUALIFIKASI_Riya Widayanti.txt,isu penting cepat data data percaya talend 2016 iring tumbuh organisasi data kelola cipta risiko kualitas data kurang patuh terdahap lindung data sendiri,8,1,1,16,0.10526315789473684,0.8340192043895748,0.0
+KUALIFIKASI_Riya Widayanti.txt,lemah tetap kendali ketat makan sumber daya batas lambat proses inovasi,9,1,1,8,0.16666666666666666,0.888888888888889,0.0
+KUALIFIKASI_Riya Widayanti.txt,patrick ocheja brendan flanagan hiroaki ogata 2018 ajar butuh teknologi unjung giat didik ganggu giat lain,10,1,1,17,0.15,0.9327846364883402,0.0
+KUALIFIKASI_Riya Widayanti.txt,gambar 1 blok genesis sumber buat teknologi blockchain,11,1,1,13,0.0625,0.9657064471879285,0.0
+KUALIFIKASI_Riya Widayanti.txt,5 gambar 1 block genesis blockchain mudah wadah dunia didik transaksi simpan data olah data takut rusak,13,1,1,9,0.14285714285714285,0.9986282578875173,0.0
+KUALIFIKASI_Riya Widayanti.txt,masalah hadap didik online sistem nilai optimal evaluasi kurang aman sertifikat digital tiga,14,1,1,8,0.15384615384615385,0.9986282578875172,0.2
+KUALIFIKASI_Riya Widayanti.txt,atas junqi gou dkk,15,1,1,13,0.14285714285714285,0.9876543209876543,0.2
+KUALIFIKASI_Riya Widayanti.txt,solusi teknologi blockchain irvani warliani 2020 denia falcao dkk,16,1,1,18,0.15,0.9657064471879286,0.0
+KUALIFIKASI_Riya Widayanti.txt,metode ajar didik butuh teknologi adaptasi kembang zaman,17,1,1,8,0.07142857142857142,0.9327846364883402,0.0
+KUALIFIKASI_Riya Widayanti.txt,batasbatas halang mahasiswa maju kembang teknologi ubah teknologi blockchain teknologi manfaat kembang hal,18,1,1,8,0.15384615384615385,0.888888888888889,0.0
+KUALIFIKASI_Riya Widayanti.txt,bidang latih mampu siswa teknologi lam 2020 satoshi nakamoto gagas blockchain 2018 cryptocurrency sehat mungut suara didik lain,19,1,1,9,0.0,0.8340192043895748,0.0
+KUALIFIKASI_Riya Widayanti.txt,bidang didik cryptocurrency inovasi kendali akyildirim et al,20,1,1,9,0.07142857142857142,0.7681755829903979,0.0
+KUALIFIKASI_Riya Widayanti.txt,2020 blockchain buku simpan data transaksi efektif verifikasi,21,1,1,18,0.15,0.691358024691358,0.0
+KUALIFIKASI_Riya Widayanti.txt,proses komunikasi node konfirmasi blok libat jaring peertopeer sistem,22,1,1,7,0.2727272727272727,0.6035665294924555,0.0
+KUALIFIKASI_Riya Widayanti.txt,sistem catat data blok ubah retroaktif blok konsensus web,23,1,1,19,0.09523809523809523,0.50480109739369,0.0
+KUALIFIKASI_Riya Widayanti.txt,teknologi blockchain milik properti desentralisasi transparan ubah cristina turcu 2018 6 data simpan blockchain sifat permanen transparan jaring,24,1,1,18,0.3125,0.3950617283950619,0.2
+KUALIFIKASI_Riya Widayanti.txt,bawa tata kelola data privasi jamin kualitas,26,1,1,14,0.42857142857142855,0.14266117969821693,0.0
+KUALIFIKASI_Riya Widayanti.txt,simpan data bentuk enkripsi rekomendasi sasar serang dekripsi paksa terobos komputasi kuantum teknologi enkripsi efektif sebab bocor privasi ingin,27,1,1,8,0.07692307692307693,0.0,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,era digital kembang olah analisis data milik peran krusial ambil putus efektif bidang ilmu tahu bisnis teknologi,0,1,1,17,0.047619047619047616,0.0,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,de kade indonesia teknologi informasi tekn ologi tik bantu pesat tumbuh indu stri dorong efisiensi perintah operasional bisnis kembang landas ekonomi bas tekn ologi,1,1,1,24,0.037037037037037035,0.06777645659928656,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,mudah usaha cari informasi menge nai supplier banyak,2,1,1,8,0.08333333333333333,0.13317479191438764,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,acu data badan pusat statistik bangun teknologi informasi teknologi indonesia kembang positif dal am akhir,3,1,1,15,0.05555555555555555,0.1961950059453032,0.09090909090909091
+Miftakhul Zaen_KUALIFIKASI.txt,2018 nilai indeks bangun tik catat 507 meningka t 2022 nilai capai 585 tingkat indeks 078 poin bps 2023 gamb ar 1 1 m enunjukkan perkem bangan teknologi informasi akhir,4,1,1,30,0.0,0.2568370986920333,0.09090909090909091
+Miftakhul Zaen_KUALIFIKASI.txt,gambar 1 1 index bangun tik indonesia bps 2023 dasar gambar 1 1 d iatas d engan meningk atnya bang unan teknologi komunikasi mudah pe ncarian data ,5,1,1,27,0.0,0.3151010701545779,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,data dikumpulk an ban yak agam ters ebut kenal istil ah big data ,6,1,1,13,0.0,0.37098692033293695,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,big data bany ak data konsep kesem patan temu wawas data kurasova et al,7,1,1,14,0.0,0.4244946492271106,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2014 ,9,1,1,11,0.0,0.5243757431629014,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,jenis big data struktur tuntut analisis langsung dalam banding dataset standar ,10,1,1,10,0.0,0.5707491082045184,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,paham nilainilai butuh atur d an manipulasi kumpul data unik,11,1,1,17,0.0,0.61474435196195,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,banyak data sedia sumber bawa isu isu ru mit tuntut baik cepa t jawad al bakry 2023 ,13,1,1,14,0.05555555555555555,0.6956004756242569,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,salah analis big data klasterisasi,14,1,1,29,0.0,0.7324613555291319,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,klasterisasi metode data mining bagi da ta klaster ber dasar nilai similaritas d ata,16,1,1,7,0.08333333333333333,0.7990487514863258,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,klasteri sasi tuju kelompok data label objek objek data milik karakteristik atribut ber kumpul kluster mirip objek da ta klaster j ika banding objek data klaster ikotun et al,17,1,1,7,0.08333333333333333,0.8287752675386444,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2023 ,19,1,1,7,0.0,0.8810939357907253,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,klasterisasi metode kmeans clustering ikotun et al,21,1,1,13,0.0,0.9239001189060643,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2023 knn block dbscan chen et al,22,1,1,19,0.0,0.9417360285374554,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2019 dbscan huang et al,23,1,1,19,0.0,0.9571938168846611,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2021 affinity propagati on duan et al,24,1,1,9,0.0,0.9702734839476814,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2023 ,25,1,1,9,0.0,0.9809750297265161,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,kelompok bas padat data metode identifikasi kelompok klaster data dasar padat titik data,26,1,1,15,0.1875,0.9892984542211652,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,metode asumsi klaster bentuk area titik titik data kumpul padat tar a area padat data rendah nggap pisah klaster ,28,1,1,30,0.02857142857142857,0.9988109393579071,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,tuju kelompok data bas is padat identifikasi daerah deng an bentuk y ang ubah ubah ukur padat titik tentu,30,1,1,9,0.08333333333333333,0.9988109393579072,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,kluster identifikasi wil ayah padat outlier wilayah padat rendah,31,1,1,7,0.09090909090909091,0.9952437574316291,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,kelompok bas padat a dalah salah paradi gma populer,32,1,1,19,0.045454545454545456,0.9892984542211652,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,salah algoritma kl astering meng klasterisasi data dasar tan data algoritma dbscan chen et al,33,1,1,16,0.0,0.9809750297265161,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2019 ,34,1,1,14,0.05263157894736842,0.9702734839476813,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,dbscan dens itybased s patial clustering of application with noise metode ajar awas diu sulkan ka li ester 1996 tangan pengelompo efisien dasa rkan tan de moura ventorim et al,35,1,1,23,0.03571428571428571,0.9571938168846611,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,2021 ,38,1,1,33,0.10344827586206896,0.9036860879904876,0.13636363636363635
+Miftakhul Zaen_KUALIFIKASI.txt,dbscan milik kapasitas identifikasi titik titik noise efisien tepat,39,1,1,9,0.0,0.8810939357907253,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,dbscan beda klaster be ntuk ubah ubah,40,1,1,15,0.1111111111111111,0.8561236623067776,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,dbscan aplikasi bidang per ti bidang deteksi tipu analis transaksi uang identifikasi perilaku curiga dila kuk sivarajah et al,41,1,1,18,0.043478260869565216,0.8287752675386445,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2017 bidang transpo rtasi analis karakteristik jalan ho tspot dasar data trajektori taksi du et al,42,1,1,24,0.07692307692307693,0.7990487514863258,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2024 dbscan dapa t aplikasi kelompok mengklasi fikasikan cacat jalur kereta vishwakarma et al,43,1,1,12,0.13333333333333333,0.7669441141498216,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,2024 p b idang in dustri terap dbscan meng analisis data pelihara prediksi gagal alat tingkat keandala n efisiensi operasional wang et al,44,1,1,13,0.07142857142857142,0.732461355529132,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2017 ,46,1,1,18,0.16666666666666666,0.6563614744351961,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,tel itian zhang et al,47,1,1,13,0.1875,0.6147443519619502,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,2022 kembang algoritma dbscan manfaat drl otomatis cari parameter optimal dbscan bantu manual seh ingga hasil tingkat signifikan akurasi efisiensi kelompok dbscan capai tingkat akurasi kelompok 26 25 temu parameter dominan efisiensi komputasi ,48,1,1,17,0.05,0.5707491082045184,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,teliti ole h de moura ve ntorim et al,51,1,1,13,0.13333333333333333,0.42449464922711067,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,2021 mengg abungkan algoritma birch dbscan metode usul capai hasil baik variasi yan g rendah,52,1,1,14,0.1875,0.37098692033293695,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,menunjukka n kompromi muas kualitas efisiensi ko mputasi terb ukti efisien banding saing skenario dbscan layak kendala memori,53,1,1,18,0.10526315789473684,0.3151010701545777,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,dbscan pil ki solusi klasterisasi dbscan milik k elemahan dbscan relatif data hitung jarak s emua pasang titik dataset luchi et a l 2019 ,54,1,1,8,0.07692307692307693,0.25683709869203336,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,ning katkan kerja dbscan ajar survei emban gan dbscan kembang tel ti,55,1,1,30,0.1111111111111111,0.19619500594530317,0.0
+Miftakhul Zaen_KUALIFIKASI.txt,ajar ban dingkan algoritma men dapat in forma si kait lebih kurang mereka,56,1,1,21,0.19047619047619047,0.13317479191438747,0.09090909090909091
+Miftakhul Zaen_KUALIFIKASI.txt,salah komputasi kembang dbscan komputasi kuantum,57,1,1,24,0.07692307692307693,0.0677764565992867,0.045454545454545456
+Miftakhul Zaen_KUALIFIKASI.txt,algoritma kuantum tawar solusi poten sial atas lemah dbscan ef isiensi kom putas i mampu kelola dataset besar,58,1,1,35,0.11428571428571428,0.0,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,kelapa sawit elaeis guineensis tanam tani global hasil minyak nabati,0,1,1,10,0.1111111111111111,0.0,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,tanam tanam lahan sesuai tumbuh rugi lingkung ,1,1,1,7,0.0,0.09518143961927425,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,kelapa sawit bahan dasar hasil jenis produk produk makan mie instan mentega selai roti kue produk makan deterjen sampo sabun biodiesel ,2,1,1,21,0.07692307692307693,0.18560380725758477,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,kelapa sawit salah kebun besar indonesia jadi indonesia negara hasil kelapa sawit besar dunia luas kebun kelapa sawit indonesia pengaruh vo lume produksi kelapa sawit produksi,3,1,1,26,0.09523809523809523,0.2712671029149316,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,dukung letak geografis indonesia sesuai butuh tanam kelapa sawit banding tanam kebun kelapa sawit unggul bahan baku biodiesel pangan,4,1,1,19,0.08333333333333333,0.3521713265913147,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,mampu minyak sawit butuh jenis industri negara ,5,1,1,7,0.06666666666666667,0.4283164782867341,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,komoditas unggul kelapa sawit peran ekonomi indonesia ,6,1,1,7,0.13333333333333333,0.49970255800118973,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,ekspor minyak sawit indonesia semak n tingkat alami turun 2016 hasil produksi kebun kelapa sawit alami tingkat,7,1,1,17,0.09090909090909091,0.5663295657346817,0.10526315789473684
+Ragmar Faikar Eka_Kualifikasi.txt,kelapa sawit indonesia milik daya saing ditjen kebun negara tuju ekspor kelapa sawit indonesia india china pakistan eropa indonesia negara kompetitif pasar asia daeng ahmad fakhrian zuhdi et al 2021 ,8,1,1,30,0.06060606060606061,0.6281975014872101,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,minta minyak kelapa sawit kualitas tingkat,10,1,1,8,0.3076923076923077,0.7376561570493754,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,kualitas kelapa sawit tentu tingkat matang buah panen,11,1,1,10,0.26666666666666666,0.7852468768590125,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,tingkat matang kelapa sawit tentu visual dasar warna kulit buah,12,1,1,15,0.2,0.8280785246876858,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,minyak mentah buah kelapa sawit warna gelap ungu tua ubah warna jingga matang septiarini 2021 ,13,1,1,11,0.17647058823529413,0.8661511005353956,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,negara negara indonesia malaysia guatemala ekspor buah kelapa sawit wilayah dunia,14,1,1,13,0.10526315789473684,0.8994646044021415,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,ti ngkat produksi produk turun tanam kelapa sawit kelapa sawit komoditas internasional tonjol,15,1,1,34,0.16129032258064516,0.9280190362879238,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,p ermintaan tingkat tani kelapa sawit butuh metode fasilitas produksi tandan buah segar kelapa sawit 2 efisien tbs salah masalah guna manual sortir matang buah kelapa sawit anggap makan efisien suharjito et al 2021 ,16,1,1,23,0.07142857142857142,0.9518143961927424,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,klasifikasi buah otomatis solusi tarik budidaya jual bantu tani buah supermarket identifikasi beda buah buah status stok wadah tingkat efisiensi produksi untung bisnis,17,1,1,10,0.125,0.9708506841165974,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,klasifikasi buah sayur sayur tugas sederhana sama bentuk ukur warna,18,1,1,11,0.05263157894736842,0.9851279000594885,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,buah sayur tanam panen lepas pasar periksa tenaga ahli latih dahulu,19,1,1,8,0.0,0.994646044021416,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,faktor timbang ahli nilai kualitas warna tekstur produk,20,1,1,8,0.0625,0.9994051160023796,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,periksa klasifikasi manual timbul kemung kan salah manusia,21,1,1,22,0.03571428571428571,0.9994051160023796,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,hasil sukses proses klasifikasi orang orang latih periksa produk harus milik kenal analisis konsisten sulit bosan ulang ulang aaron et al 2020 ,22,1,1,18,0.125,0.9946460440214158,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,sistem cerdas metode computer vision machine learning eksplorasi dekade meng identifikasi cacat an buah nilai matang kategorisasi buah,24,1,1,14,0.043478260869565216,0.9708506841165973,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,salah contoh teliti mehenag katun et al mahenag katun et al 2020 aju metode klasifikasi jenis buah convolutional neureal network cnn ,25,1,1,12,0.05,0.9518143961927424,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,dataset milik 1400 gambar buah 7 kelas apel pisang jeruk pir mangga nanas strawberry,26,1,1,11,0.05555555555555555,0.9280190362879238,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,metode hasil akurasi 98 convolutional neural network cnn salah metode deep learning ,27,1,1,12,0.0,0.8994646044021416,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,klasifikasi gambar mudah tahan fitur asli gambar digitalisasi banyak data olah,28,1,1,12,0.0,0.8661511005353956,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,cnn milik mampu ajar representasi otomatis ekstraksi fitur fitur gambar skala beda,29,1,1,18,0.045454545454545456,0.828078524687686,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,cnn mampu ekstraksi fitur gambar kuat akurat chunguang bi et al 2023 ,30,1,1,20,0.0,0.7852468768590125,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,guna cnn image recognition klasifikasi tren bidang tani bidang sepe rti scene image recognition remote sensing image analysis ,31,1,1,11,0.0,0.7376561570493754,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,operasi konvolusi kontributor utama tugas computer vision struktur jaring vgg 16 vgg 19 alexnet xception proses komputasi operasi konvolusi tinggi,32,1,1,10,0.0,0.6853063652587745,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,mobilenetv2 lightweight cnn 3 fokus mobile device usul tim google 2018 ,34,1,1,28,0.2,0.5663295657346819,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,banding cnn mobilenetv2 kurang parameter model proses hitung turun akurasi ,35,1,1,16,0.15,0.49970255800118984,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,shiqing dou et al 2023 ,36,1,1,53,0.045454545454545456,0.4283164782867341,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,teliti suharjito et al 2021 aplikasi android klasifikasi matang buah kelapa sawit mobilenet v1 aplikasi beda matang buah kelapa sawit tingkat matang matang m atang matang tandan kosong,37,1,1,13,0.0,0.3521713265913146,0.05263157894736842
+Ragmar Faikar Eka_Kualifikasi.txt,mekanisme attention module neural network perhati informasi gambar sembunyi informasi guna tingkat efisiensi proses klasifikasi gambar,38,1,1,12,0.0,0.27126710291493145,0.10526315789473684
+Ragmar Faikar Eka_Kualifikasi.txt,convolutional block attention module cbam lightweight attention module channel attention module cam spatial attention module sam shiqing dou et al 2023 mana channel attention module coba tangkap gambar spatial module attention fokus gambar tej bahdur et al 2022 teliti huixuan fu guoqing song yuchao wang usul meodel yolov4 gabung cbam deteksi target laut,39,1,1,9,0.0,0.18560380725758494,0.10526315789473684
+Ragmar Faikar Eka_Kualifikasi.txt,cbam neural network perhati area sasar isi informasi tekan informasi relevan tingkat akurasi,40,1,1,24,0.391304347826087,0.09518143961927432,0.0
+Ragmar Faikar Eka_Kualifikasi.txt,hasil tel tian cbam model yolov4 tingkat akurasi banding model yolov4 biasa,41,1,1,24,0.42857142857142855,0.0,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,kembang teknologi informasi pesat dekade sebab transformasi sektor anantrasirichai bull 2022 ,0,1,1,11,0.04,0.0,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,salah dorong utama transformasi maju teknologi cerdas buat artificial intelligence ai c zhang lu 2021 bidang machine learning ml alpaydin 2020 ,1,1,1,21,0.09090909090909091,0.06347554630593132,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,teknologi revolusi sektor sehat arumugam naved shinde leiva chauca huaman osorio gonzales yanac 2023 kaur singh verma 2023 energi c zhao wan song 2021 manufaktur kotsiopoulos sarigiannidis ioannidis tzovaras 2021 tingkat efisiensi operasiona l analisis big data kenal pola ambil putus mehmood bashir rabie broderick davies 2023 rai tiwari ivanov dolgui 2021 ,2,1,1,52,0.0,0.12486992715920915,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,sektor tani pangan luput dampak positif machine learning ml ,3,1,1,9,0.08695652173913043,0.1841831425598335,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,teknologi bukti efektif optimal operasi rencana manajemen sedia distribusi produk kontribusi tingkat efisiensi operasional sektor tani pangan kuradusenge hitimana hanyurwimfura rukundo mtonga mukasine uwitonze ngabonziza uwamahoro 2023 lutoslawski hernes radomska hajdas walaszczyk kozina 2021 ,4,1,1,34,0.02040816326530612,0.24141519250780438,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,pangan butuh dasar manusia penuh,6,1,1,36,0.023255813953488372,0.3496357960457856,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,hak pangan salah hak asasi manusia pasal 27 undang undang dasar 1945 deklarasi roma 1996 butuh dasar salah hak asasi manusia pangan main peran stabilitas sosial ekonomi politik negara bulog 2024 clapp moseley burlingame termine 2022 ,7,1,1,11,0.0,0.400624349635796,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,negara milik wajib penuh butuh pangan duduk penuh hak hak lain,8,1,1,8,0.0,0.449531737773153,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,abai hak 2 anggap langgar hak asasi manusia,9,1,1,13,0.0,0.49635796045785646,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,hak pangan terus abai jahat genosida maskun naswar ahmad ilmar napang nugraha 2021 ,12,1,1,9,0.0,0.6243496357960457,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,sorot aman tahan pangan nasional ,13,1,1,19,0.03125,0.6628511966701353,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,uu no,14,1,1,15,0.03571428571428571,0.6992715920915712,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,18 2012 tahan pangan kondisi penuh pangan kualitas masyarakat ,16,1,1,12,0.04,0.7658688865764828,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,ganggu tahan pangan roket harga pangan krisis ekonomi 19971998 picu gejolak sosial bahaya stabilitas ekonomi aman nasional bulog 2024 ,17,1,1,24,0.02702702702702703,0.7960457856399583,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,jadi jaga tahan pangan jaga stabilitas ekonomi politik aman nasional bulog 2024 clapp et al,18,1,1,7,0.045454545454545456,0.8241415192507805,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,2022 ,19,1,1,28,0.10810810810810811,0.8501560874089491,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,indonesia pangan kait komoditas beras beras makan pokok pegang peran tahan pangan ,20,1,1,15,0.0,0.8740894901144641,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,cermin tingkat konsumsi beras kisar 8588 9173 alfa subagyo 2018 fakta masyarakat indonesia alokasi 50 total keluar beli beras hafizah hakim harianto nurmalina 2020 ,21,1,1,17,0.03225806451612903,0.8959417273673258,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,jaga sedia beras tahan pangan octania 2021 ,22,1,1,9,0.043478260869565216,0.9157127991675338,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,permendag nomor 4 2012 instruksi presiden nomor 5 2015 cadang beras perintah cbp kelola perum bulog instrumen kunci jaga stabilitas harga beras sedia pangan ketaha nan pangan nasional,23,1,1,28,0.023809523809523808,0.9334027055150884,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,cbp fungsi buffer stock intervensi pasar lonjak harga penuh butuh pangan masyarakat dampak bencana alam,24,1,1,20,0.0,0.9490114464099896,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,lepas cbp tahan pangan manajemen cbp indonesia hadap tantang kompleks liput tumbuh populasi turun produksi ubah iklim,25,1,1,48,0.0,0.9625390218522373,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,tumbuh populasi pesat menyeb abkan tingkat minta beras signifikan ,26,1,1,12,0.04,0.9739854318418314,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,jalan turun produksi akibat ubah iklim bencana alam alih fungsi lahan tani anca m 3 sedia sedia beras beltran pe a rosa dodorico 2020 lee lin petway 2018 ,27,1,1,21,0.125,0.983350676378772,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,seringkali sebab fluktuasi harga kendali beban masyarakat masyarakat ekonomi rendah menganggu stabilitas tahan pangan nasional sebab rawan pangan octania 2021 ,28,1,1,20,0.07692307692307693,0.9906347554630592,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,ubah iklim sebab kondisi cuaca ekstrem ubah pola hujan langsung dampak pola tanam produksi pangan tingkat risiko gagal panen ketidakstabilan sedia amir saqib khan khan bokhari zaman ulhaq majid 2020 farooq uzair raza habib xu yousuf ramzan khan 2022 hasegawa sakura fujimori takahashi hijioka masui 2021 mukherjee 2021 ,29,1,1,32,0.046511627906976744,0.995837669094693,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,faktor faktor akumulatif cipta ketidakpastian manajemen cbp sulit ambil putus akurat waktu,30,1,1,11,0.09090909090909091,0.9989594172736732,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,sesuai pasal 5 atur badan pangan nasional nomor 12 2022 manajemen cadang beras perintah cbp libat tahap liput ada simpan distribusi ,31,1,1,20,0.06896551724137931,1.0,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,tahap ada meng identifikasi butuh sedia dasar prediksi minta butuh produksi ikut rencana ada libat tugas tugas tentu cadang sedia ,32,1,1,12,0.0,0.9989594172736732,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,metode konvensional prediksi produksi minta beras metode logika fuzzy regresi linier ganda seringkali akurat milik batas tangan data kompleks tangkap faktor eksternal tumbuh populasi turun produksi ubah iklim sari ananda rani 2020 ,34,1,1,13,0.16,0.9906347554630593,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,batas sulit tentu prediksi akurat tentu cadang optimal ambil putus ada ,35,1,1,18,0.0,0.983350676378772,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,salah mem prediksi produksi minta sebab lebih kurang sedia dampak naik harga beras ganggu stabilitas ekonomi sosial 4 octania 2021 ,39,1,1,13,0.11538461538461539,0.9334027055150884,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,tiada sistem dukung putus komprehensif hambat ambil putus strategis kait ada cbp,40,1,1,25,0.027777777777777776,0.9157127991675338,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,hadap tantang dekat inovatif bas data,41,1,1,24,0.02631578947368421,0.8959417273673257,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,teknologi machine learning ml tawar potensi tingkat akurasi prediksi optimasi cadang ambil putus ,42,1,1,20,0.06896551724137931,0.8740894901144641,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,manfaat teknologi bantu atas tantang rawan pangan efektif sedia pangan dukung stabilitas harga pasar nasional mehmood et al,43,1,1,7,0.047619047619047616,0.8501560874089489,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,2023 rai et al,44,1,1,20,0.09375,0.8241415192507804,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,2021 ,45,1,1,16,0.034482758620689655,0.7960457856399583,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,teliti usul model prediksi produksi minta ,47,1,1,23,0.08823529411764706,0.7336108220603538,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,noorunnahar chowdhury and mila 2023 banding model arima xgboost prediksi produksi beras bangladesh ,48,1,1,12,0.08,0.6992715920915713,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,hasil teliti model xgboost unggul model arima nilai mae rmse 2 779 742 3 195 985 model libat variabel suhu curah hujan nilai error tinggi,49,1,1,12,0.23809523809523808,0.6628511966701354,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,satpathi setiya das nain jha singh and singh 2023 banding metode smlr ann lasso elnet ridge regression ensemble models prediksi hasil panen padi chhattisgarh,50,1,1,17,0.07142857142857142,0.6243496357960459,0.1
+Reviana Siti Mardiah_Kualifikasi.txt,hasil teliti model prediksi ann unggul model nilai r2 1 099 nilai rmse 0003 0004 mampu model tangan variabel prediksi ,51,1,1,17,0.034482758620689655,0.5837669094693027,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,model kerja latih proses uji sebab overfitting ,52,1,1,11,0.17391304347826086,0.5411030176899062,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,nassibi fasihuddin and hsairi 2023 banding metode long short term memory lstm support vector machine svm prediksi minta produk makan,53,1,1,19,0.1,0.49635796045785635,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,hasil teliti model lstm unggul model svm nilai mape rmse 378153 224 464 kontribusi kurang limbah,54,1,1,34,0.0,0.449531737773153,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,kerja model gantung kualitas lengkap data ,55,1,1,21,0.030303030303030304,0.4006243496357961,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,5 teliti machine learning ml ramal produksi minta akurat metode konvensional arima model model milik batas risiko overfitting timbang variabel eksternal ubah iklim,56,1,1,21,0.06451612903225806,0.3496357960457857,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,sisi kerja model model gantung kualitas kuantitas data kali hasil prediksi akurat ,57,1,1,31,0.0975609756097561,0.2965660770031219,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,solusi atas batas integrasi generative ai gen ai model prediksi bas ml ,58,1,1,22,0.06060606060606061,0.24141519250780455,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,gen ai hasil data sinteti s kualitas lengkap baik data tingkat kualitas dataset prediksi yu guo 2023 ,59,1,1,13,0.038461538461538464,0.18418314255983334,0.05
+Reviana Siti Mardiah_Kualifikasi.txt,teknologi guna men cipta skenario latih agam bantu model ajar data agam kurang overfitting manjunath palayyan 2023 ,60,1,1,16,0.14814814814814814,0.12486992715920905,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,teliti tuju kembang model prediksi akurat manfaat teknologi gen ai ml,61,1,1,17,0.0,0.06347554630593126,0.0
+Reviana Siti Mardiah_Kualifikasi.txt,model manfaat gan tipe generative ai hasil data realistis atas gantung data kualitas ml harshvardhan gourisaria pandey rautaray 2020 ,62,1,1,15,0.07142857142857142,0.0,0.05
+Reza Al Husna_Kualifikasi.txt,konsep artificial intelligence ai libat buat maju sistem komputer tugas tugas cerdas manusia persepsi visual kenal suara ambil putus terjemah bahasa russel 2016 cakup bidang bidang olah citra pemrosesan data machine learning ml deep learning dl teknologi visi komputer kale 2019 ,0,1,1,41,0.0,0.0,0.0
+Reza Al Husna_Kualifikasi.txt,ai fokus teliti kembang teknologi tarik bukti dampak signifikan industr i industr i tani mar et al,1,1,1,17,0.043478260869565216,0.07544378698224852,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,2019 ml cabang ai bantu sistem komputer ajar data tingkat kerja pemrograman eksplisit kamilaris prenafeta bold 2018 maju besar kembang ai bidang dl mar et al,2,1,1,26,0.03125,0.14792899408284024,0.13333333333333333
+Reza Al Husna_Kualifikasi.txt,2019 ,4,1,1,11,0.0,0.28402366863905326,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,dl subbidang ml jaring saraf tiru atas kompleks tingkat akurasi tinggi,5,1,1,29,0.029411764705882353,0.34763313609467456,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,algoritma dl hasil terap aplikasi kenal citra pemrosesan bahasa alami analisis data lecun bengio hinton 2015 dl subbidang ml bawa revolusi visi komputer model data kompleks kenal pola efisien,6,1,1,17,0.14285714285714285,0.4082840236686391,0.0
+Reza Al Husna_Kualifikasi.txt,industri tani dl tugas visi komputer solusi cerdas pantau prediksi otomatisasi tanam salah satu deteksi sakit tanam,7,1,1,14,0.0,0.46597633136094674,0.0
+Reza Al Husna_Kualifikasi.txt,2 dekade tani sumber dapat utama negara kontribusi signifikan ekonomi global parez et al,8,1,1,7,0.14285714285714285,0.5207100591715976,0.0
+Reza Al Husna_Kualifikasi.txt,2023 tanam kakao theobroma cacao komoditas dunia ,9,1,1,8,0.0625,0.5724852071005917,0.0
+Reza Al Husna_Kualifikasi.txt,indonesia salah negara eksportir utama kakao dagang internasional ,10,1,1,7,0.06666666666666667,0.6213017751479291,0.0
+Reza Al Husna_Kualifikasi.txt,indonesia produksi biji kakao 700 000 ton,12,1,1,9,0.0625,0.7100591715976331,0.0
+Reza Al Husna_Kualifikasi.txt,produksi kakao indonesia turun akhir,13,1,1,34,0.03125,0.75,0.0
+Reza Al Husna_Kualifikasi.txt,2022 indonesia produksi kakao 650 600 ton biji kakao,14,1,1,28,0.1111111111111111,0.7869822485207101,0.0
+Reza Al Husna_Kualifikasi.txt,produksi turun 304 banding produksi 2021 688 200 ton produksi 2021 turun persen banding catat 720 660 ton badan pusat statistik indonesia 2023 kenda la jaga produksi kakao indonesia dukung program antisipasi turun produksi,15,1,1,10,0.13333333333333333,0.8210059171597632,0.0
+Reza Al Husna_Kualifikasi.txt,turun produksi kakao milik dampak luas bisip tani 2023 faktor kontribusi turun produksi sebab banyak pohon ka kao tua produktif kurang pelihara intensif sebab tanam kakao serang sakit,16,1,1,19,0.08,0.8520710059171598,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,sakit kakao sebab turun produksi kakao 50 arnawa et al,17,1,1,43,0.07317073170731707,0.8801775147928995,0.0
+Reza Al Husna_Kualifikasi.txt,2012 p enyakit kakao salah faktor kontribusi turun biji biji global pengaruh tumbuh sehat produktivitas tanam rusak hasil panen,18,1,1,14,0.05,0.9053254437869822,0.0
+Reza Al Husna_Kualifikasi.txt,sakit utama serang tanam kakao sakit kanker batang sakit vascular streak dieback vsd cocoa swol len shoot virus cssv leaf blotch witches broom diseases wbd monilia pod rot antraknosa sakit busuk buah sebab phytophthora palmivora tumpal 2014 sakit sakit rugi area tanam kakao,19,1,1,28,0.09375,0.9275147928994082,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,gejala alami tanam variasi gantung jenis saki t jenis tanam infeksi 3 kondisi lingkung,20,1,1,18,0.14285714285714285,0.9467455621301776,0.0
+Reza Al Husna_Kualifikasi.txt,gejala tanam kena sakit bercak lesi daun daun kuning rontok tumbuh hambat rusa vena keropeng deformitas buah bunga kembang batang akar alami busuk produksi turun mati tanam perlintan2023,21,1,1,14,0.21052631578947367,0.9630177514792899,0.0
+Reza Al Husna_Kualifikasi.txt,sakit tanam kakao sama sulit identifikasi jenis sakit akurasi kenal sakit rendah kondisi al ami patil mar 2022 ,22,1,1,10,0.11764705882352941,0.9763313609467454,0.0
+Reza Al Husna_Kualifikasi.txt,teliti usul metode ml dl tugas visi komputer identifikasi deteksi sakit tanam kakao akurat ,23,1,1,17,0.0,0.9866863905325444,0.0
+Reza Al Husna_Kualifikasi.txt,teliti manfaat ml dl tugas visi komputer kenal sakit tanam,24,1,1,15,0.09090909090909091,0.9940828402366864,0.0
+Reza Al Husna_Kualifikasi.txt,teliti teliti model support vector machine svm ml gabung metode ekstraksi fitur convolutional neural network cnn ml ,25,1,1,34,0.04878048780487805,0.9985207100591715,0.0
+Reza Al Husna_Kualifikasi.txt,teliti rodriguez alfaro paredes esenarro hilarion 2021 hog lbp ekstraksi fitur svm klasifikasi sakit tanam,26,1,1,17,0.04,1.0,0.0
+Reza Al Husna_Kualifikasi.txt,teliti harakannanavar rudagi puranikmath siddiqua pramodhini 2022 discrete wavelet transform dwt principal component analysis pca gray level co occurrence matrix glcm ekstraksi fitur lokal model svm knearest neighbors knn cnn klasifikasi sakit daun tanam,27,1,1,14,0.15,0.9985207100591716,0.0
+Reza Al Husna_Kualifikasi.txt,teliti rachma d syarief rifka sonata setiawan rochman 2022 lbp ekstraksi fitur knn klasifikasi sakit daun jagung ,28,1,1,17,0.10526315789473684,0.9940828402366864,0.0
+Reza Al Husna_Kualifikasi.txt,teliti hosny el hady samy vrochidou papakostas 2023 lbp cnn deteksi sakit daun tanam,29,1,1,11,0.11764705882352941,0.9866863905325444,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,model atas salah inovasi baru model dl bawa maju signifikan vision transformer vit kenal dekat kenal citra,30,1,1,16,0.043478260869565216,0.9763313609467456,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,vit adopsi konsep transformer kembang tugas tugas natural language processing nlp,31,1,1,16,0.15,0.9630177514792899,0.0
+Reza Al Husna_Kualifikasi.txt,transformer attention mechanism fokus 4 input data tingkat mampu model paham konteks kompleks vaswani et al,32,1,1,10,0.0625,0.9467455621301775,0.0
+Reza Al Husna_Kualifikasi.txt,2017 bidang tani vit terap pantau tumbuh tanam deteksi sakit tanam bantu tani ambil putus cepat,33,1,1,14,0.05,0.9275147928994083,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,beda teliti atas teliti adopsi pendekatakan feature fusion bas attention,34,1,1,13,0.0,0.9053254437869822,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,feature fusion bas attention metode gabung fitur fitur ekstraksi mekanisme attention tingkat kerja model,37,1,1,7,0.14285714285714285,0.8210059171597632,0.0
+Reza Al Husna_Kualifikasi.txt,mekanisme attention mampu model fokus input tingkat representasi fitur relevan hu et al,38,1,1,10,0.0625,0.7869822485207102,0.0
+Reza Al Husna_Kualifikasi.txt,2018 ,39,1,1,18,0.0,0.75,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,teliti borhan et al,40,1,1,8,0.13333333333333333,0.7100591715976331,0.0
+Reza Al Husna_Kualifikasi.txt,2022 eksplorasi model vit klasifikasi sakit tanam,41,1,1,9,0.0,0.6671597633136095,0.0
+Reza Al Husna_Kualifikasi.txt,gabung blok konvolusional blok attention transformer bantu model akurasi tinggi,42,1,1,11,0.0,0.621301775147929,0.0
+Reza Al Husna_Kualifikasi.txt,hasil akurasi model hybrid usul dataset capai 100 dataset daun padi 917 dataset karat gandum 9877 dataset plantvillage ,43,1,1,11,0.0,0.5724852071005918,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,teliti lye ng 2023 klasifikasi sakit tanam vit,44,1,1,19,0.08333333333333333,0.5207100591715976,0.0
+Reza Al Husna_Kualifikasi.txt,teliti fokus identifikasi daun banding individual b agian tentu,45,1,1,13,0.0,0.4659763313609466,0.0
+Reza Al Husna_Kualifikasi.txt,modul attention mechanism locality self attention sla bantu fokus identifikasi daun,46,1,1,7,0.0,0.40828402366863914,0.0
+Reza Al Husna_Kualifikasi.txt,hasil akurasi oleh 8958 tahan model muas ubah orientasi posisi daun,47,1,1,12,0.0,0.34763313609467456,0.06666666666666667
+Reza Al Husna_Kualifikasi.txt,tabbakh barpanda 2023 eksplorasi dekat feature fusion gabung model transfer learning model vit nama tlmvit klasifikasi sakit daun tanam,48,1,1,22,0.07407407407407407,0.2840236686390531,0.0
+Reza Al Husna_Kualifikasi.txt,teliti fase ekstraksi fitur ekstraksi fitur model pretrained ekstraksi fitur dalam model vit,50,1,1,19,0.125,0.14792899408284013,0.0
+Reza Al Husna_Kualifikasi.txt,model klasifikasi mlp uji model pretrained vit,51,1,1,7,0.07142857142857142,0.07544378698224868,0.0
+Reza Al Husna_Kualifikasi.txt,model usul teliti 5 unggul model transfer learning tingkat akurasi 111 1099 ,52,1,1,23,0.03333333333333333,0.0,0.06666666666666667
+Robert_Kualifikasi.txt,teliti robot cerdas tingkat mukherjee gupta chang najjaran 2022 ,0,1,1,9,0.0,0.0,0.09090909090909091
+Robert_Kualifikasi.txt,robot cerdas robot tugas berintaksi linkungan ,2,1,1,11,0.05,0.1994459833795014,0.09090909090909091
+Robert_Kualifikasi.txt,robot cerdas kembang bidang industri garcia jimenez de santos armada 2007 ,4,1,1,14,0.0,0.3767313019390581,0.0
+Robert_Kualifikasi.txt,salah contoh robot cerdas bidang industri welding robot ,5,1,1,12,0.0,0.4570637119113573,0.0
+Robert_Kualifikasi.txt,welding robot robot proses kelas objek campur tangan manusia coman rontescu bogatu cicic 2021 ,6,1,1,12,0.0,0.5318559556786703,0.0
+Robert_Kualifikasi.txt,robot bidang industri teliti robot cerdas bidang sosial salah teliti johal 2020 ,7,1,1,18,0.0,0.6011080332409972,0.09090909090909091
+Robert_Kualifikasi.txt,robot sosial robot disain interaksi manusia rawal stock homburg 2022 retto 2017 ,9,1,1,9,0.11764705882352941,0.7229916897506925,0.0
+Robert_Kualifikasi.txt,robot sosial disain interaksi layak manusia robot milik mampu komunikasi bahasa tingkat hegel muhl wrede fastabend sagerer 2009 ,10,1,1,26,0.06666666666666667,0.775623268698061,0.0
+Robert_Kualifikasi.txt,salah contoh robot sosial sophia sophia robot manusia cakap manusia bahasa tingkat kenal wajah keluar ekspresi milik mampu kenal ekspresi wajah retto 2017 ,11,1,1,13,0.0,0.8227146814404432,0.0
+Robert_Kualifikasi.txt,ekspresi wajah salah komponen robot komunikasi sesuai frith 2009 ,12,1,1,20,0.0,0.8642659279778393,0.0
+Robert_Kualifikasi.txt,bidang robotika ekspresi wajah peran bidang psikologi emosi pengaruh ambil putus george dane 2016 dasar teliti rawal stock homburg 2022 55 informasi afektif dapat ekspresi wajah ,13,1,1,16,0.0,0.9002770083102494,0.0
+Robert_Kualifikasi.txt,4 artificial intelligence ai bidang mesin pikir ambil putus layak manusia khanzode 2020 ,15,1,1,18,0.0,0.9556786703601108,0.0
+Robert_Kualifikasi.txt,ai bidang luas dalam ai machine learning ml ml mesin ajar data pikir ambil putus awad khanna 2015 khanzode 2020 ,16,1,1,7,0.21428571428571427,0.9750692520775623,0.0
+Robert_Kualifikasi.txt,performa ml gantung proses ekstrasi fitur alzubaidi zhang humaidi aldujaili duan alshamma 2021 shinde shah 2018 ,17,1,1,23,0.11538461538461539,0.9889196675900276,0.0
+Robert_Kualifikasi.txt,ajar ml deep learning dl ,18,1,1,21,0.16666666666666666,0.9972299168975071,0.09090909090909091
+Robert_Kualifikasi.txt,dl mesin ajar pikir ambil putus pilih data ambil putus mesin pengaruh noise data janiesch zschech heinrich 2021 ,19,1,1,11,0.0,1.0,0.0
+Robert_Kualifikasi.txt,teliti manfaat ml dl kenal ekspresi wajah ,20,1,1,19,0.16666666666666666,0.997229916897507,0.0
+Robert_Kualifikasi.txt,garis teliti teliti model support vector mach ine svm model ml gabung metode ekstrasi fitur model convolution al neural network cnn model dl,21,1,1,13,0.21052631578947367,0.9889196675900277,0.0
+Robert_Kualifikasi.txt,teliti shan gong mcowan 2009 local binary pattern lbp ekstrasi fitur svm model kenal ekspresi wajah dasar hasil ekstrasi fitur lbp,22,1,1,15,0.19047619047619047,0.9750692520775623,0.09090909090909091
+Robert_Kualifikasi.txt,teliti mohammad ali 2011 local monotonic pattern lmp ekstrasi fitur svm,23,1,1,10,0.0,0.9556786703601108,0.0
+Robert_Kualifikasi.txt,teliti deshmukh patwardhan mahajan 2016 viola jones algorithm vja deteksi wajah lbp svm sistem kenal ekspresi wajah real time,24,1,1,16,0.2631578947368421,0.9307479224376731,0.09090909090909091
+Robert_Kualifikasi.txt,teliti sawardekar 2018 lbp cnn knearest neighbor knn model ml kenal ekspresi wajah,25,1,1,13,0.0,0.9002770083102493,0.09090909090909091
+Robert_Kualifikasi.txt,teliti turabzadeh meng swash pleva juhar 2018 lbp knn bangun sistem kenal ekspresi wajah realtime,26,1,1,35,0.12121212121212122,0.8642659279778393,0.0
+Robert_Kualifikasi.txt,teliti eleyan 2023 analisis histogram based feature extraction algorithm knn,27,1,1,8,0.058823529411764705,0.8227146814404432,0.0
+Robert_Kualifikasi.txt,model model teliti kembang model dl manfaat morfologi matematika ekstrasi fitur morphological neural network 5 mnn ,31,1,1,7,0.0,0.6011080332409973,0.09090909090909091
+Robert_Kualifikasi.txt,hasil teliti shen zhong shih 2022 mnn milik performa tara cnn kompleksitas rendah,32,1,1,16,0.5625,0.5318559556786705,0.09090909090909091
+Robert_Kualifikasi.txt,garis model cnn mnn milik arstektur beda model cnn konvolusi ekstrasi fitur mnn morfologi ekstrasi fitur model hubung lapis ekstrasi fitur ful ly connected layer fclayer dikatan seb uah artificial neural network ann klasifikasi objek ,33,1,1,12,0.0,0.45706371191135725,0.0
+Robert_Kualifikasi.txt,jenis morfologi model mnn teliti shen et al,34,1,1,10,0.25,0.3767313019390581,0.09090909090909091
+Robert_Kualifikasi.txt,2019 opening structure element disk,35,1,1,7,0.3076923076923077,0.2908587257617729,0.0
+Robert_Kualifikasi.txt,komponen operasi morfologi,36,1,1,8,0.13333333333333333,0.19944598337950156,0.0
+Robert_Kualifikasi.txt,tentu ambil nilai area citra ,37,1,1,12,0.05263157894736842,0.10249307479224366,0.0
+Robert_Kualifikasi.txt,hasil operasi morfologi opening mengekstrasi fitur utuh ,38,1,1,18,0.21052631578947367,0.0,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,teknologi digital main peran tingkat lestari tingkat sadar masyarakat wadah ajar waris budaya,0,1,1,13,0.0,0.0,0.14285714285714285
+Tatya Atyanti Paramastri_Kualifikasi.txt,batik salah pusaka budaya milik indonesia aku unesco mahakarya pusaka manusia lisan benda 2009 silam,1,1,1,15,0.043478260869565216,0.07270233196159122,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,kain batik aku unesco kain kain corak fisik kain sarat simbol makna doa harap,2,1,1,14,0.05,0.14266117969821673,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,proklamasi merdeka indonesia presiden ir,7,1,1,9,0.25,0.4513031550068587,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,soekarno angkat batik jawa batik indonesia,8,1,1,11,0.1,0.50480109739369,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,salah daerah kembang batik yogyakarta,9,1,1,8,0.05555555555555555,0.5555555555555556,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,yogyakarta sebut batik daur hidup yogyakarta,10,1,1,24,0.23076923076923078,0.6035665294924555,0.14285714285714285
+Tatya Atyanti Paramastri_Kualifikasi.txt,motif batik milik makna lahir iring daur hidup manusia,13,1,1,11,0.0,0.7311385459533608,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,upacara ritual kait daur hidup erat masyarakat jawa tahan imbang lingkung,14,1,1,8,0.1875,0.7681755829903977,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,laksana upacara ritual piranti bahan seharihari kain batik,15,1,1,24,0.0625,0.8024691358024691,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,daur hidup janin kandung lahir tumbuh kembang meni alam baka sekar jagad 2015 ratus motif batik khas yogyakarta mana masingmasing motif milik makna sendiri,16,1,1,8,0.11764705882352941,0.8340192043895748,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,contoh motif kenal parang kawung motif parang rusak pola dasar parang motif milik makna perang lawan rusak perilaku baik,17,1,1,7,0.058823529411764705,0.8628257887517147,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,motif milik jenis ukur,19,1,1,22,0.04,0.9122085048010974,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,parang rusak ukur bidang parang 8 cm parang barong kena raja,20,1,1,13,0.05,0.9327846364883402,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,motif batik larang kena area puro pakualaman yogyakarta,21,1,1,10,0.058823529411764705,0.9506172839506174,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,motif kawung melambang ajar proses hidup manusia manusia pusat lahirdisertai 4 saudara darah air ketuban ariari tali pusar kandung jaga bayi selamat lahir dunia,22,1,1,10,0.125,0.9657064471879285,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,motif kawung melambang harap hidup mapan lahir batin,24,1,1,19,0.08333333333333333,0.9876543209876543,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,batik acara lahir tedhak siten ruwat mati,26,1,1,14,0.043478260869565216,0.9986282578875173,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,batik saran acara nikah,28,1,1,13,0.05,0.9986282578875172,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,a b gambar 1 1 a batik parang b batik kawung kain busana batik marak acara acara formal nikah lamar rapat lain,29,1,1,17,0.037037037037037035,0.9945130315500685,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,tamutamu negara kena busana batik acara negara kaum muda perhati trend busana batik,31,1,1,11,0.1111111111111111,0.9780521262002744,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,tahu batik turun ajar resmi ilmu batik turun masyarakat luas,33,1,1,11,0.2222222222222222,0.9506172839506173,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,kurang tahu makna balik motif batik kali kesan tampil nyaman,34,1,1,13,0.11764705882352941,0.9327846364883402,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,contoh guna kain batik motif jarang kali tarik perhati busana kena tamu undang lain,36,1,1,11,0.16666666666666666,0.888888888888889,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,temu jadi mana tamu undang nikah kena kain batik slobog motif batik anggap muncul geometris simple milik motif cantik,37,1,1,23,0.0,0.8628257887517146,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,lobog milik arti longgar lancar,38,1,1,8,0.058823529411764705,0.8340192043895748,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,kain batik slobog acara mati harap arwah alam abadi lancar jalan jalan longgar halang,39,1,1,26,0.0,0.8024691358024691,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,kain acara nikah,40,1,1,22,0.07407407407407407,0.7681755829903979,0.14285714285714285
+Tatya Atyanti Paramastri_Kualifikasi.txt,gambar 1 2 batik slobog pakai batik batik kombinasi batik modern marak pasar,41,1,1,10,0.05263157894736842,0.7311385459533607,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,dewan ahli ppbi sekar jagad mari s condronegoro pamer temu batik kombinasi kandung makna berangan gabung kain,42,1,1,13,0.047619047619047616,0.691358024691358,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,sedia informasi batik daur hidup batas,43,1,1,7,0.0,0.6488340192043897,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,motif batik agam makna berbedabeda buat sulit nali butuh tahu khusus,44,1,1,13,0.045454545454545456,0.6035665294924555,0.14285714285714285
+Tatya Atyanti Paramastri_Kualifikasi.txt,butuh peran teknologi mudah,45,1,1,8,0.0625,0.5555555555555555,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,salah alternatif bantu deteksi otomatis motif batik sistem klasifikasi bas citra,46,1,1,9,0.0,0.50480109739369,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,klasifikasi bas citra kategori citra digital dalam kelas kelas dasar informasi citra sebut,47,1,1,18,0.07407407407407407,0.45130315500685875,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,informasi tekstur warna bentuk lain,49,1,1,13,0.10526315789473684,0.33607681755829893,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,studi klasifikasi motif batik metode klasik deep learning temu arang jadi,50,1,1,13,0.0,0.27434842249657065,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,salah pengaruh dataset sesuai dukung akurat meranggi yudistira sari 2022 fitriani tresnawati sukriyansah 2023 anggoro marzukidan supriyanti 2024 ambil dataset primer bantu ahli,51,1,1,9,0.0,0.20987654320987664,0.0
+Tatya Atyanti Paramastri_Kualifikasi.txt,banyak teliti klasifikasi fokus metode cnn ilahi dkk,52,1,1,19,0.22727272727272727,0.14266117969821693,0.14285714285714285
+Tatya Atyanti Paramastri_Kualifikasi.txt,2022 meranggi yudistira sari 2022 fitriani tresnawati sukriyansah 2023 anggoro marzukidan supriyanti 2024 dasar teliti cnn klasik milik lemah paham makna gambar kait hubung gambar beda,53,1,1,10,0.058823529411764705,0.07270233196159111,0.0
+Tia Haryanti_Kualifikasi.txt,transformasi digital bawa maju pesat bidang industri teliti,0,1,1,8,0.0,0.0,0.0
+Tia Haryanti_Kualifikasi.txt,teknologi informasi liput guna komputer perangkat lunak jaring simpan proses kirim informasi bentuk ,1,1,1,13,0.0,0.0615234375,0.0
+Tia Haryanti_Kualifikasi.txt,kembang teknologi bidang cipta inovasi otomatisasi proses lanjut olah data cipta efisiensi,2,1,1,12,0.0,0.12109375,0.06060606060606061
+Tia Haryanti_Kualifikasi.txt,salah ilmu bidang teknologi informasi signifikan cerdas artifisial artificial intelligence,3,1,1,10,0.125,0.1787109375,0.0
+Tia Haryanti_Kualifikasi.txt,artificial intelligence sistem komputer tugas tugas butuh cerdas manusia,4,1,1,9,0.23076923076923078,0.234375,0.0
+Tia Haryanti_Kualifikasi.txt,teknologi putus analis data sedia sistem lubis 2021 proses artificial intelligence cakup learning reasoning selfcorrection ,5,1,1,15,0.15,0.2880859375,0.0
+Tia Haryanti_Kualifikasi.txt,proses manusia mel aku analisis putus kenal pola ambil putus aplikasi luas awat sehat otomotif,6,1,1,15,0.0,0.33984375,0.0
+Tia Haryanti_Kualifikasi.txt,integrasi bidang teknologi informasi ilmu ergonomi studi efisien si optimalisasi sejahtera manusia lingkung kerja cipta solusi teknologis dukung sejahtera produktivitas manusia,7,1,1,21,0.0,0.3896484375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,kembang alat sistem ajar sesuai butuh guna fasilitas desain antarmuka intuitif bantu analisis ergonomis identifikasi risiko sehat selamat,8,1,1,18,0.041666666666666664,0.4375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,cerdas buat analis postur kerja deteksi lelah rekomendasi ubah kurang risiko cedera tingkat kerja,9,1,1,14,0.05555555555555555,0.4833984375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,salah tantang signifikan selamat kendara atas lelah kantuk kemudi 2 kendara,10,1,1,11,0.13333333333333333,0.52734375,0.0
+Tia Haryanti_Kualifikasi.txt,kantuk diid entifikasi faktor utama celaka lintas ,11,1,1,7,0.07142857142857142,0.5693359375,0.0
+Tia Haryanti_Kualifikasi.txt,celaka lintas akibat lelah kemudi serius ancam selamat jalan raya dunia,12,1,1,11,0.05555555555555555,0.609375,0.0
+Tia Haryanti_Kualifikasi.txt,celaka lintas sebab mati 1 19 juta orang tahun world health organization 202 3 sebab mati cedera celaka lintas timbul rugi ekonomi timbul biaya obat hilang produktivitas tinggal cacat akibat cedera sebut,13,1,1,32,0.0,0.6474609375,0.0
+Tia Haryanti_Kualifikasi.txt,lelah kemudi kurang waspada lambat reaksi tingkat risiko celaka lintas,14,1,1,10,0.0625,0.68359375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,lelah kemudi sebab celaka akibat ceder a serius mati,15,1,1,9,0.06666666666666667,0.7177734375,0.0
+Tia Haryanti_Kualifikasi.txt,orang kemudi kendara antuk akibat kemudi kendali sebab celaka lintas tinggal dunia,16,1,1,12,0.058823529411764705,0.75,0.0
+Tia Haryanti_Kualifikasi.txt,data b adan pusat statistik catat 2022 celaka indonesia 139 258 korban tinggal dunia catat 28 131 korban jiwa luka berat 13 364 orang korban luka ringan 160 449 orang catat rugi materi rp 280 009 000 bps 20 22 faktor sebab celaka lintas kondisi jalan raya cuaca performa mobil kemudi sendiri,17,1,1,52,0.04081632653061224,0.7802734375,0.0
+Tia Haryanti_Kualifikasi.txt,orang tinggal celaka lintas jalan raya kantuk kemudi,18,1,1,8,0.14285714285714285,0.80859375,0.0
+Tia Haryanti_Kualifikasi.txt,perilaku hubung lelah alami kemudi,20,1,1,9,0.06666666666666667,0.859375,0.0
+Tia Haryanti_Kualifikasi.txt,kemudi lelah antuk salah sebab utama celaka lintas dunia,21,1,1,27,0.034482758620689655,0.8818359375,0.0
+Tia Haryanti_Kualifikasi.txt,data besa r celaka lintas sebab faktor manusia lelah kemudi cui z sun h m yin r n gao l sun h b jia r s 2021 ,22,1,1,38,0.08823529411764706,0.90234375,0.06060606060606061
+Tia Haryanti_Kualifikasi.txt,teliti 20 30 celaka lintas akibat kemudi alam i lelah sinha aneesh gopal 2021 upaya cegah kurang celaka sebab faktor kemudi perhati utama teliti 3 kembang sistem otomatis deteksi tanda tanda lelah kemudi kendara tuju tingkat selamat kendara,23,1,1,15,0.15789473684210525,0.9208984375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,kemudi lelah kantuk signifikan tingkat risiko celaka lintas s olusi deteksi menginter vensi kemudi jalan,25,1,1,42,0.04878048780487805,0.9521484375,0.0
+Tia Haryanti_Kualifikasi.txt,selamat kendara isu perhati indonesia,26,1,1,38,0.05128205128205128,0.96484375,0.0
+Tia Haryanti_Kualifikasi.txt,undang undang nomor 22 2009 lintas angkut jalan kemudi wajib kemudi kendara motor penuh konsentrasi pengaruh alkohol zat ganggu mampu kemudi pasal 106 ayat 1 d an 3 kurang risiko celaka akibat lalai kondisi fisik mental kemudi optimal wikisumber bahasa indonesia 2009 ,27,1,1,17,0.09523809523809523,0.9755859375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,atur perintah nomor 55 2012 kendara an atur kemudi penuh syarat sehat jasmani rohani lulus uji sehat kala pasal 52 kondisi fisik prima antuk lelah tekan kemudi d apat reaksi cepat situasi jalan database atur jdih bpk 1993 ,28,1,1,10,0.14285714285714285,0.984375,0.0
+Tia Haryanti_Kualifikasi.txt,atur perintah undang undang tuju kemudi kondisi layak perjalana n kurang risiko celaka tingkat selamat jalan raya,30,1,1,11,0.4166666666666667,0.99609375,0.0
+Tia Haryanti_Kualifikasi.txt,deteksi kantuk gantung nilai subjektif self reporting amat perilaku tiga,31,1,1,13,0.1111111111111111,0.9990234375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,sebab praktis akurat cegah celaka kendara,32,1,1,8,0.3333333333333333,1.0,0.0
+Tia Haryanti_Kualifikasi.txt,dekat predriving deteksi kantuk tuju nilai kesiap kemudi kondisi optimal kemudi,33,1,1,13,0.10526315789473684,0.9990234375,0.0
+Tia Haryanti_Kualifikasi.txt,butuh solusi otomatis da pat deteksi tanda tanda kantuk akurant tingkat selamat jalan,34,1,1,17,0.09090909090909091,0.99609375,0.0
+Tia Haryanti_Kualifikasi.txt,deteksi kantuk kemudi kendara predriving cegah potensi celaka ,35,1,1,12,0.058823529411764705,0.9912109375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,4 maju bidang computer vis ion deep learning buka peluang deteksi lelah kemudi,36,1,1,10,0.06666666666666667,0.984375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,sistem kamera kendara teknik deep learning nali ekspresi wajah gera mata tanda tanda fisik indikasi lelah kemudi,37,1,1,9,0.06666666666666667,0.9755859375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,teknologi milik potensi ingat kemudi kurang risiko celaka tingkat selamat jalan raya,38,1,1,19,0.043478260869565216,0.96484375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,deteksi wajah salah teknologi kembang iri ng kembang teknologi komputer,39,1,1,7,0.15384615384615385,0.9521484375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,kembang teknologi deteksi wajah teliti eyes detection kembang pesat,40,1,1,16,0.21052631578947367,0.9375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,teknologi deteksi mata deteksi kedip mata w zhang b cheng and y lin 2012 kembang bidang signifikan tantang atas,41,1,1,17,0.045454545454545456,0.9208984375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,tingkat akurasi deteksi respons sistem fokus teliti,42,1,1,19,0.08333333333333333,0.90234375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,teliti bahas kembang metode deteksi lelah kemudi manfaat artificial intelligence analis data visual fisiologi kemudi kendara,43,1,1,15,0.15789473684210525,0.8818359375,0.0
+Tia Haryanti_Kualifikasi.txt,analisis ekspresi wajah pola napas ata u detak jantung tingkat oksigen darah tunjuk tingkat kesiap lelah kemudi,44,1,1,8,0.0,0.859375,0.06060606060606061
+Tia Haryanti_Kualifikasi.txt,teliti bahas kembang metode deteksi lelah kemudi manfaat cerdas artifisial meto de cnn analis data visual fisiologi kemudi kendara,45,1,1,23,0.03333333333333333,0.8349609375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,guna cnn sistem predriving analisis otomatis fitur visual kait lelah ekspresi wajah gera mata kemudi ,46,1,1,7,0.0,0.80859375,0.0
+Tia Haryanti_Kualifikasi.txt,teliti gabung data visual fisiologis hasil tingkat akurasi ,47,1,1,14,0.0,0.7802734375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,teliti kembang teknologi cerdas artifisial metode deep learning interaksi manusia komputer proses aplikasi sistem efektif l zahara p musa e prasetyo wibowo i,48,1,1,20,0.0,0.75,0.0
+Tia Haryanti_Kualifikasi.txt,5 karim and s bahri musa 2020 ,49,1,1,17,0.13636363636363635,0.7177734375,0.06060606060606061
+Tia Haryanti_Kualifikasi.txt,guna m etode deep learning convolutional neural networks cnn teliti milik tingkat akurasi tinggi,50,1,1,16,0.10526315789473684,0.68359375,0.0
+Tia Haryanti_Kualifikasi.txt,model cnn efektif tugas mengklasifika si gambar metode otomatis ajar ekstrak fitur relevan input data s ahlawat a choudhary 2019 ,51,1,1,9,0.0,0.6474609375,0.0
+Tia Haryanti_Kualifikasi.txt,hasil sistem deteksi lelah kemudi tingkat akurasi m endeteksi pola gera wajah mata hasan shafri habshi 2019 ,52,1,1,7,0.07142857142857142,0.609375,0.0
+Tia Haryanti_Kualifikasi.txt,ajar nali pola pola lelah sistem ingat kemudi kemudi ambil tindak cegah kendara istirahat tunda jalan,53,1,1,33,0.02631578947368421,0.5693359375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,p enelitian gabung cnn long short term memory lstm ,54,1,1,21,0.0,0.52734375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,cnn ekstraksi fitur visual gambar wajah kemudi,55,1,1,30,0.0,0.4833984375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,lstm unt uk analis data sekuensial paham pola perilaku kemudi jm guo h markoni 2019 cnn model support vector machines svm algoritma machine learning milik tingkat klasifikasi gambar kuat data linier non linier,56,1,1,38,0.075,0.4375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,svm kombinasi cnn tingkat akurasi klasifikasi kenal tulis tangan s ahlawat a choudhary 2019 klasifikasi gambar hiperspektral h asan et al,57,1,1,23,0.07142857142857142,0.3896484375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,2019 kenal gulma bidang tani tao wei 2022 kerja model svm cnn banding klasifikasi citra hiperspektral hasil metode svm milik mampu generalisasi kuat hasil identifikasi akurasi baik hasan et al,58,1,1,14,0.10526315789473684,0.33984375,0.0
+Tia Haryanti_Kualifikasi.txt,2019 teliti deteksi gulma ladang lobak musim dingin klasifikasi hibrida cnn svm milik kerja banding model l ain capai tingkat akurasi klasifikasi 927 tao wei 2022 cnn analis gambar wajah kemudi 6 identifikasi tanda tanda visual lelah kantuk,59,1,1,12,0.0,0.2880859375,0.0
+Tia Haryanti_Kualifikasi.txt,lstm manfaat data sekuensial sepe rti pola nafas detak jantung rekam tingkat oksigen darah tuju paham fisiologis kemudi identifikasi tanda tanda kantuk lelah ,60,1,1,27,0.06896551724137931,0.234375,0.0
+Tia Haryanti_Kualifikasi.txt,svm langkah klasifikasi a khir tentu kemudi identifikasi kantuk dasar fitur ekstraksi cnn lstm,61,1,1,13,0.2857142857142857,0.1787109375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,teliti kombinasi model cnn lstm svm tuju manfaat kuat masin gmasing model,62,1,1,15,0.1,0.12109375,0.0
+Tia Haryanti_Kualifikasi.txt,cnn efektif ekstraksi fitur visual gambar wajah kemudi lstm olah data sekuensial identifikasi pola kantuk dasar data fisiologis svm klasifikasi status kantuk fitur d iekstraksi model sebut,63,1,1,29,0.10714285714285714,0.0615234375,0.030303030303030304
+Tia Haryanti_Kualifikasi.txt,dekat harap atas batas sistem deteksi kantuk kemudi kendara tingkat akurasi andal sistem,64,1,1,16,0.25,0.0,0.030303030303030304
+Utami Lestari_Kualifikasi.txt,kembang teknologi informasi dorong utama transformasi digital ubah pola hidup manusia fundamental,0,1,1,12,0.05555555555555555,0.0,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,teknologi informasi sebar sektor fasilitas akses informasi cepat tukar data ubah manusia interaksi,1,1,1,13,0.0,0.10518626734842952,0.0
+Utami Lestari_Kualifikasi.txt,teknologi dar butuh sekunder butuh primer,3,1,1,7,0.07692307692307693,0.29802775748721694,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,kembang teknologi pengaruh aspek hidup sosialpolitik budaya,4,1,1,9,0.07142857142857142,0.3856829802775749,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,salah bentuk kembang teknologi cerdas buat artificial intelligence ai,5,1,1,22,0.0,0.4674945215485757,0.0
+Utami Lestari_Kualifikasi.txt,cerdas buat ai acu aplikasi algoritma teknik perangkat lunak komputer mesin simulasi persepsi manusia proses ambil putus selesai tugas sukses murphy 2019 ,6,1,1,18,0.05,0.5434623813002192,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,teknologi cerdas buat ai kembang iring kembang teknologi informasi bawa ubah bagai bidang didik sehat ekonomi industry tranportasi ,7,1,1,10,0.0,0.6135865595325055,0.0
+Utami Lestari_Kualifikasi.txt,teknologi ai tawar mudah efisiensi analisis data dalam kenal pola,8,1,1,12,0.0625,0.6778670562454346,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,kembang cerdas buat ai main peran krusial hadir maju signifikan bagai aplikasi,9,1,1,15,0.0,0.7363038714390067,0.0
+Utami Lestari_Kualifikasi.txt,teknik teknik deep learning machine learning ai analis data kompleks identifikasi pola pola sembunyi dalam,10,1,1,14,0.0,0.7888970051132214,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,kenal gambar ai capai tingkat tepat kesan nali objek wajah polapola mikroskopis citra medis,11,1,1,12,0.0,0.8356464572680788,0.0
+Utami Lestari_Kualifikasi.txt,bidang teks ai nali polapola kompleks teks struktur gramatikal entitas makna kata,12,1,1,12,0.0,0.8765522279035792,0.0
+Utami Lestari_Kualifikasi.txt,ai identifikasi pola pola opini sentimen teks topik bicara paham konteks kalimat ,13,1,1,15,0.05555555555555555,0.9116143170197225,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,tumbuh pesat teliti ilmiah produksi artikel ilmiah disiplin ilmu hasil tantang proses tinjau artikel ilmiah ,14,1,1,10,0.0,0.9408327246165085,0.0
+Utami Lestari_Kualifikasi.txt,v olume publikasi tugas penelahaah jawat peer review kompleks makan ,15,1,1,12,0.0,0.9642074506939371,0.0
+Utami Lestari_Kualifikasi.txt,naskah aju jurnal proses peerreview alami tumbuh tahun 61 checco et al,18,1,1,10,0.06666666666666667,0.9992695398100804,0.0
+Utami Lestari_Kualifikasi.txt,2021 ,19,1,1,8,0.16666666666666666,0.9992695398100804,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,butuh kualitas akurat nilai prioritas,20,1,1,19,0.13636363636363635,0.9934258582907232,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,tumbuh aju naskah tinjau timbul potensi bias konsistensi telaah baik,21,1,1,14,0.05263157894736842,0.9817384952520087,0.0
+Utami Lestari_Kualifikasi.txt,peluang kembang model tinjau mandiri bantu cerdas buat,22,1,1,9,0.0,0.9642074506939372,0.0
+Utami Lestari_Kualifikasi.txt,kembang cerdas buat bidang pemrosesan teks kenal narutal language processing nlp buka peluang otomatisasi aspek proses tinjau artikel ilmiah ,23,1,1,14,0.0,0.9408327246165085,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,mampu algoritma paham bahasa alami analisis konten saji informasi manfaat mudah cepat proses tinjau ,24,1,1,14,0.2,0.9116143170197224,0.0
+Utami Lestari_Kualifikasi.txt,pemrosesan bahasa alami nlp subbidang cerdas buat linguistik komputasi,25,1,1,12,0.0,0.8765522279035792,0.0
+Utami Lestari_Kualifikasi.txt,bidang berf okus mampu komputer paham tafsir hasil bahasa manusia makna guna amaratunga 2023 ,27,1,1,14,0.0,0.7888970051132214,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,salah dekat pemrosesan bahasa alami tugas dalam data model bahasa large language models llm,29,1,1,8,0.0,0.6778670562454346,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,model bahasa model bahasa latih ukur parameter banding dekat liu et al,30,1,1,13,0.058823529411764705,0.6135865595325054,0.10526315789473684
+Utami Lestari_Kualifikasi.txt,2024 ,32,1,1,24,0.0,0.46749452154857546,0.05263157894736842
+Utami Lestari_Kualifikasi.txt,model bahasa hasil kombinasi pemrosesan bahasa alami konsep ajar dalam model cerdas buat generative,34,1,1,17,0.0,0.29802775748721677,0.0
+Utami Lestari_Kualifikasi.txt,model bahasa terobos signifikan kait transformer,35,1,1,24,0.2,0.20452885317750183,0.10526315789473684
+Utami Lestari_Kualifikasi.txt,cangkup tingkat komputasi dian latih data skala besar,36,1,1,12,0.0,0.10518626734842931,0.0
+Utami Lestari_Kualifikasi.txt,kembang hasil transformasi revolusioner buat llm dekat kerja manusia tugas naveed et al,37,1,1,19,0.041666666666666664,0.0,0.10526315789473684
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,saing dunia industri ketat,1,1,1,7,0.0,0.04254827147647127,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,usaha lomba lomba cipta produ k berukualitas,2,1,1,15,0.043478260869565216,0.08417158052954099,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,kualitas produk faktor kunci usaha tahan saing dunia bisnis psarommatis sousa don a kiritsis 2022 ,6,1,1,13,0.05,0.24141519250780438,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,kualitas produk pengaruh percaya langgan usaha,9,1,1,13,0.1,0.3496357960457856,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,kualitas produk usaha,13,1,1,11,0.058823529411764705,0.4809804601688056,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,cacat produk hamp ir jadi,14,1,1,7,0.06666666666666667,0.5115042201410568,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,cacat sebab faktor manusia man mesin machine metode method lingkung environment suhartini 2020 ,16,1,1,17,0.0,0.5697768528153544,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,salah giat jaga kualitas produk inspeksi,17,1,1,13,0.0,0.5975257255174008,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,giat departemen kendali kualitas,18,1,1,19,0.04,0.6243496357960457,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,cepat akurasi inspeksi industri standar kualitas produk harga jangkau villalba diez et al,19,1,1,17,0.043478260869565216,0.6502485836512891,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2019 ,20,1,1,12,0.05,0.6752225690831309,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,tantang laku industri,22,1,1,12,0.0,0.72239565267661,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,usaha milik produk model kali produksi,24,1,1,25,0.03571428571428571,0.7658688865764828,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,variasi produk model tentun ya giat inspeksi produk milik kualitas baik,25,1,1,7,0.14285714285714285,0.7862180598913169,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,giat inspeksi industri manual tenaga manusia operator,27,1,1,13,0.1111111111111111,0.8241415192507805,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,mengandalakan tenaga manusia milik keterbat asan,29,1,1,21,0.0,0.8583651289166379,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,tingkat kerja giat inspeksi butuh as n vila de la torre berges muro s nchez valverde 2017 ,30,1,1,36,0.0967741935483871,0.8740894901144641,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,butuh model ganti tingkat kerja giat inspeksi reyes luna chang tuck ashcroft 2023 ,31,1,1,15,0.0,0.888888888888889,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,otomatisasi proses inspeksi kualitas salah me ningkatkan kerja giat inspeksi puas langgan produk kualitas jaga deshpande mina mar 2020 ,32,1,1,7,0.07142857142857142,0.9027633252399122,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,revolu si industri 4 0 teknologi informasi pisah hidup hari teknologi milik peran essah anand singh 2022 ,34,1,1,7,0.0,0.927737310671754,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,teknologi kembang pesat implementasi otomatisasi industri artificial intelligence ai shi et al,35,1,1,15,0.0,0.9388368597525726,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2021 ,36,1,1,32,0.027777777777777776,0.9490114464099896,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,artificial intelligence ai alternatif digital tingkat kerja giat inspeksi jarkas et al,37,1,1,19,0.0,0.9582610706440051,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2023 ,38,1,1,17,0.04,0.966585732454619,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,teknologi megadopsi mampu manusia nali objek citra kenal teknik deteksi objek baikova maia santos ferreira oliveira 2019 segmentasi kenal objek khurana sharma singh singh 2016 ,39,1,1,49,0.0,0.9739854318418314,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,deteksi objek giat inspeksi industri et al,40,1,1,9,0.0,0.9804601688056421,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2020 ,41,1,1,9,0.0,0.9860099433460515,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,aplikasi ai deteksi objek giat inspeksi tuju an efisiensi dunia industri giat inspeksi,42,1,1,10,0.0,0.9906347554630592,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,teknologi meminimalisir cacat luput lihat manusia,44,1,1,16,0.0,0.9971094924268702,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,acosta and oliveira santanna 2023 kembang relevance mechine vector teknik kernel sparse bayesian tingkat support machine vector regresi klasifikasi machine learning ,45,1,1,10,0.0,0.9989594172736732,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,teliti hasil banding kerja relevance machine vector support vector machine artific ial neural network beta regression model hasil pantau proses bas relevance machine vector alat pantau kualitas produk cacat proses manufaktur banding algoritma machine learing lain,46,1,1,25,0.06451612903225806,0.9998843796970748,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,altu 2023 teliti meminimalisir boros biaya usaha produksi baut mur integrasi deep learning six sigma ,47,1,1,16,0.09090909090909091,0.9998843796970748,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,six sigma kurang biaya tingkat nilai produk,48,1,1,25,0.1111111111111111,0.9989594172736732,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,optimalisasi six sigma bantu deep learning ,49,1,1,22,0.034482758620689655,0.9971094924268702,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,forma model deep learning dekat performa benar,51,1,1,11,0.05263157894736842,0.9906347554630593,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,manfaat six sigma bantu deep learing hemat 21 780 hemat hindar rugi capai 30000 tahun,53,1,1,13,0.11764705882352941,0.9804601688056422,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,efisiensi coating thickness tingkat 85 95 dekat target 95 97 fan and guo 2023 usul metode klasifikasi muka cacat strip baja dasar mixed attention mechanism capai kerja klasifikasi cacat c epat akurat,54,1,1,10,0.125,0.9739854318418314,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,teliti banding skala minmax transfer learning efficientnet b0 squeeze excitation spatial mixed module multilayer mixed attention mechanism mmam module ,55,1,1,24,0.07142857142857142,0.966585732454619,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,lingkung indsutri kompleks metode konv ensional klasifikasi cacat muka strip baja canai panas milik akurasi efisiensi rendah,56,1,1,28,0.09090909090909091,0.9582610706440051,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,metode squeeze excitation spatial mixed module akurasi kenal 9675 multilayer mixed attention mechanism mmam module akurasi kenal 9770 transfer learning efficientnet b0 bas mmam oleh hasil akurasi kenal 100 fauzi madenda wibowo and masruriyah 2020 teliti guna kotak batas bounding box tingkat kenal objek kamera intai cctv sektor sehat,57,1,1,25,0.0,0.9490114464099896,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,hasil teliti kotak batas tingkat kenal objek kamera intai,58,1,1,8,0.0,0.9388368597525726,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,kotak batas bantu identifikasi giat curiga rekam kamera awas,60,1,1,12,0.05263157894736842,0.9157127991675338,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,klasifikasi objek segmentasi citra medis tingkat bantu kotak batas terap,61,1,1,13,0.0,0.9027633252399122,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,handayani et al,63,1,1,30,0.0,0.8740894901144641,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2020 algoritma support vector machine svm linear discriminant analysis pohon putus identifikasi kualitas daging dasar marbling ,64,1,1,9,0.0,0.8583651289166376,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,hasil nya svm algoritma akurasi algoritma identifikasi kualitas daging sapi,65,1,1,39,0.07894736842105263,0.8417158052954098,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,hassan hamdan shahin abdelmaksoud and bitar 2023 implementasi deep learing machine learning kontribusi signifikan tingkat proses manufaktur maksimal production rates produk meminimalisir scrap rates reworks ,67,1,1,9,0.125,0.8056422707827494,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,terap smart process kontribusi signifikan tingkat proses manufaktur maksimal production rates produk meminimalisir scrap rates reworks ,68,1,1,14,0.0,0.7862180598913169,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,cerdas buat machine learning implementasi manfaat tingkat akurasi prediksi model regresi sempurna cerdas milik ajar parameter proses produk cacat sesuai parameter proses abai atur manual,69,1,1,9,0.13333333333333333,0.7658688865764828,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,li liu liu and huang 2020 desain pendetek si cacat kain otomatis dasar cascaded low rank decomposition jaga kendali kualitas usaha tekstil ,70,1,1,16,0.043478260869565216,0.7445947508382472,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,metode usul evaluasi database gambar kain,71,1,1,19,0.038461538461538464,0.72239565267661,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,teliti a lgoritma deteksi c acat dasar cascaded low rank decomposition ,72,1,1,18,0.0,0.6992715920915713,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,banding lapang oleh tingkat deteksi 9826 ,74,1,1,22,0.12,0.6502485836512892,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,liu liu li and li 2022 usul metode memcahkan deteksi cacat cacat kain,75,1,1,19,0.0,0.6243496357960459,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,model sulit latih batas dataset akurasi deteksi pada bidang industri,76,1,1,8,0.0,0.5975257255174007,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,peneltian bas deep learning hasil metode deteksi cacat kain mana hasil eksperimen tingkait akurasi presisi 939 988 terap dataset publik tilda dataset realshot zyfd,77,1,1,13,0.1,0.5697768528153543,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,liu wang li ding and li 2022 desain model dualbranch balance saliency bas fully convolutional network fcn deteksi cacat kain otomatis tingkat pen gendalian kualitas bidang manufaktur tekstil,79,1,1,25,0.037037037037037035,0.5115042201410567,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,naam harlan madenda and wibowo 2016 teliti tuju bangun algoritma metode multiple morphological gra dient mmg identifikasi karies gigi bas gigi panoramik digital gambar xray,80,1,1,23,0.03333333333333333,0.4809804601688056,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,jenis algoritma normal mmg enhancement mmg smooth mmg ,82,1,1,14,0.045454545454545456,0.41715805295409875,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,tiga algoritma periksa orang dokter gigi,83,1,1,26,0.14285714285714285,0.383859405711643,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,hasil p emrosesan gambar bantu identifikasi objek gambar panorama deteksi gigi lubang ,85,1,1,18,0.08,0.3144872239565269,0.024390243902439025
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,purushothaman and ahmad 2022 bangun sistem inspeksi otomatis mekanisme bas image analysis iais,86,1,1,11,0.05555555555555555,0.2784136894438665,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,metode desain six sigm a dss,88,1,1,9,0.0,0.20349173314834068,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,langkah langkah define measure analyze design verify dmadv terap integrasi teknik analisis spesifik quality function deployment qfd design failure mode effect analysis dfmea theory of inventive pro blem solving triz ,89,1,1,10,0.125,0.16464331136547564,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,verifikasi prototipe iais operasi mode optimal penuh syarat internal,90,1,1,8,0.13333333333333333,0.12486992715920905,0.04878048780487805
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,hasil verifikasi tingkat sigma tingkat 387 433 tingkat kurang kerus tingkat 744 tingkat downtime catat tingkat signifikan kurang 807 wu guo liu and huang 2020 mengem bang metode deep learning fleksibel deteksi cacat industri end toend lear ning framework ,91,1,1,11,0.0,0.08417158052954092,0.0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,teliti atas sulit deteksi cacat blade,92,1,1,13,0.05,0.04254827147647123,0.0

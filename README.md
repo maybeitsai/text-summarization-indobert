@@ -32,3 +32,7 @@ kalimat ada contoh langsung dibuang dihilangkan dari ringkasan
 segmentasi kalimat -> pemecahan menjadi kalimat
 index
 
+index paragraf
+
+summary di stemming lalu stopword lalu balikin ke kalimat awal
+training stemming + stopword

@@ -1,1 +1,4 @@
-penelitian berdasarkan dari uraian latar belakang masalah dan usulan topik penelitian diatas terdapat beberapa masalah penelitian yang perlu dicari solusinya adalah 1. metode dan algoritma morfologi matematika mana yang paling tepat digunakan untuk mengekstrasi fitur ekspresi wajah. 2. bagaimana membang un model pengenalan ekspresi wajah berdasarkan gabungan usulan morfologi matematika dan jaringan saraf tiruan usulan model mnn . 3. bagaimana membangun prototype sistem pengenalan ekspresi wajah mengunakan usulan model mnn .
+Berdasarkan dari uraian latar belakang masalah dan usulan topik penelitian diatas, terdapat beberapa masalah penelitian yang perlu dicari solusinya adalah:
+1. Metode dan algoritma morfologi matematika mana yang paling tepat digunakan untuk mengekstrasi fitur ekspresi wajah.
+2. Bagaimana membangun model pengenalan ekspresi wajah berdasarkan gabungan usulan morfologi matematika dan jaringan saraf tiruan (usulan model MNN).
+3. Bagaimana membangun prototype sistem pengenalan ekspresi wajah mengunakan usulan model

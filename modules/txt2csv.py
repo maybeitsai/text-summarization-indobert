@@ -6,7 +6,7 @@ import nltk
 nltk.download('punkt')
 
 from nltk.corpus import stopwords
-from nltk.tokenize import sent_tokenize
+from nltk.tokenize import sent_tokenize, word_tokenize
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 
 # Inisialisasi stemmer dan stopwords
@@ -69,7 +69,7 @@ def save_to_csv_with_features(input_folder, output_folder, section_name, title_d
     
     with open(csv_file_path, mode='w', newline='', encoding='utf-8') as csv_file:
         writer = csv.writer(csv_file)
-        writer.writerow(['nama_dokumen', 'kalimat', 'index', 'important', 'length', 'words_in_title', 'position', 'cue_words'])
+        writer.writerow(['nama_dokumen', 'kalimat', 'index', 'important', 'conjunction', 'length', 'words_in_title', 'position', 'cue_words'])
 
         for filename in os.listdir(input_folder):
             file_path = os.path.join(input_folder, filename)
@@ -77,18 +77,15 @@ def save_to_csv_with_features(input_folder, output_folder, section_name, title_d
                 with open(file_path, 'r', encoding='utf-8') as file:
                     text = file.read()
 
-                # Memecah teks menjadi kalimat
                 sentences = split_sentences(text)
 
                 if clean:
                     sentences = [clean_stopwords_and_stemming(sentence) for sentence in sentences]
 
-                # Ambil title_words berdasarkan nama dokumen
-                title_words = title_dict.get(filename, [])  # Jika tidak ditemukan, kembalikan list kosong
-                # Ekstraksi fitur untuk setiap kalimat
-                features = extract_features(sentences, title_words, cue_words)
+                title_words = title_dict.get(filename, [])
+                features = extract_features(sentences, title_words, cue_words, section_name)
                 for sentence, feature in zip(sentences, features):
-                    writer.writerow([filename, sentence, feature['index'], feature['important'], feature['length'], 
+                    writer.writerow([filename, sentence, feature['index'], feature['important'], feature['conjunction'], feature['length'], 
                                      feature['words_in_title'], feature['position'], feature['cue_words']])
 
     print(f"Data untuk bagian '{section_name}' disimpan di {csv_file_path}.")
@@ -113,57 +110,66 @@ def clean_stopwords_and_stemming(sentence):
     # Gabungkan kembali kata-kata yang telah dibersihkan menjadi kalimat
     return ' '.join(cleaned_words)
 
-def extract_features(sentences, title_words, cue_words):
-    """
-    Fungsi untuk mengekstrak fitur dari setiap kalimat.
-    """
+def extract_features(sentences, title_words, cue_words, section_name):
     features = []
-
-    # Define keywords for unimportant information (tanpa stemming)
     unimportant_words = ["contohnya", "sebagai contoh", "contoh", "misalnya", "misal", "misalkan"]
+    conjunction_words = ["dan", "tetapi", "atau", "melainkan", "serta", "karena", "jika", "agar",
+                         "meskipun", "walaupun", "sehingga", "supaya", "setelah", "sebelum", "sejak",
+                         "ketika", "sebelum", "sesudah", "sejak", "sampai", "sementara", "tatkala", "sewaktu",
+                         "oleh karena itu", "dengan demikian", "namun", "akan tetapi", "selain itu", "bahkan",
+                         "maupun", "semakin"]
 
-    # Iterate over each sentence to extract features
+    Mp = len(sentences)
+
     for i, sentence in enumerate(sentences):
         sentence_features = {}
-        Mp = len(sentences)  # Total number of sentences
-
-        # Sentence Index (B2i formula)
-        if Mp > 1:
-            sentence_features['index'] = i
-        else:
-            sentence_features['index'] = 1  # If there's only one sentence
-
-        # Feature 1: Unimportant Information (menggunakan kalimat asli)
-        if any(word in sentence.lower() for word in unimportant_words):
-            sentence_features['important'] = 0
-        else:
-            sentence_features['important'] = 1
-
-        # Bersihkan kalimat dengan stemming dan hapus stopword hanya untuk fitur
+        original_words = word_tokenize(sentence.lower())
         cleaned_sentence = clean_stopwords_and_stemming(sentence)
         cleaned_words = cleaned_sentence.split()
 
-        # Feature 2: Sentence Length
-        sentence_features['length'] = 0 if len(cleaned_words) < 6 else len(cleaned_words)
+        sentence_features['index'] = i if Mp > 1 else 1
 
-        # Feature 3: Words in Title (Bi formula: intersection over union)
-        title_count = len(set(cleaned_words).intersection(set(title_words)))  # Perbandingan menggunakan cleaned_words
+        sentence_features['important'] = 1 if not any(re.search(r'\b' + re.escape(word) + r'\b', sentence.lower()) for word in unimportant_words) else 0
+        
+        sentence_features['conjunction'] = 0 if any(re.search(r'\b' + re.escape(word) + r'\b', sentence.lower()) for word in conjunction_words) else 1
+        
+        sentence_features['length'] = len(original_words)
+        
+        title_count = len(set(cleaned_words).intersection(set(title_words)))
         union_count = len(set(cleaned_words).union(set(title_words)))
         sentence_features['words_in_title'] = title_count / (union_count if union_count > 0 else 1)
 
-        # Feature 4: Sentence Position (B2i formula - parabola terbalik)
-        ji = i + 1  # Sentence index, starting from 1
-        if Mp > 1:
-            middle_index = (Mp + 1) / 2  # Middle sentence index
-            sentence_features['position'] = abs(ji - middle_index) / (Mp / 2)  # Parabola formula
-        else:
-            sentence_features['position'] = 1  # If there's only one sentence
+        sentence_features['position'] = calculate_sentence_position(i, Mp)
 
-        # Feature 5: Cue Words (B3i formula)
         cue_count = sum(1 for word in cue_words if word in cleaned_sentence.lower())
-        Tfi = sum(1 for sentence in sentences for word in cue_words if word in cleaned_sentence.lower())
+        Tfi = sum(1 for sentence in sentences for word in cue_words if word in clean_stopwords_and_stemming(sentence).lower())
         sentence_features['cue_words'] = cue_count / (Tfi if Tfi > 0 else 1)
 
-        features.append(sentence_features)
+        if section_name in ['latarbelakang', 'metodologipenelitian']:
+            if sentence_features['important'] == 1 and sentence_features['conjunction'] == 1 and sentence_features['length'] > 6:
+                features.append(sentence_features)
+        else:
+            if sentence_features['important'] == 1 and sentence_features['length'] > 6:
+                features.append(sentence_features)
     
     return features
+
+def calculate_sentence_position(i, Mp):
+    """
+    Menghitung posisi kalimat dalam paragraf.
+    
+    :param i: Indeks kalimat (dimulai dari 0)
+    :param Mp: Jumlah total kalimat dalam paragraf
+    :return: Nilai posisi kalimat (1 untuk awal dan akhir, 0.5 untuk tengah)
+    """
+    if Mp <= 1:
+        return 1  # Jika hanya ada satu kalimat, nilainya 1
+
+    # Normalisasi posisi ke range [0, 1]
+    normalized_position = i / (Mp - 1)
+    
+    # Rumus parabola terbalik: 4x(1-x)
+    # Ini akan menghasilkan 1 untuk x=0 dan x=1, dan 0.5 untuk x=0.5
+    position_value = 4 * normalized_position * (1 - normalized_position)
+    
+    return position_value
