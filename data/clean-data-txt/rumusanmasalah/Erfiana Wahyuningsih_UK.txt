@@ -1,1 +1,3 @@
-1. bagaimana mereduksi gerbang cmos dengan metode m gdi pada rangkaian sram 2. bagaimana menunjukkan kinerja rangkaian sram 6t dengan low power setelah jumlah transistor direduksi 3. apakah rangkaian transistor yang telah direduksi jumlahnya mampu mempertahankan kemampuan high read stability
+1. Bagaimana mereduksi gerbang CMOS dengan metode m-GDI pada rangkaian SRAM?
+2. Bagaimana menunjukkan kinerja rangkaian SRAM 6T dengan Low Power setelah jumlah transistor direduksi?
+3. Apakah rangkaian transistor yang telah direduksi jumlahnya mampu mempertahankan kemampuan High Read Stability?

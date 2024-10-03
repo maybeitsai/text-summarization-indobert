@@ -1,1 +1,4 @@
-adapun tujuan penelitiannya adalah sebagai berikut menghasilkan skema logika data yang digunakan dalam aplikasi block chain yang menjadi ko nsensus atau perjanjian bersama dalam studi kasus menghasilan arshitektur blockchain yang digunakan dalam konsensus bersama memetakan as pek data privasi yang digunakan dengan aturan kepatuhan data antara lain dengan uu ite
+Adapun tujuan penelitiannya adalah sebagai berikut:
+- Menghasilkan skema logika data yang digunakan dalam aplikasi blockchain yang menjadi konsensus atau perjanjian bersama dalam studi kasus
+- Menghasilan arshitektur blockchain yang digunakan dalam konsensus bersama
+- Memetakan aspek data privasi yang digunakan dengan aturan kepatuhan data antara lain dengan UU ITE

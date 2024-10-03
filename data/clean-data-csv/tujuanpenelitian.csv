@@ -1,61 +1,111 @@
 nama_dokumen,kalimat,index,important,conjunction,length,words_in_title,position,cue_words
-Alfharizky Fauzi_Kualifikasi.txt,tujuan umum penelitian ini adalah mengembangkan prototype sistem identifikasi berbasis aplikasi yang dapat mengidentifikasi penyakit kelainan pada kulit manusia dan mengenalinya sebagai jenis penyakit kulit serta dapat memberikan keterangan dan penanganan dalam pengobatan menggunakan metode pengolahan citra dan teks .,0,1,0,40,0.2413793103448276,0.0,0.25
-Alfharizky Fauzi_Kualifikasi.txt,tujuan khusus penelitian adalah 1. mengembangkan metode identifikasi penyakit kulit sebagai pra diagnosis dengan menggabungkan dua metode pengolahan data yaitu pengolahan gambar dan pengolahan teks menjadi bi directional image text matching untuk mendapatkan hasil yang lebih akurat dalam identifikasi image to teks maupun sebaliknya teks to image .,1,1,0,48,0.14705882352941177,1.0,0.5
-Alfharizky Fauzi_Kualifikasi.txt,2. menghasilkan model identifikasi bidirectional image teks matching yang dapat digunakan untuk identifikasi penyakit kulit yang dapat digunakan untuk prototype system identifikasi penyakit kulit berbasis aplikasi sebagai pra diagnosis pasien.,2,1,1,31,0.14285714285714285,0.0,0.25
-Alifurrohman_Kualifikasi.txt,"Berdasarkan rumusan masalah yang telah dipaparkan, tujuan penelitian dari penelitian ini sebagai berikut.",0,1,1,15,0.0,0.0,0.0
-Alifurrohman_Kualifikasi.txt,1.,2,1,1,27,0.4,0.888888888888889,0.5
-Alifurrohman_Kualifikasi.txt,Mengembangkan model berbasis Deep Q-Network (DQN) yang diperkaya dengan mekanisme Multi-Header Attention untuk menyelesaikan Dynamic Vehicle Routing Problem with Time Windows (DVRPTW).,4,1,0,23,0.06666666666666667,0.888888888888889,0.5
-Alifurrohman_Kualifikasi.txt,2.,6,1,0,20,0.037037037037037035,0.0,0.0
-Armando Tirta Dwilaga_Kualifikasi.txt,berikut adalah tujuan penelitian yang melandasi dalam penelitian ini 1. membangun model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban.,0,1,1,25,0.35,0.0,0.3333333333333333
-Armando Tirta Dwilaga_Kualifikasi.txt,2. mengimplementasikan dan menghasilkan usulan model algoritma convolutional neural networks cnn dalam membangun sistem deteksi cacat produk ban.,1,1,0,19,0.2727272727272727,1.0,0.6666666666666666
-Armando Tirta Dwilaga_Kualifikasi.txt,3. mengukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban.,2,1,0,19,0.4444444444444444,0.0,0.0
-Devi Resviani_KUALIFIKASI.txt,adapun tujuan dari penelitian ini secara umum adalah memberikan solusi untuk pemeliharaan prediktif pada mesin kompresor reciprocating menggunakan machine learning .,0,1,1,21,0.38461538461538464,0.0,0.0
-Devi Resviani_KUALIFIKASI.txt,selain itu secara khusus tujuan penelitian ini adalah sebagai berikut 1. membandingkan efektivitas berbagai algoritma machine learning untuk memprediksi kegagalan pada mesin kompresor reciprocating.,1,1,0,25,0.29411764705882354,0.75,0.0
-Devi Resviani_KUALIFIKASI.txt,2. menghasilkan model machine learning dari algoritma yang terpilih untuk memprediksi kegagalan pada mesin kompresor reciprocating.,2,1,1,17,0.3333333333333333,1.0,0.5
-Devi Resviani_KUALIFIKASI.txt,3. menghasilkan prototipe sistem peringatan pemeliharaan prediktif berbasis machine learning pada mesin kompresor reciprocating.,3,1,1,15,0.4,0.75,0.5
-Devi Resviani_KUALIFIKASI.txt,4. mengevaluasi kinerja sistem peringatan pemeliharaan prediktif berbasis machine learning pada pada mesin kompresor reciprocating.,4,1,1,16,0.4,0.0,0.0
-Erfiana Wahyuningsih_UK.txt,1. mereduksi jumlah transistor pada rangkaian sram dengan menggunakan metode m gdi.,0,1,1,13,0.14285714285714285,0.0,0.0
-Erfiana Wahyuningsih_UK.txt,2. mampu menunjukkan kinerja dari penggunaan low power pada rangkaian sram 6t 3. mampu mempertahankan high read stability pada rangkaian sram 6t,1,1,1,22,0.3181818181818182,0.0,0.0
-Fitriana Indah Pramitasari_Kualifikasi.txt,berikut tujuan penelitian ini adalah sebagai berikut.,0,1,1,8,0.0,0.0,0.0
-Fitriana Indah Pramitasari_Kualifikasi.txt,1. menghasilkan platform koperasi petani kentang.,1,1,1,7,0.2857142857142857,0.888888888888889,0.3333333333333333
-Fitriana Indah Pramitasari_Kualifikasi.txt,2. menghasilkan data prediksi permintaan di masa depan selama periode tertentu dan dicatat dalam blockchain.,2,1,0,16,0.0,0.888888888888889,0.3333333333333333
-Fitriana Indah Pramitasari_Kualifikasi.txt,3. menghasilkan data inventory secara realtime dan dicatat dalam blockchain.,3,1,0,11,0.0,0.0,0.3333333333333333
-Kualifikasi Witta Listiya Ningrum.txt,tujuan dalam penelitian ini adalah melakukan pengembangan model klasifikasi toksisitas multimodal dengan kombinasi jenis media teks gambar dan video pada platform sosial media menggunakan large language model llm.,0,1,0,29,0.8888888888888888,0.0,0.2
-Kualifikasi Witta Listiya Ningrum.txt,pengembangan ini dilakukan untuk meningkatkan kemampuan deteksi dan pemahaman konten berbahaya secara menyeluruh di platform sosial media.,1,1,0,18,0.18181818181818182,0.888888888888889,0.4
-Kualifikasi Witta Listiya Ningrum.txt,secara khusus dapat dijabarkan sebagai berikut 1. mengembangkan algoritma untuk merepresentasikan teks gambar dan video dari berbagai platform sosial media seperti twitter instagram dan tiktok.,2,1,0,26,0.2916666666666667,0.888888888888889,0.2
-Kualifikasi Witta Listiya Ningrum.txt,2. mengembangkan model klasifikasi toksisitas menggunakan multimodal dengan metode large language model llm dengan jenis media teks gambar dan video.,3,1,0,21,0.7222222222222222,0.0,0.2
-Kualifikasi_Aris Gunaryati.txt,tujuan penelitian berdasarkan rumus an masalah di atas maka tujuan penelitian ini adalah sebagai berikut 1. mempel ajari pola data runtun waktu pertambahan jumlah kasus harian covid 19 di jakarta dari tangg al 6 maret 2020 sampai tangg al 30 juni 2021 apakah merupakan runtun waktu seasonal atau non seasonal 2. menentukan model peramal an arima yang sesuai dengan data runtun w aktu tersebut 3. menentukan model peramalan untuk data runtun waktu tersebut meng gunakan metode neural network nn 4. menentukan model peramalan hybrid arima neural network untuk data runtun waktu tersebut 5. membuat dan mengembangkan model hybrid quantum arima nn yang dapat mem berikan hasil peramalan yang lebih akurat 6. membuat analisis hasil peramalan untuk jumlah kasus harian covid 19 di jakarta pada periode tanggal 1 juli sampai 31 juli 2020,1,1,0,132,0.24074074074074073,1,1.0
-Kualifikasi_Rama Dian Syah.txt,sesuai dengan masalah penelitian yang telah diuraikan sebelumnya maka tujuan yang ingin dicapai dalam penelitian ini adalah 1. menghasilkan pengembangan metode kriptografi citra digital berbasis chaotic .,0,1,1,27,0.4,0.0,0.5
-Kualifikasi_Rama Dian Syah.txt,2. mengimplementasi rancangan pengembangan metode kriptografi citra digital berbasis chaotic dan melakukan pengujian.,1,1,0,14,0.5,0.0,0.5
-Kualifikasi_Remigius.txt,dengan masalah penelitian tersebut maka tujuan penelitian ini ditetapkan sebagai berikut.,0,1,1,12,0.0,0.0,0.0
-Kualifikasi_Remigius.txt,1. menganalisis pengembangan sistem pembelajaran mengenai perkembangan arsitektur berbasis metavers e di program studi teknik arsitektur fakultas teknik sipil dan perencanaan universitas gunadarma.,1,1,0,24,0.22727272727272727,0.888888888888889,0.3333333333333333
-Kualifikasi_Remigius.txt,2. menganalisis keterlibatan komunitas dan persepsi pengguna dalam sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse yang dikembangkan di program studi teknik arsitektur fakultas teknik sipil dan perencanaan universitas gunadarma.,2,1,0,30,0.36363636363636365,0.888888888888889,0.3333333333333333
-Kualifikasi_Remigius.txt,3. menguji sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse yang melibatkan komunitas dan persepsi pengguna di program studi teknik arsitektur fakultas teknik sipil dan perencanaan universitas gunadarma.,3,1,0,28,0.36363636363636365,0.0,0.3333333333333333
-KUALIFIKASI_Riya Widayanti.txt,adapun tujuan penelitiannya adalah sebagai berikut menghasilkan skema logika data yang digunakan dalam aplikasi block chain yang menjadi ko nsensus atau perjanjian bersama dalam studi kasus menghasilan arshitektur blockchain yang digunakan dalam konsensus bersama memetakan as pek data privasi yang digunakan dengan aturan kepatuhan data antara lain dengan uu ite,1,1,0,50,0.06896551724137931,1,1.0
-Miftakhul Zaen_KUALIFIKASI.txt,berdasarka n rumusan masalah yang telah dipaparkan tujuan penelitian d apat dijelaskan sebagai berikut.,0,1,1,15,0.0,0.0,0.0
-Miftakhul Zaen_KUALIFIKASI.txt,1. mengembangkan versi kuantum dari algorit ma dbscan untuk mengatasi keterbatasan dalam penanganan dataset besar pada klasterisasi supplier .,1,1,1,19,0.35714285714285715,1.0,0.5
-Miftakhul Zaen_KUALIFIKASI.txt,2. mengevaluasi peningkatan efisiensi dan akurasi yang dic apai oleh dbscan kuantum dala m pengelompokan supplier dibandingkan dengan pendekatan klasik.,2,1,0,21,0.15789473684210525,0.0,0.5
-Ragmar Faikar Eka_Kualifikasi.txt,1. untuk merancang lightweight model klasifikasi kematangan buah kelapa sawit 2. untuk menggabungkan model konvolusi dan teknik attention module 3. untuk membuat aplikasi berbasis android untuk klasifikasi kematangan buah kelapa sawit 28 digunakan sesuai dengan tujuan penelitian tersebut.,1,1,0,39,0.3076923076923077,1,1.0
-Reviana Siti Mardiah_Kualifikasi.txt,berdasarkan pokok permasalahan yang telah dirumuskan dalam rumusan masalah maka tujuan penelitian ini adalah sebagai berikut 1. mengembangkan model generative ai untuk menghasilkan data sintetis yang realistis yang dapat digunakan sebagai data pelatihan untuk model prediksi permintaan dan p roduksi beras .,0,1,0,42,0.1935483870967742,0.0,0.4
-Reviana Siti Mardiah_Kualifikasi.txt,2. mengembangkan model machine learning yang efektif dalam memprediksi permintaan dan produksi beras .,1,1,0,14,0.3,0.888888888888889,0.2
-Reviana Siti Mardiah_Kualifikasi.txt,3. merancang model optimasi yang efektif untuk menentukan jumlah cadangan beras pemerintah yang optimal.,2,1,1,15,0.18181818181818182,0.888888888888889,0.2
-Reviana Siti Mardiah_Kualifikasi.txt,4. mambangun prototype decision support system untuk cadangan beras pemerintah .,3,1,1,11,0.3157894736842105,0.0,0.2
-Reza Al Husna_Kualifikasi.txt,tujuan penelitian yang ingin dicapai pada penelitian ini adalah 1. menghasilkan algoritma dan metode dengan pendekatan feature fusion berbasis attention untuk deteksi citra penyakit daun tanaman kakao .,0,1,0,28,0.2857142857142857,0.0,0.5
-Reza Al Husna_Kualifikasi.txt,2. menghasilkan sistem deteksi untuk mengenali gejala pada daun yang terinfeksi penyakit.,1,1,1,13,0.125,0.0,0.5
-Robert_Kualifikasi.txt,tujuan dari penelitian ini adalah 1. menghasilkan metode dan algoritma ekstrasi fitur ekspresi wajah berbasis morfologi matematika.,0,1,0,18,0.09523809523809523,0.0,0.3333333333333333
-Robert_Kualifikasi.txt,2. menghasilkan model klasifikasi mnn yang dapat digunakan untuk pengenalan ekspresi wajah .,1,1,1,13,0.38461538461538464,1.0,0.3333333333333333
-Robert_Kualifikasi.txt,3. menghasilkan prototype perangkat lunak sistem pengenalan ekspresi wajah .,2,1,1,10,0.26666666666666666,0.0,0.3333333333333333
-Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan rumusan masalah maka tujuan dari penelitian ini adalah 1. mengumpulkan informasi batik daur hidup yogyakarta yang akurat.,0,1,1,19,0.21052631578947367,0.0,0.0
-Tatya Atyanti Paramastri_Kualifikasi.txt,2. menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya.,1,1,1,12,0.3333333333333333,0.888888888888889,0.0
-Tatya Atyanti Paramastri_Kualifikasi.txt,3. mengembangkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta.,2,1,0,14,0.8333333333333334,0.888888888888889,0.5
-Tatya Atyanti Paramastri_Kualifikasi.txt,4. mengukur nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum.,3,1,0,20,0.5294117647058824,0.0,0.5
-Tia Haryanti_Kualifikasi.txt,tujuan umum penelitian adalah mengembangkan sistem deteksi kantuk predriving yang inovatif dengan menggunakan kecerdasan artifisial untuk meningkatkan keselamatan dan kesejahteraan pengemudi.,0,1,0,22,0.29411764705882354,0.0,0.5
-Tia Haryanti_Kualifikasi.txt,tujuan khusus penelitian ini yaitu sebagai berikut 1. membangun dataset baru dari data citra wajah dan data fisiologis untuk pelatihan dan pengujian model deteksi kantuk predriving.,1,1,0,27,0.14285714285714285,0.4897959183673469,0.25
-Tia Haryanti_Kualifikasi.txt,2.,3,1,0,17,0.2,0.9795918367346937,0.0
-Tia Haryanti_Kualifikasi.txt,Mengidentifikasi parameter visual dan fisiologis yang dapat digunakan dalam sistem deteksi dini kantuk berbasis kecerdasan artifisial.,5,1,0,35,0.2,0.8163265306122449,0.25
-Tia Haryanti_Kualifikasi.txt,3.,7,1,0,18,0.26666666666666666,0.0,0.0
-Utami Lestari_Kualifikasi.txt,secara umum penelitian ini bertujuan untuk menciptakan platform tinjauan artikel ilmiah berbasis kecerdasan buatan dengan menggunakan model bahasa besar.,0,1,1,20,0.05263157894736842,0.0,0.5
-Utami Lestari_Kualifikasi.txt,tujuan penelitian secara khusus adalah sebagai berikut 1.membangun model platform tinjauan artikel ilmiah dengan llm 2. mengembangkan algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal,1,1,1,25,0.09090909090909091,0.0,0.5
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,tujuan penelitian merupakan jawaban dari rumusan masalah yang menjadi hasil akhir dari penelitian.,0,1,1,14,0.0,0.0,0.3333333333333333
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,berikut ini adalah tujuan penelitian.,2,1,1,20,0.15789473684210525,0.888888888888889,0.3333333333333333
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,1. menghasilkan aplikasi deteksi objek yang dapat mengidentifikasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan.,3,1,1,26,0.15,0.0,0.3333333333333333
+Ragmar Faikar Eka_Kualifikasi.txt,1. untuk merancang lightweight model klasifikasi kematangan buah kelapa sawit 2. untuk menggabungkan model konvolusi dan teknik attention module 3. untuk membuat aplikasi berbasis android untuk klasifikasi kematangan buah kelapa sawit 28 digunakan sesuai dengan tujuan penelitian tersebut.,0,1,0,30,0.3076923076923077,1,1
+KUALIFIKASI_Riya Widayanti.txt,"Adapun tujuan penelitiannya adalah sebagai berikut:
+- Menghasilkan skema logika data yang digunakan dalam aplikasi blockchain yang menjadi konsensus atau perjanjian bersama dalam studi kasus
+- Menghasilan arshitektur blockchain yang digunakan dalam konsensus bersama
+- Memetakan aspek data privasi yang digunakan dengan aturan kepatuhan data antara lain dengan UU ITE",0,1,0,36,0.07692307692307693,1,1
+Reza Al Husna_Kualifikasi.txt,tujuan penelitian yang ingin dicapai pada penelitian ini adalah 1. menghasilkan algoritma dan metode dengan pendekatan feature fusion berbasis attention untuk deteksi citra penyakit daun tanaman kakao .,0,1,0,27,0.2857142857142857,1,1
+Reza Al Husna_Kualifikasi.txt,2. menghasilkan sistem deteksi untuk mengenali gejala pada daun yang terinfeksi penyakit.,1,1,1,13,0.125,1,1
+Kualifikasi_Rama Dian Syah.txt,"Sesuai dengan masalah penelitian yang telah diuraikan sebelumnya, maka tujuan yang ingin dicapai dalam penelitian ini adalah:
+1. nghasilkan pengembangan metode kriptografi citra digital berbasis
+chaotic.",0,1,1,27,0.35294117647058826,1,1
+Kualifikasi_Rama Dian Syah.txt,2. ngimplementasi rancangan pengembangan metode kriptografi citra digital berbasis chaotic dan melakukan pengujian.,1,1,0,14,0.5,1,2
+Armando Tirta Dwilaga_Kualifikasi.txt,berikut adalah tujuan penelitian yang melandasi dalam penelitian ini 1. membangun model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban.,0,1,1,23,0.35,1,1
+Armando Tirta Dwilaga_Kualifikasi.txt,2. mengimplementasikan dan menghasilkan usulan model algoritma convolutional neural networks cnn dalam membangun sistem deteksi cacat produk ban.,1,1,0,19,0.2727272727272727,0.5,2
+Armando Tirta Dwilaga_Kualifikasi.txt,3. mengukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban.,2,1,0,19,0.4444444444444444,1,0
+Alfharizky Fauzi_Kualifikasi.txt,tujuan umum penelitian ini adalah mengembangkan prototype sistem identifikasi berbasis aplikasi yang dapat mengidentifikasi penyakit kelainan pada kulit manusia dan mengenalinya sebagai jenis penyakit kulit serta dapat memberikan keterangan dan penanganan dalam pengobatan menggunakan metode pengolahan citra dan teks .,0,1,0,35,0.2413793103448276,1,1
+Alfharizky Fauzi_Kualifikasi.txt,tujuan khusus penelitian adalah 1. mengembangkan metode identifikasi penyakit kulit sebagai pra diagnosis dengan menggabungkan dua metode pengolahan data yaitu pengolahan gambar dan pengolahan teks menjadi bi directional image text matching untuk mendapatkan hasil yang lebih akurat dalam identifikasi image to teks maupun sebaliknya teks to image .,1,1,0,39,0.14705882352941177,0.5,2
+Alfharizky Fauzi_Kualifikasi.txt,2. menghasilkan model identifikasi bidirectional image teks matching yang dapat digunakan untuk identifikasi penyakit kulit yang dapat digunakan untuk prototype system identifikasi penyakit kulit berbasis aplikasi sebagai pra diagnosis pasien.,2,1,1,23,0.14285714285714285,1,1
+Miftakhul Zaen_KUALIFIKASI.txt,berdasarka n rumusan masalah yang telah dipaparkan tujuan penelitian d apat dijelaskan sebagai berikut.,0,1,1,15,0.0,1,0
+Miftakhul Zaen_KUALIFIKASI.txt,1. mengembangkan versi kuantum dari algorit ma dbscan untuk mengatasi keterbatasan dalam penanganan dataset besar pada klasterisasi supplier .,1,1,1,19,0.35714285714285715,0.5,1
+Miftakhul Zaen_KUALIFIKASI.txt,2. mengevaluasi peningkatan efisiensi dan akurasi yang dic apai oleh dbscan kuantum dala m pengelompokan supplier dibandingkan dengan pendekatan klasik.,2,1,0,21,0.15789473684210525,1,1
+Fitriana Indah Pramitasari_Kualifikasi.txt,berikut tujuan penelitian ini adalah sebagai berikut.,0,1,1,7,0.0,1,0
+Fitriana Indah Pramitasari_Kualifikasi.txt,1. menghasilkan platform koperasi petani kentang.,1,1,1,7,0.2857142857142857,0.5,1
+Fitriana Indah Pramitasari_Kualifikasi.txt,2. menghasilkan data prediksi permintaan di masa depan selama periode tertentu dan dicatat dalam blockchain.,2,1,0,16,0.0,0.6666666666666666,1
+Fitriana Indah Pramitasari_Kualifikasi.txt,3. menghasilkan data inventory secara realtime dan dicatat dalam blockchain.,3,1,0,11,0.0,1,1
+Utami Lestari_Kualifikasi.txt,Secara umum penelitian ini bertujuan untuk menciptakan platform tinjauan artikel ilmiah berbasis kecerdasan buatan dengan menggunakan model bahasa besar.,0,1,1,20,0.05263157894736842,1,2
+Utami Lestari_Kualifikasi.txt,"Tujuan penelitian secara khusus adalah sebagai berikut :
+1.",1,1,1,10,0.0,0.5,0
+Utami Lestari_Kualifikasi.txt,"Membangun model platform tinjauan artikel ilmiah dengan LLM
+2.",2,1,1,10,0.07142857142857142,0.6666666666666666,1
+Utami Lestari_Kualifikasi.txt,Mengembangkan algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal,3,1,1,8,0.07692307692307693,1,1
+Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan rumusan masalah maka tujuan dari penelitian ini adalah 1. mengumpulkan informasi batik daur hidup yogyakarta yang akurat.,0,1,1,19,0.21052631578947367,1,0
+Tatya Atyanti Paramastri_Kualifikasi.txt,2. menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya.,1,1,1,12,0.3333333333333333,0.5,0
+Tatya Atyanti Paramastri_Kualifikasi.txt,3. mengembangkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta.,2,1,0,14,0.8333333333333334,0.6666666666666666,1
+Tatya Atyanti Paramastri_Kualifikasi.txt,4. mengukur nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum.,3,1,0,20,0.5294117647058824,1,1
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,tujuan penelitian merupakan jawaban dari rumusan masalah yang menjadi hasil akhir dari penelitian.,0,1,1,12,0.0,1,1
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,berikut ini adalah tujuan penelitian.,1,1,1,6,0.0,0.5,0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,1. menghasilkan aplikasi deteksi objek yang dapat mengidentifikasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan.,2,1,1,19,0.15789473684210525,0.6666666666666666,1
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,2. mengetahui pembaharuan yang ada pada pengembangan aplikasi untuk mendeteksi objek yang dapat mengidentifikasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan.,3,1,1,22,0.15,1,1
+Reviana Siti Mardiah_Kualifikasi.txt,berdasarkan pokok permasalahan yang telah dirumuskan dalam rumusan masalah maka tujuan penelitian ini adalah sebagai berikut 1. mengembangkan model generative ai untuk menghasilkan data sintetis yang realistis yang dapat digunakan sebagai data pelatihan untuk model prediksi permintaan dan p roduksi beras .,0,1,0,36,0.1935483870967742,1,2
+Reviana Siti Mardiah_Kualifikasi.txt,2. mengembangkan model machine learning yang efektif dalam memprediksi permintaan dan produksi beras .,1,1,0,14,0.3,0.5,1
+Reviana Siti Mardiah_Kualifikasi.txt,3. merancang model optimasi yang efektif untuk menentukan jumlah cadangan beras pemerintah yang optimal.,2,1,1,14,0.18181818181818182,0.6666666666666666,1
+Reviana Siti Mardiah_Kualifikasi.txt,4. mambangun prototype decision support system untuk cadangan beras pemerintah .,3,1,1,11,0.3157894736842105,1,0
+Erfiana Wahyuningsih_UK.txt,1.,0,1,1,2,0.0,1,0
+Erfiana Wahyuningsih_UK.txt,Mereduksi jumlah transistor pada rangkaian SRAM dengan menggunakan metode m-GDI.,1,1,1,11,0.047619047619047616,0.75,0
+Erfiana Wahyuningsih_UK.txt,2.,2,1,1,2,0.0,0.5,0
+Erfiana Wahyuningsih_UK.txt,"Mampu menunjukkan kinerja dari penggunaan Low Power pada rangkaian SRAM 6T
+3.",3,1,1,13,0.2,0.75,0
+Erfiana Wahyuningsih_UK.txt,Mampu mempertahankan High Read Stability pada rangkaian SRAM 6T,4,1,1,9,0.2777777777777778,1,0
+Alifurrohman_Kualifikasi.txt,"Berdasarkan rumusan masalah yang telah dipaparkan, tujuan penelitian dari penelitian ini sebagai berikut.",0,1,1,14,0.0,1,0
+Alifurrohman_Kualifikasi.txt,1.,1,1,1,2,0.0,0.8333333333333334,0
+Alifurrohman_Kualifikasi.txt,Mengembangkan model berbasis Deep Q-Network (DQN) yang diperkaya dengan mekanisme Multi-Header Attention untuk menyelesaikan Dynamic Vehicle Routing Problem with Time Windows (DVRPTW).,2,1,1,25,0.4,0.6666666666666667,1
+Alifurrohman_Kualifikasi.txt,2.,3,1,1,2,0.0,0.5,0
+Alifurrohman_Kualifikasi.txt,Menilai efektivitas model DQN dengan Multi-Header Attention dalam meningkatkan efisiensi pengiriman dan kepuasan pelanggan melalui penentuan rute optimal dalam kondisi yang dinamis.,4,1,0,22,0.06666666666666667,0.6666666666666666,1
+Alifurrohman_Kualifikasi.txt,3.,5,1,1,2,0.0,0.8333333333333334,0
+Alifurrohman_Kualifikasi.txt,"Menunjukkan kemampuan adaptasi model terhadap perubahan kondisi seperti fluktuasi lalu lintas, kedatangan pelanggan baru dan batasan jendela waktu.",6,1,0,20,0.037037037037037035,1,0
+Robert_Kualifikasi.txt,"Tujuan dari penelitian ini adalah:
+1.",0,1,1,8,0.0,1,0
+Robert_Kualifikasi.txt,Menghasilkan metode dan algoritma ekstrasi fitur ekspresi wajah berbasis morfologi matematika.,1,1,0,12,0.1111111111111111,0.8,1
+Robert_Kualifikasi.txt,2.,2,1,1,2,0.0,0.5,0
+Robert_Kualifikasi.txt,Menghasilkan model klasifikasi MNN yang dapat digunakan untuk pengenalan ekspresi wajah.,3,1,1,12,0.4166666666666667,0.6,1
+Robert_Kualifikasi.txt,3.,4,1,1,2,0.0,0.8,0
+Robert_Kualifikasi.txt,Menghasilkan prototype perangkat lunak sistem pengenalan ekspresi wajah.,5,1,1,9,0.2857142857142857,1,1
+Kualifikasi_Aris Gunaryati.txt,"Berdasarkan rumusan masalah di atas, maka tujuan penelitian ini adalah sebagai berikut :
+1.",0,1,1,16,0.0,1,0
+Kualifikasi_Aris Gunaryati.txt,"Mempelajari pola data runtun waktu pertambahan jumlah kasus harian Covid 19 di Jakarta dari tanggal 6 Maret 2020 sampai tanggal 30 Juni 2021 apakah merupakan runtun waktu seasonal atau non seasonal
+2.",1,1,0,29,0.2692307692307692,0.8333333333333334,0
+Kualifikasi_Aris Gunaryati.txt,"Menentukan model peramalan ARIMA yang sesuai dengan data runtun waktu tersebut
+3.",2,1,1,13,0.15789473684210525,0.6666666666666667,0
+Kualifikasi_Aris Gunaryati.txt,"Menentukan model peramalan untuk data runtun waktu tersebut menggunakan metode Neural Network (NN)
+4.",3,1,1,17,0.2631578947368421,0.5,0
+Kualifikasi_Aris Gunaryati.txt,"Menentukan model peramalan Hybrid Arima Neural Network untuk data runtun waktu tersebut
+5.",4,1,1,14,0.2631578947368421,0.6666666666666666,0
+Kualifikasi_Aris Gunaryati.txt,"Membuat dan mengembangkan model Hybrid Q u a n t u m ARIMA- NN yang dapat memberikan hasil peramalan yang lebih akurat
+6.",5,1,0,22,0.0,0.8333333333333334,2
+Kualifikasi_Aris Gunaryati.txt,Membuat analisis hasil peramalan untuk jumlah kasus harian Covid 19 di Jakarta pada periode tanggal 1 Juli sampai 31 Juli 2020 berdasarkan model-model tersebut,6,1,0,23,0.20833333333333334,1,1
+Kualifikasi_Remigius.txt,"Dengan masalah penelitian tersebut, maka tujuan penelitian ini ditetapkan sebagai berikut.",0,1,1,12,0.0,1,0
+Kualifikasi_Remigius.txt,1.,1,1,1,2,0.0,0.8333333333333334,0
+Kualifikasi_Remigius.txt,"Menganalisis pengembangan sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse di Program Studi Teknik Arsitektur, Fakultas Teknik Sipil dan Perencanaan, Universitas Gunadarma.",2,1,0,21,0.3157894736842105,0.6666666666666667,1
+Kualifikasi_Remigius.txt,2.,3,1,1,2,0.0,0.5,0
+Kualifikasi_Remigius.txt,"Menganalisis keterlibatan komunitas dan persepsi pengguna dalam sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse yang dikembangkan di Program Studi Teknik Arsitektur, Fakultas Teknik Sipil dan Perencanaan, Universitas Gunadarma.",4,1,0,27,0.38095238095238093,0.6666666666666666,1
+Kualifikasi_Remigius.txt,3.,5,1,1,2,0.0,0.8333333333333334,0
+Kualifikasi_Remigius.txt,"Menguji sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse yang melibatkan komunitas dan persepsi pengguna di Program Studi Teknik Arsitektur Fakultas Teknik Sipil dan Perencanaan, Universitas Gunadarma.",6,1,0,25,0.38095238095238093,1,1
+Kualifikasi Witta Listiya Ningrum.txt,"Tujuan dalam penelitian ini adalah melakukan pengembangan model klasifikasi toksisitas multimodal dengan kombinasi jenis media teks, gambar dan video pada platform sosial media menggunakan Large Language Model (LLM).",0,1,0,30,0.8888888888888888,1,1
+Kualifikasi Witta Listiya Ningrum.txt,Pengembangan ini dilakukan untuk meningkatkan kemampuan deteksi dan pemahaman konten berbahaya secara menyeluruh di platform sosial media.,1,1,0,18,0.18181818181818182,0.8333333333333334,2
+Kualifikasi Witta Listiya Ningrum.txt,"Secara khusus dapat dijabarkan sebagai berikut :
+1.",2,1,1,9,0.0,0.6666666666666667,0
+Kualifikasi Witta Listiya Ningrum.txt,"Mengembangkan algoritma untuk merepresentasikan teks, gambar dan video dari berbagai platform sosial media seperti Twitter, Instagram dan Tiktok.",3,1,0,19,0.3333333333333333,0.5,1
+Kualifikasi Witta Listiya Ningrum.txt,2.,4,1,1,2,0.0,0.6666666666666666,0
+Kualifikasi Witta Listiya Ningrum.txt,"Mengembangkan model klasifikasi toksisitas menggunakan multimodal dengan metode Large Language Model (LLM) dengan jenis media teks, gambar dan video.",5,1,0,21,0.7647058823529411,0.8333333333333334,1
+Kualifikasi Witta Listiya Ningrum.txt,mahan mesin dan tanya jawab visual.,6,1,0,7,0.0,1,0
+Devi Resviani_KUALIFIKASI.txt,Adapun tujuan dari penelitian ini secara umum adalah memberikan solusi untuk pemeliharaan prediktif pada mesin kompresor reciprocating menggunakan machine learning.,0,1,1,21,0.38461538461538464,1,0
+Devi Resviani_KUALIFIKASI.txt,"Selain itu, secara khusus tujuan penelitian ini adalah sebagai berikut:
+1.",1,1,1,14,0.0,0.875,0
+Devi Resviani_KUALIFIKASI.txt,Membandingkan efektivitas berbagai algoritma machine learning untuk memprediksi kegagalan pada mesin kompresor reciprocating.,2,1,1,14,0.38461538461538464,0.75,0
+Devi Resviani_KUALIFIKASI.txt,2.,3,1,1,2,0.0,0.625,0
+Devi Resviani_KUALIFIKASI.txt,Menghasilkan model machine learning dari algoritma yang terpilih untuk memprediksi kegagalan pada mesin kompresor reciprocating.,4,1,1,16,0.35714285714285715,0.5,1
+Devi Resviani_KUALIFIKASI.txt,3.,5,1,1,2,0.0,0.625,0
+Devi Resviani_KUALIFIKASI.txt,"Menghasilkan prototipe sistem peringatan pemeliharaan prediktif berbasis
+machine learning pada mesin kompresor reciprocating.",6,1,1,14,0.42857142857142855,0.75,1
+Devi Resviani_KUALIFIKASI.txt,4.,7,1,1,2,0.0,0.875,0
+Devi Resviani_KUALIFIKASI.txt,"Mengevaluasi kinerja sistem peringatan pemeliharaan prediktif berbasis
+machine learning pada pada mesin kompresor reciprocating.",8,1,1,14,0.42857142857142855,1,0
+Tia Haryanti_Kualifikasi.txt,tujuan umum penelitian adalah mengembangkan sistem deteksi kantuk predriving yang inovatif dengan menggunakan kecerdasan artifisial untuk meningkatkan keselamatan dan kesejahteraan pengemudi.,0,1,0,22,0.29411764705882354,1,2
+Tia Haryanti_Kualifikasi.txt,tujuan khusus penelitian ini yaitu sebagai berikut 1. membangun dataset baru dari data citra wajah dan data fisiologis untuk pelatihan dan pengujian model deteksi kantuk predriving.,1,1,0,25,0.14285714285714285,0.8571428571428572,1
+Tia Haryanti_Kualifikasi.txt,2.,2,1,1,2,0.0,0.7142857142857143,0
+Tia Haryanti_Kualifikasi.txt,Mengidentifikasi parameter visual dan fisiologis yang dapat digunakan dalam sistem deteksi dini kantuk berbasis kecerdasan artifisial.,3,1,0,17,0.2,0.5,0
+Tia Haryanti_Kualifikasi.txt,3.,4,1,1,2,0.0,0.5714285714285714,0
+Tia Haryanti_Kualifikasi.txt,"Merancang sistem deteksi kantuk yang mampu mengidentifikasi tanda-tanda kelelahan pengemudi dalam kondisi pre-driving menggunakan CNN dalam menganalisis data visual berupa citra wajah, LSTM untuk analisis data sekuensial, dan SVM untuk klasifikasi efektif.",5,1,0,31,0.2,0.7142857142857143,1
+Tia Haryanti_Kualifikasi.txt,4.,6,1,1,2,0.0,0.8571428571428571,0
+Tia Haryanti_Kualifikasi.txt,Mengimplementasikan sistem deteksi kantuk ke dalam lingkungan pre-driving pengemudi dengan efisien dan memastikan kompatibilitas serta kemudahan penggunaan.,7,1,0,18,0.26666666666666666,1,0

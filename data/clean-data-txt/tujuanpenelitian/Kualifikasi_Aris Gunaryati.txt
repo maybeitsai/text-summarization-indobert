@@ -1,1 +1,7 @@
-tujuan penelitian berdasarkan rumus an masalah di atas maka tujuan penelitian ini adalah sebagai berikut 1. mempel ajari pola data runtun waktu pertambahan jumlah kasus harian covid 19 di jakarta dari tangg al 6 maret 2020 sampai tangg al 30 juni 2021 apakah merupakan runtun waktu seasonal atau non seasonal 2. menentukan model peramal an arima yang sesuai dengan data runtun w aktu tersebut 3. menentukan model peramalan untuk data runtun waktu tersebut meng gunakan metode neural network nn 4. menentukan model peramalan hybrid arima neural network untuk data runtun waktu tersebut 5. membuat dan mengembangkan model hybrid quantum arima nn yang dapat mem berikan hasil peramalan yang lebih akurat 6. membuat analisis hasil peramalan untuk jumlah kasus harian covid 19 di jakarta pada periode tanggal 1 juli sampai 31 juli 2020
+Berdasarkan rumusan masalah di atas, maka tujuan penelitian ini adalah sebagai berikut :
+1. Mempelajari pola data runtun waktu pertambahan jumlah kasus harian Covid 19 di Jakarta dari tanggal 6 Maret 2020 sampai tanggal 30 Juni 2021 apakah merupakan runtun waktu seasonal atau non seasonal
+2. Menentukan model peramalan ARIMA yang sesuai dengan data runtun waktu tersebut
+3. Menentukan model peramalan untuk data runtun waktu tersebut menggunakan metode Neural Network (NN)
+4. Menentukan model peramalan Hybrid Arima Neural Network untuk data runtun waktu tersebut
+5. Membuat dan mengembangkan model Hybrid Q u a n t u m ARIMA- NN yang dapat memberikan hasil peramalan yang lebih akurat
+6. Membuat analisis hasil peramalan untuk jumlah kasus harian Covid 19 di Jakarta pada periode tanggal 1 Juli sampai 31 Juli 2020 berdasarkan model-model tersebut
