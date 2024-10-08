@@ -1,0 +1,133 @@
+PENGEMBANGAN MODEL SISTEM INFORMASI MANAJEMEN PROYEK KONSTRUKSI DENGAN MENGGUNAKAN METODE RAPID APPLICATION DEVELOPMENT (RAD)
+
+
+Bab 1
+Pendahuluan
+1.1 Latar Belakang
+     Untuk saat ini, perkembangan pada segala aspek dalam kehidupan, baik dibidang sosial, budaya, ekonomi, serta teknologi informasi dan komunikasi semakin berkembang. Pada saat ini, dibidang teknologi informasi dan komunikasi yang paling berkembang dengan pesat. Untuk teknologi informasi dan komunikasi terdiri dari dua aspek yaitu teknologi informasi dan teknologi komunikasi. Untuk teknologi informasi sendiri meliputi segala sesuatu yang membahas mengenai proses, penggunaan alat untuk alat bantu, manipulasi, dan pengelolaan informasi. Untuk teknologi komunikasi sendiri meliputi segala sesuatu yang membahas mengenai penggunaan alat bantu untuk proses dan transfer data dari perangkat yang satu ke perangkat yang lain. Oleh karena itu, teknologi informasi dan komunikasi merupakan dua hal yang tidak dapat dipisahkan, maka dua hal ini biasa dikenal dengan Teknologi Informasi dan Komunikasi (TIK).
+     Pada era perkembangan teknologi informasi saat ini, telah banyak yang memanfaatkan kemajuan teknologi informasi tersebut. Pemanfaatan teknologi informasi dapat dirasakan pada berbagai bidang, seperti dibidang perdagangan, perbankan, pendidikan, kedokteran, sosial, teknik sipil, dan lain-lain. Pada bidang perdagangan pemanfaatan teknologi informasi dimanfaatkan untuk E-Commerce, yaitu perdagangan yang menggunakan jaringan komunikasi internet. Pada bidang perbankan pemanfaatan teknologi informasi dimanfaatkan untuk penggunaan aplikasi TI akan investasi TI yang efektif akan meningkatkan keunggulan daya saing dalam jangka panjang. Pada bidang Pendidikan pemanfaatam teknologi informasi dimanfaatkan untuk pengembangan layanan informasi yang lebih baik dalam suatu institusi pendidikan, dengan mewujudkan ke dalam suatu sistem yang disebut E-University. Dengan E-University yang memiliki tujuan untuk mendukung penyelenggaraan pendidikan, sehingga perguruan tinggi dapat menyediakan layanan informasi yang lebih baik, baik di dalam maupun di luar perguruan tinggi tersebut melalui internet. Pada bidang kedokteran pemanfaatan teknologi informasi dimanfaatkan untuk memberikan akses untuk masyarakat umum mendapatkan informasi menjadi terbuka luas, informasi-informasi mengenai kesehatan dan kedokteran yang diberikan juga terlindungi dari informasi-informasi yang tidak benar dan kurang akurat. Pada bidang kedokteran juga memanfaatkan penggunaan teknologi informasi untuk penggunaan database pasien dan penggunaan alat-alat medis yang canggih. Pada bidang sosial pemanfaatan teknologi informasi dimanfaatkan untuk prasarana, aplikasi, dan layanan informasi dan komunkasi untuk memberdayakan dan melestarikan modal sosial masyarakat lokal (jaringan, organisasi, kelompok, aktivitas, dan nilai yang mendasari kehidupan masyarakat). Pada bidang teknik sipil juga memanfaatkan penggunaan teknologi informasi untuk sistem perhitungan dan sistem informasi. Untuk saat ini, program sistem perhitungan sudah berkembang pesat sehingga bermunculan berbagai macam program yang dapat digunakan untuk perhitungan struktur seperti SAP, sedangkan untuk program berupa sistem informasi seperti Microsoft Project yang digunakan untuk penyusunan jadwal proyek konstruksi.
+     Teknologi informasi dan bidang teknik sipil merupakan dua hal yang tidak dapat dipisahkan, karena banyak teknologi sipil yang harus ditunjang dengan kemampuan informatika dan pemanfaatan perangkat lunak sangat penting diterapkan pada bidang teknik sipil. Salah satu penerapan teknologi informasi yang sangat penting dibidang teknik sipil adalah pembuatan sistem manajemen informasi pada proyek konstruksi. Selain itu, penerapan teknologi informasi pada bidang teknik sipil dapat diterapkan untuk manajemen bencana, geoteknik, struktur, manajemen proyek - aset, manajemen rekayasa sumber daya air, manajemen rekayasa transportasi, dan penginderaan jauh. Oleh karena itu, sangat perlu para peneliti, dosen, mahasiswa, dan praktisi dibidang teknik sipil untuk saling interaksi dalam menyampaikan konsep, hasil riset, dan pemikirannya masing-masing.
+     Pada saat ini, ada beberapa perusahaan konstruksi yang belum menggunakan sistem informasi dalam menjalankan operasional perusahaan, namun beberapa perusahaan konstruksi ada juga yang sudah menggunakan sistem informasi dan yang pasti masih diperlukan pengembangan untuk lebih baik lagi dalam penggunaannya. Sistem informasi manajemen untuk proyek konstruksi akan sangat membantu Manajer Proyek dalam menjalankan, memantau, dan mengendalikan proyek. Manfaat dengan adanya sistem informasi manajemen yang didapatkan yaitu efesiensi, kontrol proyek, meningkatkan kualitas, meningkatkan produktivitas, menekan resiko, koordinasi internal, dan meningkatkan semangat untuk pihak-pihak yang terlibat. Untuk mengembangkan suatu sistem informasi manajemen untuk proyek konstruksi diperlukan suatu metode atau pendekattan yang tepat. Untuk saat ini, terdapat beberapa pendakatan yang dapat mengatasi perubahan kebutuhan yang sangat cepat, seperti pendekatan agile, kanban, scrum, lean, waterfall, six sigma, rapid application development, dan prince2.
+     Dalam penelitian ini, langkah pertama yang dilakukan yaitu studi literatur. Pada tahap ini, ditemukan beberapa penelitian yang membahas mengenai sistem informasi manajemen untuk proyek konstruksi. Pada penelitian yang dilakukan oleh Satya pada tahun 2019, membahas mengenai penerapan agile development untuk pengembangan sistem informasi manajemen perusahaan konstruksi (Satya, 2019). Pada penelitian yang dilakukan oleh Satya, memilih untuk menggunakan pendekatan agile development, dikarenakan pada studi kasus penelitian tersebut menunjukkan bahwa pada perusahaan ditemukan perubahan kebutuhan yang sangat cepat sehingga tidak bisa secara langsung menemukan semua masalah atau kebutuhan yang harus dipenuhi. Untuk hasil dari penelitian tersebut, menunjukkan hasil pengujian alpha menjelaskan bahwa secara keseluruhan sistem yang dibangun dapat dikatakan berhasil atau diterima, karena secara fungsional sistem sudah dapat berjalan seperti yang diharapkan. Untuk hasil pengujian beta, didapatkan bahwa hasil uji kelayakan keseluruhan variable efficiency mencapai 86%, uji kelayakan keseluruhan variable effectivenees mencapai 81%, uji kelayakan keseluruhan variable mencapai 81%. Dari hasil tersebut, maka sistem informasi manajemen yang dibangun, sangat layak digunakan. Namun masih diperlukan pengembangan terhadap sistem yang sudah dibangun, seperti perbaikan pada desain tampilan sistem informasi manajemen konstruksi agar lebih menarik dan mudah digunakan, kemudian masih perlu adanya pengembangan sistem lebih lanjut agar dapat memenuhi semua kebutuhan perusahaan.
+     Pada penelitian yang dilakukan oleh Lestari dan Setiyadi pada tahun 2019, membahas mengenai sistem informasi monitoring perkembangan proyek dalam bidang kontruksi berbasis web pada CV. Jaya Makmur Bekasi (Lestari dan Setiyadi, 2019). Pada penelitian yang dilakukan oleh Lestari dan Setiyadi, memilih untuk menggunakan pendekatan waterfall untuk merancang dan membangun sistem informasi manajemen proyek yang sesuai dengan proses bisnis pada perusahaan tersebut. Dengan dibangunnya sistem tersebut, maka perusahaan diharap dapat lebih mengetahui begaimana proyek yang sedang berlangsung dan siapa yang bertanggung jawab untuk setiap proyek, serta mempermudah melakukan pengawasan dilapangan. Berdasarkan hasil penelitian, disimpulkan bahwa dengan adanya sistem yang dibangun maka perusahaan dapat melakukan pengawasan perkembangan proyek dilapangan dan menghasilkan laporan yang lebih akurat dan tepat waktu, dapat mengetahui permasalahan yang terjadi dilapangan, Manajer Proyek dapat mengetahui bagaimana proyek yang sedang berlangsung dan siapa yang bertanggung jawab untuk setiap proyek. Namun masih diperlukan pengembangan terhadap sistem yang sudah dibangun, seperti perlu adanya pengembangan sistem lebih lanjut agar dapat memenuhi semua kebutuhan perusahaan.
+     Pada penelitian yang dilakukan oleh Yanti pada tahun 2018, membahas mengenai pembuatan sistem informasi manajemen kosntruksi untuk monitoring kemajuan pekerjaan proyek jalan (studi kasus pelaksanaan proyek konstruksi jalan di Kab. Hulu Sungai Utara) (Yanti, 2018). Pada penelitian yang dilakukan oleh Yanti, memilih untuk menggunakan pendekatan waterfall. Dengan melakukan identifikasi kebutuhan pengguna berupa informasi perkembangan pekerjaan dan penyerapan keuangan secara cepat dan akurat. Dengan dibangunnya sistem tersebut, maka Pejabat Pembuat Keputusan (PPK) dapat memperoleh informasi perkembangan dan penyerapan anggaran, dapat melakukan monitoring pekerjaan yang berbeda-beda lokasinya secara online, fitur forum dapat digunakan untuk melakukan koordinasi dan komunikasi, dan tersusunnya manajemen dokumen dengan dibangunnya suatu database proyek. Namun masih diperlukan pengembangan terhadap sistem yang sudah dibangun, seperti diperlukan pengembangan terhadap fitur-fitur yang dibutuhkan tetapi belum tersedia pada sistem.
+     Pada penelitian yang dilakukan oleh Prihantara, Hartono, dan Wardani pada tahun 2018, membahas mengenai pengembangan sistem informasi manajemen proyek konstruksi (Prihantara et al, 2018). Untuk pendekatan yang digunakan adalah waterfall, dikarenakan pengembangan jumlah perangkat lunak yang terbatas. Untuk hasil pada penelitian ini, menunjukkan bahwa sistem manajemen proyek konstruksi dapat mempermudah Site Manager, Direktur, dan Konsultas Pengawas dalam memonitor progress proyek. Namun masih diperlukan pengembangan terhadap fitur-fitur yang belum ada, seperti tampilan Kurva-S proyek.
+     Berdasarkan latar belakang yang telah diuraikan diatas, maka peneliti akan mengangkat judul penelitian yaitu Pengembangan Model Sistem Informasi Manajemen Proyek Konstruksi Dengan Menggunakan Metode Rapid Application Devolopment (RAD). Metode ini diusulkan, karena untuk mempercepat dan mengefisienkan pekerjaan developer agar lebih hemat waktu, tenaga dan biaya. Ide pengembangan Rapid Application Development (RAD) digagas oleh 5 developer aplikasi berjasa yaitu James Martin, Alex Balchin, Scott Shultz, Brian Gallagher dan Barry Boehm. Bersama-sama, mereka mengembangkan suatu metode untuk mengembangkan aplikasi secara lebih cepat dan praktis.
+
+1.2 Perumusan Masalah
+      Berdasarkan uraian pada latar belakang penelitian, maka dalam disertasi ini disusun rumusan masalah sebagai berikut :
+a. Dalam merancangan sistem informasi manajemen untuk proyek konstruksi, apa-apa saja yang dibutuhkan oleh para pihak yang terlibat?
+b. Perancangan proses sistem seperti apa yang harus dirancang dalam merancangan sistem informasi manajemen untuk proyek konstruksi?
+c. Perancangan basis data seperti apa yang harus dirancang, agar sesuai dengan kebutuhan sistem informasi manajemen untuk proyek konstruksi yang akan dibangun?
+d. Perancangan tampilan antar muka seperti apa yang sesuai dengan sistem yang akan dibangun?
+e. Apakah sistem yang dibangun sesuai dengan rancangan dan dapat berjalan dengan baik?
+
+1.3 Tujuan Penelitian
+     Berdasarkan uraian pada latar belakang penelitian, maka tujuan dalam disertasi ini sebagai berikut :
+a. Mengetahui kebutuhan para pihak yang terlibat dalam membangun suatu sistem informasi manajemen untuk proyek konstruksi.
+b. Merancang proses sistem sesuai dengan kebutuhan para pihak yang terlibat dalam membangun suatu sistem informasi manajemen untuk proyek konstruksi.
+c. Merancang suatu sistem basis data yang sesuai dengan sistem yang akan dibangun.
+d. Merancang tampilan antar muka untuk sistem yang akan dibangun.
+e. Mengetahui sistem yang dibangun sesuai rancangan dan berjalan dengan baik.
+
+
+
+        Latar belakang dalam penulisan ini adalah membangun Pemodelan Informasi "BIM" menjadi lebih meningkat dengan proses kolaborasi dalam industri konstruksi. Pemilik semakin membutuhkan layanan BIM dari manajer konstruksi, arsitek dan perusahaan teknik. Banyak perusahaan konstruksi sekarang berinvestasi dalam teknologi "BIM" selama penawaran, pra konstruksi, konstruksi dan pasca konstruksi. Tujuan dalam penulisan ini adalah untuk memahami penggunaan dan manfaat BIM untuk manajer konstruksi dan memeriksa BIM penjadwalan berbasis. Ada dua tujuan pada penulisan ini, yaitu mengidentifikasi arus penggunaan BIM dalam Manajemen Arsitektur / Teknik / Konstruksi / Fasilitas Industri untuk lebih memahami bagaimana "build to design" dan "design to build' berbasis BIM konsep dapat digunakan oleh manajer konstruksi. Kedua, fokus ditempatkan pada analisis BIM 3D dan 4D sebagai penjadwalan berbasis BIM.
+        Metode yang digunakan dalam penelitian ini adalah penelitian dilakukan melalui studi pustaka, studi kasus, dan wawancara. Pertama, penelitian mengidentifikasi penggunaan Pemodelan Informasi Bangunan untuk tahap pra konstruksi, konstruksi, dan pasca konstruksi. Kemudian, proyek diperiksa kegunaan dan manfaat BIM dalam pembangunan fasilitas penelitian. Selanjutnya, prototipe Model Informasi Bangunan 4D dibuat dan dipelajari. Selanjutnya, Jadwal berbasis BIM diintegrasikan ke model 4D. Akhirnya, proyek ditutup dengan analisis tentang penggunaan, kelebihan dan kekurangan BIM dan alat-alatnya.
+        Hasil dalam penulisan ini menunjukkan bahwa Pemodelan Informasi Bangunan bermanfaat bagi industri konstruksi. Pemanfaatan BIM seperti koordinasi, perencanaan konstruksi, dan prefabrikasi membuat proyek konstruksi lebih efisien. Dengan kata lain, BIM memberikan penghematan waktu dan biaya dan menghasilkan produk konstruksi yang lebih berkualitas. Berbagai alat BIM dapat digunakan untuk menerapkan BIM dalam proyek konstruksi. Namun, alat BIM menimbulkan kemunduran seperti interoperabilitas. Secara keseluruhan, membangun Pemodelan Informasi adalah konsep yang hebat, tetapi BIM alat tidak sempurna dan membutuhkan perbaikan. Untuk future work yang dapat dikembangkan dalam penulisan ini adalah penggunaan BIM dibandingkan dengan pemodelan 2D sangat dianjurkan karena model parametrik menyangkal tumpang tindih elemen dan tidak ada kesalahan, kelalaian atau konflik informasi di berbagai dilihat. Pengguna harus menggunakan elemen yang tersedia saat ini dan mengubahnya menjadi buat elemen baru karena Arsitektur Revit membutuhkan waktu dan investasi untuk membangun elemen baru dari awal. Studi lebih lanjut diperlukan untuk dekomposisi elemen. Ketika sebuah proyek sedang dimodelkan, aktivitas penjadwalan harus dipertimbangkan dan opsi pemisahan harus digunakan bila diperlukan. Interoperabilitas IFC dapat dipelajari lebih lanjut dalam proyek- proyek masa depan karena Ketika model prototipe sebagai format IFC diimpor ke Vico Constructor dan Navisworks, beberapa elemen hilang atau salah ditampilkan. IFC File Analyzer dan Open IFC Java Tool Box disarankan untuk tidak digunakan untuk penjadwalan berbasis BIM. Penggunaan Synchro untuk penjadwalan berbasis IFC direkomendasikan karena IFC dapat diimpor atau ditambahkan sebagai subtugas dalam model Sinkron. Pemanfaatan Synchro direkomendasikan untuk perencanaan konstruksi karena setelah sumber daya dan jadwal kegiatan ditautkan, garis waktu dapat dipilih untuk hari tertentu. Studi lebih lanjut diperlukan untuk sinkronisasi Synchro dengan penjadwalan dan alat BIM lainnya. Penggunaan penjadwalan berbasis BIM disarankan hanya untuk detail perencanaan konstruksi dan pemantauan untuk kegiatan seperti kontrol kualitas dan program jaminan kualitas karena membutuhkan lebih banyak upaya untuk membuat dan memperbarui aktivitas. Dalam proyek ini, berbasis BIM jadwal termasuk 32 kegiatan utama dan 270 subtugas yang terdiri dari penggunaan 160 elemen bangunan. Secara keseluruhan, pembaruan jadwal bisa mahal dan memakan waktu dan manajer konstruksi harus membuat keputusan pada nilai BIM berdasarkan penjadwalan berdasarkan kebutuhan proyek.
+
+
+Bab 3
+Metode Penelitian
+3.1 Tahapan Penelitian
+     Metode penelitian ini dilakukan berdasarkan kerangka pemikiran dan kajian pustaka. Secara umum penelitian ini berupa studi kualitatif dengan pendekatan deskriptif, untuk teknik pengambilan sampel melalui observasi, wawancara, kuisioner, dan dokumentasi. Untuk tahapan penelitian secara garis besar, dapat dilihat pada gambar 3.1. digunakan untuk mengetahui output yang dibutuhkan oleh pihak-pihak yang terlibat di proyek konstruksi.
+
+3.3.2 Data Sekunder
+     Data sekunder dikumpulkan dari hasil studi literatur, review penelitian terdahulu, pencarian perangkat lunak dan beberapa template perangkat lunak yang banyak tersedia di internet.
+     Data sekunder ini juga akan mengumpulkan mengenai informasi proyek, sumber dana, jenis laporan baik dari pemilik (pengguna jasa), konsultan dan kontraktor, serta jadwal pelaksanaan dan kemajuan fisik, termin pembayaran serta informasi orang-orang yang berkepentingan dalam proyek konstruksi.
+
+3.3.3 Pengumpulan Data
+     Teknik pengumpulan data yang dilakukan antara lain sebagai berikut :
+a. Observasi dilakukan untuk mengetahui kebutuhan sistem informasi manajemen proyek yang dibutuhkan oleh para pihak-pihak yang terlibat pada proyek konstruksi.
+b. Wawancara dilakukan untuk mengetahui output mengenai sistem informasi manajemen yang dibutuhkan oleh para pihak-pihak yang terlibat pada proyek kosntruksi.
+c. Kuesioner dilakukan untuk menanyakan kembali kepada para pihak-pihak yang terlibat pada proyek konstruksi mengenai pembobotan atas atribut- atribut yang sudah dikelompokkan atas jawaban setiap atribut untuk dijadikan bobot kebutuhan dari para pihak-pihak yang terlibat pada proyek konstruksi.
+d. Dokumentasi dilakukan untuk mendapatkan data dengan cara membaca dan mengambil kesimpulan dari berkas-berkas proyek.
+
+3.4 Pengembangan Sistem
+     Untuk pengembangan sistem, sesuai yang telah disampaikan pada latar belakang bahwa metode yang digunakan dalam memodelkan sistem informasi manajemen proyek konstruksi adalah Rapid Application Development (RAD). Metode RAD digunakan karena modul yang terlalu banyak sehingga untuk fleksibilitas dalam pengembangan sistem dapat dikendalikan serta jika ada perubahan pada setiap modul, maka pengembang secara fleksibel dapat merubah modul tersebut dan modul yang berkaitan. RAD pada pengembangan sistem yang membuat terbagi dalam beberapa tahap, sedangkan tools yang digunakan untuk memodelkan beriorientasi objek adalah notasi Unified Modelling Language (UML). Metode RAD terdiri dari tiga tahap pengembangan, yaitu :
+a. Requirement Planning Phase
+     Pada tahap ini, akan dilakukan obeservasi untuk mengumpulkan informasi-informasi mengenai gambaran umum dari suatu perusahaan, termasuk logo perusahaan, visi dan misi, serta struktur perusahaannya. Tahap selanjutnya, akan dilakukan analisi pada sistem yang berjalan proses monitoring manajemen proyek serta bagaimana work breakdown structures yang sedang berlangsung, kemudian mengindentifikasi masalah dari sistem yang berjalan. Setelah itu, akan dibuat sistem usulan yang akan dijadikan sebagai rekomendasi untuk sistem tersebut.
+b. RAD Design Workshop
+     Pada tahap ini, tahap perancangan proses sistem, basis data dan user interface yang akan dikerjakan untuk prototype sistem, kemudian menganalisis dan mengembangkan modul-modul yang dirancang.
+     1)	Perancangan Proses Sistem
+     Pada tahap ini akan membuat use case diagram, activity diagram, class diagram, sequence diagram, component diagram, dan deployment diagram.
+     2)	Perancangan Basis Data
+     Pada tahap ini, akan dirancang basis data yang berupa tabel-tabel serta hubungan antar label yang berdasarkan kebutuhan sistem informasi manajemen proyek.
+     3)	Perancangan User Interface
+     Pada tahap ini, akan dirancang tampilan antar muka yang akan dibuat sesuai dengan kebutuhan pengembangan sistem.
+c. Implementation Phase
+     Pada tahap ini, akan dilakukan implementasi pada sistem sehingga yang sudah dirancang dapat dilihat prosesnya ke dalam bentuk aplikasi. Tahap ini akan terdiri dari dua tahap, yaitu :
+     1)	Tahap Pembangunan Sistem
+     Jika perancangan siap dan sudah disetujui, maka proses sistem akan dibangun dengan menggunakan bahasa Laravel Framework sesuai dengan rancangan yang sudah dibuat.
+     2)	Tahap Pengujian Sistem
+     Tahap ini akan memeriksa seluruh proses yang telah dibangun apakah dapat berjalan sesuai rancangan dan optimal.
+
+3.4.1 Gambaran Umum Perusahaan
+     Pada tahapan ini, akan dikumpukan informasi mengenai gambaran umum perusahaan seperti profil perusahaan, visi misi perusahaan, struktur organisasi perusahaan.
+
+3.4.2 Analisis Sistem Berjalan
+     Pada tahapan ini, akan dikumpulkan informasi mengenai sistem yang berj alan pada perusahaan, seperti informasi aktor-aktor yang menggunakan sistem tersebut. Untuk mengetahui tanggung jawab dari masing-masing Admin, User, dan Client yang menggunakan sistem tersebut.
+     Dari sistem yang digunakan, akan dikumpulkan juga mengenai informasi kelebihan dan kekurangan sistem yang berjalan dari masing-masing aktor-aktor yang menggunakan sistem tersebut.
+
+3.4.3 Identifikasi Masalah
+     Berdasarkan hasil pengumpulan informasi pada tahap analisis sistem berjalan, yaitu mengetahui kelemahan sistem yang berjalan, maka peneliti akan mengindentifikasi permasalahan tersebut.
+
+3.4.4 Analisis Sistem Usulan
+     Berdasarkan hasil pengumpulan informasi mengenai kelemahan sistem yang berjalan dan hasil identifikasi masalah, maka untuk menyelesaikan permasalahan tersebut akan dianalisis untuk keperluan sistem usulan guna untuk melakukan pengembangan sistem informasi manajemen pada proyek konstruksi.
+
+3.4.5 Perancangan Proses
+3.4.5.1 Use Case Diagram
+        Pada use case diagram akan memberikan deskripsi hubungan antara pengguna sistem (aktor) dengan aktivitas-aktivitas atau proses pada sistem informasi manajemen untuk proyek kosntruksi.
+        Setelah use case diagram sudah terbentuk, maka selanjutnya akan membuat identifikasi use case diagram pada sistem informasi manajemen untuk proyek konstruksi. Setelah proses tersebut, maka selanjutnya membuat narasi use case untuk menjelaskan use case secara lebih rinci.
+
+3.3 Pengumpulan Data
+3.3.1 Data Primer
+      Data primer dikumpulkan dari hasil wawancara dan diskusi dengan pengguna jasa dan penyedia jasa disertai dengan mempresentasikan mengenai konsep sistem informasi manajemen proyek konstruksi. 
+
+3.4.5.2	Activity Diagram
+        Pada activity diagram ini akan menjelaskan mengenai aktivitas- aktivitas yang terjadi pada sistem informasi manajemen untuk proyek konstruksi.
+
+3.4.5.3	Class Diagram
+        Pada class diagram ini akan membuat hubungan relasi antara objek, memiliki atribut dan operasi yang ada pada objek. Tahap pertama akan dibuat daftar objek melalui analisis dari objek-objek pada proses sistem. Setalah membuat daftar objek, maka selanjutnya akan dibuat analisis daftar objek dan membuat atribut-abtribut pada objek. Dari hasil tersebut, akan terbentuk daftar usulan objek pada sistem tersebut, kemudian akan berlanjut pada tahap pembuatan class diagram pada sistem tersebut.
+
+3.4.5.4	Sequence Diagram
+        Pada sequence diagaram ini akan memberikan penjelasan mengenai 
+urutan secara rinci pada proses objek-objek yang akan dilakukan pada sistem untuk 
+mencapai tujuan dari use case.
+
+3.4.5.5	Component Diagram
+        Pada component diagram ini akan digambarkan komponen- komponen dari sistem dan memberikan penjelasan mengenai masing-masing komponen yang ada pada sistem tersebut.
+
+
+3.4.5.6 Deployment Diagram
+        Pada deployment diagram ini akan memberikan gambaran fisik untuk perangkat-perangkat yang akan digunakan.
+
+3.4.6 Perancangan Basis Data
+3.4.6.1 Mapping Database
+        Pada mapping database ini akan dilakukan pemetaan skema database untuk menentukan relasi hubungan primary-key dan foreign-key dari antar tabel-tabel yang terbentuk.
+
+3.4.6.2 Spesifikasi Database
+        Pada spesifikasi database ini akan merancangan desain tabel sistem manajemen informasi untuk proyek konstruksi.
+
+3.4.7 Perancangan Antar Muka
+     Pada perancangan antar muka ini akan dirancang antar muka sistem informasi manajemen untuk proyek konstruksi yang nanti akan dibagi berdasarkan aktor-aktor pada case diagram.
+
+3.5 Implementasi
+3.5.1 Pembangunan Sistem
+      Pada pembangunan sistem ini akan dibangun menggunakan hardware dan software sesuai dengan kebutuhan spesifikasi yang akan dibutuhkan.
+
+3.5.2 Pengujiian Sistem
+      Pada pengujian sistem ini akan menggunakan pengujian blackbox testing atau white-box testing. Pengujian ini dilakukan untuk mengetahui apakah semua modul yang sudah dibentuk berjalan sesuai rancangan atau tidak, serta mengetahui apakah ada kesalahan-kesalahan terhadap proses pada sistem informasi manajemen untuk proyek konstruksi.
+
+3.6 Kesimpulan dan Saran
+      Setelah tahap penelitian selesai, maka pada tahap akhir ini peneliti akan memberikan kesimpulan mengenai hasil penelitian yang sudah didapatkan. Pada tahap akhir ini juga, peneliti akan memberikan saran kepada peneliti berikut yang akan melakukan penelitian dengan tema yang sama, untuk memberikan gambaran dalam mengembangkan penelitian yang sudah dilakukan sebelumnya.

@@ -1,1 +1,1 @@
-pengembangan metode identifikasi untuk pradiagnosis penyakit kulit manusia melalui pemanfaatan algoritma kecerdasan buatan dalam optimalisasi aplikasi medical dermatology
+Pengembangan Metode Identifikasi untuk Pra-Diagnosis Penyakit Kulit Manusia melalui Pemanfaatan Algoritma Kecerdasan Buatan dalam Optimalisasi Aplikasi Medical Dermatology

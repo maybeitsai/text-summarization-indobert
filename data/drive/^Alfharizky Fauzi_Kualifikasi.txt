@@ -1,0 +1,202 @@
+Pengembangan Metode Identifikasi untuk Pra-Diagnosis Penyakit Kulit Manusia melalui Pemanfaatan Algoritma Kecerdasan Buatan dalam Optimalisasi Aplikasi Medical Dermatology
+
+BAB 1
+PENDAHULUAN
+1.1 Latar Belakang
+   Kulit adalah organ terbesar dalam tubuh, dan memainkan peran penting dalam 
+pertahanan terhadap ancaman lingkungan seperti bakteri, virus, dan zat berbahaya. Penyakit kulit merupakan masalah kesehatan yang tersebar luas dan menyerang orang-orang dari segala usia, dan penyakit ini dapat disebabkan oleh berbagai faktor seperti genetika, gaya hidup, dan paparan lingkungan. Kelainan kulit merupakan hal yang umum terjadi di seluruh dunia, termasuk di Indonesia dimana penyakit ini menimbulkan tantangan besar terhadap kesehatan masyarakat karena tingginya angka kejadiannya (J. Zhang et al., 2023).
+   Indonesia adalah rumah bagi lebih dari 270 juta orang yang terkena berbagai penyakit kulit, menjadikannya salah satu negara yang paling terkena dampaknya secara global. 
+Penyakit kulit yang umum termasuk psoriasis, eksim, acne vulgaris, vitiligo, dan melanoma. Penyakit-penyakit ini tidak hanya menimbulkan gejala fisik tetapi juga 
+mempunyai dampak psikologis yang mendalam, mempengaruhi kualitas hidup pasien dan interaksi sosial. Diagnosis yang tepat dan efisien dari penyakit kulit menjadi kunci dalam penanganan yang efektif. Namun, proses diagnosis yang tergantung pada pengalaman klinis dan pengetahuan medis yang mendalam dari dermatolog sering kali membatasi 
+akses terhadap perawatan yang berkualitas.
+   Diagnosis penyakit kulit secara tradisional memerlukan pemeriksaan langsung oleh seorang dokter spesialis kulit, yang kemudian dianalisis berdasarkan pengalaman klinis 
+dan pengetahuan medis yang dimilikinya. Dengan perkembangan teknologi, terutama di bidang kecerdasan buatan (artificial intelligence atau AI), ada potensi untuk 
+mengoptimalkan proses diagnosis penyakit kulit. Dalam beberapa tahun terakhir, kemajuan dalam bidang kecerdasan buatan telah membuka peluang baru dalam 
+peningkatan diagnosis penyakit kulit. Pemanfaatan algoritma kecerdasan buatan telah terbukti efektif dalam mendukung identifikasi penyakit kulit, yang dapat meningkatkan 
+akurasi dan kecepatan diagnosis. Namun, tantangan utama yang masih dihadapi adalah integrasi teknologi ini ke dalam praktik klinis sehari-hari dengan cara yang efisien dan 
+aman.
+   Penelitian sebelumnya telah menyoroti potensi pengembangan metode identifikasi pra-diagnosis penyakit kulit melalui pemanfaatan algoritma kecerdasan buatan. Pengenalan metode ini diharapkan dapat mengoptimalkan aplikasi medical dermatology dengan memperkenalkan pendekatan yang sistematis dan terstruktur dalam pengenalan gejala penyakit kulit. Pada penelitian (Wei et al., 2018) membahas tentang pengenalan penyakit kulit berbasis Image Color dan fitur tekstur. Metode yang digunakan meliputi GLCM untuk analisis tekstur, SVM untuk klasifikasi. Hasil akhir fitur warna dan tekstur yang digabungkan meningkatkan akurasi pengenalan hingga lebih dari 90%.
+    Pada penelitian (Fauzi Dzulfiqar Wibowo et.al, 2022) membahas tentang Deteksi penyakit kulit di Indonesia menggunakan CNN dan pembelajaran ensemble. Dataset 
+mencakup 1203 gambar penyakit kulit untuk klasifikasi. Metode Pembelajaran CNN dan Ensemble untuk deteksi gambar penyakit kulit. Validasi Silang K-Fold untuk pemisahan 
+data dan hasil yang optimal. Pra-pemrosesan data dengan arsitektur CNN Resnet50 untuk pelatihan. Hasil akhir adalah Gambar RGB memiliki akurasi 49%, gambar Grayscale 
+memiliki akurasi 47%.
+    Pada Penelitian (Raghav Agarwal et.al, 2023) membahas tentang Artificial Intelligence untuk deteksi gangguan kulit menggunakan model Deep Learning Convolutional Neural Network. Dataset mencakup 25000 gambar warna dari delapan gangguan kulit umum. Metode yang digunakan merupakan ResNet 152 turunan CNN dalam pemrosesan klasifikasi citra. Hasil akhir yang didapat pada penelitian ini dengan menggunakan ResNet152 adalah 74.24% pada validation and 73.01% pada test dataset.
+    Pada Penelitian (Yue Shen et.al, 2024) membahas tentang mengoptimalkan diagnosis penyakit kulit: memanfaatkan data komunitas daring dengan teknik ontrastive learning dan clustering. Metode Pendekatan contrastive learning untuk mempelajari representasi umum dari gambar yang tidak berlabel. Menggunakan metode clustering dengan gambar validasi standar untuk meningkatkan anotasi. Hasil akhir adalah model dapat ditransfer ke tugas baru dengan akurasi 61,76%.
+    Dan pada Penelitian (Archana et.al, 2019) membahas klasifikasi model deteksi penyakit kulit menggunakan pemrosesan gambar untuk aksesibilitas pedesaan. Transformasi DCT, DWT, dan SVD digunakan untuk deteksi penyakit kulit. Hasil akhir akurasi adalah 80 persen.
+   Pada penelitian ini mengusulkan pendekatan baru terhadap pra-diagnosis penyakit kulit manusia di Indonesia melalui pengembangan metode identifikasi berbasis AI yang 
+memanfaatkan data klinis dan non-klinis. Dengan mengintegrasikan data dari berbagai sumber, termasuk rekam medis pasien, informasi genetik, paparan lingkungan, dan 
+kebiasaan gaya hidup, metode yang diusulkan ini bertujuan untuk meningkatkan akurasi dan kecepatan diagnosis penyakit kulit, sehingga memberikan hasil yang lebih baik bagi 
+pasien. Metode yang diusulkan juga mempertimbangkan karakteristik unik penduduk Indonesia, termasuk variasi penyakit kulit dan preferensi pasien, untuk memastikan 
+relevansi dan efektivitasnya dalam konteks ini. Pendekatan ini merupakan perubahan signifikan dari metode diagnostik tradisional dan berpotensi merevolusi bidang 
+dermatologi medis di Indonesia dan berbagai negara lain.
+   Dengan demikian, penelitian ini bertujuan untuk mengisi kesenjangan pengetahuan dengan mengembangkan pendekatan ilmiah yang lebih sistematis dalam pra-diagnosis 
+penyakit kulit menggunakan algoritma kecerdasan buatan. Melalui investigasi yang komprehensif, diharapkan dapat dihasilkan metode identifikasi yang efisien dan akurat, 
+yang mampu mendukung praktik klinis dan non-klinis dalam menghadapi berbagai tantangan dalam diagnosis penyakit kulit. Pengembangan metode identifikasi ini diharapkan dapat meningkatkan aksesibilitas terhadap perawatan kesehatan kulit, mengurangi waktu tunggu untuk konsultasi, serta memberikan kontribusi signifikan dalam peningkatan kualitas perawatan pasien. Selain itu, penelitian ini juga diharapkan dapat memberikan landasan bagi pengembangan teknologi medis yang lebih lanjut dalam bidang dermatologi, serta memberikan dampak positif dalam perluasan cakupan layanan kesehatan kulit secara global.
+
+1.3 Rumusan Masalah Penelitian
+    Berbagai penelitian yang telah dilakukan belum terdapat identifikasi penyakit kulit pada manusia dengan teknis pendekatan data klinis dan non-klinis. Dengan 
+mengintegrasikan data dari berbagai sumber, termasuk rekam medis pasien, informasi genetik, paparan lingkungan, dan kebiasaan gaya hidup serta image dari kulit yang 
+terinfeksi virus penyakit kulit dengan bantuan analisis pengolahan citra berbasis komputer, padahal dalam mendiagnosa penyakit kulit pada manusia para ahli sering mengalami kesulitan untuk mendeteksi adanya perbedaan dimana setiap kali terdeteksi selalu menunjukan hasil yang berbeda dengan diagnosis sebenarnya. Maka terdapat peluang 
+untuk melakukan penelitian pada permasalahan ini yang menjadi topik penelitian. Merujuk pada penelitian yang telah banyak dilakukan, proses kerja rangkaian pembangunan sistem dalam mengidentifikasi adanya penyakit kulit untuk mengenalinya sebagai suatu jenis penyakit maupun kelainan pada kulit menggunakan pengolahan citra akan berisi tiga langkah utama yaitu; segmentasi citra, ekstraksi fitur dan klasifikasi objek. Problem yang ada pada segmentasi citra penyakit kulit adalah; (1) segmentasi pada wilayah terlihat tidak jelas karena citra penyakit kulit direpresentasikan dalam citra sangat kecil yang memiliki karakter yang khas yaitu hanya memiliki intensitas warna lebih terang sehingga sulit membedakan kemiripannya dengan beberapa penyakit kulit, dengan demikian akan sulit mendefinisikan bentuk penyakit kulit secara spesifik. (2) Ketidakteraturan bentuk dari kelainan kulit dan ukuran serta rendahnya intensitas kontras antar penyakit kulit yang juga mirip dengan jaringan kulit di sekitarnya. (3) Citra penyakit kulit memiliki resolusi rendah, kontras yang lemah, dan memiliki banyak noise yang dapat mengubah intensitas piksel sehingga klasifikasi maupun identifikasi menjadi tidak pasti. (4) Warna kulit pada manusia terbilang sangat berbeda antara manusia yang satu dengan lainnya sehingga warna pada kelainan kulit juga dapat berubah yang menyebabkan identifikasi penyakit kulit menjadi sangan sulit untuk dibedakan. (5) Identifikasi penyakit kulit di banyak penelitian hanya menunjukan jenis penyakit kulit tanpa adanya deskripsi yang jelas untuk di lakukan penanganan dini. (6) Sistem identifikasi penyakit kulit pada umunya hanya menggunakan data citra sebagai acuan identifkasi jenis penyakit kulit namun tidak menggunakan keluhan maupun rekam medis pasien sebagai identifikasi penyakit kulit secara dini. Padahal pra-diagnosis serta penanganan dini merupakan tindakan pencegahan dan pengobatan yang dapat menyelamatkan pasien-pasien yang terkena kelainan pada kulit sebelum dilakukan tindakan lebih lanjut.
+    Maka diperlukan model algoritma identifikasi handal yang dapat mengidentifikasi penyakit kulit sebagai pra-diagnosis dengan menggabungkan dua metode pengolahan data 
+yaitu pengolaha data citra dan pengolahan data teks untuk dapat menangani permasalahan tersebut. Berdasarkan batasan masalah yang ditelah ditetapkan, uraian rumusan masalah agar fokus penelitian lebih terarah dan sesuai dengan yang diharapkan dengan berbagai pendekatan metode yang telah diusulkan oleh beberapa peneliti dapat diuraikan sebagai berikut;
+1. Bagaimana mengembangkan algoritma identifikasi Image dan Teks agar lebih baik dan dapat melakukan prediksi identifikasi terhadap image untuk mengenali teks hasil sebagai penyakit kulit serta penanganannya maupun sebaliknya teks untuk mengenali image sebagai penyakit kulit serta penangananya?
+2. Bagaimana membangun model identifikasi penyakit kulit berdasarkan gabungan pengolahan image dan teks agar tercipta hybrid modelling untuk mengidentifikasi penyakit kulit melalui image-teks maupun sebaliknya teks-image (Usulan Bi-Directional Image-Text Matching)?
+3. Bagaimana membangun prototype system aplikasi berbantuan komputer yang tepat dan akurat untuk identifikasi adanya kelainan kulit yang diderita pasien sebagai tindakan pra-diagnosis sehingga dapat diidentifikasi berdasarkan jenis penyakit kulit menggunakan usulan Bi-Directional Image-Text Matching?
+
+1.4 Tujuan Penelitian
+    Tujuan umum penelitian ini adalah mengembangkan prototype sistem identifikasi berbasis aplikasi yang dapat mengidentifikasi penyakit kelainan pada kulit manusia dan 
+mengenalinya sebagai jenis penyakit kulit serta dapat memberikan keterangan dan penanganan dalam pengobatan menggunakan metode pengolahan citra dan teks. Tujuan khusus penelitian adalah;
+1. Mengembangkan metode identifikasi penyakit kulit sebagai pra-diagnosis dengan menggabungkan dua metode pengolahan data yaitu pengolahan gambar dan pengolahan teks menjadi Bi-Directional Image-Text Matching untuk mendapatkan hasil yang lebih akurat dalam identifikasi image to teks maupun sebaliknya teks to image.
+2. Menghasilkan model identifikasi Bi-Directional Image-Teks Matching yang dapat digunakan untuk identifikasi penyakit kulit yang dapat digunakan untuk prototype system identifikasi penyakit kulit berbasis aplikasi sebagai pra-diagnosis pasien. 
+
+
+2.14.1.	Perbandingan Tinjauan Penelitian
+       Dalam tinjauan penelitian ini, terdapat perbandingan mendalam antara berbagai pendekatan yang digunakan untuk pencocokan gambar-teks berbasis pembelajaran mendalam. Penelitian ini mengidentifikasi dan mengklasifikasikan pendekatan-pendekatan utama berdasarkan keselarasan antara gambar dan teks serta metode pembelajarannya. Beberapa penelitian terkait tentang pengolahan citra dan teks penyakit kulit untuk menentukan klasifikasi jenis penyakit pada kulit yang terdeteksi pada organ kulit menggunakan metode algoritma pengolahan image, teks maupun keduanya yang menjadi rujukan penelitian. Dalam keseluruhan perbandingan ini, penelitian ini memberikan wawasan yang komprehensif tentang kelebihan dan kekurangan masing-masing pendekatan, serta tantangan dan peluang pengembangan di masa depan, memberikan dasar yang kuat bagi peneliti baru untuk mengeksplorasi dan berkontribusi dalam bidang pencocokan gambar-teks berbasis pembelajaran mendalam. diuraikan pada tabel 2.4 berikut ini yaitu peneliti (Ebaid et al., 2023b; Mohammed & Al-Tuwaijari, 2021; Shen et al., 2024; Wei et al., 2018)
+ 
+BAB 3
+METODOLOGI PENELITIAN
+       Pada metodologi penelitian ini menjelaskan mengenai bagaimana proses dari analisis system, perancangan, dan analisis program yang dilakukan pada penelitian ini. 
+Berikut analisis dan perancangan pada penelitian ini.
+
+3.1 Tahapan Penelitian
+       Tahapan penelitian dapat dilihat pada gambar 3.1. Tahapan penelitian yang dilakukan terdiri dari 9 tahapan, yaitu dimulai dari studi literatur sebagai dasar penelitian, analisis kebutuhan pada system yang akan dibangun, Pengumpulan dataset, preprocessing data, membangun model, training model, evaluasi model, deployment model, dan implementasi model yang telah dibuat ke dalam smartphone. Saat program telah dijalankan, program akan mengakuisisi dataset kemudian dataset akan melalui tahap 
+preprocessing untuk menormalkan data kemudian setelah melalui tahap preprocessing selanjutnya mentraining dataset yang sudah didapatkan jika dataset berhasil dilatih dan 
+juga divalidasi maka berlanjut ke tahap berikutnya yaitu tahapan testing dengan menerapkan model yang dibuat kedalam mobile phone atau smartphone. tahap selanjutnya 
+jika camera telah menyala maka artinya sudah siap untuk mendeteksi objek jenis penyakit kulit. Pada tahap terakhir yaitu saat ada objek jenis penyakit kulit yang masuk atau terdeteksi oleh camera, maka citra tersebut sudah dapat dilakukan proses klasifikasi kemudian divalidasikan bahwa data tersebut sama dengan yang ada pada database untuk memunculkan label nama pada dataset serta memunculkan nilai confidence pada citra jenis penyakit kulit yang terdeteksi.
+
+3.2 Analisis Kebutuhan
+       Analisis kebutuhan merupakan menganalisis komponen yang diperlukan dalam pembuatan dan menjalankan program, Proses ini mencakup evaluasi, identifikasi, dan pemetaan kebutuhan dari berbagai perangkat yang terlibat dalam pembuatan system dan program pada penelitian ini. berikut analisis kebutuhan dari penelitian yang dibuat.
+
+3.2.1. Analisis Kebutuhan Perangkat Keras
+       Perangkat keras yang digunakan dalam penelitian identifikasi penyakit kulit pada manusia menggunakan laptop Acer Predator Helios Neo 16 dan mobile phone atau 
+smartphone Xiaomi Redmi Note 7 dengan bahasa pemrograman python, dengan spesifikasi yang dapat dilihat pada Tabel 3.1.
+       
+3.2.2. Analisis Kebutuhan Perangkat Lunak
+       Perangkat lunak yang digunakan dalam penelitian identifikasi penyakit kulit pada manusia menggunakan Operating System Windows Jupyter Lab dengan bahasa pemrograman python, dan Visual Studio sebagai text editor, yang dapat dilihat pada tabel 3.2.
+       
+3.2.3. Analisis Objek
+       Program dengan menggunakan Metode Bi-Directional Image-Text Matching Deep Learning ini mempunyai beberapa objek yang diterapkan pada penelitian ini, yaitu:
+1. Identifikasi berbagai macam jenis penyakit kulit dengan memunculkan citra gambar yang didapat dan deskripsi mengenai penyakit kulit yang teridentifikasi dibawah citra gambar untuk setiap objek penyakit kulit yang terdeteksi, data yang digunakan memiliki variasi jenis penyakit kulit dengan kategori 2 penyakit kulit menular (Candidiasis dan Molluscum) dan 2 penyakit kulit tidak menular (Eczhema dan Melanoma) dengan masing masing kelas memiliki 1000 citra penyakit kulit yang di dapat pada website international Dermnet NZ (dermnetnz.org, 2024) dan The International Skin Imaging Collaboration (ISIC) (isic-archive.com, 2024).
+2. Program identifikasi berbagai macam objek penyakit kulit pada manusia ditampilkan secara real-time menggunakan file upload kamera mobile phone.
+
+3.3 Akuisisi Dataset
+       Proses akuisisi citra dilakukan dengan melakukan pengunduhan data dari berbagai sumber online international skin disease, seperti pada website dermnetnz.org dan 
+www.isic-archive.com yang merupakan referensi gratis berbasis website untuk informasi tentang berbagai kondisi kulit. Website ini menyediakan gambar-gambar resolusi tinggi dari berbagai penyakit kulit, baik yang menular maupun tidak menular, serta memberikan deskripsi lengkap tentang penyakti tersebut meliputi gejala dan pengobatan. Citra yang diperoleh kemudian diseleksi berdasarkan fokus penelitian, yaitu identifikasi penyakit kulit menular (Candidiasis dan Molluscum) dan tidak menular (Eczhema dan Melanoma). Data citra yang digunakan berasal dari pasien dewasa dan anak-anak dengan kondisi kulit yang jelas menunjukkan gejala atau kelainan, seperti lesi atau ruam. Contoh citra yang akan digunakan pada penelitian seperti terlihat pada Gambar 3.2.
+       
+3.3.1. Dataset Penyakit Kulit
+       Dataset pada penelitian ini dibagi menjadi 2 bagian yaitu 80% data training, dan 20% data testing objek jenis penyakit kulit. Dataset bersumber dari citra (data image) dan deskripsi (data teks) beberapa jenis penyakit kulit sejumlah 4000 citra dengan 4 jenis penyakit kulit yang terdiri dari Echzema, Melanoma, Candidiasis, dan Molluscum dengan memiliki 1000 citra berbeda setiap jenis penyakit kulit. Dari keempat jenis penyakit kulit tersebut dibagi menjadi 2 kelompok sebagai penyakit kulit menular dan tidak menular.
+       
+3.3.1.1. Data Gambar
+       Data image ini mencakup berbagai jenis gambar yang menampilkan gejala dan karakteristik penyakit kulit yang digunakan pada peneltian ini (Eczhema, Melanoma, 
+Candidiasis, dan Molluscum) seperti ruam, bintik-bintik, lepuhan, atau lesi kulit lainnya. Ukuran citra asli yang didapat berukuran 294 x 222 yang akan diproses menjadi 256 x 256 sehingga ukuran gambar menjadi presisi dan pengambilan gambar diambil dari berbagai posisi yang berbeda sehingga posisi dalam proses training data akan mendapat banyak posisi pengenalan 1 jenis penyakit kulit dengan format citra JPEG (Joint Photographic Experts Group) serta pengambilan gambar dengan kamera. Penggunaan data gambar 
+sangat penting dalam penelitian ini untuk membandingkan dan mempelajari pola visual yang terkait dengan berbagai penyakit kulit. Data image pada penelitian ini terdiri 4000 gambar dari 4 jenis penyakit kulit yaitu Eczhema, Melanoma, Candidiasis, dan Molluscum yang dibagi menjadi 2 kelompok menular dan tidak menular. Data gambar dapat dilihat pada Gambar 3.3.
+       
+3.3.I.2. Data Teks
+       Data teks penyakit kulit merujuk kepada informasi tertulis yang berisi deskripsi dan karakteristik berbagai kondisi dermatologis. Data pada penelitian ini meliputi 
+penjelasan tentang gejala-gejala khas seperti gatal-gatal, perubahan warna kulit, tekstur, dan lokasi lesi serta penjelasan mengenai cara penanganan maupun pengobatan yang dapat dilakukan pasien. Informasi ini penting untuk diagnosis dan pemahaman lebih lanjut tentang berbagai penyakit kulit seperti dermatitis, eksim, psoriasis, dan infeksi jamur kulit. Pada penelitian ini data teks diproses menggunakan teknik pengolahan bahasa alami atau natural language processing (NLP) untuk mengidentifikasi kata kunci dan pola yang terkait dengan setiap kondisi kulit. Berikut data teks yang digunakan pada penelitian ini dapat dilihat pada Tabel 3.3
+       
+3.4 Pre-Processing Data
+       Pada tahapan ini data gambar penyakit kulit, preprocessing mencakup berbagai teknik seperti pengubahan ukuran gambar, normalisasi piksel, peningkatan kontras, 
+penghapusan noise serta melakukan segmentasi dan fitur ekstraksi. Teknik ini bertujuan untuk meningkatkan kualitas gambar dan memastikan konsistensi data, sehingga fitur-fitur penting dapat diekstraksi dengan lebih efektif oleh algoritma analisis atau model kecerdasan buatan. Sedangkan pada data teks penyakit kulit, preprocessing melibatkan beberapa tahap seperti tokenisasi, penghapusan stop words, stemming, lemmatization, dan tagging. Langkah-langkah ini membantu dalam menyederhanakan teks, mengurangi dimensionalitas, dan meningkatkan efisiensi analisis teks. Dengan preprocessing yang tepat, data gambar dan teks menjadi lebih bersih dan terstruktur, memungkinkan model machine learning untuk menghasilkan prediksi yang lebih akurat dan andal. Tahapan preprocessing dapat dilihat pada Gambar 3.4.
+       
+3.4.1. Preprocessing Data Gambar
+       Proses ini melibatkan beberapa teknik utama. Pertama, pengubahan ukuran (resizing) gambar dilakukan untuk memastikan bahwa semua gambar memiliki dimensi yang seragam yaitu 256 x 256, yang penting untuk pengolahan batch dan integrasi dalam model. Kedua, normalisasi piksel diterapkan untuk mengatur nilai piksel dalam rentang 
+tertentu, biasanya antara 0 dan 1, guna meningkatkan stabilitas dan kecepatan konvergensi model. Ketiga, peningkatan kontras (contrast enhancement) dan penghapusan noise 
+bertujuan untuk memperjelas fitur-fitur penting dalam gambar, seperti tepi atau tekstur, yang mungkin relevan untuk diagnosis penyakit kulit. Keempat, segmentasi data untuk memisahkan area kulit yang terkena penyakit dari bagian yang sehat. Kelima, fitur ekstraksi memungkinkan identifikasi karakteristik spesifik dari kondisi kulit, seperti ukuran dan bentuk lesi, distribusi warna, dan tekstur permukaan kulit. Preprocessing data gambar dapat dilihat pada Gambar 3.5.
+       
+3.4.1.1. Resizing Data
+       Pada tahap resize data ini betujuan untuk mengubah ukuran citra penyakit kulit menjadi resolusi tetap 256x256 piksel. Langkah ini penting untuk memastikan bahwa 
+semua citra memiliki ukuran yang konsisten sebelum digunakan dalam proses analisis data atau pelatihan model pembelajaran mesin. Skrip ini menggunakan pustaka OpenCV 
+untuk memuat, mengubah ukuran, dan menyimpan citra. Dapat dilihat pada Algoritma 3.1.
+      Ukuran dan bentuk citra hasil resizing disimpan pada folder output masing-masing penyakit kulit, yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.1 diatas dapat dikonversi kedalam Pseudo-code 1 yang dapat diimplementasikan pada pemrograman Python.
+      Sehingga tampilan hasil program terlihat pada gambar 3.6 berikut. Seperti terlihat pada gambar, proses resize ditujukan pada ukuran gambar yang terlihat presisi dan sama yaitu 256x256.
+      
+3.4.1.2. Normalisasi Data
+       Pada tahapan ini data yang telah di resize pada tahap sebelumya dinormalisasi. Melalui tahap normalisasi data bertujuan untuk mengubah nilai piksel citra ke dalam 
+rentang yang konsisten, biasanya antara 0 dan 1 atau -1 dan 1. proses ini membantu dalam mengurangi variasi yang tidak diinginkan antar citra, seperti perbedaan pencahayaan dan kontras, sehingga fitur yang relevan menjadi lebih menonjol. Normalisasi dilakukan dengan membagi nilai piksel setiap citra dengan nilai maksimum piksel (biasanya 255 untuk citra 8-bit), sehingga setiap piksel memiliki nilai yang proporsional dalam rentang yang diinginkan. Langkah- langkah normalisasi data dapat di lihat pada Algoritma 3.2.Citra hasil normalisasi disimpan, yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.2 diatas dapat dikonversi kedalam Pseudo-code 2 yang dapat diimplementasikan pada pemrograman Python. Sehingga tampilan hasil program terlihat pada gambar 3.7 berikut. Seperti terlihat pada gambar, proses normalisasi ditujukan mengubah nilai piksel citra ke dalam rentang yang konsisten, biasanya antara 0 dan 1 atau -1 dan 1.
+
+3.4.1.3. Peningkatan Kontras Data
+       Pada tahap ini dilakuakn peningkatan kontras pada data citra yang telah di normalisasi bertujuan untuk meningkatkan perbedaan antara nilai intensitas piksel yang 
+berdekatan. Dengan meningkatkan perbedaan antara nilai intensitas piksel, proses ini membantu dalam meningkatkan ketajaman citra dan membuatnya lebih mudah untuk dianalisis. Proses ini tidak hanya membuat citra lebih tajam dan lebih jelas, tetapi juga dapat meningkatkan kemampuan sistem analisis citra, seperti deteksi objek atau 
+segmentasi yang lebih baik. Langkah-langkah peningkatan kontras dapat dilihat pada Algoritma 3.3. Citra hasil peningkatan kontras disimpan, yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.3 diatas dapat dikonversi kedalam Pseudo-code 3 yang dapat diimplementasikan pada pemrograman Python.
+Sehingga tampilan hasil program terlihat pada gambar 3.8 berikut. Seperti terlihat pada gambar, proses peningkatan kontras ditujukan untuk meningkatkan perbedaan antara nilai intensitas piksel yang berdekatan. Dengan meningkatkan perbedaan antara nilai intensitas piksel, proses ini membantu dalam meningkatkan ketajaman citra dan membuatnya lebih mudah untuk dianalisis.
+
+3.4.1.4. Penghapusan Noise Data
+       Pada tahap ini dilakukan penghapusan noise yang bertujuan untuk menghilangkan noise pada citra. Noise pada citra kulit dapat muncul karena berbagai alasan, seperti 
+kualitas kamera yang rendah, kondisi pencahayaan yang buruk, atau bahkan gangguan selama pengambilan gambar. Untuk membersihkan gambar dari gangguan ini, digunakan 
+berbagai teknik penghapusan noise. Filter median, misalnya, sangat baik untuk mengatasi noise jenis salt-and-pepper dengan menggantikan nilai setiap piksel dengan median dari piksel-piksel sekitarnya, sementara filter Gaussian menghaluskan gambar dengan mempertahankan tepi dan detail penting. Dengan menghilangkan noise, gambar kulit 
+menjadi lebih bersih dan detail penting seperti warna, bentuk, dan tekstur lesi menjadi lebih jelas. Ini sangat membantu dokter atau sistem analisis otomatis untuk 
+mengidentifikasi dan mengevaluasi kondisi kulit dengan lebih akurat, memastikan diagnosis dan rencana perawatan yang lebih efektif. Langkah-langkah penghapusan noise 
+menggunakan median dan gaussian filter dapat dilihat pada Algoritma 3.4. Citra hasil penghapusan noise menggunakan median filter dan gaussian filter disimpan, 
+yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.4 diatas dapat dikonversi kedalam Pseudo-code 4 yang dapat diimplementasikan pada pemrograman 
+Python. Sehingga tampilan hasil program terlihat pada gambar 3.9 berikut. Seperti terlihat pada gambar, proses penghapusan noise menggunakan gabungan median filter dan gaussian filter ditujukan untuk menghilangkan objek-objek yang tidak terpakai dengan menggunakan kernel rendah citra yang dihasilkan tidak terlalu mendapatkan blur yang 
+sangat singnifikan, sehingga objek suatu penyakit kulit masih dapat terlihat jelas tanpa adanya noise yang tidak terpakai. Dengan menghapus noise maka citra yang dihasilkan menjadi lebih bersih, proses ini membantu dalam meningkatkan fokus citra terhadap penyakit kulit dan membuatnya lebih mudah untuk dianalisis.
+
+3.4.1.5. Segmentasi Data
+       Pada tahap ini dilakukan Segmentasi dengan thresholding atau penghapusan bagian yang tidak diperlukan seperti background untuk mendapatkan objek penyakit kulit 
+yang digunakan pada penelitian serta menambahkan active contour untuk mendapatkan objek yang ditandai sebagai penyakit kulit. Proses ini melibatkan beberapa tahapan 
+penting. Pertama, citra awal dimuat dan mungkin diubah menjadi citra skala abu-abu untuk mempermudah analisis intensitas piksel. Selanjutnya, nilai ambang dipilih atau 
+dihitung berdasarkan karakteristik citra seperti histogram intensitas piksel. Pada tahap thresholding, piksel dalam citra yang melebihi nilai ambang akan diberi warna atau nilai putih (255), sementara piksel yang lebih rendah akan diberi warna atau nilai hitam (0), menghasilkan citra biner. Langkah-langkah segmentasi menggunakan thresholding atau penghapusan bagian yang tidah dibutuhkan dapat dilihat pada Algoritma 3.5. Citra hasil segmentasi menggunakan thresholding disimpan, yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.5 diatas dapat dikonversi kedalam Pseudo-code 5 yang dapat diimplementasikan pada pemrograman Python.
+      Sehingga tampilan hasil program terlihat pada gambar 3.10 berikut. Seperti terlihat pada gambar, proses segmentasi menggunakan thresholding dan active contour 
+ditujukan untuk menghilangkan objek-objek yang tidak digunakan dan memberi tanda pada objek yang digunakan untuk proses selanjutnya. Dengan menghapus nilai-nilai pada 
+citra yang tidak terpakai maka citra yang dihasilkan menjadi lebih bersih, proses ini membantu dalam menentukan focus objek terhadap penyakit kulit dan membuatnya lebih 
+mudah untuk dianalisis.
+      
+3.4.1.6. Ekstraksi Fitur
+       Tahapan ini melibatkan pengambilan informasi relevan dari citra yang dapat digunakan untuk mengklasifikasikan dan mendiagnosis kondisi kulit. Setelah citra 
+tersegmentasi dengan baik, langkah berikutnya yaitu mengekstraksi fitur-fitur yang relevan dari setiap area tersegmentasi. Fitur-fitur ini berupa tekstur, bentuk, dan warna yang dapat membedakan antara lesi kulit yang berbeda. Dalam beberapa kasus, tidak semua fitur yang diekstraksi diperlukan. Proses seleksi fitur membantu dalam memilih subset fitur terbaik yang paling bermakna untuk klasifikasi atau diagnosa yang akurat.
+       
+3.4.1.6.1. Ekstraksi Fitur Warna
+       Tahap ini dimulai dengan memuat citra dalam format yang sesuai, seperti JPEG atau PNG, dan memisahkan informasi warna menjadi tiga kanal utama: merah (Red), hijau 
+(Green), dan biru (Blue). Setiap kanal ini mewakili intensitas cahaya pada panjang gelombang yang berbeda dan memiliki rentang nilai dari 0 hingga 255 dalam skala 8-bit. 
+Langkah-langkah ekstraksi fitur warna dapat dilihat pada Algoritma 3.6.Nilai hasil Ektraksi fitur warna menggunakan RGB disimpan, yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.6 diatas dapat dikonversi kedalam Pseudo-code 6 yang dapat diimplementasikan pada pemrograman Python.
+      Sehingga tampilan hasil program terlihat pada gambar 3.11 berikut. Seperti terlihat pada gambar, proses ektraksi fitur menggunakan RGB dan menunjukan hasil 
+histogram ditujukan untuk memisahkan informasi warna menjadi tiga kanal utama: merah (Red), hijau (Green), dan biru (Blue). Dengan mendapatkan nilai-nilai pada setiap kanal RGB maka informasi yang didapat akan semakin kompleks, proses ini membantu dalam menentukan setiap warna yang paling dominan pada objek terhadap penyakit kulit dan 
+membuatnya lebih mudah untuk dianalisis.
+      
+3.4.1.6.2. Ektraksi Fitur Bentuk
+      Tahapan ini dimulai dengan pra-pemrosesan citra untuk meningkatkan kualitas dan mempersiapkannya untuk ekstraksi fitur. Langkah pertama biasanya melibatkan 
+segmentasi objek dari latar belakang, yang dapat dilakukan dengan metode seperti thresholding atau deteksi tepi. Setelah objek tersegmentasi, berbagai fitur geometris 
+seperti luas, keliling, bentuk, dan orientasi dapat diekstraksi. Langkah-langkah ekstraksi fitur bentuk dapat dilihat pada Algoritma 3.7.
+      Nilai hasil Ektraksi fitur bentuk menggunakan Contour dan Geometris disimpan, yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.7 diatas dapat 
+dikonversi kedalam Pseudo-code 7 yang dapat diimplementasikan pada pemrograman Python.
+      Sehingga tampilan hasil program terlihat pada gambar 3.12 berikut. Seperti terlihat pada gambar, proses ektraksi fitur menggunakan bentuk contour dan geometris 
+menunjukan hasil nilai untuk setiap citra ditujukan untuk memisahkan informasi bentuk menjadi area, perimeter, circularity, dan exccentricity. Dengan mendapatkan nilai-nilai bentuk maka informasi yang didapat akan semakin kompleks, proses ini membantu dalam menentukan setiap bentuk yang paling dominan pada objek terhadap penyakit kulit dan membuatnya lebih mudah untuk dianalisis.
+
+3.4.1.6.3. Ektraksi Fitur Tekstur
+       Pada Tahapan ekstraksi fitur tekstur melibatkan beberapa langkah kunci untuk menggambarkan dan menganalisis tekstur citra secara sistematis. Tahap awal mencakup 
+pemilihan GLCM sebagai metode utama untuk mengekstraksi fitur tekstur. Setelah GLCM terbentuk, tahap selanjutnya adalah ekstraksi fitur-fitur statistik dari matriks 
+GLCM. Fitur-fitur ini mungkin mencakup energi, kontras, homogenitas, dan korelasi, yang masing-masing memberikan informasi tentang struktur dan pola tekstur dalam citra 
+yang dianalisis. Langkah-langkah ekstraksi fitur tekstur dengan menggunakan metode GLCM sebagai acuan tekstur dapat dilihat pada Algoritma 3.8.
+Nilai hasil Ektraksi fitur tekstur menggunakan GLCM disimpan, yang selanjutnya akan diproses pada tahap berikutnya. Algoritma 3.8 diatas dapat dikonversi kedalam Pseudo-
+code 8 yang dapat diimplementasikan pada pemrograman Python.
+Sehingga tampilan hasil program terlihat pada gambar 3.13 berikut. Seperti terlihat pada gambar, proses ektraksi fitur menggunakan GLCM menunjukan hasil nilai untuk setiap 
+citra ditujukan untuk memisahkan informasi tekstur menjadi contrast, dissimilarity, homogeneity, energy dan correlation. Dengan mendapatkan nilai-nilai tekstur maka 
+informasi yang didapat akan semakin kompleks, proses ini membantu dalam menentukan setiap tekstur yang paling dominan pada objek terhadap penyakit kulit dan membuatnya 
+lebih mudah untuk dianalisis.
+
+3.4.2. Preprocessing Data Teks
+       Tahap pre-processing data teks dilakukan serangkaian langkah penting dalam pengolahan informasi teks yang bertujuan untuk membersihkan, merapihkan, dan 
+mempersiapkan data sebelum dilakukan analisis lebih lanjut. Proses ini krusial karena data teks sering kali tidak terstruktur dan dapat mengandung berbagai jenis noise atau informasi yang tidak relevan yang dapat mempengaruhi hasil analisis. Beberapa tahap yang dilakukan pada preprocessing data teks ini meliputi Pertama, Tokenisasi dilakukan untuk memecah teks menjadi unit-unit yang lebih kecil seperti kata-kata atau kalimat. 
+Setelah itu, langkah Pembersihan (cleaning) dilakukan untuk menghilangkan elemen-elemen yang tidak relevan seperti, karakter khusus, atau token seperti stopwords yang 
+tidak memberikan banyak informasi. Selanjutnya, Stemming atau Lemmatisasi Proses ini mengubah kata-kata menjadi bentuk dasarnya (lemmas) atau akar kata (stems) untuk 
+mengurangi variasi kata yang memiliki arti yang sama. Contohnya, mengubah kata-kata seperti "berlari", "berlari", dan "berlari" menjadi bentuk dasar "lari". 
+Terakhir Tagging proses ini menandai atau menempatkan label pada kata- kata atau token dalam teks untuk mengidentifikasi informasi tertentu atau untuk mempersiapkan 
+data untuk analisis lebih lanjut. Preprocessing data teks dapat dilihat pada Gambar 3.14.
+
+3.5 Training Model
+       Sebelum memulai pelatihan model, data yang telah diproses melalui tahap preprocessing, seperti segmentasi dan ekstraksi fitur, menjadi input yang sangat penting. 
+Segmentasi membantu dalam memisahkan area lesi kulit dari bagian yang tidak relevan, sedangkan ekstraksi fitur membantu dalam mengidentifikasi karakteristik spesifik dari lesi kulit tersebut. Data yang telah dipreproses ini kemudian digunakan untuk melatih model pembelajaran mesin, khususnya deep learning dengan arsitektur Convolutional Neural Networks (CNNs), yang terkenal mampu mengenali pola kompleks dalam data citra dan dengan menggunakan Char- CNN-RNN untuk mengenali pola kompleks pada text untuk 
+mengenali citra menggunakan kata per kata. Setelah melakukan 2 pemodelan antara modelling gambar dan modelling teks, maka tahapan selanjutnya menggabungkan ke 2 
+model tersebut dengan metode Bi-Directional Image-Text Matching untuk menghasilkan algoritma yang dapat mengindentifikasi melalui kedua jenis objek data. Gambaran Bi-
+Directional Image-Text Matching dapat dilihat pada gambar berikut
+       
+3.7 Evaluasi Model
+       Evaluasi terhadap model dilakukan untuk melihat akurasi model saat mengidentifikasi penyakit. Proses evaluasi dimulai dengan penerapan model pada set uji, yang terdiri dari data yang belum pernah dilihat oleh model selama fase pelatihan. Set uji ini dirancang untuk mensimulasikan kondisi dunia nyata, di mana model harus membuat 
+prediksi tanpa bias dari data pelatihan.
+       
+3.8 Implenientasi Model
+       Tahap ini melibatkan integrasi model yang telah dilatih ke dalam lingkungan klinis atau aplikasi yang akan digunakan oleh para profesional medis untuk mendukung 
+diagnosis dan pengobatan penyakit kulit. Implementasi model membutuhkan pemikiran yang cermat dan strategi yang terkoordinasi untuk memastikan keberhasilannya dalam 
+praktik medis.

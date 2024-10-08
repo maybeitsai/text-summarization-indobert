@@ -1,1 +1,1 @@
-low power high read stability design 6t sram memory uses m gdi in 0.35 um.
+LOW-POWER, HIGH-READ STABILITY DESIGN 6T SRAM MEMORY USES M-GDI IN 0.35um.

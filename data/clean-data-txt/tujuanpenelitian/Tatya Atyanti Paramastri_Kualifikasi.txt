@@ -1,1 +1,5 @@
-berdasarkan rumusan masalah maka tujuan dari penelitian ini adalah 1. mengumpulkan informasi batik daur hidup yogyakarta yang akurat. 2. menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya. 3. mengembangkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta. 4. mengukur nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum.
+Berdasarkan rumusan masalah, maka tujuan dari penelitian ini adalah:
+1. Mengumpulkan informasi "batik daur hidup" Yogyakarta yang akurat.
+2. Menentukan kelas pada motif "batik daur hidup" Yogyakarta yang mewakilinya.
+3. Mengembangkan algoritma kuantum pada segmentasi dan klasifikasi motif "batik daur hidup" Yogyakarta.
+4. Mengukur nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif "batik daur hidup" Yogyakarta dengan algoritma kuantum.

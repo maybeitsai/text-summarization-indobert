@@ -1,1 +1,1 @@
-pengembangan model klasifikasi morphological neural network untuk sistem pengenalan ekspresi wajah
+PENGEMBANGAN MODEL KLASIFIKASI MORPHOLOGICAL NEURAL NETWORK UNTUK SISTEM PENGENALAN EKSPRESI WAJAH

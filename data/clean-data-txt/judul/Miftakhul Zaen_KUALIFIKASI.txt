@@ -1,1 +1,1 @@
-pengembangan algoritma kuantum dbscan untuk klasterisasi supplier
+PENGEMBANGAN ALGORITMA KUANTUM DBSCAN UNTUK KLASTERISASI SUPPLIER

@@ -1,1 +1,3 @@
-berdasarka n rumusan masalah yang telah dipaparkan tujuan penelitian d apat dijelaskan sebagai berikut. 1. mengembangkan versi kuantum dari algorit ma dbscan untuk mengatasi keterbatasan dalam penanganan dataset besar pada klasterisasi supplier . 2. mengevaluasi peningkatan efisiensi dan akurasi yang dic apai oleh dbscan kuantum dala m pengelompokan supplier dibandingkan dengan pendekatan klasik.
+Berdasarkan rumusan masalah yang telah dipaparkan, tujuan penelitian dapat dijelaskan sebagai berikut.
+1. Mengembangkan versi kuantum dari algoritma DBSCAN untuk mengatasi keterbatasan dalam penanganan dataset besar pada klasterisasi supplier.
+2. Mengevaluasi peningkatan efisiensi dan akurasi yang dicapai oleh DBSCAN kuantum dalam pengelompokan supplier dibandingkan dengan pendekatan klasik.

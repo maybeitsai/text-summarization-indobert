@@ -1,1 +1,1 @@
-pengembangan model prediksi dan decision support system berbasis generative ai dan machine learning untuk manajemen cadangan beras pemerintah di bulog
+PENGEMBANGAN MODEL PREDIKSI DAN DECISION SUPPORT SYSTEM BERBASIS GENERATIVE AI DAN MACHINE LEARNING UNTUK MANAJEMEN CADANGAN BERAS PEMERINTAH DI BULOG
