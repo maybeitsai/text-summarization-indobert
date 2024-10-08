@@ -11,7 +11,7 @@ def load_data(section):
 
 # Function to calculate cosine similarity
 def calculate_cosine_similarity(df):
-    tfidf = TfidfVectorizer(ngram_range=(1,3), min_df=2).fit_transform(df['summary'])
+    tfidf = TfidfVectorizer().fit_transform(df['summary'])
     return cosine_similarity(tfidf, tfidf)
 
 # Load all data
@@ -19,7 +19,7 @@ sections = ['latarbelakang', 'rumusanmasalah', 'tujuanpenelitian', 'rangkumanpen
 data = {section: load_data(section) for section in sections}
 
 # Load judul data
-judul_data = pd.read_csv('data/summary-csv/judul.csv')
+judul_data = pd.read_csv('data/clean-data-csv/judul.csv')
 
 # Mapping for display names
 section_display_names = {
