@@ -1,0 +1,4 @@
+Sesuai dengan uraian latar belakang dan tema desertasi, secara garis besar masalah penelitian dirumuskan sebagai berikut :
+1. Bagaimana mendeteksi dan mengekstraksi kerusakan pada citra modul surya.
+2. Bagaimana menentukan luas kerusakan dan tingkat kerusakan pada modul surya.
+3. Bagaimana membangun sebuah prototype perangkat lunak aplikasi ''Klasifikasi dan Identifikasi Jenis Kerusakan pada Modul surya".

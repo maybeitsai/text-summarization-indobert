@@ -1,0 +1,6 @@
+Berdasarkan uraian pada latar belakang penelitian, maka tujuan dalam disertasi ini sebagai berikut :
+a. Mengetahui kebutuhan para pihak yang terlibat dalam membangun suatu sistem informasi manajemen untuk proyek konstruksi.
+b. Merancang proses sistem sesuai dengan kebutuhan para pihak yang terlibat dalam membangun suatu sistem informasi manajemen untuk proyek konstruksi.
+c. Merancang suatu sistem basis data yang sesuai dengan sistem yang akan dibangun.
+d. Merancang tampilan antar muka untuk sistem yang akan dibangun.
+e. Mengetahui sistem yang dibangun sesuai rancangan dan berjalan dengan baik.

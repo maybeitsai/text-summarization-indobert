@@ -1,5 +1,1 @@
-Berdasarkan uraian latar belakang penelitian yang telah diuraikan di atas, maka dapat diidentifikasi beberapa masalah yang ingin dipecahkan untuk mencapai tujuan penelitian. Berikut merupakan rumusan masalah dari penelitian ini.
-1. Bagaimana membangun dataset baru berdasarkan data citra wajah dan data fisiologis?
-2. Apa saja parameter visual dan fisiologis yang digunakan dalam sistem deteksi dini kantuk berbasis kecerdasan artifisial?
-3. Bagaimana merancang si stem deteksi dini kantuk yang akurat mengidentifikasi tanda-tanda kelelahan pada pengemudi sebelum berkendara?
-4. Bagaimana implementasi sistem deteksi dini kantuk dalam lingkungan predriving pengemudi?
+berdasarkan uraian lata r belakang penelitian yang telah diuraikan di atas maka dapat diidentifikasi beberapa masalah yang ingin dipecahkan untuk mencapai tujuan penelitian. berikut merupakan rumusan masalah dari penelitian ini. 7 1. bagaimana membangun dataset baru berdasarkan data citra wajah dan data fisiologis 2. apa saja parameter visual dan fisiologis yang digunakan dalam sistem deteksi dini kantuk berbasis kecerdasan artifisial 3. bagaimana merancang sistem deteksi dini kantuk yang akurat mengidentifikasi tandatanda kelelahan pada pengemudi sebelum berkendara 4. bagaimana implementasi sistem deteksi dini kantuk dalam lingkungan predriving pengemudi

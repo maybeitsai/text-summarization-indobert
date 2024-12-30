@@ -1,0 +1,28 @@
+Penelitian ini melakukan pengembangan metode untuk deteksi pergerakan anomali pada kerumunan menggunakan Algoritma Generative Adversarial Network. Metodologi yang digunakan adalah sebagai berikut.
+1. Studi literature. Pada tahap ini dilakukan studi terhadap beberapa artikel dan buku yang menguraikan mengenai pemrosesan video, deteksi pergerakan anomali pada kerumunan dan Algoritma Generative Adversarial Network
+2. Merancang algoritma Generative Adversarial Network secara Real time untuk mengklasifikasi antara pergerakan normal dan anomali pada kerumunan
+3. Menguji keunggulan Generative Adversarial Network secara Real time dengan algoritma sebelumnya
+
+3.1 Sistem Struktur Anomali pada Kerumunan
+    Pada gambar 3.1 merupakan konsep awal sistem struktur pada kerumunan, untuk medeteksi adanya kerumunan yang bersifat anomaly. Konsep ini berawal dari model dari kerumunan atau dapat dikatakan socialforce model yaitu sebuah model kerumunan yang memfokuskan pada karakteristik lokal orang jika terdapat tekanan dalam kerumunan, atau kerumunan yang memiliki kepadatan yang tinggi. Model ini dimulai dengan penempatan frame video untuk menghitung karakteristik lokal secara efisien dan mendapatkan nilai local pressure model atau local model. Model ini berfungsi untuk mengekstrak karakteristik tekanan lokal untuk mengetahui pola atau sifat perilaku dari kerumunan sesuai karakteristik penduduk/masyarakat. Pola ini menggunakan vektor fitur diekstraksi untuk frame video dengan pemanfaatan Histogram of Oriented Pressure (HOP), dan untuk pola anomali akan terlihat menggukan Support Vector Machine (SVM).
+    Untuk klasifikasi, dan filter median diimplementasikan pada hasil klasifikasi. Filter median adalah metode penyaringan digital non-linear yang biasanya digunakan untuk menghilangkan noise dari sinyal atau gambar pada video. Penelitian ini menggunakan model sistem anomali untuk mengetahui pola pergerakan pada kerumunan khususnya pada objek peneliti atau masyarakat di Indonesia. Sehingga mendapat kebaharuan menjadi dataset untuk membedakan pola pergerakan pada kerumunan anomali ataupun normal pada penduduk Indonesia.
+
+3.2 Kerangka Penelitian Perilaku Anomali pada Kerumunan
+       Pada gambar 3.2 merupakan kerangka penelitian yang diadaptasi dari penelitian El-Etriby et al., tahun 2017. Pada penelitian ini, sumber kerumunan berasal dari video atau kamera pengawas, proses selanjutnya melalui segmentation video, yaitu proses yang dilakukan pada gambar 3.1 berfungsi untuk menemukan pola yang terjadi pada kerumunan. Pada proses segmentasi juga akan dianalisis pola yang memiliki kerumunan normal dan tidak normal/anomali, pola ini dijadikan formation block berfungsi untuk mendapatkan karakterisitik yang didapat dari kerumunan, karakteristik yang diambil adalah nilai kepadatan kerumunan, tekanan pada kerumunan, serta pergerakan kerumunan yang terjadi, hasil dari karakteristik ini menjadi point of interest atau hal utama dalam pengambilan pola, sehingga dari nilai ini akan diketahui analisis perilaku yang terekam dalam video.
+
+3.3	Tahap Pelatihan dan Pengujian Menggunakan GAN
+    Sistem training atau pelatihan dan testing atau pengujian menggunakan algoritma Generative Adversarial Network, terdapat pada gambar 3.3. 
+Kerangka proses di atas dibagi menjadi dua tahap utama yaiu pelatihan jaringan dan pengujian jaringan untuk deteksi anomali.
+Tahap 1: Tahap pelatihan mengikuti langkah-langkah di bawah ini:
+1. Ekstraksi representasi dynamic images untuk setiap frame input (perilaku normal).
+2. Melatih dua DenoisingAutoencoder (DAE) yang berbeda, satu untuk frame input dan yang lainnya untuk dynamic images.
+3. Ekstraksi high-levelfeatures dari frame input dan dynamic images dari Denoising Autoencoder (DAE) yang telah dilatih sebelumnya sesuai dengan tipe datanya.
+4. Pelatihan dua Conditional Generative Adversarial Networks (CGAN) tentang high-level features yang diekstraksi dari frame input dan dynamic images.
+Tahap 2: Tahap pengujian mengikuti langkah-langkah di bawah ini:
+1. Ekstraksi representasi dynamic images untuk setiap masukan frame pengujian.
+2. Perhitungan high-level features untuk frame input dan representasi dynamic images yang sesuai.
+3. Perhitungan generation error maps menggunakan pre-trained Conditional Generative Adversarial Networks (CGAN) untuk menghitung binary detection maps untuk setiap tingkat representasional.
+4. Hasil deteksi akhir ditentukan berdasarkan penggabungan peta deteksi yang diekstraksi.
+       Pada gambar 3.3 algoritma Generative adversarial network menggunakan dynamic image atau analisa urutan video yang dijadikan gambar. Pada gambar tersebut frame yang sudah dijadikan gambar dilakukan proses training. Pengembangan dari proses training dan testing ini adalah dengan menggunakan input video seperti pada gambar 3.4.
+       Pada gambar 3.4 konsep masukkan video dilakukan melalui kamera pengawas yang terhubung kepada router untuk dapat melakukan streaming atau analisis secara realtime/online. Hasil proses training dan testing disimpan dalam server, sehingga saat kamera menangkap video maka akan membandingkan dengan server yang sudah terisi oleh konsep atau pola dari normal dan anomali. Sehingga penelitian yang akan diteliti memiliki konsep sebagai berikut.
+       Pada gambar 3.5 konsep penelitian berawal dari kamera pengawas yang membandingkan masukkan dari train GAN yang disimpan di dalam server dengan video yang diambil dari kamera secara real time, hasil dari perbandingan video tersebut akan menghasilkan behaviour analysis atau pola gerakan anomali pada kerumunan sehingga outputnya akan menjadi suatu dataset untuk identifikasi gerakan anomali pada kerumunan.

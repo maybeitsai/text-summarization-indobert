@@ -1,1 +1,1 @@
-DETEKSI CACAT PRODUK PADA INDUSTRI MANUFAKTUR MENGGUNAKAN PEMBELAJARAN MENDALAM (STUDI KASUS PADA MANUFAKTUR SEKRUP)
+deteksi cacat produk pada industri manufaktur menggunakan pembelajaran mendalam studi kasus pada manufaktur sekrup

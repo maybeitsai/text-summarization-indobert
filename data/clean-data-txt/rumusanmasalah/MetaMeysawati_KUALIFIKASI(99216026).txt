@@ -1,0 +1,5 @@
+Berdasarkan pada latar belakang masalah penelitian yang telah diuraikan dan sesuai dengan usulan topik penelitian, maka dirumuskan tiga masalah pokok yang harus diteliti diantaranya sebagai berikut :
+1. Bagaimana mengekstraksi dan merepresentasikan fitur-fitur suara yang ada pada video atau cuplikan (trailer) untuk digunakan sebagai acuan dalam proses pengelompokan atau identifikasi dari kelima genre.
+2. Bagaimana menentukan metode klasifikasi yang tepat untuk mengidentifikasi genre film berdasarkan dari cuplikan (trailer) agar mendapatkan nilai akurasi yang maksimal dalam mengkategorikan genre film.
+3. Dataset yang dipakai merupakan video yang telah di filter suaranya yang berasal 
+dari sumber Kaggle.com Genre (trailer) penelitian dalam kualifikasi ini dibatasi hanya lima genre yaitu thriller, horor, aksi, drama/romantis dan komedi. Dalam hal ini hanya film Indonesia saja yang akan diklasifikan.

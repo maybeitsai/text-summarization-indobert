@@ -1,0 +1,4 @@
+Berdasarkan masalah penelitian yang telah diuraikan tersebut, maka tujuan yang ingin dicapai dalam penelitian adalah sebagai berikut :
+1. Menghasilkan MFCC (Mel-Frequency Cepstrum Coefficients) yang dapat mengidentifikasi ciri dari masing-masing cuplikan (trailer)
+2. Menghasilkan algoritma pengklasifikasian genre berdasarkan dari cuplikan (trailer) film dengan menggunakan metode Support Vector Machine (SVM).
+3. Mendapatkan kumpulan dataset yang mewakili semua fitur agar kelengkapan data trainer terpenuhi.

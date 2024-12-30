@@ -1,0 +1,51 @@
+3.1 Tahapan Penelitian
+Penelitian ini memiliki fokus pengembangan model dalam melakukan prediksi terjadinya stunting pada suatu wilayah berbasis Generative Adversarial Networks. Gambar 3.1 adalah tahapan penelitian dalam membangun model prediksi terjadinya stunting pada suatu wilayah berbasis Generative Adversarial Networks.
+1. Faktor indikator penyebab stunting menjelaskan tentang faktor-faktor yang menyebabkan terjadinya stunting pada balita.
+2. Pengembangan model pada penelitian ini dibagi menjadi beberapa tahapan, antara lain:
+(a) Akusisi Data memperoleh informasi yang dibutuhkan dalam rangka mencapai tujuan penelitian.
+(b) Preprocessing merupakan tahap pemrosesan data dari langkah akusisi data.
+(c) Proses Pengembangan Model Prediksi Stunting berbasis Generative Adversarial Networks untuk memprediksi keadaan stunting pada suatu wilayah.
+3. Pengujian adalah tahap terakhir dari rangkaian cara kerja machine learning. Yaitu perbandingan kinerja pemodelan yang telah divalidasi sebelumnya kemudian dengan data uji, lalu mengaplikasikan data train dengan menciptakan prediksi berdasarkan data baru.
+
+
+3.2 Faktor Indikator Penyebab Stunting
+Faktor-faktor yang mempengaruhi terjadinya stunting pada balita terdiri dari beberapa faktor, diantaranya:
+Hasil penelitian yang dilakukan oleh Umiyah and Hamidiyah (2021)menunjukkan bahwa ada hubungan antara berat badan lahir dengan kejadian stunting dengan nilai Pvalue = 0,009 (P < 0,05). Sedangkan sebaliknya untuk usia (Pvalue 0,095), jenis kelamin (Pvalue 0, 512), dan panjang badan lahir (Pvalue 0,334) tidak ada hubungan dengan kejadian stunting.
+Hasil penelitian yang dilakukan oleh Apriluana and Fikawati (2018)menunjukkan faktor status gizi dengan berat badan lahir < 2.500 gram memiliki pengaruh secara bermakna terhadap kejadian stunting pada anak dan memiliki risiko mengalami stunting sebesar 3,82 kali. Faktor pendidikan ibu rendah memiliki pengaruh secara bermakna terhadap kejadian stunting pada anak dan memiliki risiko mengalami stunting sebanyak 1,67 kali. Faktor pendapatan rumah tangga yang rendah diidentifikasi sebagai predictor signifikan untuk stunting pada balita sebesar 2,1 kali. Faktor sanitasi yang tidak baik memiliki pengaruh yang signifikan terhadap kejadian stunting pada balita dan memiliki risiko mengalami stunting hingga sebesar 5,0 kali.
+Hasil penelitian yang dilakukan oleh Romadoniyah et al. (2022) menunjukkan faktor yang memepengaruhi stunting pada balita adalah berat badan lahir < 2.500 gram, MPASI, faktor pendidikan ibu rendah, pendapatan rumah tangga, faktor sanitasi yang tidak baik.
+Hasil penelitian yang dilakukan oleh Ariati (2019)menunjukkan prevalensi stunting sebesar 32,5 % dan balita Normal 67,5%. Analisis uji statistik menunjukkan adanya hubungan bermakna antara faktor prenatal (usia ibu saat hamil, status gizi ibu saat hamil), faktor pascanatal (ASI Eksklusif, riwayat imunisasi, penyakit infeksi), Karakteristik keluarga (pendidikan ibu, pekerjaan ayah dan status sosial ekonomi) dengan kejadian stunting.
+Hasil penelitian yang dilakukan oleh Al-Rahmad et al. (2013)diperoleh kejadian stunting pada balita disebabkan rendahnya pendapatan kelu- arga (p=0,026; OR=3,1), pemberian ASI tidak eksklusif (p=0,002; OR=4,2), pemberian MP-ASI kurang baik (p=0,007; OR=3,4), serta imunisasi tidak lengkap (p=0,040; OR=3,5).Dari hasil penelitian tersebut, penulis melakukan keterhubungan antara faktor-faktor penyebab stunting dengan indikator PIS-PK. Hubungan faktor stunting dengan indikator PIS-PK dapat dilihat pada Tabel 3.1.
+  Dari hasil keterhubungan faktor penyebab stunting dengan indikator PIS-PK, indikator yang digunakan ada 4 indikator. Indikator tersebut diantaranya:
+  1. Indikator 3 (Bayi mendapat imunisasi dasar lengkap)
+  2. Indikator 4 (Bayi mendapat air susu ibu (ASI) eksklusif)
+  3. Indikator 5 (Balita mendapatkan pematauan pertumbuhan)
+  4. Indikator 11 (Keluarga mempunyai akses sarana air bersih)
+
+3.3 Pengembangan Model
+Beberapa tahap yang dilakukan dalam pengembangan model stunting diantaranya akuisisi data, preprocessing dan proses pengembangan model. Gambar menunjukkan proses pengembangan model yang dilakukan dalam penelitian.
+1. Akusisi Data memperoleh informasi yang dibutuhkan dalam rangka mencapai tujuan penelitian.
+2. Preprocessing merupakan tahap pemrosesan data dari langkah akusisi data.
+3. Proses Pengembangan Model Prediksi Stunting berbasis Generative Adversarial Networks untuk memprediksi keadaan stunting pada suatu wilayah.
+
+3.3.1 Akuisisi Data
+Tahap pertama dari pengembangan model terjadinya stunting adalah akuisisi data seperti pada Gambar 3.3. Akuisisi data adalah tahap pengumpulan data yang dibutuhkan dalam penelitian. Dalam penelitian ini data dikumpulkan dari data stunting dan data PIS-PK.
+   Pada Gambar 3.3 merupakan tahapan yang dilakukan dalam melakukan akusisi data stunting dan data indiktor PIS-PK.
+
+3.3.2 Preprocessing
+Tahap preprocessing berfungsi untuk membersihkan data sehingga dapat menghindari penggunaan data yang bermasalah dan tidak konsisten (Surjandari et al., 2018). Proses ini digambarkan pada Gambar 3.4.
+   Tahap preprocessing yang digunakan penelitian ini meliputi tahap pembersihan data, transformasi data dan data reduction. Tahapan tersebut digambarkan pada Gambar 3.5. Cleaning. Untuk membuat data layak digunakan untuk penelitian, dilakukan tahapan pembersihan data (cleaning). Transformation. Untuk mengubah data dalam bentuk yang sesuai dalam proses penelitian.Reduction. Untuk meningkatkan efisiensi penyimpanan serta analisis data.
+
+3.3.3 Proses Pengembangan Model Prediksi Stunting
+Pada tahap ini menjelaskan metode yang diusulkan menggunakan pendekatan kerangka Generative Adversarial Networks (GAN) untuk prediksi terjadi- nya stunting pada suatu wilayah. GAN diperkenalkan oleh Goodfellow et al. (2014) sebagai kerangka model deep learning untuk menangkap distribusi data pelatihan dengan menghasilkan data baru dari distribusi yang sama menggunakan model generator dan diskriminator. Arsitektur GAN mempe- lajari fitur tanpa pengawasan dengan proses pembelajaran yang kompetitif.
+GAN akan menghasilkan lebih banyak ruang fitur yang dapat dimanfaatkan, sehingga mengurangi potensi kelebihan fitur selama pelatihan. Berikut ini adalah gambaran arsitektur model GAN yang diusulkan pada Gambar 3.6.
+   Gambar 3.6 Metode arsitektur yang diusulkan Model G (Generator) dilatih untuk menghasilkan data yang terlihat seperti data persebaran data indeks keluarga sehat di setiap wilayah, sedangkan model D (Discriminator) dilatih untuk membedakan antara data dari Generator dan data nyata. Kesalahan dari D digunakan untuk melatih G untuk mengalahkan D. Persaingan antara G dan D memaksa D untuk membedakan secara acak dari variabilitas nyata, secara formal GAN menyelesaikan permainan min-max dengan persamaan berikut:
+   Diskriminator mengeluarkan nilai D(x) yang menunjukkan kemungkinan bahwa x adalah data nyata dengan tujuan memaksimalkan peluang untuk mengenali data nyata sebagai data nyata yang dihasilkan sebagai data palsu. Untuk mengukur kerugian model GAN menggunakan cross-entropy, p log (q), untuk data real p = 1. Di sisi generator, fungsi tujuan menggunakan model untuk menghasilkan D setinggi mungkin (x) nilai untuk membalikkan perbedaan.
+   Seperti yang dijelaskan dalam makalah Goodfellow et al. (2014), D dan G memainkan permainan min-max di mana D mencoba memaksimalkan pro- babilitas dengan benar mengklasifikasikan real dan false (logD (x)), dan G mencoba meminimalkan probabilitas bahwa D akan memprediksi output yang salah ( log (1 - D (G (x))))).
+   Dimana Pdata adalah distribusi data pelatihan nyata dari ke x, dan Pz adalah distribusi z vektor noise yang diambil. G adalah pemetaan dari z ke ruang x, sedangkan D memetakan input x ke nilai skalar yang mewakili x probabilistik menjadi sampel nyata.
+   Generative Adversarial Networks (GAN) asli yang diusulkan oleh Goodfellow et al. (2014) menampilkan sebuah generator dan diskriminator; generator G dilatih untuk menghasilkan sampel palsu yang dapat menipu pembeda D, sedangkan yang terakhir dilatih untuk membedakan antara sampel asli dan palsu. Seperti yang ditunjukkan pada Gambar 3.7, generator menggu- nakan data stunting untuk membuat sampel palsu. Diskriminator memban- dingkan sampel asli dengan palsu sampel. Akhirnya kerugian diskriminator dihitung dan digunakan untuk memperbaharui diskriminator dan generator.
+   Diberikan noise dari noise z dari data stunting p(z) , dan a sampel x dari distribusi data nyata pdata(x). Diskriminator keluarannya adalah D(x) untuk sampel asli dan DG(x) untuk sampel palsu. Diskriminator secara bersamaan berusaha meningkatkan kemampuannya untuk mengenali sampel nyata dengan memaksimalkan logD(x) ke 1, dan sampel palsu dengan memaksimalkan logD(1 - D(G(z))) ke 0. Generator menghindari pembangkitan sampel yang mudah dikenali oleh diskriminator dengan meminimalkan log (1 - D(G(z))). Permainan min-max yang dimainkan antara generator dan diskriminator diwakili pada (Persamaan (3.3)).
+   Proses pelatihan GAN pertama-tama akan menghitung kerugian dan perbarui diskriminator (Persamaan (3.4)). Kemudian hitung dan perbarui generator (Persamaan (3.5)).
+   Diskriminator diperbarui dengan menaikkan gradien stokastiknya V(c)d, sedangkan generator diperbarui dengan menurunkan gradien stokastiknya Veg. salah ukuran batch yang digunakan untuk pelatihan ini adalah sampelnya indeks.
+
+3.4 Pengujian
+Tujuan dari penelitian ini adalah membangun model prediksi berbasis Generative Adversarial Networks untuk memprediksi terjadinya stunting pada suatu wilayah yang dibutuhkan untuk mencegah terjadinya stunting dan mengoptimalkan perencanaan program pemerintah dalam penurunan terjadinya stunting. Data dipisahkan menjadi dua bagian untuk model pelatihan dan pengujian. Data yang digunakan adalah data dari tahun 2020-2022 untuk data stunting dan rentang waktu tahun 2019-2021 untuk data indikator PIS-PK.

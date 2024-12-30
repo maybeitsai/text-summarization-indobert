@@ -1,0 +1,6 @@
+Sesuai dengan masalah penelitian yang telah diuraikan sebelumnya, maka tujuan yang ingin dicapai dalam penelitian ini adalah:
+Menghasilkan metode LSB pada FPGA.
+Mengoptimalkan jumlah komponen, clock, dan capacity pada FPGA.
+Menghasilkan metode penyisipan dan ekstraksi pesan rahasia pada FPGA.
+Mengetahui pengaruh integritas data sebelum dan sesudah proses steganografi.
+Membandingkan hasil penelitian dengan penelitian sebelumnya.

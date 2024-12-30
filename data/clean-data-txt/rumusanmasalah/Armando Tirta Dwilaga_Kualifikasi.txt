@@ -1,4 +1,1 @@
-Berikut adalah rumusan masalah yang melandasi dalam penelitian ini:
-1. Bagaimana membangun model algoritma Convolutional Neural Networks (CNN) dalam melakukan klasifikasi cacat pada produk ban?
-2. Bagaimana mengimplementasikan dan menghasilkan usulan model algoritma Convolutional Neural Networks (CNN) dalam membangun sistem deteksi cacat produk ban?
-3. Bagaimana mengukur kinerja dan performa model algoritma Convolutional Neural Networks (CNN) dalam melakukan klasifikasi cacat pada produk ban?
+berikut adalah rumusan masalah yang melandasi dalam penelitian ini 1. bagaimana membangun model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban 2. bagaimana mengimplementasikan dan menghasilkan usulan model algoritma convolutional neural networks cnn dalam membangun sistem deteksi cacat produk ban 3. bagaimana m engukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban

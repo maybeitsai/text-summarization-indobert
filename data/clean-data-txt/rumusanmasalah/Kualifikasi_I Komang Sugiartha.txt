@@ -1,0 +1,3 @@
+Berdasarkan latar belakang di atas, maka perlu dirumuskan masalah-masalah penelitian yang harus dicari solusinya, yaitu:
+1.Bagaimana membangun model prediksi terjadinya stunting pada suatu wilayah berbasis Generative Adversarial Networks?
+2.Bagaimana mengembangkan metode machine learning berbasis Generative Adversarial Networks dalam melakukan prediksi terjadinya stunting pada suatu wilayah di Indonesia?

@@ -1,8 +1,1 @@
-Berdasarkan latar belakang masalah tersebut maka yang menjadi rumusan masalah pada penelitian ini adalah :
-1. Bagaimana pola data runtun waktu pertambahan jumlah kasus harian Covid 19 di Jakarta dari tanggal 6 Maret 2020 sampai tanggal 30 Juni
-2021 ?
-2. Bagaimana membuat model peramalan yang sesuai dan cocok untuk data runtun waktu tersebut dengan metode ARIMA ?
-3. Bagaimana membuat model peramalan data runtun waktu tersebut dengan metode Neural Network (NN) ?
-4. Bagaimana cara membuat model Hybrid ARIMA Neural Network (ARIMA-NN) yang sesuai dan cocok dengan data runtun waktu tersebut?
-5. Bagaimana mengembangkan model Quantum Arima Neural Network untuk data runtun waktu?
-6. Bagaimana tingkat akurasi dan hasil peramalan untuk jumlah kasus harian Covid 19 di Jakarta pada periode tanggal 1 Juli sampai 31 Juli 2020 berdasarkan model-model tersebut?
+berdasarkan latar belakang masalah tersebut maka yang menj adi rumusan masalah p ada penelitian ini ad alah 1. bagaimana pola data runtun w aktu pertambah an jumlah kasus ha rian covid 19 di jakarta dari tanggal 6 maret 2020 s ampai ta nggal 30 juni 2021 2. bagaimana membu at model peramalan yang sesuai dan cocok untuk data runtun waktu tersebut d engan metode arima 3. bagaimana membu at model peramalan data runtun waktu tersebut dengan metode neural network nn 4. bagaimana cara membu at model hybrid arima neural network arimann yang sesuai dan cocok dengan data runtun waktu tersebut 5. bagaimana mengembangkan model quantum arima neural network untuk data runtun waktu 6. bagaimana tingkat akurasi dan hasil peramalan untuk jumlah k asus harian covid 19 di jakarta p ada periode tanggal 1 juli sampai 31 juli 2020 berdasarkan modelmodel tersebut

@@ -1,0 +1,92 @@
+3.1 Tahapan Penelitian
+     Metode penelitian ini dilakukan berdasarkan kerangka pemikiran dan kajian pustaka. Secara umum penelitian ini berupa studi kualitatif dengan pendekatan deskriptif, untuk teknik pengambilan sampel melalui observasi, wawancara, kuisioner, dan dokumentasi. Untuk tahapan penelitian secara garis besar, dapat dilihat pada gambar 3.1. digunakan untuk mengetahui output yang dibutuhkan oleh pihak-pihak yang terlibat di proyek konstruksi.
+
+3.3.2 Data Sekunder
+     Data sekunder dikumpulkan dari hasil studi literatur, review penelitian terdahulu, pencarian perangkat lunak dan beberapa template perangkat lunak yang banyak tersedia di internet.
+     Data sekunder ini juga akan mengumpulkan mengenai informasi proyek, sumber dana, jenis laporan baik dari pemilik (pengguna jasa), konsultan dan kontraktor, serta jadwal pelaksanaan dan kemajuan fisik, termin pembayaran serta informasi orang-orang yang berkepentingan dalam proyek konstruksi.
+
+3.3.3 Pengumpulan Data
+     Teknik pengumpulan data yang dilakukan antara lain sebagai berikut :
+a. Observasi dilakukan untuk mengetahui kebutuhan sistem informasi manajemen proyek yang dibutuhkan oleh para pihak-pihak yang terlibat pada proyek konstruksi.
+b. Wawancara dilakukan untuk mengetahui output mengenai sistem informasi manajemen yang dibutuhkan oleh para pihak-pihak yang terlibat pada proyek kosntruksi.
+c. Kuesioner dilakukan untuk menanyakan kembali kepada para pihak-pihak yang terlibat pada proyek konstruksi mengenai pembobotan atas atribut- atribut yang sudah dikelompokkan atas jawaban setiap atribut untuk dijadikan bobot kebutuhan dari para pihak-pihak yang terlibat pada proyek konstruksi.
+d. Dokumentasi dilakukan untuk mendapatkan data dengan cara membaca dan mengambil kesimpulan dari berkas-berkas proyek.
+
+3.4 Pengembangan Sistem
+     Untuk pengembangan sistem, sesuai yang telah disampaikan pada latar belakang bahwa metode yang digunakan dalam memodelkan sistem informasi manajemen proyek konstruksi adalah Rapid Application Development (RAD). Metode RAD digunakan karena modul yang terlalu banyak sehingga untuk fleksibilitas dalam pengembangan sistem dapat dikendalikan serta jika ada perubahan pada setiap modul, maka pengembang secara fleksibel dapat merubah modul tersebut dan modul yang berkaitan. RAD pada pengembangan sistem yang membuat terbagi dalam beberapa tahap, sedangkan tools yang digunakan untuk memodelkan beriorientasi objek adalah notasi Unified Modelling Language (UML). Metode RAD terdiri dari tiga tahap pengembangan, yaitu :
+a. Requirement Planning Phase
+     Pada tahap ini, akan dilakukan obeservasi untuk mengumpulkan informasi-informasi mengenai gambaran umum dari suatu perusahaan, termasuk logo perusahaan, visi dan misi, serta struktur perusahaannya. Tahap selanjutnya, akan dilakukan analisi pada sistem yang berjalan proses monitoring manajemen proyek serta bagaimana work breakdown structures yang sedang berlangsung, kemudian mengindentifikasi masalah dari sistem yang berjalan. Setelah itu, akan dibuat sistem usulan yang akan dijadikan sebagai rekomendasi untuk sistem tersebut.
+b. RAD Design Workshop
+     Pada tahap ini, tahap perancangan proses sistem, basis data dan user interface yang akan dikerjakan untuk prototype sistem, kemudian menganalisis dan mengembangkan modul-modul yang dirancang.
+     1)	Perancangan Proses Sistem
+     Pada tahap ini akan membuat use case diagram, activity diagram, class diagram, sequence diagram, component diagram, dan deployment diagram.
+     2)	Perancangan Basis Data
+     Pada tahap ini, akan dirancang basis data yang berupa tabel-tabel serta hubungan antar label yang berdasarkan kebutuhan sistem informasi manajemen proyek.
+     3)	Perancangan User Interface
+     Pada tahap ini, akan dirancang tampilan antar muka yang akan dibuat sesuai dengan kebutuhan pengembangan sistem.
+c. Implementation Phase
+     Pada tahap ini, akan dilakukan implementasi pada sistem sehingga yang sudah dirancang dapat dilihat prosesnya ke dalam bentuk aplikasi. Tahap ini akan terdiri dari dua tahap, yaitu :
+     1)	Tahap Pembangunan Sistem
+     Jika perancangan siap dan sudah disetujui, maka proses sistem akan dibangun dengan menggunakan bahasa Laravel Framework sesuai dengan rancangan yang sudah dibuat.
+     2)	Tahap Pengujian Sistem
+     Tahap ini akan memeriksa seluruh proses yang telah dibangun apakah dapat berjalan sesuai rancangan dan optimal.
+
+3.4.1 Gambaran Umum Perusahaan
+     Pada tahapan ini, akan dikumpukan informasi mengenai gambaran umum perusahaan seperti profil perusahaan, visi misi perusahaan, struktur organisasi perusahaan.
+
+3.4.2 Analisis Sistem Berjalan
+     Pada tahapan ini, akan dikumpulkan informasi mengenai sistem yang berj alan pada perusahaan, seperti informasi aktor-aktor yang menggunakan sistem tersebut. Untuk mengetahui tanggung jawab dari masing-masing Admin, User, dan Client yang menggunakan sistem tersebut.
+     Dari sistem yang digunakan, akan dikumpulkan juga mengenai informasi kelebihan dan kekurangan sistem yang berjalan dari masing-masing aktor-aktor yang menggunakan sistem tersebut.
+
+3.4.3 Identifikasi Masalah
+     Berdasarkan hasil pengumpulan informasi pada tahap analisis sistem berjalan, yaitu mengetahui kelemahan sistem yang berjalan, maka peneliti akan mengindentifikasi permasalahan tersebut.
+
+3.4.4 Analisis Sistem Usulan
+     Berdasarkan hasil pengumpulan informasi mengenai kelemahan sistem yang berjalan dan hasil identifikasi masalah, maka untuk menyelesaikan permasalahan tersebut akan dianalisis untuk keperluan sistem usulan guna untuk melakukan pengembangan sistem informasi manajemen pada proyek konstruksi.
+
+3.4.5 Perancangan Proses
+3.4.5.1 Use Case Diagram
+        Pada use case diagram akan memberikan deskripsi hubungan antara pengguna sistem (aktor) dengan aktivitas-aktivitas atau proses pada sistem informasi manajemen untuk proyek kosntruksi.
+        Setelah use case diagram sudah terbentuk, maka selanjutnya akan membuat identifikasi use case diagram pada sistem informasi manajemen untuk proyek konstruksi. Setelah proses tersebut, maka selanjutnya membuat narasi use case untuk menjelaskan use case secara lebih rinci.
+
+3.3 Pengumpulan Data
+3.3.1 Data Primer
+      Data primer dikumpulkan dari hasil wawancara dan diskusi dengan pengguna jasa dan penyedia jasa disertai dengan mempresentasikan mengenai konsep sistem informasi manajemen proyek konstruksi. 
+
+3.4.5.2	Activity Diagram
+        Pada activity diagram ini akan menjelaskan mengenai aktivitas- aktivitas yang terjadi pada sistem informasi manajemen untuk proyek konstruksi.
+
+3.4.5.3	Class Diagram
+        Pada class diagram ini akan membuat hubungan relasi antara objek, memiliki atribut dan operasi yang ada pada objek. Tahap pertama akan dibuat daftar objek melalui analisis dari objek-objek pada proses sistem. Setalah membuat daftar objek, maka selanjutnya akan dibuat analisis daftar objek dan membuat atribut-abtribut pada objek. Dari hasil tersebut, akan terbentuk daftar usulan objek pada sistem tersebut, kemudian akan berlanjut pada tahap pembuatan class diagram pada sistem tersebut.
+
+3.4.5.4	Sequence Diagram
+        Pada sequence diagaram ini akan memberikan penjelasan mengenai 
+urutan secara rinci pada proses objek-objek yang akan dilakukan pada sistem untuk 
+mencapai tujuan dari use case.
+
+3.4.5.5	Component Diagram
+        Pada component diagram ini akan digambarkan komponen- komponen dari sistem dan memberikan penjelasan mengenai masing-masing komponen yang ada pada sistem tersebut.
+
+
+3.4.5.6 Deployment Diagram
+        Pada deployment diagram ini akan memberikan gambaran fisik untuk perangkat-perangkat yang akan digunakan.
+
+3.4.6 Perancangan Basis Data
+3.4.6.1 Mapping Database
+        Pada mapping database ini akan dilakukan pemetaan skema database untuk menentukan relasi hubungan primary-key dan foreign-key dari antar tabel-tabel yang terbentuk.
+
+3.4.6.2 Spesifikasi Database
+        Pada spesifikasi database ini akan merancangan desain tabel sistem manajemen informasi untuk proyek konstruksi.
+
+3.4.7 Perancangan Antar Muka
+     Pada perancangan antar muka ini akan dirancang antar muka sistem informasi manajemen untuk proyek konstruksi yang nanti akan dibagi berdasarkan aktor-aktor pada case diagram.
+
+3.5 Implementasi
+3.5.1 Pembangunan Sistem
+      Pada pembangunan sistem ini akan dibangun menggunakan hardware dan software sesuai dengan kebutuhan spesifikasi yang akan dibutuhkan.
+
+3.5.2 Pengujiian Sistem
+      Pada pengujian sistem ini akan menggunakan pengujian blackbox testing atau white-box testing. Pengujian ini dilakukan untuk mengetahui apakah semua modul yang sudah dibentuk berjalan sesuai rancangan atau tidak, serta mengetahui apakah ada kesalahan-kesalahan terhadap proses pada sistem informasi manajemen untuk proyek konstruksi.
+
+3.6 Kesimpulan dan Saran
+      Setelah tahap penelitian selesai, maka pada tahap akhir ini peneliti akan memberikan kesimpulan mengenai hasil penelitian yang sudah didapatkan. Pada tahap akhir ini juga, peneliti akan memberikan saran kepada peneliti berikut yang akan melakukan penelitian dengan tema yang sama, untuk memberikan gambaran dalam mengembangkan penelitian yang sudah dilakukan sebelumnya.

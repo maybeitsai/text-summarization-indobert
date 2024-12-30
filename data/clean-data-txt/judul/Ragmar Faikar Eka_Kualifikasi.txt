@@ -1,1 +1,1 @@
-Metode Klasifikasi Kematangan Buah Kelapa Sawit Dengan Menggunakan MobileNetV3 dan Teknik Attention Module
+metode klasifikasi kematangan buah kelapa sawit dengan menggunakan mobilenetv3 dan teknik attention module

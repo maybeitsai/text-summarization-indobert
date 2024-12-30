@@ -1,3 +1,1 @@
-1. Untuk merancang lightweight model klasifikasi kematangan buah kelapa sawit
-2. Untuk menggabungkan model konvolusi dan teknik attention module
-3. Untuk membuat aplikasi berbasis android untuk klasifikasi kematangan buah kelapa sawit
+1. untuk merancang lightweight model klasifikasi kematangan buah kelapa sawit 2. untuk menggabungkan model konvolusi dan teknik attention module 3. untuk membuat aplikasi berbasis android untuk klasifikasi kematangan buah kelapa sawit 28 digunakan sesuai dengan tujuan penelitian tersebut.

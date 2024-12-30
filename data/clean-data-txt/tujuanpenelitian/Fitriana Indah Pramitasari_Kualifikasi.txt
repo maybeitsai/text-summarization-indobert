@@ -1,4 +1,1 @@
-Tujuan penelitian untuk mengetahui target yang akan dicapai dalam penelitian ini. Berikut tujuan penelitian ini adalah sebagai berikut.
-1. Menghasilkan platform koperasi petani kentang.
-2. Menghasilkan data prediksi permintaan di masa depan selama periode tertentu dan dicatat dalam blockchain.
-3. Menghasilkan data inventory secara realtime dan dicatat dalam blockchain.
+berikut tujuan penelitian ini adalah sebagai berikut. 1. menghasilkan platform koperasi petani kentang. 2. menghasilkan data prediksi permintaan di masa depan selama periode tertentu dan dicatat dalam blockchain. 3. menghasilkan data inventory secara realtime dan dicatat dalam blockchain.

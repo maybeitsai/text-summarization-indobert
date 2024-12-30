@@ -1,0 +1,11 @@
+Berdasarkan dari penelitian tersebut, peneliti mengusulkan model paralelisasi antara proses transformasi subbyte dan shiftrows, sehingga diharapkan penggunaan resources dapat lebih efisien, mengoptimalkan kecepatan serta memberikan tingkat keamanan yang tinggi. Diagram alur pada gambar 3.1 menunjukkan usulan peneliti untuk melakukan pengembangan algoritma AES dengan model paralelisasi antara transformasi subbytes dan shiftrows. Adapun proses untuk algoritma AES sebagai berikut :
+1. Proses perhitungan key schedule
+Proses pertama dalam algoritma AES adalah mencari key schedule yang akan digunakan untuk 10 putaran.
+2. Proses XOR antara plaintext dengan cipher key 
+Proses kedua adalah melakukan XOR antara plaintext dengan cipher key untuk 
+menghasilkan addroundkey.
+3. Proses Transformasi Subbytes, Shiftrows, Mixcolumn, dan Addroundkey 
+Transformasi subbytes dilakukan dengan cara subtitusi dengan tabel S-Box yang sudah disimpan dalam memory. Data yang dihasilkan merupakan matriks 4x4. Pada transformasi shiftrows dilakukan pergeseran untuk baris 0 tidak terjadi pergeseran, untuk baris 1 matriks terjadi pergeseran 1 byte ke kiri, untuk baris 2 matriks terjadi pergeseran 2 byte ke kiri, dan untuk baris 3 matriks terjadi pergeseran 3 byte ke kiri. Pada transformasi mixcolumn mengalikan (modulo polynomial g(X)) setiap kolom dalam state (diperlakukan sebagai polynomial) dengan polynomial a(X). Pada transformasi addroundkey terjadi proses XOR antara state (matriks) dengan key schedule. Proses ini berulang sebanyak 9 putaran.
+4. Proses Transformasi Subbytes, Shiftrows, dan addroundkey
+Pada proses ini hanya terdapat 3 proses transformasi yaitu subbytes, shiftrows dan addroundkey. Proses ini terjadi pada putaran terakhir dalam algoritma AES. Setelah proses ini selesai maka akan menghasilkan sebuah cipher text.
+       Berdasarkan dari proses algoritma AES tersebut, penelitian ini mengusulkan sebuah metode untuk penggabungan dari proses transformasi subbytes dan shiftrows. Adapun proses penggabungan tersebut terjadi pada saat setiap byte data yang di subtitusi pada transformasi subbytes, dilakukan pengecekan apakah data tersebut mengalami pergeseran atau tidak terhadap data.

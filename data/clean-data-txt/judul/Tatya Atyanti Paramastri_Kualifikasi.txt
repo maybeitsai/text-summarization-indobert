@@ -1,1 +1,1 @@
-PENGEMBANGAN ALGORITMA KUANTUM SEGMENTASI DAN KLASIFIKASI PADA CITRA MOTIF "BATIK DAUR HIDUP" YOGYAKARTA
+pengembangan algoritma kuantum segmentasi dan klasifikasi pada citra motif batik daur hidup yogyakarta

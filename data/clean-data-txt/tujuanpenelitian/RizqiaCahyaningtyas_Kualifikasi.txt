@@ -1,0 +1,4 @@
+Sesuai dengan Rumusan masalah penelitian diatas maka tujuan dari penelitian adalah sebagai berikut :
+1. Menghasilkan algoritma deteksi dan ekstraksi citra / gambar untuk mengetahui kerusakan pada modul surya.
+2. Menghasilkan algoritma untuk menentukan luas kerusakan dan tingkat kerusakan pada modul surya.
+3. Menghasilkan sebuah prototype perangkat lunak aplikasi "Klasifikasi dan Identifikasi Jenis Kerusakan pada Modul surya".

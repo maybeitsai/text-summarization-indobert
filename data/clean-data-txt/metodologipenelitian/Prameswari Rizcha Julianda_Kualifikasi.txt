@@ -1,0 +1,51 @@
+3.1 Tahapan Penelitian
+       Tahapan yang dilakukan pada penelitian ini secara garis besar terdapat tiga kelompok tahapan yang mana luaran akhirnya adalah membangun sebuah model. Berikut beberapa tahapan tersebut yang dapat dilihat pada Gambar 3.1.
+        Penjelasan lengkap mengenai tahapan penelitian secara lengkap dapat dilihat pada subbab berikutnya. Adapun penjelasan dari masing-masing tahapan penelitian ini adalah sebagai berikut.
+
+3.2 Melakukan Studi Pustaka
+       Tahapan pertama dari penelitian ini adalah melakukan studi pustaka. Pustaka atau referensi yang terkait dengan penelitian ini meliputi teori tentang stres, manajemen stres, analisis SWOT atau dalam hal ini fokus pada personal SWOT analysis, kemudian tentang balanced scorecard yang dalam hal ini fokus pada personal balanced scorecard, hingga Multi-criteria decision making (MCDM) yang mana dalam hal ini adalah Analytical Hierarchy Process (AHP).
+
+3.3 Menentukan Objek Penelitian
+       Penelitian yang dilakukan merupakan penelitian kuantitatif dengan pendekatan fenomenologis yang mana fenomena yang menjadi fokus penelitian ini adalah pada saat mahasiswa tingkat akhir dihadapkan pada penyusunan Capstone Design Project dan Skripsi. Menurut Kasiram (2008) dalam Wahyuningtiyas S, dkk (2019) bahwa penelitian kuantitatif yaitu proses dalam menemukan pengetahuan dengan menggunakan data yang berupa angka. Penelitian kuantitatif dalam melihat hubungan variabel terhadap objek yang diteliti lebih bersifat sebab akibat (kausal), sehingga dalam penelitiannya ada variabel indipenden dan dependen (Sugiyono, 2012 dalam Wahyuningtiyas S, dkk, 2019). Objek penelitian yang diteliti dalam penelitian ini adalah mahasiswa tingkat akhir Program Studi Teknik Industri Universitas Gunadarma. Terdapat 315 populasi mahasiswa tingkat akhir Program Studi Teknik Industri Gunadarma yang mana semuanya akan menjadi objek dalam penelitian ini.
+
+3.4 Menyebarkan Kuesioner 1 dan Mendefinisikan Stres
+       Pada penelitian ini, terdapat dua variabel yakni variabel bebas (X) dan variabel terikat (Y). Variabel bebas (X) dari penelitian ini adalah mengidentifikasi stres dalam kaitannya dengan stressor yang mana ini akan berbeda juga berdasarkan latar belakang masing-masing mahasiswa. Sedangkan variabel terikat (Y) dari penelitian ini adalah Manajemen Stres masing-masing mahasiswa.
+       Penelitian ini menggunakan instrumen pengumpulan data berupa kuesioner, yaitu kuesioner tingkat stres dan kuesioner stresor mahasiswa dengan skala Likert 1 - 5. Kuesioner dibuat berdasarkan kebutuhan data yang akan dieksplorasikan dalam penelitian, yaitu mengidentifikasi tingkat stres mahasiswa dan mengungkap penyebab stres pada mahasiswa. Kuesioner bersifat terbuka dan tertutup. Kuesioner identifikasi stres yang dipakai dalam penelitian ini adalah adaptasi DASS (Depression, Anxiety, and Stress Scales) dari Ilmuwan Melbourne University; Lovibond, S.H dan Lovibon, P.F dan menggunakan metode K-Nearest Neighbor (K-NN).
+       K-Nearest Neighbor (K-NN) adalah suatu metode yang menggunakan algoritma super-vised dimana hasil dari query instance yang baru diklasifikasikan berdasarkan mayoritas dari kategori pada K-NN. Tujuan dari algoritma ini adalah mengklasifikasikan objek baru bedasarkan atribut dan training sample (Kartika, J. Santoso, E. & Sutrisno, 2017 dalam Aldi, 2020). Jarak Euclidean dapat dicari dengan menggunakan persamaan 1 berikut ini (Johar, T. A. Yanosma, D. & Anggriani, K, 2016 dalam Aldi, 2020).
+Tahapan algoritma K-NN:
+1. Menentukan parameter k.
+2. Menghitung jarak euclidean objek terhadap data training yang diberikan.
+3. Mengurutkan hasil j arak euclidean secara ascending.
+4. Mengumpulkan objek klasifikasi nearest neighbor berdasarkan nilai k yang telah ditetapkan.
+5. Mencari kelas mayoritas berdasarkan hasil prediksi
+       Sedangkan untuk identifikasi stresor dibuat kuesioner berdasarkan jenis-jenis stressor dari Prawirohusodo (1988) dalam Aldi (2020), yaitu stresor fisik-biologik, psikologis, dan sosial budaya. Data yang terkumpul dari responden akan dilakukan penyuntingan (editing), pengkodean (coding), kemudian ditabulasi. Data deskriptif yang didapat dari penelitian ini akan dianalisis dengan analisis statistika deskriptif berupa diagram. 
+Contoh kuesioner 1 dapat dilihat pada Lampiran 1.
+
+3.5 Menyebarkan Kuesioner 2 dan 3
+       Kuesioner yang kedua ini merupakan kuesioner terbuka tentang personal SWOT analysis yang akan digunakan untuk mengidentifikasi kekuatan, kelemahan, peluang dan ancaman dari masing-masing mahasiswa. Masing-masing bagian terdiri dari tujuh pertanyaan yang dapat dilihat pada Lampiran 2.
+       Kuesioner yang selanjutnya adalah kuesioner terbuka tentang personal balanced scorecard yang akan digunakan untuk mengidentifikasi empat perspektif, yaitu internal, eksternal, pengetahuan dan pembelajaran, serta keuangan. Adapun masing-masing pertanyaan kuesioner dapat dilihat pada Lampiran 3.
+
+3.6 Personal SWOT Analysis
+      Personal SWOT Analysis adalah cara mengevaluasi diri sendiri agar manusia dapat merencanakan kehidupan yang lebih baik dengan prinsip melakukan setiap pekerjaan yang paling disukai, sehingga dapat bekerja dengan suka cita dan penuh kecintaan serta semangat dalam melakukannya (Rangkuti, 2015). Maka, dalam melakukan PSA, manusia lebih mampu untuk mengidentiikasi SWOT yang ada pada diri sendiri. Cara melakukan Personal SWOT Analysis, seperti yang dijelaskan dalam buku Rangkuti, 2015 antara lain:
+1. Menentukan indikator kekuatan, dengan mengidentifikasi semua indikator yang dapat dikendalikan, seperti: apa keahlian atau kelebihan yang berbeda, menonjol dan unik yang dimiliki, apa bukti dari keunggulan yang dimiliki, pengalaman dan wawasan apa dimiliki, siapa orang yang berpengaruh yang dikenal dengan sangat baik, sesuai dengan pekerjaan yang ingin dilakukan.
+2. Menentukan indikator kelemahan yang ada, agar dapat memperbaiki diri dan meningkatkan kinerja, dengan mengidentifikasi kelemahan yang ada seperti apa kekurangan atau kebiasaan buruk yang ada pada diri manusia, menurut orang lain apa saja kelemahan kita dan tindakan apa yang bisa dilakukan untuk memperbaiki diri.
+3. Tentukan indikator peluang, dengan mengidentifikasi beragam peluang yang ada, terkait perubahan yang dapat dimanfaatkan, seperti pemanfaatan tekhnologi, adanya posisi kosong atau proyek baru dan pelatihan apa yang dapat diikuti sebagai usaha meraih peluang tersebut. Pada mahasiswa tingkat akhir, peluang ini dapat diidentifikasikan seperti pemanfaatan teknologi dan informasi sehingga dapat mencapai tujuan yaitu lulus tepat waktu.
+4. Tentukan indikator ancaman, dengan mengidentifikasi posisi pesaing, rekan kerja yang berposisi lebih baik, adanya penggunaan tekhnologi baru, beragam kendala internal atau eksternal yang dapat menghambat pekerjaan kita. Pada mahasiswa tingkat akhir, ancaman ini dapat diidentifikasikan seperti persaingan teman seangkatan yang akan meneliti tema yang sama, dan lain sebagainya.
+
+3.7 Personal Balanced Scorecard
+       Terdapat empat perspektif penilaian pada Personal Balanced Scorecard. Adapun keempat perspektif tersebut dapat dijelaskan sebagai berikut (Suwandi dan Harihayati, 2013).
+1. Internal
+Perspektif internal mendeskripsikan kesehatan fisik atau keadaan mental dari seorang pegawai. Contoh: Kejujuran dari seorang pegawai.
+Pada mahasiswa tingkat akhir, contoh perspektif internal ini adalah kejujuran dari seorang mahasiswa dalam kaitannya dengan menyontek pekerjaan orang lain
+2. Eksternal
+Perspektif eksternal mendeskripsikan hubungan seorang pegawai dengan keluarga, rekan kerja, atasan, customer atau lingkungan luar lainnya. Contoh: Tingkat komunikasi seorang pegawai dengan atasan, rekan kerja atau customer.
+Pada mahasiswa tingkat akhir, contoh perspektif eksternal adalah tingkat komunikasi mereka dengan orang tua atau wali, dosen, senior atau junior, dan teman seangkatan atau sepermainan.
+3. Pengetahuan dan pembelajaran
+Perspektif pengetahuan dan pembelajaran mendeskripsikan keterampilan, kemampuan pembelajaran dan pengetahuan pegawai. Contoh: Pengetahuan dan Penguasaan dalam Sistem Aplikasi.
+Pada mahasiswa tingkat akhir, contoh perspektif pengetahuan dan pembelajaran adalah pengetahuan dan penguasaan perangkat lunak sebagai alat bantu dalam mengerjakan tugas kuliah
+4. Keuangan
+Perspektif keuangan mendeskripsikan pencapaian target kerja seseorang dalam sisi keuangan. Contoh: Penghematan Penggunaan Dana Perusahaan Dalam Setiap Proyek.
+Pada mahasiswa tingkat akhir, contoh perspektif keuangan adalah pengalokasian penggunaan uang yang diberikan oleh orang tua.
+
+3.8 Penentuan Key Performance Indicator (KPI) dan Analisis Output
+       Hasil luaran dari Personal Balanced Scorecard kemudian selanjutnya akan ditentukan Key Performance Indicator yang mana mempertimbangkan hasil dari luaran Personal SWOT Analysis dan hasil dari identifikasi stres dan stressor. KPI ini selanjutnya akan dilakukan pembobotan dengan menggunakan Analitycal Hierarchy Process (AHP) dengan perangkat lunak Expert Choice yang nantinya akan menghasilkan model baru dari manajemen mahasiswa tingkat akhir dalam kaitannya dengan keahlian menyelesaikan masalah, atau dalam hal ini adalah stressor.

@@ -1,0 +1,4 @@
+Berdasarkan permasalahan yang diuraikan, penelitian ini bertujuan :
+1. Menghasilkan model CNN untuk mendeteksi anomali pada citra sinar-X paru- paru yang dapat mengindikasikan adanya penyakit paru akibat infeksi COVID- 19.
+2. Menghasilkan ensamble model hasil integrasi output beberapa arsitektur CNN untuk mengklasifikasikan penyakit paru akibat covid-19.
+3. Menghasilkan komparasi akurasi model arsitektur tunggal dan model stacking dalam melakukan klasifikasi penyakit paru akibat COVID-19.

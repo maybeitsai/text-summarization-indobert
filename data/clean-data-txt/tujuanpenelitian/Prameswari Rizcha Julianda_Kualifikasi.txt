@@ -1,0 +1,4 @@
+Tujuan penelitian ini terdiri dari tujuan umum dan khusus. Berdasarkan latar belakang masalah yang telah diuraikan maka tujuan tersebut dapat dirumuskan sebagai berikut.
+1. Mengidentifikasi penyebab stres pada mahasiswa tingkat akhir program studi Teknik Industri dengan DASS dan K-NN
+2. Menentukan skala prioritas penyebab stres yang dialami mahasiswa tingkat akhir program studi Teknik Industri berdasarkan Key Performance Indicator (KPI)
+3. Mendapatkan hasil implementasi model manajemen stres dan kemampuan penyelesaian masalah pada mahasiswa tingkat akhir program studi Teknik Industri berdasarkan SWOT Personal Analysis, Personal Balanced Scorecard, dan AHP sehingga tingkat persentase stres dan kemungkinan bunuh diri dapat ditekan.

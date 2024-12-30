@@ -1,0 +1,6 @@
+Berdasarkan latar belakang yang telah diuraikan, maka dapat dirumuskan batasan masalah sebagai berikut:
+1. Bagaimana membangun dataset identifikasi jenis kerusakan berdasarkan teknik perbaikan jalan pada jalan perkerasan?
+2. Bagaimana membangun dataset identifikasi tingkat kerusakan pada jalan perkerasan berdasarkan data set jenis kerusakan?
+3. Bagaimana melakukan pengukuran kerusakan pada setiap jenis kerusakan?
+4. Bagaimana membuat sebaran data kerusakan berdasarkan jenis dan tingkat kerusakan pada jalan perkerasan?
+5. Bagaimana membangun sebuah purwarupa perangkat lunak aplikasi sistem identifikasi jenis dan pengukuran tingkat kerusakan jalan?

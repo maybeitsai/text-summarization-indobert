@@ -114,8 +114,8 @@ sections = ['latarbelakang', 'rumusanmasalah', 'tujuanpenelitian', 'rangkumanpen
 def load_data(section):
     return pd.read_csv(f'data/final-data/{section}.csv')
 
-def load_bert_summaries(section):
-    return pd.read_csv(f'data/output-bert/{section}.csv')
+def load_bert_summaries():
+    return pd.read_csv('data/penilaian-data/80/output-bert.csv')
 
 # Similarity calculations
 def calculate_cosine_similarity(df):
@@ -143,7 +143,7 @@ def initialize_session_state():
 # Load all datasets
 def load_all_data(sections):
     data = {section: load_data(section) for section in sections}
-    bert_summaries = {section: load_bert_summaries(section) for section in sections}
+    bert_summaries = load_bert_summaries()
     judul_data = pd.read_csv('data/clean-data-csv/judul.csv')
     return data, bert_summaries, judul_data
 
@@ -154,7 +154,7 @@ def display_summaries(data, bert_summaries, sections, section_display_names):
         if st.session_state.method == 'Fitur Kalimat':
             summary = data[section][data[section]['nama_dokumen'] == st.session_state.selected_document]['summary'].values[0]
         else:
-            summary = bert_summaries[section][bert_summaries[section]['nama_dokumen'] == st.session_state.selected_document]['summary_bert'].values[0]
+            summary = bert_summaries[bert_summaries['nama_dokumen'] == st.session_state.selected_document][section].values[0]
         st.write(summary)
 
 # Display similarity matrix
@@ -180,7 +180,7 @@ def display_similarity_matrix(sections, section_display_names, summaries):
 
 # Analyze similarities or relationships between sections
 def analyze_relationships(similarity_matrix, section_display_names):
-    st.subheader('Analisis Similaritas:' if st.session_state.analysis_method == 'Cosine Similarity' else 'Analisis Hubungan:')
+    st.subheader('🔍 Analisis Similaritas:' if st.session_state.analysis_method == 'Cosine Similarity' else '🔍 Analisis Hubungan:')
     
     pairs = [
         ('Latar Belakang', 'Rumusan Masalah'),
@@ -202,40 +202,49 @@ def analyze_relationships(similarity_matrix, section_display_names):
         else:
             st.write(f"Keterhubungan dokumen antara {pair[0]} dan {pair[1]} sebesar {similarity:.2f}.")
 
-def display_qualification_assessment():
+# New function to load assessment data
+def load_assessment_data():
+    return pd.read_csv('data/output-bert-penilaian/pred-80.csv')
+
+# Modified display_qualification_assessment function
+def display_qualification_assessment(selected_document, assessment_data):
     st.subheader("Keterangan Penilaian:")
     st.write("- A(>= 85)")
     st.write("- B(75 - 84)")
     st.write("- C(< 75)")
     
     assessment_criteria = [
-        "Nilai isi disertasi",
-        "Nilai Penguasaan Materi dan Metode Penelitian",
-        "Nilai Kontribusi hasil Penelitian bagi ilmu pengetahuan",
-        "Nilai Kontribusi hasil Penelitian bagi masyarakat",
-        "Nilai wawasan pengetahuan konsep ilmu komputer",
-        "Nilai Kemampuan untuk menangkap, menganalisis, dan menjawab pertanyaan/sanggahan"
+        "nilai_isi_disertasi",
+        "nilai_penguasaan_materi_dan_metode_penelitian",
+        "nilai_kontribusi_hasil_penelitian_bagi_ilmu_pengetahuan",
+        "nilai_kontribusi_hasil_penelitian_bagi_masyarakat",
+        "nilai_wawasan_pengetahuan_konsep_ilmu_komputer",
+        "nilai_kemampuan_untuk_menjawab_pertanyaan"
     ]
     
-    grades = {}
-    for criterion in assessment_criteria:
-        grades[criterion] = st.selectbox(f"{criterion}:", ["A", "B", "C"], key=criterion)
+    document_assessment = assessment_data[assessment_data['nama_dokumen'] == selected_document]
     
-    if st.button("Simpan Penilaian"):
-        total_score = sum([4 if grade == "A" else 3 if grade == "B" else 2 for grade in grades.values()])
-        average_score = total_score / len(assessment_criteria)
-        recommendation = "Layak" if average_score >= 3 else "Tidak Layak"
-        
-        st.subheader("Hasil Penilaian:")
-        for criterion, grade in grades.items():
-            st.write(f"{criterion}: {grade}")
-        if recommendation == "Layak":
-            st.success(f"Hasil Penilaian: Rekomendasi **{recommendation}**")
-        else:
-            st.error(f"Hasil Penilaian: Rekomendasi **{recommendation}**")
+    if document_assessment.empty:
+        st.error(f"Tidak ada data penilaian untuk dokumen: {selected_document}")
+        return
+    
+    st.subheader("Hasil Penilaian:")
+    total_score = 0
+    for criterion in assessment_criteria:
+        grade = document_assessment[criterion].values[0]
+        st.write(f"{criterion.replace('_', ' ').title()}: {grade}")
+        total_score += 4 if grade == "A" else 3 if grade == "B" else 2
+    
+    average_score = total_score / len(assessment_criteria)
+    recommendation = "Layak" if average_score >= 3 else "Tidak Layak"
+    
+    if recommendation == "Layak":
+        st.success(f"Rekomendasi Penilaian: **{recommendation}**")
+    else:
+        st.error(f"Rekomendasi Penilaian: **{recommendation}**")
 
 def main():
-    st.title('Sistem Ringkasan dan Penilaian Proposal Kualifikasi')
+    st.title('Sistem Peringkasan dan Penilaian Proposal Kualifikasi')
 
     initialize_session_state()
 
@@ -249,6 +258,7 @@ def main():
     }
 
     data, bert_summaries, judul_data = load_all_data(sections)
+    assessment_data = load_assessment_data()  # Load assessment data
 
     # Sidebar for selections with improved styling
     with st.sidebar:
@@ -291,16 +301,19 @@ def main():
                 with st.expander(f"{section_display_names[section]} 👇"):
                     display_summaries(data, bert_summaries, [section], section_display_names)
 
-            st.subheader("📊 Analisis Similaritas")
-            summaries = [data[section][data[section]['nama_dokumen'] == st.session_state.selected_document]['summary'].values[0] for section in sections]
+            
+
+            if st.session_state.method == 'Fitur Kalimat':
+                summaries = [data[section][data[section]['nama_dokumen'] == st.session_state.selected_document]['summary'].values[0] for section in sections]
+            else:
+                summaries = [bert_summaries[bert_summaries['nama_dokumen'] == st.session_state.selected_document][section].values[0] for section in sections]
             similarity_matrix = display_similarity_matrix(sections, section_display_names, summaries)
 
-            st.subheader("🔍 Analisis Hubungan Antar Bagian")
             analyze_relationships(similarity_matrix, section_display_names)
 
         with tab2:
             st.header("🏆 Penilaian Proposal Kualifikasi")
-            display_qualification_assessment()
+            display_qualification_assessment(st.session_state.selected_document, assessment_data)
 
 if __name__ == "__main__":
     main()

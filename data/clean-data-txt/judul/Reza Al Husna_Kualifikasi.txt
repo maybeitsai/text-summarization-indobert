@@ -1,1 +1,1 @@
-Pengembangan Algoritma Berbasis Vision Transformer pada Deteksi Penyakit Tanaman Kakao
+pengembangan algoritma berbasis vision transformer pada deteksi penyakit tanaman kakao

@@ -1,1 +1,1 @@
-ANALISIS RUNTUN WAKTU DENGAN METODE QUANTUM ARIMA NEURAL NETWORK (STUDI KASUS: DATA PERTAMBAHAN JUMLAH KASUS HARIAN COVID 19 DI JAKARTA) 
+analisis runtun waktu dengan metode quantum arima neural network studi kasus data pertambahan jumlah kasus harian covid 19 di jakarta

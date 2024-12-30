@@ -1,0 +1,5 @@
+Model Deep Learning dengan LSTM belum pernah digunakan sebelumnya untuk meneliti suara digit decimal berbahasa Indonesia, maka penelitian ini bertujuan dalam mengembangkan model LSTM untuk mengenali suara digit decimal Bahasa Indonesia. 
+Adapun tujuan khusus yang ingin dicapai dalam penelitian ini adalah:
+a. Mengembangkan Deep Learning dengan LSTM untuk mencari model pola suara digit desimal berbahasa Indonesia yang tidak tergantung kepada siapa pembicaranya (speaker independent),
+b. Menghasilkan tingkat akurasi yang lebih tinggi dari mdel LSTM yang dibangun untuk pengenal suara digit desimal berbahasa Indonesia dibandingkan dengan penelitian sebelumnya,
+c. Menghasilkan waktu eksekusi yang optimal dari model LSTM yang dibangun.

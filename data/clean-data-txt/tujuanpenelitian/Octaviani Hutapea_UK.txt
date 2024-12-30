@@ -1,0 +1,6 @@
+Sesuai dengan rumusan masalah penelitian yang telah diuraikan sebelumnya, maka tujuan yang ingin dicapai dalam penelitian ini adalah:
+1. Menghasilkan dataset jenis kerusakan pada jalan perkerasan berdasarkan teknik perbaikan jalan.
+2. Menghasilkan dataset tingkat kerusakan pada jalan perkerasan berdasarkan data set jenis kerusakan.
+3. Menghasilkan algoritma untuk melakukan pengukuran kerusakan pada setiap jenis kerusakan.
+4. Menghasilkan sebaran data kerusakan berdasarkan jenis dan tingkat kerusakan pada jalan perkerasan.
+5. Menghasilkan prototype sistem identifikasi jenis dan tingkat kerusakan jalan serta sebarannya menggunakan model convolutional neural network.

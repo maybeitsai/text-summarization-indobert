@@ -1,0 +1,3 @@
+Berdasarkan latar belakang yang telah diuraikan, maka dapat dirumuskan batasan masalah sebagai berikut :
+1. Bagaimana mengembangkan metode enkripsi dan dekripsi dengan algoritma AES?
+2. Bagaimana cara mengimplementasikan pengembangan algoritma AES ke dalam FPGA?

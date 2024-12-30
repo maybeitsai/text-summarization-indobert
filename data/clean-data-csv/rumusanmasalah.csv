@@ -1,160 +1,124 @@
 nama_dokumen,kalimat,index,important,conjunction,length,words_in_title,position,cue_words
-Reviana Siti Mardiah_Kualifikasi.txt,rumusan masalah pada penelitian ini adalah sebagai berikut 1. bagaimana mengembangkan model generative ai yang mampu menghasilkan data sintetis untuk meningkatkan akurasi model prediksi permintaan dan produksi beras 2. bagaimana mengembangkan model machine learning yang efektif untuk memprediksi permintaan dan produksi beras 3. bagaimana merancang model optimasi yang efektif untuk menentukan jumlah cadangan beras pemerintah yang optimal 4. bagaimana membangun prototype decision support system untuk cadangan beras pemerintah,0,1,0,46,0.3611111111111111,1,5
-Kualifikasi_Rama Dian Syah.txt,"Berdasarkan latar belakang yang telah diuraikan, maka dapat dirumuskan rumusan masalah sebagai berikut:
-1. gaimana mengembangkan metode kriptografi citra digital berbasis
-chaotic?",0,1,1,25,0.4,1,1
-Kualifikasi_Rama Dian Syah.txt,2. gaimana hasil pengujian dari proses enkripsi dan dekripsi yang dilakukan?,1,1,0,12,0.0,1,1
-Kualifikasi Witta Listiya Ningrum.txt,"Rumusan masalah pada penelitian ini difokuskan pada :
-1.",0,1,1,9,0.0,1,0
-Kualifikasi Witta Listiya Ningrum.txt,"Bagaimana mengembangkan algoritma untuk merepresentasikan teks, gambar dan video dari berbagai platform sosial media?",1,1,0,16,0.3888888888888889,0.5,1
-Kualifikasi Witta Listiya Ningrum.txt,2.,2,1,1,2,0.0,0.6666666666666666,0
-Kualifikasi Witta Listiya Ningrum.txt,"Bagaimana mengembangkan model klasifikasi toksisitas multimodal dengan metode Large Language Model (LLM) dengan jenis media teks, gambar dan video?",3,1,0,21,0.7647058823529411,1,1
-Alifurrohman_Kualifikasi.txt,"Berdasarkan latar belakang yang telah dipaparkan, maka rumusan masalah yang dapat disusun sebagai berikut.",0,1,1,15,0.0,1,0
-Alifurrohman_Kualifikasi.txt,1.,1,1,1,2,0.0,0.75,0
-Alifurrohman_Kualifikasi.txt,Bagaimana Deep Q-Network (DQN) dengan mekanisme Multi-Header Attention dapat diterapkan untuk menyelesaikan Dynamic Vehicle Routing Problem with Time Windows (DVRPTW)?,2,1,1,23,0.4090909090909091,0.5,0
-Alifurrohman_Kualifikasi.txt,2.,3,1,1,2,0.0,0.75,0
-Alifurrohman_Kualifikasi.txt,"Apakah penerapan DQN dengan Multi-Header Attention dapat meningkatkan efisiensi dan efektivitas dalam menentukan rute optimal pada kondisi dinamis seperti fluktuasi arus lalu lintas, kedatangan pelanggan baru dan adanya jendela waktu?",4,1,0,31,0.030303030303030304,1,1
+Erfiana Wahyuningsih_UK.txt,1. bagaimana mereduksi gerbang cmos dengan metode m gdi pada rangkaian sram 2. bagaimana menunjukkan kinerja rangkaian sram 6t dengan low power setelah jumlah transistor direduksi 3. apakah rangkaian transistor yang telah direduksi jumlahnya mampu mempertahankan kemampuan high read stability,0,1,0,33,0.32142857142857145,1,0
+Devi Resviani_KUALIFIKASI.txt,berdasarkan pada latar belakang masalah penelitian yang telah diuraikan dan sesuai dengan usulan topik penelitian maka dirumuskan masalah pokok yang harus diteliti adalah sebagai berikut 1. algoritma machine learning apa yang paling efektif untuk memprediksi kegagalan pada mesin kompresor reciprocating 2. bagaimana membangun model machine learning dari algoritma yang terpilih untuk memprediksi kegagalan pada mesin kompresor reciprocating 3. bagaimana membangun sistem peringatan pemeliharaan prediktif berbasis machine learning pada mesin kompresor reciprocating 4. bagaimana kinerja sistem peringatan pemeliharaan prediktif berbasis machine learning pada mesin kompresor reciprocating,0,1,0,49,0.18181818181818182,1,1
+Armando Tirta Dwilaga_Kualifikasi.txt,berikut adalah rumusan masalah yang melandasi dalam penelitian ini 1. bagaimana membangun model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban 2. bagaimana mengimplementasikan dan menghasilkan usulan model algoritma convolutional neural networks cnn dalam membangun sistem deteksi cacat produk ban 3. bagaimana m engukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban,0,1,0,36,0.22580645161290322,1,2
+Kualifikasi_Rama Dian Syah.txt,berdasarkan latar belakang yang telah diuraikan maka dapat dirumuskan rumusan masalah sebagai berikut 1. bagaimana mengembangkan metode kriptografi citra digital berbasis chaotic 2. bagaimana hasil pengujian dari proses enk ripsi dan dek ripsi yang dilakukan,0,1,0,32,0.3,1,2
+Alifurrohman_Kualifikasi.txt,berdasarkan latar belakang yang telah dipaparkan maka rumusan masalah yang dapat disusun sebagai berikut .,0,1,1,14,0.0,1,0
+Alifurrohman_Kualifikasi.txt,1. bagaimana deep q network dqn dengan mekanisme multi header attention dapat diterapkan untuk menyelesaikan dynamic vehicle routing problem with time windows dvrptw 2. apakah penerapan dqn dengan multi header attention dapat meningkatkan efisiensi dan efektivitas dalam menentukan rute optimal pada kondisi dinamis seperti fluktuasi arus lalu lintas kedatangan pelanggan baru dan adanya jendela waktu,1,1,0,48,0.21951219512195122,1,1
+Kualifikasi Witta Listiya Ningrum.txt,rumusan masalah pada penelitian ini difokuskan pada 1. bagaimana meng embangkan algoritma untuk merepresentasikan teks gambar dan video dari berbagai platform sosial media 2. bagaimana meng embangkan model klasifikasi toksisitas multimodal dengan metode large language model llm dengan jenis media teks gambar dan video,0,1,0,33,0.5384615384615384,1,0
+Kualifikasi_I Komang Sugiartha.txt,"Berdasarkan latar belakang di atas, maka perlu dirumuskan masalah-masalah penelitian yang harus dicari solusinya, yaitu:
+1.Bagaimana membangun model prediksi terjadinya stunting pada suatu wilayah berbasis Generative Adversarial Networks?",0,1,1,31,0.2727272727272727,1,1
+Kualifikasi_I Komang Sugiartha.txt,2.Bagaimana mengembangkan metode machine learning berbasis Generative Adversarial Networks dalam melakukan prediksi terjadinya stunting pada suatu wilayah di Indonesia?,1,1,1,20,0.5714285714285714,1,1
+Ragmar Faikar Eka_Kualifikasi.txt,1. bagaimana cara merancang model untuk klasifikasi k ematangan buah kelapa sawit 4 2. bagaimana mengetahui nilai akurasi dari klasifikasi kualitas buah kelapa sawit 3. bagaimana cara menggabung kan model mobilenetv3 dengan attention module cbam 4. bagaimana cara untuk mengimplementasi model klasifikasi k ematangan buah kelapa sawit ke dalam aplikasi mobile,0,1,1,33,0.2692307692307692,1,1
+Fitriana Indah Pramitasari_Kualifikasi.txt,berdasarkan topik pembahasan pada penelitian ini mengenai perancangan model platform koperasi bagi para petani maka didapatkan beberapa rumusan masalah untuk mengetahui masalah yang akan dicari solusinya.,0,1,1,26,0.19047619047619047,1,0
+Fitriana Indah Pramitasari_Kualifikasi.txt,rumusan masalah pada penelitian ini adalah sebagai berikut.,1,1,1,9,0.0,0.5,0
+Fitriana Indah Pramitasari_Kualifikasi.txt,1. bagaimana proses perancangan model koperasi petani 6 2. bagaimana metode prediksi permintaan dengan ann di dalam blockchain yang digunakan untuk mengoptimalkan permintaan pelanggan di masa depan selama periode tertentu 3. bagaimana metode safety stock di dalam blockchain yang digunakan agar dapat mengoptimalkan stok dan permintaan tujuan penelitian untuk mengetahui target yang akan dicapai dalam penelitian ini.,2,1,0,42,0.08823529411764706,1,0
+Miftakhul Zaen_KUALIFIKASI.txt,berdasarkan latar belakang dan batasan masalah diperoleh rumusan masalah untuk mengembang kan algoritma dbscan .,0,1,0,14,0.2727272727272727,1,1
+Miftakhul Zaen_KUALIFIKASI.txt,berikut merupakan rumusan masalah pada pe nelitian ini.,1,1,1,9,0.0,0.5,0
+Miftakhul Zaen_KUALIFIKASI.txt,1. bagaimana cara mengatasi keterbatasan algoritma dbscan klasik dalam mengelola dataset bes ar pada klasterisasi supplier dengan mengguna kan komputasi kuantum 2. bagaimana pening katan efisiensi dan akurasi yang dapat dicapai oleh dbscan kuantum dalam pengelompokan supplier dibandingkan dengan implementasi klasik nya,2,1,0,35,0.19230769230769232,1,0
+Kualifikasi_Aris Gunaryati.txt,berdasarkan latar belakang masalah tersebut maka yang menj adi rumusan masalah p ada penelitian ini ad alah 1. bagaimana pola data runtun w aktu pertambah an jumlah kasus ha rian covid 19 di jakarta dari tanggal 6 maret 2020 s ampai ta nggal 30 juni 2021 2. bagaimana membu at model peramalan yang sesuai dan cocok untuk data runtun waktu tersebut d engan metode arima 3. bagaimana membu at model peramalan data runtun waktu tersebut dengan metode neural network nn 4. bagaimana cara membu at model hybrid arima neural network arimann yang sesuai dan cocok dengan data runtun waktu tersebut 5. bagaimana mengembangkan model quantum arima neural network untuk data runtun waktu 6. bagaimana tingkat akurasi dan hasil peramalan untuk jumlah k asus harian covid 19 di jakarta p ada periode tanggal 1 juli sampai 31 juli 2020 berdasarkan modelmodel tersebut,0,1,0,84,0.18181818181818182,1,3
+Kualifikasi_Nur Azizah.txt,Penelitian ini berusaha mengembangkan teknik klasifikasi pengembangan model diagnosis Pada Smear-Negative Pulmonary Tuberculosis (SNPT) Berbasis Deep Learning.,0,1,1,20,0.6428571428571429,1,1
+Kualifikasi_Nur Azizah.txt,"Sehingga penelitian ini difokuskan pada:
+1.",1,1,0,8,0.0,0.75,0
+Kualifikasi_Nur Azizah.txt,Bagaimana Deep Learning pada pengembangan diagnosis SNPT menggunakan Faster RCNN dapat menghasilkan diagnosis awal dengan tingkat akurasi tinggi?,2,1,1,18,0.25,0.5,3
+Kualifikasi_Nur Azizah.txt,2.,3,1,1,2,0.0,0.75,0
+Kualifikasi_Nur Azizah.txt,Bagaimana Deep Learning pada pengembangan diagnosis SNPT menggunakan Faster RCNN dapat menghasilkan diagnosis akhir dengan tingkat akurasi tinggi?,4,1,1,18,0.25,1,3
+KUALIFIKASI_Riya Widayanti.txt,penelitian dalam penelitian terkait dengan tata kelola data yang diterapkan pada perguruan tinggi dengan mengggunakan teknologi blockchain mengacu pada topikjudul penelitian dan tujuan umum yang akan dicapai yang telah diuraikan pada latar belakang masalah identifikasi dan list permasalahan utama yang akan diteliti.,0,1,0,33,0.2857142857142857,1,0
+KUALIFIKASI_Riya Widayanti.txt,bagaimana menganalisis lapisan data dalam tata kelola data terkait program merdeka belajar berbasis blockchain bagaimana mengidentifikasi lapisan arsitektur dalam blockchain yang berfungsi sebagai penyimpan data bagaimana mengekplorasi aspek administrasi data pada blockchain bagaimana menilai tata kelola data terkait kualitas data yang akan dikembangkan dalam teknologi blockchain,1,1,1,28,0.20833333333333334,1,1
+Ragiel.txt,"Berdasarkan latar belakang yang telah diuraikan, maka dapat dirumuskan batasan masalah sebagai berikut :
+1.",0,1,1,17,0.0,1,0
+Ragiel.txt,Bagaimana mengembangkan metode enkripsi dan dekripsi dengan algoritma AES?,1,1,0,10,0.4444444444444444,0.5,1
+Ragiel.txt,2.,2,1,1,2,0.0,0.6666666666666666,0
+Ragiel.txt,Bagaimana cara mengimplementasikan pengembangan algoritma AES ke dalam FPGA?,3,1,1,10,0.5,1,1
+Bayu Kumoro.txt,"Penelitian ini berusaha mengembangkan teknik dan memperkecil spesifikasi yang digunakan dalam FPGA dalam penyisipan pesan rahasia ke dalam suatu gambar 
+berdasarkan metode LSB.",0,1,0,22,0.2,1,1
+Bayu Kumoro.txt,"Sehingga penelitian ini difokuskan pada:
+Bagaimana mengembangkan metode penyisipan pesan LSB steganografi pada FPGA.",1,1,0,15,0.25,0.5,1
+Bayu Kumoro.txt,"Bagaimana mengoptimalkan jumlah komponen, clock dan capacity pada FPGA secara efisien.",2,1,0,13,0.06666666666666667,0.6666666666666666,0
+Bayu Kumoro.txt,Bagaimana konsep enkripsi dan dekripsi pada algoritma Steganografi LSB dengan menggunakan bahasa perangkat keras untuk FPGA.,3,1,0,17,0.1111111111111111,1,0
+Reza Al Husna_Kualifikasi.txt,berdasarkan yang telah diuraikan pada latar belakang masalah diatas maka direncanakan perumusan masalah yang mendasari penelitian sebagai berikut.,0,1,1,17,0.0,1,0
+Reza Al Husna_Kualifikasi.txt,1. bagaimana mengembangkan algoritma dan metode menggunakan pendekatan feature fusion berbasis attention pada citra penyakit daun tanaman kakao 2. bagaimana membangun sebuah sistem deteksi yang tepat dan akurat untuk identifikasi adanya gejala penyakit pada daun tanaman kakao yang dapat mem permudah petani kakao dalam mengenali daun yang terkena penyakit,1,1,0,37,0.25,1,2
 Kualifikasi_Andi Asnur Pranata M. H. (99219024).txt,"Berdasarkan uraian pada latar belakang penelitian, maka dalam disertasi ini disusun rumusan masalah sebagai berikut :
 a. Dalam merancangan sistem informasi manajemen untuk proyek konstruksi, apa-apa saja yang dibutuhkan oleh para pihak yang terlibat?",0,1,1,34,0.20833333333333334,1,1
 Kualifikasi_Andi Asnur Pranata M. H. (99219024).txt,b. Perancangan proses sistem seperti apa yang harus dirancang dalam merancangan sistem informasi manajemen untuk proyek konstruksi?,1,1,1,17,0.3125,0.75,1
 Kualifikasi_Andi Asnur Pranata M. H. (99219024).txt,"c. Perancangan basis data seperti apa yang harus dirancang, agar sesuai dengan kebutuhan sistem informasi manajemen untuk proyek konstruksi yang akan dibangun?",2,1,0,23,0.25,0.5,2
 Kualifikasi_Andi Asnur Pranata M. H. (99219024).txt,d. Perancangan tampilan antar muka seperti apa yang sesuai dengan sistem yang akan dibangun?,3,1,1,14,0.05555555555555555,0.75,1
 Kualifikasi_Andi Asnur Pranata M. H. (99219024).txt,e. Apakah sistem yang dibangun sesuai dengan rancangan dan dapat berjalan dengan baik?,4,1,0,13,0.05555555555555555,1,2
-Reza Al Husna_Kualifikasi.txt,"Berdasarkan yang telah diuraikan pada latar belakang masalah diatas, maka direncanakan perumusan masalah yang mendasari penelitian sebagai berikut.",0,1,1,18,0.0,1,0
-Reza Al Husna_Kualifikasi.txt,1.,1,1,1,2,0.0,0.75,0
-Reza Al Husna_Kualifikasi.txt,Bagaimana mengembangkan algoritma dan metode menggunakan pendekatan feature fusion berbasis attention pada citra penyakit daun tanaman kakao?,2,1,0,18,0.375,0.5,1
-Reza Al Husna_Kualifikasi.txt,2.,3,1,1,2,0.0,0.75,0
-Reza Al Husna_Kualifikasi.txt,Bagaimana membangun sebuah sistem deteksi yang tepat dan akurat untuk identifikasi adanya gejala penyakit pada daun tanaman kakao yang dapat mempermudah petani kakao dalam mengenali daun yang terkena penyakit?,4,1,0,25,0.21052631578947367,1,1
-Armando Tirta Dwilaga_Kualifikasi.txt,"Berikut adalah rumusan masalah yang melandasi dalam penelitian ini:
-1.",0,1,1,12,0.0,1,0
-Armando Tirta Dwilaga_Kualifikasi.txt,Bagaimana membangun model algoritma Convolutional Neural Networks (CNN) dalam melakukan klasifikasi cacat pada produk ban?,1,1,1,18,0.4375,0.8,1
-Armando Tirta Dwilaga_Kualifikasi.txt,2.,2,1,1,2,0.0,0.5,0
-Armando Tirta Dwilaga_Kualifikasi.txt,Bagaimana mengimplementasikan dan menghasilkan usulan model algoritma Convolutional Neural Networks (CNN) dalam membangun sistem deteksi cacat produk ban?,3,1,0,21,0.2857142857142857,0.6,2
-Armando Tirta Dwilaga_Kualifikasi.txt,3.,4,1,1,2,0.0,0.8,0
-Armando Tirta Dwilaga_Kualifikasi.txt,Bagaimana mengukur kinerja dan performa model algoritma Convolutional Neural Networks (CNN) dalam melakukan klasifikasi cacat pada produk ban?,5,1,0,21,0.47058823529411764,1,0
-KUALIFIKASI_Riya Widayanti.txt,"Dalam penelitian terkait dengan tata kelola data yang diterapkan pada perguruan tinggi dengan mengggunakan teknologi Blockchain Mengacu pada topik/judul penelitian dan tujuan umum yang akan dicapai yang telah diuraikan pada latar belakang masalah, identifikasi dan list permasalahan utama yang akan diteliti.",0,1,0,34,0.2727272727272727,1,0
-KUALIFIKASI_Riya Widayanti.txt,- Bagaimana menganalisis lapisan data dalam tata kelola data terkait program MERDEKA BELAJAR berbasis Blockchain?,1,1,1,15,0.26666666666666666,0.75,0
-KUALIFIKASI_Riya Widayanti.txt,- Bagaimana mengidentifikasi lapisan arsitektur dalam blockchain yang berfungsi sebagai penyimpan data?,2,1,1,13,0.15384615384615385,0.5,0
-KUALIFIKASI_Riya Widayanti.txt,- Bagaimana	mengekplorasi	aspek	administrasi	data	pada blockchain?,3,1,1,9,0.18181818181818182,0.75,0
-KUALIFIKASI_Riya Widayanti.txt,- Bagaimana menilai tata kelola data terkait kualitas data yang akan dikembangkan dalam teknologi blockchain?,4,1,1,15,0.4166666666666667,1,1
-Kualifikasi_Remigius.txt,"Salah satu tantangan utama dalam mengembangkan model interaksi antara manusia dan komputer adalah bagaimana menangani secara efektif perbedaan individu, preferensi maupun pengalaman (Lavie & Meyer, 2010) serta fleksibilitas kognitif yang mungkin terkait dengan berbagai perilaku pengguna yang berbeda (Gonzalez, 2013).",0,1,0,43,0.030303030303030304,1,1
-Kualifikasi_Remigius.txt,"Oleh karena itu, keterlibatan komunitas dan persepsi pengguna perlu dipertimbangkan dalam proses pengembangan sistem pembelajaran berbasis teknologi metaverse, dalam hal ini terkait pembelajaran perkembangan arsitektur di perguruan tinggi.",1,1,0,28,0.42105263157894735,0.75,1
-Kualifikasi_Remigius.txt,"Keterlibatan komunitas menjadi indikasi adanya interaktivitas digital di antara para pengguna, sedangkan persepsi pengguna menjadi indikasi dari adanya relevansi antara sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse serta harapan para pengguna tentang penyampaian matakuliah tersebut secara lebih baik.",2,1,0,33,0.4,0.5,1
-Kualifikasi_Remigius.txt,Pengembangan sistem pembelajaran ini tidak mudah dan perlu didasarkan pada keterlibatan komunitas dan persepsi pengguna.,3,1,0,15,0.35714285714285715,0.75,1
-Kualifikasi_Remigius.txt,"Oleh karena itu, masalah dalam penelitian ini adalah bagaimana sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse dikembangkan dengan keterlibatan komunitas dan persepsi pengguna di Program Studi Teknik Arsitektur, Fakultas Teknik Sipil dan Perencanaan, Universitas Gunadarma.",4,1,0,34,0.36363636363636365,1,1
-Erfiana Wahyuningsih_UK.txt,1.,0,1,1,2,0.0,1,0
-Erfiana Wahyuningsih_UK.txt,Bagaimana mereduksi gerbang CMOS dengan metode m-GDI pada rangkaian SRAM?,1,1,1,11,0.11764705882352941,0.8,0
-Erfiana Wahyuningsih_UK.txt,2.,2,1,1,2,0.0,0.5,0
-Erfiana Wahyuningsih_UK.txt,Bagaimana menunjukkan kinerja rangkaian SRAM 6T dengan Low Power setelah jumlah transistor direduksi?,3,1,0,14,0.1111111111111111,0.6,0
-Erfiana Wahyuningsih_UK.txt,3.,4,1,1,2,0.0,0.8,0
-Erfiana Wahyuningsih_UK.txt,Apakah rangkaian transistor yang telah direduksi jumlahnya mampu mempertahankan kemampuan High Read Stability?,5,1,1,14,0.05263157894736842,1,0
-Utami Lestari_Kualifikasi.txt,Berdasarkan latar belakang masalah yang telah disampaikan diperoleh beberapa permasalahan yang harus di selesaikan.,0,1,1,14,0.0,1,0
-Utami Lestari_Kualifikasi.txt,"Permasalahan tersebut dirumuskan sebagai berikut :
-1.",1,1,1,8,0.0,0.75,0
-Utami Lestari_Kualifikasi.txt,Bagaimana membangun model platform tinjauan artikel ilmiah dengan LLM?,2,1,1,10,0.07692307692307693,0.5,1
-Utami Lestari_Kualifikasi.txt,2.,3,1,1,2,0.0,0.75,0
-Utami Lestari_Kualifikasi.txt,Bagaimana algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal?,4,1,1,9,0.0,1,0
-Robert_Kualifikasi.txt,"Berdasarkan dari uraian latar belakang masalah dan usulan topik penelitian diatas, terdapat beberapa masalah penelitian yang perlu dicari solusinya adalah:
-1.",0,1,0,22,0.0,1,0
-Robert_Kualifikasi.txt,Metode dan algoritma morfologi matematika mana yang paling tepat digunakan untuk mengekstrasi fitur ekspresi wajah.,1,1,0,16,0.125,0.8,0
-Robert_Kualifikasi.txt,2.,2,1,1,2,0.0,0.5,0
-Robert_Kualifikasi.txt,Bagaimana membangun model pengenalan ekspresi wajah berdasarkan gabungan usulan morfologi matematika dan jaringan saraf tiruan (usulan model MNN).,3,1,0,19,0.2,0.6,1
-Robert_Kualifikasi.txt,3.,4,1,1,2,0.0,0.8,0
-Robert_Kualifikasi.txt,Bagaimana membangun prototype sistem pengenalan ekspresi wajah mengunakan usulan model,5,1,1,10,0.35714285714285715,1,1
-Miftakhul Zaen_KUALIFIKASI.txt,"Berdasarkan latar belakang dan batasan masalah, diperoleh rumusan masalah untuk mengembangkan algoritma DBSCAN.",0,1,0,14,0.25,1,1
-Miftakhul Zaen_KUALIFIKASI.txt,Berikut merupakan rumusan masalah pada penelitian ini.,1,1,1,8,0.0,0.8,0
-Miftakhul Zaen_KUALIFIKASI.txt,1.,2,1,1,2,0.0,0.5,0
-Miftakhul Zaen_KUALIFIKASI.txt,"Bagaimana cara mengatasi keterbatasan algoritma DBSCAN klasik dalam 
-mengelola dataset besar pada klasterisasi supplier dengan menggunakan komputasi kuantum?",3,1,1,19,0.4166666666666667,0.6,0
-Miftakhul Zaen_KUALIFIKASI.txt,2.,4,1,1,2,0.0,0.8,0
-Miftakhul Zaen_KUALIFIKASI.txt,Bagaimana peningkatan efisiensi dan akurasi yang dapat dicapai oleh DBSCAN kuantum dalam pengelompokan supplier dibandingkan dengan implementasi klasik nya?,5,1,0,20,0.2,1,1
-Devi Resviani_KUALIFIKASI.txt,"Berdasarkan pada latar belakang masalah penelitian yang telah diuraikan dan sesuai dengan usulan topik penelitian, maka dirumuskan masalah pokok yang harus diteliti adalah sebagai berikut:
-1.",0,1,0,26,0.0,1,0
-Devi Resviani_KUALIFIKASI.txt,Algoritma machine learning apa yang paling efektif untuk memprediksi kegagalan pada mesin kompresor reciprocating?,1,1,1,15,0.4166666666666667,0.8571428571428572,0
-Devi Resviani_KUALIFIKASI.txt,2.,2,1,1,2,0.0,0.7142857142857143,0
-Devi Resviani_KUALIFIKASI.txt,Bagaimana membangun model machine learning dari algoritma yang terpilih untuk memprediksi kegagalan pada mesin kompresor reciprocating?,3,1,1,17,0.35714285714285715,0.5,1
-Devi Resviani_KUALIFIKASI.txt,3.,4,1,1,2,0.0,0.5714285714285714,0
-Devi Resviani_KUALIFIKASI.txt,"Bagaimana membangun sistem peringatan pemeliharaan prediktif berbasis
-machine learning pada mesin kompresor reciprocating?",5,1,1,14,0.46153846153846156,0.7142857142857143,1
-Devi Resviani_KUALIFIKASI.txt,4.,6,1,1,2,0.0,0.8571428571428571,0
-Devi Resviani_KUALIFIKASI.txt,"Bagaimana kinerja sistem peringatan pemeliharaan prediktif berbasis
-machine learning pada mesin kompresor reciprocating?",7,1,1,14,0.46153846153846156,1,0
-Ragmar Faikar Eka_Kualifikasi.txt,1.,0,1,1,2,0.0,1,0
-Ragmar Faikar Eka_Kualifikasi.txt,Bagaimana cara merancang model untuk klasifikasi kematangan buah kelapa sawit?,1,1,1,11,0.4166666666666667,0.8571428571428572,1
-Ragmar Faikar Eka_Kualifikasi.txt,2.,2,1,1,2,0.0,0.7142857142857143,0
-Ragmar Faikar Eka_Kualifikasi.txt,Bagaimana mengetahui nilai akurasi dari klasifikasi kualitas buah kelapa sawit?,3,1,1,11,0.3076923076923077,0.5,0
-Ragmar Faikar Eka_Kualifikasi.txt,3.,4,1,1,2,0.0,0.5714285714285714,0
-Ragmar Faikar Eka_Kualifikasi.txt,Bagaimana cara menggabungkan model MobileNetV3 dengan Attention Module CBAM?,5,1,1,10,0.23076923076923078,0.7142857142857143,0
-Ragmar Faikar Eka_Kualifikasi.txt,4.,6,1,1,2,0.0,0.8571428571428571,0
-Ragmar Faikar Eka_Kualifikasi.txt,Bagaimana cara untuk mengimplementasi model klasifikasi kematangan buah kelapa sawit ke dalam aplikasi mobile?,7,1,1,15,0.35714285714285715,1,0
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,Rumusan masalah merupakan masalah yang muncul pada penelitian ini yang kemudian dirumuskan menjadi sebuah pertanyaan.,0,1,1,14,0.0,1,0
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,Berikut ini merupakan rumusan masalah.,1,1,1,6,0.0,0.8,0
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,1.,2,1,1,2,0.0,0.5,0
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,Bagaimana aplikasi deteksi objek yang dapat mengidentifkasi kecacatan produk sebagai	pengganti manusia untuk	kegiatan inspeksi produk pada perusahaan?,3,1,1,18,0.17647058823529413,0.6,0
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,2.,4,1,1,2,0.0,0.8,0
-Yoga Panji Perdana Nugraha_Kualifikasi.txt,Apa pembaharuan yang ditemukan pada pengembangan aplikasi untuk Mendeteksi objek yang dapat mengidentifkasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan?,5,1,1,21,0.15,1,1
-Tatya Atyanti Paramastri_Kualifikasi.txt,"Berdasarkan latar belakang di atas, maka rumusan masalah penelitian ini adalah:
-1.",0,1,1,15,0.0,1,0
-Tatya Atyanti Paramastri_Kualifikasi.txt,"Bagaimana mengumpulkan informasi ""batik daur hidup"" Yogyakarta yang akurat?",1,1,1,12,0.2857142857142857,0.8571428571428572,0
-Tatya Atyanti Paramastri_Kualifikasi.txt,2.,2,1,1,2,0.0,0.7142857142857143,0
-Tatya Atyanti Paramastri_Kualifikasi.txt,"Bagaimana menentukan kelas pada motif ""batik daur hidup"" Yogyakarta yang mewakilinya?",3,1,1,14,0.35714285714285715,0.5,0
-Tatya Atyanti Paramastri_Kualifikasi.txt,3.,4,1,1,2,0.0,0.5714285714285714,0
-Tatya Atyanti Paramastri_Kualifikasi.txt,"Bagaimana menerapkan algoritma kuantum pada segmentasi dan klasifikasi motif ""batik daur hidup"" Yogyakarta?",5,1,0,16,0.75,0.7142857142857143,0
-Tatya Atyanti Paramastri_Kualifikasi.txt,4.,6,1,1,2,0.0,0.8571428571428571,0
-Tatya Atyanti Paramastri_Kualifikasi.txt,"Bagaimana nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif ""batik daur hidup"" Yogyakarta dengan algoritma kuantum?",7,1,0,21,0.6,1,1
-Fitriana Indah Pramitasari_Kualifikasi.txt,"Berdasarkan topik pembahasan pada penelitian ini mengenai perancangan model platform koperasi bagi para petani, maka didapatkan beberapa rumusan masalah untuk 
-mengetahui masalah yang akan dicari solusinya.",0,1,1,27,0.19047619047619047,1,0
-Fitriana Indah Pramitasari_Kualifikasi.txt,Rumusan masalah pada penelitian ini adalah sebagai berikut.,1,1,1,9,0.0,0.8571428571428572,0
-Fitriana Indah Pramitasari_Kualifikasi.txt,1.,2,1,1,2,0.0,0.7142857142857143,0
-Fitriana Indah Pramitasari_Kualifikasi.txt,Bagaimana proses perancangan model koperasi petani?,3,1,1,7,0.21428571428571427,0.5,0
-Fitriana Indah Pramitasari_Kualifikasi.txt,2.,4,1,1,2,0.0,0.5714285714285714,0
-Fitriana Indah Pramitasari_Kualifikasi.txt,Bagaimana metode prediksi permintaan dengan ANN di dalam blockchain yang digunakan untuk mengoptimalkan permintaan pelanggan di masa depan selama periode tertentu?,5,1,1,20,0.0,0.7142857142857143,0
-Fitriana Indah Pramitasari_Kualifikasi.txt,3.,6,1,1,2,0.0,0.8571428571428571,0
-Fitriana Indah Pramitasari_Kualifikasi.txt,Bagaimana metode safety stock di dalam blockchain yang digunakan agar dapat mengoptimalkan stok dan permintaan?,7,1,0,16,0.0,1,0
-Tia Haryanti_Kualifikasi.txt,"Berdasarkan uraian latar belakang penelitian yang telah diuraikan di atas, maka dapat diidentifikasi beberapa masalah yang ingin dipecahkan untuk mencapai tujuan penelitian.",0,1,1,22,0.0,1,0
-Tia Haryanti_Kualifikasi.txt,Berikut merupakan rumusan masalah dari penelitian ini.,1,1,1,8,0.0,0.8888888888888888,0
-Tia Haryanti_Kualifikasi.txt,1.,2,1,1,2,0.0,0.7777777777777778,0
-Tia Haryanti_Kualifikasi.txt,Bagaimana membangun dataset baru berdasarkan data citra wajah dan data fisiologis?,3,1,0,11,0.0,0.6666666666666667,1
-Tia Haryanti_Kualifikasi.txt,2.,4,1,1,2,0.0,0.5,0
-Tia Haryanti_Kualifikasi.txt,Apa saja parameter visual dan fisiologis yang digunakan dalam sistem deteksi dini kantuk berbasis kecerdasan artifisial?,5,1,0,17,0.21428571428571427,0.5555555555555556,0
-Tia Haryanti_Kualifikasi.txt,3.,6,1,1,2,0.0,0.6666666666666666,0
-Tia Haryanti_Kualifikasi.txt,Bagaimana merancang si stem deteksi dini kantuk yang akurat mengidentifikasi tanda-tanda kelelahan pada pengemudi sebelum berkendara?,7,1,0,17,0.1875,0.7777777777777778,1
-Tia Haryanti_Kualifikasi.txt,4.,8,1,1,2,0.0,0.8888888888888888,0
-Tia Haryanti_Kualifikasi.txt,Bagaimana implementasi sistem deteksi dini kantuk dalam lingkungan predriving pengemudi?,9,1,1,11,0.36363636363636365,1,0
-Kualifikasi_Aris Gunaryati.txt,"Berdasarkan latar belakang masalah tersebut maka yang menjadi rumusan masalah pada penelitian ini adalah :
-1.",0,1,1,16,0.0,1,0
-Kualifikasi_Aris Gunaryati.txt,"Bagaimana pola data runtun waktu pertambahan jumlah kasus harian Covid 19 di Jakarta dari tanggal 6 Maret 2020 sampai tanggal 30 Juni
-2021 ?",1,1,0,23,0.30434782608695654,0.9090909090909091,0
-Kualifikasi_Aris Gunaryati.txt,2.,2,1,1,2,0.0,0.8181818181818181,0
-Kualifikasi_Aris Gunaryati.txt,Bagaimana membuat model peramalan yang sesuai dan cocok untuk data runtun waktu tersebut dengan metode ARIMA ?,3,1,0,17,0.21052631578947367,0.7272727272727273,0
-Kualifikasi_Aris Gunaryati.txt,3.,4,1,1,2,0.0,0.6363636363636364,0
-Kualifikasi_Aris Gunaryati.txt,Bagaimana membuat model peramalan data runtun waktu tersebut dengan metode Neural Network (NN) ?,5,1,1,16,0.2777777777777778,0.5,0
-Kualifikasi_Aris Gunaryati.txt,4.,6,1,1,2,0.0,0.5454545454545454,0
-Kualifikasi_Aris Gunaryati.txt,Bagaimana cara membuat model Hybrid ARIMA Neural Network (ARIMA-NN) yang sesuai dan cocok dengan data runtun waktu tersebut?,7,1,0,21,0.23809523809523808,0.6363636363636364,0
-Kualifikasi_Aris Gunaryati.txt,5.,8,1,1,2,0.0,0.7272727272727273,0
-Kualifikasi_Aris Gunaryati.txt,Bagaimana mengembangkan model Quantum Arima Neural Network untuk data runtun waktu?,9,1,1,12,0.3333333333333333,0.8181818181818182,1
-Kualifikasi_Aris Gunaryati.txt,6.,10,1,1,2,0.0,0.9090909090909091,0
-Kualifikasi_Aris Gunaryati.txt,Bagaimana tingkat akurasi dan hasil peramalan untuk jumlah kasus harian Covid 19 di Jakarta pada periode tanggal 1 Juli sampai 31 Juli 2020 berdasarkan model-model tersebut?,11,1,0,26,0.14285714285714285,1,2
-Alfharizky Fauzi_Kualifikasi.txt,Berbagai penelitian yang telah dilakukan belum terdapat identifikasi penyakit kulit pada manusia dengan teknis pendekatan data klinis dan non-klinis.,0,1,0,20,0.19047619047619047,1,0
-Alfharizky Fauzi_Kualifikasi.txt,"Dengan 
-mengintegrasikan data dari berbagai sumber, termasuk rekam medis pasien, informasi genetik, paparan lingkungan, dan kebiasaan gaya hidup serta image dari kulit yang 
-terinfeksi virus penyakit kulit dengan bantuan analisis pengolahan citra berbasis komputer, padahal dalam mendiagnosa penyakit kulit pada manusia para ahli sering mengalami kesulitan untuk mendeteksi adanya perbedaan dimana setiap kali terdeteksi selalu menunjukan hasil yang berbeda dengan diagnosis sebenarnya.",1,1,0,57,0.061224489795918366,0.9411764705882353,1
-Alfharizky Fauzi_Kualifikasi.txt,"Maka terdapat peluang 
-untuk melakukan penelitian pada permasalahan ini yang menjadi topik penelitian.",2,1,1,13,0.0,0.8823529411764706,0
-Alfharizky Fauzi_Kualifikasi.txt,"Merujuk pada penelitian yang telah banyak dilakukan, proses kerja rangkaian pembangunan sistem dalam mengidentifikasi adanya penyakit kulit untuk mengenalinya sebagai suatu jenis penyakit maupun kelainan pada kulit menggunakan pengolahan citra akan berisi tiga langkah utama yaitu; segmentasi citra, ekstraksi fitur dan klasifikasi objek.",3,1,0,42,0.08108108108108109,0.8235294117647058,1
-Alfharizky Fauzi_Kualifikasi.txt,"Problem yang ada pada segmentasi citra penyakit kulit adalah; (1) segmentasi pada wilayah terlihat tidak jelas karena citra penyakit kulit direpresentasikan dalam citra sangat kecil yang memiliki karakter yang khas yaitu hanya memiliki intensitas warna lebih terang sehingga sulit membedakan kemiripannya dengan beberapa penyakit kulit, dengan demikian akan sulit mendefinisikan bentuk penyakit kulit secara spesifik.",4,1,0,45,0.058823529411764705,0.7647058823529411,0
-Alfharizky Fauzi_Kualifikasi.txt,(2) Ketidakteraturan bentuk dari kelainan kulit dan ukuran serta rendahnya intensitas kontras antar penyakit kulit yang juga mirip dengan jaringan kulit di sekitarnya.,5,1,0,24,0.08,0.7058823529411764,0
-Alfharizky Fauzi_Kualifikasi.txt,"(3) Citra penyakit kulit memiliki resolusi rendah, kontras yang lemah, dan memiliki banyak noise yang dapat mengubah intensitas piksel sehingga klasifikasi maupun identifikasi menjadi tidak pasti.",6,1,0,28,0.10714285714285714,0.6470588235294117,0
-Alfharizky Fauzi_Kualifikasi.txt,(4) Warna kulit pada manusia terbilang sangat berbeda antara manusia yang satu dengan lainnya sehingga warna pada kelainan kulit juga dapat berubah yang menyebabkan identifikasi penyakit kulit menjadi sangan sulit untuk dibedakan.,7,1,0,29,0.16666666666666666,0.5882352941176471,0
-Alfharizky Fauzi_Kualifikasi.txt,(5) Identifikasi penyakit kulit di banyak penelitian hanya menunjukan jenis penyakit kulit tanpa adanya deskripsi yang jelas untuk di lakukan penanganan dini.,8,1,1,22,0.13043478260869565,0.5,0
-Alfharizky Fauzi_Kualifikasi.txt,(6) Sistem identifikasi penyakit kulit pada umunya hanya menggunakan data citra sebagai acuan identifkasi jenis penyakit kulit namun tidak menggunakan keluhan maupun rekam medis pasien sebagai identifikasi penyakit kulit secara dini.,9,1,0,27,0.10714285714285714,0.5294117647058824,0
-Alfharizky Fauzi_Kualifikasi.txt,Padahal pra-diagnosis serta penanganan dini merupakan tindakan pencegahan dan pengobatan yang dapat menyelamatkan pasien-pasien yang terkena kelainan pada kulit sebelum dilakukan tindakan lebih lanjut.,10,1,0,23,0.08333333333333333,0.5882352941176471,0
-Alfharizky Fauzi_Kualifikasi.txt,"Maka diperlukan model algoritma identifikasi handal yang dapat mengidentifikasi penyakit kulit sebagai pra-diagnosis dengan menggabungkan dua metode pengolahan data 
-yaitu pengolaha data citra dan pengolahan data teks untuk dapat menangani permasalahan tersebut.",11,1,0,29,0.23076923076923078,0.6470588235294118,0
-Alfharizky Fauzi_Kualifikasi.txt,"Berdasarkan batasan masalah yang ditelah ditetapkan, uraian rumusan masalah agar fokus penelitian lebih terarah dan sesuai dengan yang diharapkan dengan berbagai pendekatan metode yang telah diusulkan oleh beberapa peneliti dapat diuraikan sebagai berikut;
-1.",12,1,0,33,0.03333333333333333,0.7058823529411765,0
-Alfharizky Fauzi_Kualifikasi.txt,Bagaimana mengembangkan algoritma identifikasi Image dan Teks agar lebih baik dan dapat melakukan prediksi identifikasi terhadap image untuk mengenali teks hasil sebagai penyakit kulit serta penanganannya maupun sebaliknya teks untuk mengenali image sebagai penyakit kulit serta penangananya?,13,1,0,26,0.22727272727272727,0.7647058823529411,2
-Alfharizky Fauzi_Kualifikasi.txt,2.,14,1,1,2,0.0,0.8235294117647058,0
-Alfharizky Fauzi_Kualifikasi.txt,Bagaimana membangun model identifikasi penyakit kulit berdasarkan gabungan pengolahan image dan teks agar tercipta hybrid modelling untuk mengidentifikasi penyakit kulit melalui image-teks maupun sebaliknya teks-image (Usulan Bi-Directional Image-Text Matching)?,15,1,0,30,0.0967741935483871,0.8823529411764706,2
-Alfharizky Fauzi_Kualifikasi.txt,3.,16,1,1,2,0.0,0.9411764705882353,0
-Alfharizky Fauzi_Kualifikasi.txt,Bagaimana membangun prototype system aplikasi berbantuan komputer yang tepat dan akurat untuk identifikasi adanya kelainan kulit yang diderita pasien sebagai tindakan pra-diagnosis sehingga dapat diidentifikasi berdasarkan jenis penyakit kulit menggunakan usulan Bi-Directional Image-Text Matching?,17,1,0,33,0.16129032258064516,1,1
+Tatya Atyanti Paramastri_Kualifikasi.txt,berdasarkan latar belakang di atas maka rumusan masalah penelitian ini adalah 1. bagaimana mengumpulkan informasi batik daur hidup yogyakarta yang akurat 2. bagaimana menentukan kelas pada motif batik daur hidup yogyakarta yang mewakilinya 3. bagaimana menerapkan algoritma kuantum pada segmentasi dan klasifikasi motif batik daur hidup yogyakarta 4. bagaimana nilai akurasi yang dihasilkan dari model segmentasi dan klasifikasi motif batik daur hidup yogyakarta dengan algoritma kuantum,0,1,0,41,0.3,1,1
+Utami Lestari_Kualifikasi.txt,berdasarkan latar belakang masalah yang telah disampaikan diperoleh beberapa permasalahan yang harus di selesaikan.,0,1,1,14,0.0,1,0
+Utami Lestari_Kualifikasi.txt,permasalahan tersebut dirumuskan sebagai berikut 1. bagaimana membangun model platform tinjauan artikel ilmiah dengan llm 2. bagaimana algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal,1,1,1,21,0.047619047619047616,1,1
+Kualifikasi_Remigius.txt,salah satu tantangan utama dalam mengembangkan model i nteraksi antara manusia dan k omputer adalah bagaimana menangani secara efektif perbedaan individu preferensi maupun pengalaman lavie meyer 2010 serta fleksibilitas kognitif yang mungkin terkait dengan berbagai perilaku pengguna yang berbeda gonzalez 2013. oleh karena itu keterlibatan komunitas dan persepsi pengguna perlu di pertimbangkan dalam proses pengembangan sistem pembelajaran berbasis teknologi metaverse dalam hal ini terkait pembelaja ran perkembangan arsitektur di perguruan tinggi .,0,1,0,65,0.19047619047619047,1,1
+Kualifikasi_Remigius.txt,keterlibatan komunitas menjadi indikasi adanya interaktivitas digital di antara para pengguna sedangkan persepsi pengguna menjadi indikasi dari adanya relevansi antara sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse serta harapan para pengguna tentang penyampaian matakuliah tersebut secara lebih baik.,1,1,0,32,0.4,0.5,1
+Kualifikasi_Remigius.txt,pengembangan sistem pembelajaran ini tidak mudah dan perlu didasarkan pada keterlibatan komunitas dan persepsi penggu na.,2,1,0,16,0.3333333333333333,0.6666666666666666,1
+Kualifikasi_Remigius.txt,oleh karena itu masalah dalam penelitian ini adalah bagaimana sistem pembelajaran mengenai perkembangan arsitektur berbasis metaverse dikembangkan dengan keterlibatan komunitas dan persepsi pengguna di program studi teknik arsitektur fakultas teknik sipil dan perencanaan universitas gunadarma .,3,1,0,33,0.38095238095238093,1,1
+Tia Haryanti_Kualifikasi.txt,berdasarkan uraian lata r belakang penelitian yang telah diuraikan di atas maka dapat diidentifikasi beberapa masalah yang ingin dipecahkan untuk mencapai tujuan penelitian.,0,1,1,22,0.0,1,0
+Tia Haryanti_Kualifikasi.txt,berikut merupakan rumusan masalah dari penelitian ini.,1,1,1,8,0.0,0.5,0
+Tia Haryanti_Kualifikasi.txt,7 1. bagaimana membangun dataset baru berdasarkan data citra wajah dan data fisiologis 2. apa saja parameter visual dan fisiologis yang digunakan dalam sistem deteksi dini kantuk berbasis kecerdasan artifisial 3. bagaimana merancang sistem deteksi dini kantuk yang akurat mengidentifikasi tandatanda kelelahan pada pengemudi sebelum berkendara 4. bagaimana implementasi sistem deteksi dini kantuk dalam lingkungan predriving pengemudi,2,1,0,41,0.15151515151515152,1,2
+Ike Putri Kusumawijaya (99216004).txt,"Penelitian ini merupakan pengembangan bidang analisis kerumunan dengan menggunakan metode Generative adversarial network (GAN), metode ini digunakan untuk meningkatkan kinerja deteksi pergerakan manusia dalam kerumunan di tempat umum/publik.",0,1,1,29,0.19047619047619047,1,2
+Ike Putri Kusumawijaya (99216004).txt,"Adapun batasan masalah dari penelitian ini adalah sebagai berikut :
+1.",1,1,1,12,0.0,0.8333333333333334,0
+Ike Putri Kusumawijaya (99216004).txt,Video diambil dengan menggunakan kamera pengawas di tempat ramai.,2,1,1,10,0.0,0.6666666666666667,0
+Ike Putri Kusumawijaya (99216004).txt,2.,3,1,1,2,0.0,0.5,0
+Ike Putri Kusumawijaya (99216004).txt,"Video yang digunakan seluruhnya merupakan sampel digital dengan kuantisasi 28 yang artinya setiap piksel memiliki rentang nilai [0, 255].",4,1,1,22,0.0,0.6666666666666666,0
+Ike Putri Kusumawijaya (99216004).txt,3.,5,1,1,2,0.0,0.8333333333333334,0
+Ike Putri Kusumawijaya (99216004).txt,Penelitian ini membahas bagaimana Generative Adversarial Networks dalam mendeteksi pergerakan anomali pada kerumunan.,6,1,1,14,0.21428571428571427,1,0
+Robert_Kualifikasi.txt,penelitian berdasarkan dari uraian latar belakang masalah dan usulan topik penelitian diatas terdapat beberapa masalah penelitian yang perlu dicari solusinya adalah 1. metode dan algoritma morfologi matematika mana yang paling tepat digunakan untuk mengekstrasi fitur ekspresi wajah.,0,1,0,33,0.07692307692307693,1,0
+Robert_Kualifikasi.txt,2. bagaimana membang un model pengenalan ekspresi wajah berdasarkan gabungan usulan morfologi matematika dan jaringan saraf tiruan usulan model mnn .,1,1,0,19,0.18181818181818182,0.5,0
+Robert_Kualifikasi.txt,3. bagaimana membangun prototype sistem pengenalan ekspresi wajah mengunakan usulan model mnn .,2,1,1,13,0.3125,1,1
+MetaMeysawati_KUALIFIKASI(99216026).txt,"Berdasarkan pada latar belakang masalah penelitian yang telah diuraikan dan sesuai dengan usulan topik penelitian, maka dirumuskan tiga masalah pokok yang harus diteliti diantaranya sebagai berikut :
+1.",0,1,0,27,0.05,1,0
+MetaMeysawati_KUALIFIKASI(99216026).txt,Bagaimana mengekstraksi dan merepresentasikan fitur-fitur suara yang ada pada video atau cuplikan (trailer) untuk digunakan sebagai acuan dalam proses pengelompokan atau identifikasi dari kelima genre.,1,1,0,27,0.09523809523809523,0.8333333333333334,0
+MetaMeysawati_KUALIFIKASI(99216026).txt,2.,2,1,1,2,0.0,0.6666666666666667,0
+MetaMeysawati_KUALIFIKASI(99216026).txt,Bagaimana menentukan metode klasifikasi yang tepat untuk mengidentifikasi genre film berdasarkan dari cuplikan (trailer) agar mendapatkan nilai akurasi yang maksimal dalam mengkategorikan genre film.,3,1,0,24,0.3333333333333333,0.5,0
+MetaMeysawati_KUALIFIKASI(99216026).txt,3.,4,1,1,2,0.0,0.6666666666666666,0
+MetaMeysawati_KUALIFIKASI(99216026).txt,"Dataset yang dipakai merupakan video yang telah di filter suaranya yang berasal 
+dari sumber Kaggle.com Genre (trailer) penelitian dalam kualifikasi ini dibatasi hanya lima genre yaitu thriller, horor, aksi, drama/romantis dan komedi.",5,1,0,33,0.03333333333333333,0.8333333333333334,0
+MetaMeysawati_KUALIFIKASI(99216026).txt,Dalam hal ini hanya film Indonesia saja yang akan diklasifikan.,6,1,1,11,0.16666666666666666,1,0
+Riezka Yunistika Fajriatifah_Kualifikasi.txt,"Permasalahan dalam penelitian ini adalah:
+1.",0,1,1,8,0.0,1,0
+Riezka Yunistika Fajriatifah_Kualifikasi.txt,Bagaimana mendeteksi anomali pada citra sinar-X paru-paru yang dapat mengindikasikan adanya penyakit paru akibat infeksi COVID-19 menggunakan arsitektur CNN?,1,1,1,20,0.4666666666666667,0.8,0
+Riezka Yunistika Fajriatifah_Kualifikasi.txt,2.,2,1,1,2,0.0,0.5,0
+Riezka Yunistika Fajriatifah_Kualifikasi.txt,Bagaimana mengintegrasikan beberapa arsitektur CNN untuk mengklasiikasikan penyakit paru akibat covid-19 menjadi satu model ensemble?,3,1,1,16,0.3333333333333333,0.6,0
+Riezka Yunistika Fajriatifah_Kualifikasi.txt,3.,4,1,1,2,0.0,0.8,0
+Riezka Yunistika Fajriatifah_Kualifikasi.txt,Bagaimana komparasi hasil akurasi dari model arsitektur tunggal dan model stacking dalam melakukan klasifikasi penyakit paru akibat COVID-19.,5,1,0,18,0.375,1,1
+Prameswari Rizcha Julianda_Kualifikasi.txt,"Berdasarkan uraian yang telah dibahas pada latar belakang maka untuk mengembangkan model analisis SWOT diperlukan identifikasi tentang kekuatan, kelemahan, peluang, dan ancaman.",0,1,0,24,0.03571428571428571,1,1
+Prameswari Rizcha Julianda_Kualifikasi.txt,"Balanced scorecard diperlukan tentang perspektif Financial, Internal, External, Learning and Development yang saling berhubungan.",1,1,1,16,0.0,0.8333333333333334,0
+Prameswari Rizcha Julianda_Kualifikasi.txt,"AHP diperlukan tentang KPI dalam hubungannya dengan penentuan skala prioritas terkait manajemen stres dan kemampuan penyelesaian masalah pada mahasiswa tingkat akhir program studi Teknik Industri, sehingga rumusan masalah penelitian dapat dijelaskan sebagai berikut.",2,1,0,34,0.09090909090909091,0.6666666666666667,1
+Prameswari Rizcha Julianda_Kualifikasi.txt,1.,3,1,1,2,0.0,0.5,0
+Prameswari Rizcha Julianda_Kualifikasi.txt,"Bagaimana mengidentifikasi penyebab stres pada mahasiswa tingkat akhir program studi Teknik Industri
+2.",4,1,1,14,0.08333333333333333,0.6666666666666666,1
+Prameswari Rizcha Julianda_Kualifikasi.txt,"Bagaimana menentukan skala prioritas penyebab stres yang dialami mahasiswa tingkat akhir program studi Teknik Industri
+3.",5,1,1,17,0.07407407407407407,0.8333333333333334,1
+Prameswari Rizcha Julianda_Kualifikasi.txt,"Bagaimana implementasi model manajemen stres dan kemampuan penyelesaian masalah pada mahasiswa tingkat akhir program studi Teknik Industri berdasarkan SWOT Personal Analysis, Personal Balanced Scorecard, dan Analytical Hierarchy Process sehingga tingkat persentase stres dan kemungkinan bunuh diri dapat ditekan.",6,1,0,35,0.17647058823529413,1,1
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,rumusan masalah merupakan masalah yang muncul pada penelitian ini yang kemudian dirumuskan menjadi sebuah pertanyaan.,0,1,1,14,0.0,1,0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,berikut ini merupakan rumusan masahal.,1,1,1,6,0.0,0.5,0
+Yoga Panji Perdana Nugraha_Kualifikasi.txt,1. bagaimana aplikasi deteksi objek yang dapat mengidentifikasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan 2. apa pembaharuan yang ditemukan pada pengembangan aplikasi untuk mendeteksi objek yang dapat mengidentifikasi kecacatan produk sebagai pengganti manusia untuk kegiatan inspeksi produk pada perusahaan,2,1,1,24,0.13636363636363635,1,1
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,Penelitian ini menggunakan 400 data suara mahasiswa yang terdiri dari 200 perempuan dan 200 laki-laki dengan rentang usia diantara 19-22 tahun.,0,1,0,21,0.04,1,0
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,Data suara ini direkam di dalam ruangan kelas di kampus Universitas Gunadarma yang berwilayah di Bekasi.,1,1,1,15,0.043478260869565216,0.8571428571428572,0
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,"Setiap mahasiswa mengucapkan digit decimal dalam Bahasa Indonesia, dari 0-9 (nol, satu, dua, tiga, empat, lima, enam, tujuh, delapan, dan sembilan) berjumlah 10 pengucapan yang direkam menggunakan telepon genggam tanpa microphone tambahan, sehingga total data suara menjadi 799 (mahasiswa) x 10 (digit) = 7990 data.",2,1,0,45,0.10256410256410256,0.7142857142857143,0
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,Data suara tersebut kemudian dipotong-potong sesuai digit yang diucapkan dan diberi label digit (0-9).,3,1,0,16,0.10526315789473684,0.5,0
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,Dimana data ini disebut dengan data latih.,4,1,1,7,0.0,0.5714285714285714,0
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,"Dalam proses pengenalan dan menghitung akurasi direkam 79 data mahasiswa berbeda yang terdiri dari 37 perempuan dan 42 laki-laki, dengan rentang usia diantara 19-22 tahun, dimana para mahasiswa melakukan pengucapan yang sama yaitu digit 0-9 dan data yang telah terkumpul akan melalui proses pemotongan yang sama, sehingga total suara pengenalan menjadi 79 (mahasiswa) x 10 (digit) = 790 data, yang mana data ini disebut sebagai data uji.",5,1,0,54,0.07317073170731707,0.7142857142857143,0
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,"Berangkat dari upaya untuk membuat sistem pengenalan suara yang dapat membuat komputer memiliki kemampuan seperti manusia dalam melakukan pengenalan terhadap suara, sehingga dapat mempermudah dalam proses interaksi dengan komputer.",6,1,0,25,0.08333333333333333,0.8571428571428571,0
+Proposal Disertasi Kualifikasi Adam Huda Nugraha.txt,"Berdasarkan beberapa hasil penelitian suara yang dilakukan berbahasa Indonesia dan riset-riset tentang metode pengenalan suara yang telah diuraikan di latar belakang terdapat beberapa masalah yang akan di teliti, Antara lain:
+a. Bagaimana menemukan model arsitektur LSTM yang sesuai untuk pola suara digit decimal berbahasa Indonesia,
+b. Bagaimana tingkat akurasi dari model LSTM yang dibangun untuk mengenali data suara digit decimal berbahasa Indonesia,
+c. bagaimana waktu eksekusi dari model LSTM yang akan dibangun.",7,1,0,49,0.16216216216216217,1,3
+RizqiaCahyaningtyas_Kualifikasi.txt,"Sesuai dengan uraian latar belakang dan tema desertasi, secara garis besar masalah penelitian dirumuskan sebagai berikut :
+1.",0,1,0,20,0.0,1,0
+RizqiaCahyaningtyas_Kualifikasi.txt,Bagaimana mendeteksi dan mengekstraksi kerusakan pada citra modul surya.,1,1,0,10,0.16666666666666666,0.8,0
+RizqiaCahyaningtyas_Kualifikasi.txt,2.,2,1,1,2,0.0,0.5,0
+RizqiaCahyaningtyas_Kualifikasi.txt,Bagaimana menentukan luas kerusakan dan tingkat kerusakan pada modul surya.,3,1,0,10,0.16666666666666666,0.6,1
+RizqiaCahyaningtyas_Kualifikasi.txt,3.,4,1,1,2,0.0,0.8,0
+RizqiaCahyaningtyas_Kualifikasi.txt,"Bagaimana membangun sebuah prototype perangkat lunak aplikasi ''Klasifikasi dan Identifikasi Jenis Kerusakan pada Modul surya"".",5,1,0,18,0.26666666666666666,1,1
+Octaviani Hutapea_UK.txt,"Berdasarkan latar belakang yang telah diuraikan, maka dapat dirumuskan batasan masalah sebagai berikut:
+1.",0,1,1,17,0.0,1,0
+Octaviani Hutapea_UK.txt,Bagaimana membangun dataset identifikasi jenis kerusakan berdasarkan teknik perbaikan jalan pada jalan perkerasan?,1,1,1,13,0.19047619047619047,0.8888888888888888,1
+Octaviani Hutapea_UK.txt,2.,2,1,1,2,0.0,0.7777777777777778,0
+Octaviani Hutapea_UK.txt,Bagaimana membangun dataset identifikasi tingkat kerusakan pada jalan perkerasan berdasarkan data set jenis kerusakan?,3,1,1,14,0.23809523809523808,0.6666666666666667,2
+Octaviani Hutapea_UK.txt,3.,4,1,1,2,0.0,0.5,0
+Octaviani Hutapea_UK.txt,Bagaimana melakukan pengukuran kerusakan pada setiap jenis kerusakan?,5,1,1,8,0.2,0.5555555555555556,0
+Octaviani Hutapea_UK.txt,4.,6,1,1,2,0.0,0.6666666666666666,0
+Octaviani Hutapea_UK.txt,Bagaimana membuat sebaran data kerusakan berdasarkan jenis dan tingkat kerusakan pada jalan perkerasan?,7,1,0,13,0.2777777777777778,0.7777777777777778,1
+Octaviani Hutapea_UK.txt,5.,8,1,1,2,0.0,0.8888888888888888,0
+Octaviani Hutapea_UK.txt,Bagaimana membangun sebuah purwarupa perangkat lunak aplikasi sistem identifikasi jenis dan pengukuran tingkat kerusakan jalan?,9,1,0,16,0.35,1,2

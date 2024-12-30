@@ -1,0 +1,4 @@
+Penelitian ini merupakan pengembangan bidang analisis kerumunan dengan menggunakan metode Generative adversarial network (GAN), metode ini digunakan untuk meningkatkan kinerja deteksi pergerakan manusia dalam kerumunan di tempat umum/publik. Adapun batasan masalah dari penelitian ini adalah sebagai berikut :
+1. Video diambil dengan menggunakan kamera pengawas di tempat ramai.
+2. Video yang digunakan seluruhnya merupakan sampel digital dengan kuantisasi 28 yang artinya setiap piksel memiliki rentang nilai [0, 255].
+3. Penelitian ini membahas bagaimana Generative Adversarial Networks dalam mendeteksi pergerakan anomali pada kerumunan.

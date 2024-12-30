@@ -1,4 +1,1 @@
-Berikut adalah tujuan penelitian yang melandasi dalam penelitian ini:
-1. Membangun model algoritma Convolutional Neural Networks (CNN) dalam melakukan klasifikasi cacat pada produk ban.
-2. Mengimplementasikan dan menghasilkan usulan model algoritma Convolutional Neural Networks (CNN) dalam membangun sistem deteksi cacat produk ban.
-3. Mengukur kinerja dan performa model algoritma Convolutional Neural Networks (CNN) dalam melakukan klasifikasi cacat pada produk ban.
+berikut adalah tujuan penelitian yang melandasi dalam penelitian ini 1. membangun model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban. 2. mengimplementasikan dan menghasilkan usulan model algoritma convolutional neural networks cnn dalam membangun sistem deteksi cacat produk ban. 3. mengukur kinerja dan performa model algoritma convolutional neural networks cnn dalam melakukan klasifikasi cacat pada produk ban.

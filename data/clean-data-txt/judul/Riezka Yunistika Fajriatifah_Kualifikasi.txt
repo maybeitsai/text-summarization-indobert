@@ -1,0 +1,1 @@
+Pengembangan Model Klasifikasi Anomali Penyakit Paru Akibat COVID-19 Pada Citra Sinar-X Paru

@@ -1,0 +1,3 @@
+Penelitian ini berusaha mengembangkan teknik klasifikasi pengembangan model diagnosis Pada Smear-Negative Pulmonary Tuberculosis (SNPT) Berbasis Deep Learning. Sehingga penelitian ini difokuskan pada:
+1. Bagaimana Deep Learning pada pengembangan diagnosis SNPT menggunakan Faster RCNN dapat menghasilkan diagnosis awal dengan tingkat akurasi tinggi?
+2. Bagaimana Deep Learning pada pengembangan diagnosis SNPT menggunakan Faster RCNN dapat menghasilkan diagnosis akhir dengan tingkat akurasi tinggi?

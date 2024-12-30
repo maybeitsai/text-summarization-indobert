@@ -1,0 +1,61 @@
+3.1. Obyek penelitian
+       Obyek penelitian ini adalah gambar RGB sebagai cover (diambil dari internet Google Image) atau gambar grayscale yang akan disisipkan pesan berupa teks.
+
+3.2. Tahapan Penelitian
+       Penelitian ini berusaha mengembangkan algoritma dan prototipe sebagai solusi dari masalah dan kekurangan dari teknik yang pernah dilakukan peneliti terdahulu yang dapat mengatasi optimasi hardware FPGA. Rencana penelitian mencoba menggabungkan mengembangkan algoritma dan mengembangkan metode yang dapat mengoptimalkan performa FPGA. Sehingga, metode untuk hasil yang diinginkan yaitu penggunaan komponen efisien, power yang digunakan lebih kecil dibandingkan penelitian sebelumnya.
+       Rencana yang akan dilakukan menggunakan metode dan modifikasi pada Penelitian (Abdullah AlWatyan, 2017) dengan melakukan tahapan penyediaan pesan rahasia dan Cover Image. Dengan pesan rahasia akan dissipkan pada cover Image dengan key yang sudah dibuat pada hardware FPGA hingga menjadi Stego Image. Pada tahapan ekstraksi Stego Image akan mengambil pesa rahasia yang sudah disisipkan dengan key yang sudah dibuat. Kemudian, Stego Image akan menjadi pesan rahasia dan Cover Image. Dan untuk mengoptimalkan hardware FPGA akan menggunakan perbandingan metode yang dilakukan peneliti (E. A. Elshazly, 2018) dengan menggunakan metode algoritma steganografi gambar GEMD.
+      Pada gambar 6 menggambarkan alur hardware dari proposal. Tahap pertama dimulai dengan simulasi metode pada MATLAB. Pada MATLAB, difokuskan pada metode algoritma yang diajukan sampai dengan pengecekan kualitas stego image dan cover image. Setelah tahap MATLAB sudah selesai, dilanjutkan pada hardware FPGA. Pada FPGA, diimplementasikan algoritma yang sudah dibuat dan pengecekan kualitas gambar dilanjutkan dengan analisa energi yang digunakan FPGA. Jika energi sudah optimal, dilakukan analisa performa algoritma dan sistem secara keseluruhan.
+
+3.3 Proses Algoritma Pemasukan Dan Ekstraksi Pesan Tersembunyi
+      Pseudo-random number generator (PRNG) dapat digunakan untuk memilih piksel secara acak dan menyematkan pesan. Ini akan membuat bit pesan lebih sulit ditemukan dan mudah-mudahan mengurangi realisasi pola dalam gambar. Data dapat disembunyikan dalam LSB bidang warna tertentu (bidang merah) dari piksel yang dipilih secara acak dalam ruang warna RGB. Jika pesan jauh lebih kecil dari kapasitas gambar, masalah dapat terjadi di mana informasi akan dikemas ke dalam satu bagian gambar misalnya setengah bagian atas. Ini diselesaikan dengan menggunakan PRNG yang akan menyebarkan pesan ke seluruh gambar. Karenanya noise juga akan didistribusikan secara acak. Generator angka acak pseudo menghitung dan memilih urutan piksel yang akan dipilih untuk penyematan data berdasarkan kunci.
+      Pesan yang akan disembunyikan dikonversi menjadi byte yang masing-masing karakter dalam pesan dikonversi ke ASCII-nya. Sebagai contoh jika kita mengambil karakter "A" dalam pesan maka "A" = 1000001 disimpan dalam array byte. Karena nilai ASCII untuk "A" adalah 65 dan setara biner adalah 1000001. As gambar terdiri dari kontribusi piksel dari komponen merah, hijau dan biru dan setiap piksel memiliki angka dari komponen warna (untuk gambar bitmap 24-bit masing-masing merah, hijau dan pixel biru memiliki 8 bit). Pada 8 bit dari jumlah warna, jika kita mengubah bit yang paling tidak signifikan, sistem penglihatan kita dapat mendeteksi perubahan dalam pixel dan dengan demikian dimungkinkan untuk mengganti bit pesan dengan bit pixel gambar. Misalnya jika nilai bidang merah piksel adalah 10111011, dan penulis ingin menyimpan informasi dalam bit paling tidak signifikan, pada situasi terburuk nilai piksel berubah menjadi 10111010, pemeriksaan menunjukkan bahwa HVS tidak dapat membedakan perubahan ini. Jadi kami menyimpan informasi kami ke dalam bit terkecil dari bidang merah piksel. Jika kami mengubah LSB dalam satu byte gambar, kami dapat menambah atau mengurangi satu dari nilai yang diwakilinya. Ini berarti kita dapat menimpa bit terakhir dalam byte tanpa mempengaruhi warnanya.
+      Untuk menyembunyikan pesan, data terlebih dahulu dikonversi ke dalam format byte dan disimpan dalam array byte. Pesan tertanam di setiap bit ke posisi LSB dari bidang merah setiap piksel. Ia menggunakan piksel pertama (pada titik 0) untuk menyembunyikan panjang pesan (jumlah karakter). Anggap piksel asli kami sebagai bit: (r7 r6 r5 r4 r3 r2 r1 r0, g7 g6 g5 g4 g3 g2 g1 g0, b7 b6 b5 b4 b3 b2 b1 b0 b0) Selain itu, karakter kami (byte) memiliki beberapa bit: (c7 c6 c5 c4 c3 c2 c1 c0).
+      Menempatkan bit karakter dalam LSB piksel merah saja alih-alih menempatkannya dalam LSB merah, hijau, dan biru. Tujuannya adalah untuk membuat pesan jauh lebih aman. Pesan disimpan dalam byte merah. Jadi piksel yang dipilih tersebar dan keamanan pesan lebih tinggi.
+      Kemudian kita dapat menempatkan bit karakter di piksel merah terendah, bit karakter berikutnya di piksel merah terendah berikutnya, dan seterusnya. (r7 r6 r5 r4 r3 r2 r1 c0, g7 g6 g5 g4 g3 g2 g1 g0, b7 b6 b5 b4 b3 b2 b2 b1 b0).
+      Jika kita mengambil contoh piksel (225.100.100) diwakili dalam bentuk biner (11100001, 01100100, 01100100) di mana untuk menanamkan karakter pesan "d" memiliki nilai biner 1100100 (nilai ASCII 100) kemudian setelah menanamkan bit pertama dari "d" di bidang merah pixel kita dapat memperoleh Pixel baru sebagai (224, 100.100) diwakili dalam biner (11100000, 01100100, 01100100).
+      Di sini kita dapat melihat bahwa nilai piksel (225, 100.100) diubah menjadi (224.100.100). Dari percobaan dapat diamati bahwa perubahan tersebut tidak akan memiliki perbedaan warna yang nyata pada gambar. Paling buruk, nilai desimal piksel dapat bertambah atau berkurang satu. Perubahan nilai piksel seperti itu tidak memengaruhi gambar dan tidak terdeteksi.
+      Proses penyematan adalah sebagai berikut.
+Input: Gambar sampul, stego-key dan file teks 
+Output: gambar stego
+1. Ekstrak piksel gambar sampul.
+2. Ekstrak karakter file teks.
+3. Ekstrak karakter dari tombol Stego.
+4. Pilih piksel pertama dan pilih karakter dari tombol Stego dan letakkan di komponen piksel pertama.
+5. Tempatkan beberapa simbol terminating untuk menunjukkan ujung kunci. 
+0 telah digunakan sebagai simbol terminating dalam algoritma ini.
+6. Masukkan karakter file teks di setiap komponen pertama piksel berikutnya dengan menggantinya.
+7. Ulangi langkah 6 hingga semua karakter tertanam.
+8. Sekali lagi letakkan beberapa simbol terminating untuk menunjukkan akhir data.
+9. Memperoleh gambar stego.
+      Proses ekstraksi adalah sebagai berikut.
+Input: File stego-image, stego-key 
+Output: Pesan teks rahasia.
+1. Ekstrak piksel gambar stego.
+2. Sekarang, mulai dari piksel pertama dan ekstrak karakter kunci stego dari komponen pertama piksel.
+3. Ikuti Langkah 3 hingga mengakhiri simbol, jika tidak ikuti langkah 4.
+4. Jika kunci yang diekstraksi ini cocok dengan kunci yang dimasukkan oleh penerima, maka ikuti Langkah 5, jika tidak, matikan program.
+5. Jika kunci sudah benar, maka pergi ke piksel berikutnya dan ekstrak karakter pesan rahasia dari komponen pertama piksel berikutnya. Ikuti Langkah 5 hingga hingga mengakhiri simbol, jika tidak ikuti langkah 6.
+6. Ekstrak pesan rahasia
+      Dalam proses metode pengkodean ini, kunci acak digunakan untuk mengacak gambar sampul dan kemudian menyembunyikan bit-bit pesan rahasia ke dalam bit paling tidak signifikan dari piksel dalam gambar sampul. Ujung pengirim dan penerima berbagi kunci stego dan kunci acak. Kunci acak biasanya digunakan untuk menabur generator angka acak untuk memilih lokasi piksel dalam gambar untuk menanamkan pesan rahasia.
+Input: Gambar sampul, kunci stego dan pesan 
+Output: gambar stego
+1. Baca karakter dari file teks yang akan disembunyikan dan konversikan nilai ASCII dari karakter menjadi nilai biner yang setara menjadi array integer 8 bit.
+2. Baca gambar warna RGB (gambar sampul) ke mana pesan akan tertanam.
+3. Baca bit merah terakhir.
+4. Inisialisasi kunci acak dan permutasi acak piksel gambar sampul dan membentuk kembali menjadi matriks.
+5. Inisialisasi stego-key dan XOR dengan file teks menjadi sembunyikan dan berikan pesan.
+6. Masukkan bit pesan rahasia ke LSB dari Pixel bidang merah.
+7. Tulis piksel di atas ke Stego Image File.
+      Dalam proses ekstraksi ini, proses pertama-tama mengambil kunci dan kemudian kunci acak. Kunci-kunci ini mengambil poin dari LSB di mana pesan rahasia didistribusikan secara acak. Proses decoding mencari bit-bit tersembunyi dari sebuah pesan rahasia ke bit paling tidak signifikan dari piksel dalam gambar sampul menggunakan kunci acak. Dalam algoritma penguraian kata kunci acak harus cocok yaitu kunci acak yang digunakan dalam pengkodean harus cocok karena kunci acak menetapkan titik-titik penyembunyian pesan dalam kasus pengkodean. Kemudian penerima dapat mengekstraksi pesan yang tertanam persis menggunakan stego-key.
+      Input: File stego-image, stego-key, kunci acak.
+      Output: Pesan rahasia.
+1. Buka file gambar Stego dalam mode baca dan dari file Gambar, baca warna RGB dari setiap piksel.
+2. Ekstrak komponen merah dari gambar host.
+3. Baca bit terakhir dari setiap piksel.
+4. Inisialisasi kunci acak yang memberikan posisi tombol bit pesan dalam piksel merah yang disematkan secara acak. Untuk mendekode, pilih piksel dan Ekstrak nilai LSB piksel merah.
+5. Baca masing-masing piksel kemudian isi array dikonversi menjadi nilai desimal yang sebenarnya adalah nilai ASCII dari karakter tersembunyi.
+6. Nilai ASCII yang didapat dari atas adalah XOR dengan stego-key dan memberikan file pesan, yang disembunyikan di dalam gambar sampul.
+
+3.4 Pengecekan Kualitas Cover Image Dengan Stego Image
+       Structural Similarity Index Metrics (SSIM) dikenal sebagai kualitas metric yang digunakan untuk mengukur kemiripan diantara 2 buah citra dan dipercaya berkorelasi dengan kualitas persepsi Human Visual System (HVS).
+      Nilai SSIM berada pada rentang -1 hingga 1. Semakin tinggi nilai SSIM, maka semakin tinggi tingkat kemiripan dari 2 buah citra.

@@ -1,0 +1,1 @@
+Pengembangan Sistem Identifikasi Jenis dan Pengukuran Tingkat Kerusakan Jalan Serta Sebarannya Menggunakan Model Convolutional Neural Network dan Computer Vision

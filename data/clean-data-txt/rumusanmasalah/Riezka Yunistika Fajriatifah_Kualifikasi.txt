@@ -1,0 +1,4 @@
+Permasalahan dalam penelitian ini adalah:
+1. Bagaimana mendeteksi anomali pada citra sinar-X paru-paru yang dapat mengindikasikan adanya penyakit paru akibat infeksi COVID-19 menggunakan arsitektur CNN?
+2. Bagaimana mengintegrasikan beberapa arsitektur CNN untuk mengklasiikasikan penyakit paru akibat covid-19 menjadi satu model ensemble?
+3. Bagaimana komparasi hasil akurasi dari model arsitektur tunggal dan model stacking dalam melakukan klasifikasi penyakit paru akibat COVID-19.

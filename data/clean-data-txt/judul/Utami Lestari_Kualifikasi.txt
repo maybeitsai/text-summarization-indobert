@@ -1,1 +1,1 @@
-Pengembangan Sistem Tinjauan Makalah dengan Large Language Models
+pengembangan sistem tinjauan makalah dengan large language models

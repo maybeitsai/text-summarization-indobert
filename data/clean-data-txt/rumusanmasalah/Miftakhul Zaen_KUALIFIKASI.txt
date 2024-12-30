@@ -1,4 +1,1 @@
-Berdasarkan latar belakang dan batasan masalah, diperoleh rumusan masalah untuk mengembangkan algoritma DBSCAN. Berikut merupakan rumusan masalah pada penelitian ini.
-1. Bagaimana cara mengatasi keterbatasan algoritma DBSCAN klasik dalam 
-mengelola dataset besar pada klasterisasi supplier dengan menggunakan komputasi kuantum?
-2. Bagaimana peningkatan efisiensi dan akurasi yang dapat dicapai oleh DBSCAN kuantum dalam pengelompokan supplier dibandingkan dengan implementasi klasik nya?
+berdasarkan latar belakang dan batasan masalah diperoleh rumusan masalah untuk mengembang kan algoritma dbscan . berikut merupakan rumusan masalah pada pe nelitian ini. 1. bagaimana cara mengatasi keterbatasan algoritma dbscan klasik dalam mengelola dataset bes ar pada klasterisasi supplier dengan mengguna kan komputasi kuantum 2. bagaimana pening katan efisiensi dan akurasi yang dapat dicapai oleh dbscan kuantum dalam pengelompokan supplier dibandingkan dengan implementasi klasik nya

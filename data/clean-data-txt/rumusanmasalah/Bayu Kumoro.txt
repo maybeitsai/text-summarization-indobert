@@ -1,0 +1,5 @@
+Penelitian ini berusaha mengembangkan teknik dan memperkecil spesifikasi yang digunakan dalam FPGA dalam penyisipan pesan rahasia ke dalam suatu gambar 
+berdasarkan metode LSB. Sehingga penelitian ini difokuskan pada:
+Bagaimana mengembangkan metode penyisipan pesan LSB steganografi pada FPGA.
+Bagaimana mengoptimalkan jumlah komponen, clock dan capacity pada FPGA secara efisien.
+Bagaimana konsep enkripsi dan dekripsi pada algoritma Steganografi LSB dengan menggunakan bahasa perangkat keras untuk FPGA.

@@ -1,3 +1,1 @@
-Berdasarkan latar belakang masalah yang telah disampaikan diperoleh beberapa permasalahan yang harus di selesaikan. Permasalahan tersebut dirumuskan sebagai berikut :
-1. Bagaimana membangun model platform tinjauan artikel ilmiah dengan LLM?
-2. Bagaimana algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal?
+berdasarkan latar belakang masalah yang telah disampaikan diperoleh beberapa permasalahan yang harus di selesaikan. permasalahan tersebut dirumuskan sebagai berikut 1. bagaimana membangun model platform tinjauan artikel ilmiah dengan llm 2. bagaimana algoritma untuk klasifikasi artikel ilmiah untuk publikasi jurnal

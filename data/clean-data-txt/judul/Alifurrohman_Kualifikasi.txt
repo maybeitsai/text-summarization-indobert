@@ -1,1 +1,1 @@
-Pengembangan Optimasi Rute Menggunakan Deep Reinforcement Learning Pada Model Dynamic Vehicle Routing Problem With Time Windows (DVRPTW) 
+pengembangan optimasi rute menggunakan deep reinforcement learning pada model dynamic vehicle routing problem with time windows dvrp tw

@@ -1,0 +1,65 @@
+3.1 Tahapan Penelitian
+      Penelitian ini berusahan mengembangkan sistem Identifikasi Jenis dan Tingkat Kerusakan Jalan Serta Sebarannya Menggunakan Model Convolutional Neural Network dengan tahapan penelitian awal adalah analisis kebutuhan dari Direktorat Jenderal Bina Marga mengenai jenis kerusakan jalan serta tingkat kerusakannya. Akuisisi dan Analisis data dalam pengambilan citra kerusakan perkerasan jalan dilakukan mengikuti prosedur pedoman survei yang dikeluarkan Direktorat Jenderal Bina Marga. Pembentukan data set dilakukan dengan melabeli setiap citra yang dilakukan oleh pakar berdasarkan jenis dan tingkat kerusakan. Setelahnya dilakukan augmentasi data terhadap data set citra untuk mengurangi overfitting dengan cara meningkatkan dataset. Pembentukan model identifikasi jenis kerusakan dan tingkat kerusakan dibuat menggunakan model CNN dengan data latih yang diambil 90% dari dataset yang sudah dibuat. Pengujian dan validasi sistem dilakukan dengan memanfaatkan matrik konfusi untuk menghitung akurasi dari model yang sudah dibuat. Penentuan Koordinat Sebaran Kerusakan Pada Jalan akan dilakukan dengan penetapan titik koordinat setiap kerusakan pada peta lokasi. Berikut merupakan bagan tahapan penilitian ditunjukan pada gambar.
+
+3.2 Analisis kebutuhan
+      Jenis kerusakan yang dilakukan pencatatanya pada tabel komponen perkerasan berdasarkan pedoman survei pengumpulan data kondisi jaringan jalan yang dikeluarkan oleh Direktorat Jenderal Bina Marga sebagai berikut:
+1) Retak Permukaan:
+a) Retak Kulit Buaya
+b) Retak Tepi
+c) Retak Refleksi Sambungan
+d) Retak Selip
+2) Lubang
+3) Alur
+      Berdasarkan Indeks Kondisi Perkerasan tingkat kerusakan perkerasan jalan dalam Pedoman Bahan Konstruksi Bangunan Dan Rekayasa Sipil dibagi menjadi tiga tingkatan yaitu Rendah, Sedang, dan Tinggi untuk setiap masing-masing jenis kerusakan dijelaskan dalam tabel 3.1 (Nono & Hamdani, 2016).
+
+3.3 Akuisisi dan Analisis Data
+      Akuisisi data citra kerusakan dilakukan dengan menggunakan gambar video atau gambar digital yang berkoordinat, berikut merupakan beberapa syarat yang harus dipenuhi dalam proses akuisisi data citra berdasarkan pedoman survei pengumpulan data kondisi jaringan jalan yang dikeluarkan oleh Direktorat Jenderal Bina Marga:
+1) Kamera yang digunakan harus dapat menghasilkan gambar digital dengan resolusi kamera minimum 1280*1920 pixel (setara dengan full HD video).
+2) Gambar diambil dari kamera yang menghadap ke depan dengan sudut pandang minimum 120� dari garis depan kendaraan.
+3) Interval pengambilan gambar maksimal 10 meter.
+4) Setiap gambar yang diambil harus memiliki data koordinat yang dicatat secara menerus dengan GPS yang mempunyai ketelitian � 5 meter.
+5) Gambar harus dapat ditampilkan dengan perangkat lunak video yang umum dioperasikan pada sistem operasi Windows.
+6) Data kerusakan jalan dapat ditetapkan lokasinya dari gambar, dengan ketelitian 0,1 meter untuk ukuran dimensi dan jarak, dan � 10 meter untuk lokasi.
+7) Penentuan unit-unit sampel.
+   Semua data gambar harus memiliki koordinat berdasarkan pengukuran GPS, dan harus memenuhi beberapa persyaratan berikut:
+1) Survei hanya dilakukan pada saat cuaca cerah, dan permukaan jalan kering.
+2) Gambar harus jelas dan tidak terganggu karena adanya debu, butir air, serangga atau benda lainnya pada lensa kamera.
+3) Ketika merekam data, kendaraan survei tidak boleh berialan menghadap sinar matahari.
+4) Bayangan yang tampak pada gambar tidak boleh mengurangi mutu data gambar.
+      Analisis Data dilakukan dengan menganalisis hasil dari gambar yang diambil saat melakukan survei kondisi perkerasan. Survei dengan metoda ini lebih disarankan dibandingkan dengan metoda survei dengan penilaian langsung di lapangan, karena:
+1) Keselamatan
+Kendaraan survei dijalankan dengan kecepatan normal, tidak memerlukan manajemen lalu lintas, dan petugas survei tidak terpapar langsung dengan lalu- lintas maupun cuaca.
+2) Cepat
+Perekaman data gambar di lapangan umumnya dapat mencapai 100 lajur km per hari dan penilaian per operator umumnya sekitar 30 km per hari.
+3) Sumberdaya
+Petugas penilai dapat ditugaskan lebih banyak untuk menilai kondisi dari gambar yang direkam.
+4) Dapat diperiksa
+Gambar-gambar yang digunakan, dan penilaian kondisi dapat diperiksa (diaudit) setiap saat untuk memeriksa konsistensi antar petugas penilai dan mutu penilaian.
+
+3.4 Pembentukan Dataset
+      Pembentukan dataset diawali dengan pelabelan data oleh pakar ke dalam tiga jenis yang akan diidentifikasi berdasarkan tingkat kerusakannya. Berikut merupakan alur dari pembentukan dataset. 
+      Berikut merupakan contoh pelabelan data citra berdasarkan jenis kerusakan (Nono & Hamdani, 2016) dalam tabel 3.2.
+
+3.5 Pembentukan Model Klasfikasi
+     Model klasifikasi dibentuk dengan menggunakan arsitektur CNN dengan data set yang telah terbentuk dari subbab 3.4 maka akan dibagi ke dalam dua bagian yaitu Data Latih dan Data Uji. Presentase pembagian dataset yang akan dilakukan baik untuk data latih maupun data uji tertera pada tabel.
+     Alur pemodelan secara umum sampai dengan prediksi model diagram di bawah ini.
+
+3.6 Pengujian Model
+      Pengujian dilakukan dengan cara menguji satu per satu citra data uji sesuai dengan proses klasifikasi yang telah dijelaskan pada sub bab 3.4. Pengujian model dilakukan dengan memanfaatkan matrik konfusi untuk menghitung akurasi, presisi, recall, dan F1-Score seperti teori yang sudah dijelaskan pada subbab 2.5.6 dari model yang sudah dibuat.
+
+3.7 Pengukuran Tingkat Kerusakan
+      Perkerasan pada ruas yang telah dipilih dibagi menjadi beberapa unit perkerasan. Apabila perkerasan pada ruas tidak seragam, maka ruas perlu terlebih dulu dibagi menjadi seksi-seksi yang seragam dan kemudian tiap seksi dibagi menjadi unit-unit perkerasan. Selanjutnya, dari unit-unit perkerasan dipilih beberapa unit sampel yang akan disurvei. Survei dilakukan secara visual dan data yang dinilai dan dicatat pada saat suvei tiap unit sampel adalah jenis, tingkat keparahan, dan kuantitas kerusakan perkerasan. Peralatan yang digunakan untuk survei manual kondisi perkerasan adalah sebagai berikut:
+1. Formulir survei atau alat yang dapat merekam sekurang-kurangnya informasi sebagai berikut: tanggal, lokasi, ruas, seksi, ukuran unit sampel, jumlah dan ukuran panel, jenis, tingkat keparahan, dan kuantitas kerusakan, dan nama-nama petugas survei.
+2. Meteran roda yang dapat mengukur jarak dengan ketelitian 30 mm (0,1 feet) terdekat.
+3. Mistar atau benang (untuk perkerasan beton aspal), 3 m (10 feet).
+4. Mistar berskala 300 mm (12 in) yang dapat membaca jarak sampai 3 mm (1/8 in) atau lebih teliti.
+5. Peta jaringan untuk jaringan jalan yang akan disurvei.
+6. Perambuan sesuai Pd T-12-2003.
+      Berdasarkan Indeks Kondisi Perkerasan cara pengukuran tingkat kerusakan perkerasan jalan dalam Pedoman Bahan Konstruksi Bangunan Dan Rekayasa Sipil Penilaian kondisi perkerasan dilakukan untuk setiap lajur jalan, dengan arah pengukuran 2 (dua) arah. Metoda penilaian kondisi perkerasan secara manual ini mencakup perekaman data gambar berkoordinat dan penilaian kondisi perkerasan dari gambar. Penilaian kondisi dapat dilakukan di kantor (Nono & Hamdani, 2016).
+      Penentuan IKP ruas perkerasan beton aspal ditentukan berdasarkan IKP unit- unit sampel, maka untuk mendapatkan IKP ruas perlu terlebih dulu ditentukan IKP tiap unit sampel dan tiap unit khusus (bila ada). Tahapan penentuan IKP dapat dikelompokan menjadi empat tahap yang telah dijelaskan pada teori di subbab 2.6. yang ditunjukan pada gambar.
+
+3.8 Penentuan Koordinat Sebaran Kerusakan Pada Jalan
+      Penentuan Koordinat Sebaran Kerusakan Pada Jalan akan dilakukan dengan penetapan titik koordinat setiap kerusakan pada peta lokasi. Digambarkan dalam diagram alur di bawah ini.
+
+3.9 Analisis dan Evaluasi Hasil
+      Hasil pengukuran yang dihasilkan dari citra jenis kerusakan jalan perkerasan akan dianalisis dan evaluasi dengan pengolahan data secara manual yang dikerjakan oleh binamarga serta dihitung kembali akurasi dari pengukuran tingkat kerusakan tersebut.

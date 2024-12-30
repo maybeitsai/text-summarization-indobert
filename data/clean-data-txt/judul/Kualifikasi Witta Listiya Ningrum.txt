@@ -1,1 +1,1 @@
-PENGEMBANGAN MODEL KLASIFIKASI TOKSISITAS MULTIMODAL PADA PLATFORM SOSIAL MEDIA MENGGUNAKAN LARGE LANGUAGE MODEL (LLM) DENGAN KOMBINASI JENIS MEDIA TEKS, GAMBAR DAN VIDEO 
+pengembangan model klasifikasi toksisitas multimodal pada platform sosial media menggunakan large language model llm dengan kombinasi jenis media teks gambar dan video

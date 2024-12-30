@@ -1,0 +1,6 @@
+Berdasarkan uraian pada latar belakang penelitian, maka dalam disertasi ini disusun rumusan masalah sebagai berikut :
+a. Dalam merancangan sistem informasi manajemen untuk proyek konstruksi, apa-apa saja yang dibutuhkan oleh para pihak yang terlibat?
+b. Perancangan proses sistem seperti apa yang harus dirancang dalam merancangan sistem informasi manajemen untuk proyek konstruksi?
+c. Perancangan basis data seperti apa yang harus dirancang, agar sesuai dengan kebutuhan sistem informasi manajemen untuk proyek konstruksi yang akan dibangun?
+d. Perancangan tampilan antar muka seperti apa yang sesuai dengan sistem yang akan dibangun?
+e. Apakah sistem yang dibangun sesuai dengan rancangan dan dapat berjalan dengan baik?
