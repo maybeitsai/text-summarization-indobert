@@ -1,5 +1,7 @@
 # Pengembangan Sistem Peringkasan Teks Secara Ekstraktif Menggunakan Metode BERT Pada Penilaian Proposal SBK Seminar Bidang Kajian dan Ujian Kualifikasi
 
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
 ## Deskripsi Proyek
 
 Proyek ini bertujuan untuk mengembangkan sistem peringkasan teks secara ekstraktif untuk proposal seminar bidang kajian (SBK) dan ujian kualifikasi menggunakan metode BERT. Sistem ini dirancang untuk meningkatkan efisiensi evaluasi proposal dengan menghasilkan ringkasan yang jelas, akurat, dan relevan.
